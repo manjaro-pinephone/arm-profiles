@@ -1,0 +1,8 @@
+# Packages for the MATE edition.
+# Should not contain packages already in minimal
+
+base-devel
+networkmanager
+mate
+mate-tweak
+lightdm 

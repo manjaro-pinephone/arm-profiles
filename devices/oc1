@@ -1,0 +1,5 @@
+# Odroid-c1 specific packages 
+
+linux-odroid-c1
+uboot-odroid-c1
+#uboot-tools 

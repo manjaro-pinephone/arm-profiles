@@ -1,0 +1,5 @@
+# Raspberry Pi specific packages
+linux-raspberrypi
+raspberrypi-bootloader
+raspberrypi-firmware
+wpa_supplicant
