@@ -1,6 +1,3 @@
-# Packages for LXQT edition.
-# Should not contain packages already in minimal.
-
 base-devel
 networkmanager-qt
 xf86-video-fbdev
