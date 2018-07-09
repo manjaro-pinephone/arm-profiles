@@ -1,0 +1,6 @@
+apache
+mariadb
+php
+php-apache
+php-fpm
+certbot-apache
