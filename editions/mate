@@ -1,3 +1,9 @@
+base
+sudo
+archlinuxarm-keyring
+parted
+openssh
+haveged
 base-devel
 networkmanager
 mate
