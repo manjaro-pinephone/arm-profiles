@@ -8,4 +8,5 @@ base-devel
 networkmanager
 mate
 mate-tweak
-lightdm 
+lightdm
+lightdm-gtk-greeter
