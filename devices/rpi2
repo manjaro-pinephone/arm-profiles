@@ -2,3 +2,4 @@ linux-raspberrypi
 raspberrypi-bootloader
 raspberrypi-firmware
 wpa_supplicant
+xf86-video-fbturbo-git
