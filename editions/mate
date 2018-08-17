@@ -5,6 +5,9 @@ parted
 openssh
 haveged
 base-devel
+xorg-server
+xorg-xinit
+ttf-bitstream-vera
 networkmanager
 mate-tweak
 lightdm
@@ -22,3 +25,5 @@ mate-notification-daemon
 breath-icon-theme
 breath-wallpaper
 gtk-theme-breath
+pamac
+firefox
