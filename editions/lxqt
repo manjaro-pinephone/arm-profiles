@@ -5,10 +5,13 @@ parted
 openssh
 haveged
 base-devel
+xorg-server
+xorg-xinit
 networkmanager-qt
-xf86-video-fbdev
+ttf-bitstream-vera
 lxqt
 sddm
 octopi
+octopi-notifier-qt5
 polkit
 trizen
