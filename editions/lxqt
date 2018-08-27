@@ -9,6 +9,10 @@ xorg-server
 xorg-xinit
 network-manager-applet
 networkmanager-qt
+pcmanfm-qt
+kvantum-qt5
+kvantum-theme-adapta
+papirus-maia-icon-theme
 openresolv
 inxi
 ttf-bitstream-vera
@@ -20,6 +24,4 @@ octopi-notifier-qt5
 manjaro-settings-manager
 polkit
 trizen
-breath-dark-icon-theme
-breath-wallpaper
 falkon

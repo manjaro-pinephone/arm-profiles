@@ -1,0 +1,18 @@
+2018-08-27 16:28:53.915 (0x7ea14894) Debug: New PolkitAgentListener  0x1418220
+2018-08-27 16:28:53.916 (0x7ea14894) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ea1489c) for  0x1418220
+2018-08-27 16:28:55.153 (0x7ef7b8c4) Debug: ()
+2018-08-27 16:28:59.287 (0x7ef7b8c4) Warning: "Cannot load library /usr/lib/lxqt-panel/libvolume.so: (libpulse.so.0: cannot open shared object file: No such file or directory)"
+2018-08-27 16:28:59.806 (0x7ef7b8c4) Debug: WinIdChange a00008 handle QWidgetWindow(0x13d17d0, name="LXQtPanel panel1Window") QScreen(0xd2ffc0, name="default")
+2018-08-27 16:28:59.963 (0x7ef7b8c4) Debug: Systray started
+2018-08-27 16:29:00.487 (0x7ef7b8c4) Warning: QDBusConnection: name 'org.freedesktop.UDisks2' had owner '' but we thought it was ':1.21'
+2018-08-27 16:29:06.029 (0x7ec18878) Debug: BatteryChanged discharging: true chargeLevel: nan actionTime: QTime(Invalid)
+2018-08-27 16:29:06.053 (0x7ec18878) Debug: Inhibit got: 25
+2018-08-27 16:29:06.645 (0x7ec18878) Debug: Starting idlenesswatcher
+2018-08-27 16:29:51.550 (0x7eaa1854) Warning: QFSFileEngine::open: No file name specified
+2018-08-27 16:29:51.551 (0x7eaa1854) Warning: QFSFileEngine::open: No file name specified
+2018-08-27 16:29:51.551 (0x7eaa1854) Warning: QFSFileEngine::open: No file name specified
+2018-08-27 16:29:51.551 (0x7eaa1854) Warning: QFSFileEngine::open: No file name specified
+2018-08-27 16:31:27.360 (0x7ef7b8c4) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 6171, resource id: 25165830, major code: 18 (ChangeProperty), minor code: 0
+2018-08-27 16:42:41.762 (0x7ef7b8c4) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 29218, resource id: 25165830, major code: 18 (ChangeProperty), minor code: 0
+2018-08-27 16:44:31.612 (0x7e99185c) Debug: Connecting to KScreen...
+2018-08-27 16:53:02.569 (0x7ef7b8c4) Debug: Desktop count changed from 2 to 1
