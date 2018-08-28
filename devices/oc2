@@ -1,4 +1,4 @@
-linux-odroid-c2
-uboot-odroid-c2
+linux-aarch64
+uboot-odroid-c2-mainline
 fbset
 xf86-video-odroid-c2
