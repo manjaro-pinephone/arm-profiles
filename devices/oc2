@@ -1,4 +1,5 @@
 linux-aarch64
 uboot-odroid-c2-mainline
 fbset
-xf86-video-odroid-c2
+xf86-video-fbturbo-git
+odroid-c2-libgl.x11
