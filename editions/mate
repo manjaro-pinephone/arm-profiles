@@ -8,8 +8,12 @@ base-devel
 xorg-server
 xorg-xinit
 ttf-bitstream-vera
+noto-fonts
 networkmanager
+network-manager-applet
 mate-tweak
+papirus-maia-icon-theme
+inxi
 lightdm
 lightdm-gtk-greeter
 caja
@@ -22,8 +26,13 @@ mate-settings-daemon
 mate-control-center
 mate-session-manager
 mate-notification-daemon
+mate-system-monitor
+mate-terminal
+manjaro-settings-manager
+engrampa
 breath-icon-theme
 breath-wallpaper
 gtk-theme-breath
 pamac
 firefox
+trizen
