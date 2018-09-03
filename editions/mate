@@ -7,10 +7,10 @@ haveged
 base-devel
 xorg-server
 xorg-xinit
+network-manager-applet
+networkmanager
 ttf-bitstream-vera
 noto-fonts
-networkmanager
-network-manager-applet
 mate-tweak
 papirus-maia-icon-theme
 inxi
@@ -25,6 +25,7 @@ mate-polkit
 mate-settings-daemon
 mate-control-center
 mate-session-manager
+mate-settings-daemon
 mate-notification-daemon
 mate-system-monitor
 mate-terminal
