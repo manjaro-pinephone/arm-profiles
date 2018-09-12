@@ -3,5 +3,6 @@ uboot-raspberrypi
 raspberrypi-bootloader
 raspberrypi-firmware
 firmware-raspberrypi
+uboot-tools
 wpa_supplicant
 xf86-video-fbturbo-git
