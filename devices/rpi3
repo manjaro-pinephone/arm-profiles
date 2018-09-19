@@ -1,7 +1,7 @@
 linux-aarch64
 uboot-raspberrypi
-raspberrypi-bootloader
-firmware-raspberrypi
-uboot-tools
+#raspberrypi-bootloader
+#firmware-raspberrypi
+#uboot-tools
 wpa_supplicant
-xf86-video-fbturbo-git
+#xf86-video-fbturbo-git
