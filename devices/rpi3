@@ -1,6 +1,6 @@
 linux-aarch64
 uboot-raspberrypi
-#raspberrypi-bootloader
+raspberrypi-bootloader
 #firmware-raspberrypi
 #uboot-tools
 wpa_supplicant
