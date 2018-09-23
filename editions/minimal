@@ -1,6 +1,6 @@
 base
 sudo
 archlinuxarm-keyring
-parted
+parted #to enable resize-fs
 openssh
 haveged
