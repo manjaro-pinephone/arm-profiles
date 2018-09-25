@@ -1,3 +1,4 @@
+## Maintained by Strit ##
 base
 sudo
 archlinuxarm-keyring
@@ -7,7 +8,7 @@ haveged
 base-devel
 xorg-server
 xorg-xinit
-network-manager-applet
+#network-manager-applet
 networkmanager-qt
 pcmanfm-qt
 kvantum-qt5
@@ -18,7 +19,23 @@ openresolv
 inxi
 ttf-bitstream-vera
 noto-fonts
-lxqt
+#lxqt
+lximage-qt
+lxqt-about
+lxqt-admin
+lxqt-globalkeys
+lxqt-notificationd
+lxqt-openssh-askpass
+lxqt-panel
+lxqt-policykit
+lxqt-powermanagement
+lxqt-qtplugin
+lxqt-runner
+lxqt-session
+lxqt-sudo
+lxqt-themes
+lxqt-config
+qterminal
 sddm
 sddm-qt-manjaro-theme
 octopi
@@ -27,3 +44,4 @@ manjaro-settings-manager
 polkit
 trizen
 falkon
+kwin
