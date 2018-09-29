@@ -1,3 +1,6 @@
+## Maintained by GrayJack ##
+
+# Minimal packages
 base
 sudo
 archlinuxarm-keyring
@@ -7,15 +10,12 @@ haveged
 base-devel
 xorg-server
 xorg-xinit
-network-manager-applet
-networkmanager
-ttf-bitstream-vera
-noto-fonts
-mate-tweak
-papirus-maia-icon-theme
-inxi
-lightdm
-lightdm-gtk-greeter
+
+# Sound
+pavucontrol
+pulseaudio-alsa
+
+# Mate packages
 caja
 marco
 mate-desktop
@@ -29,11 +29,24 @@ mate-settings-daemon
 mate-notification-daemon
 mate-system-monitor
 mate-terminal
-manjaro-settings-manager
+mate-tweak
+networkmanager
 engrampa
+
+# Themes
+papirus-maia-icon-theme
 breath-icon-theme
 breath-wallpaper
 gtk-theme-breath
+
+# Other packages
+network-manager-applet
+ttf-bitstream-vera
+noto-fonts
+inxi
+lightdm
+lightdm-gtk-greeter
+manjaro-settings-manager
 pamac
 firefox
 trizen

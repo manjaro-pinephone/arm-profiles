@@ -1,6 +1,9 @@
+## Maintained by Strit ##
+
+# Minimal packages
 base
 sudo
 archlinuxarm-keyring
-parted #to enable resize-fs
+parted
 openssh
 haveged

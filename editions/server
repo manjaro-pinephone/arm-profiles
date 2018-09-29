@@ -1,9 +1,14 @@
+## Maintained by ?? ##
+
+# Minimal packages
 base
 sudo
 archlinuxarm-keyring
 parted
 openssh
 haveged
+
+# Server packages
 apache
 mariadb
 php
