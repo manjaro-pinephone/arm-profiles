@@ -1,8 +1,13 @@
+## Maintained by ?? ##
+
+# Kernel and Bootloader stuff
 linux-aarch64
 uboot-raspberrypi
 raspberrypi-bootloader
+
+# Other device specific packages
 firmware-raspberrypi
-#raspberrypi-firmware
-#uboot-tools
 wpa_supplicant
+
+# Video driver
 xf86-video-fbturbo-git

@@ -1,5 +1,12 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
 linux-aarch64
 uboot-odroid-c2-mainline
+
+# Other device specific packages
 fbset
+
+# Video driver
 xf86-video-fbturbo-git
 odroid-c2-libgl-x11

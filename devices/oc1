@@ -1,4 +1,11 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
 linux-odroid-c1
 uboot-odroid-c1
+
+# Other device specific packages
 fbset
+
+# Video driver
 xf86-video-odroid-c1

@@ -1,5 +1,12 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
 linux-raspberrypi
 raspberrypi-bootloader
+
+# Other device specific packages
 raspberrypi-firmware
 wpa_supplicant
+
+# Video driver
 xf86-video-fbturbo-git

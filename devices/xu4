@@ -1,4 +1,11 @@
+## Maintained by ?? ##
+
+# Kernel and Bootloader stuff
 linux-odroid-xu3
 uboot-odroid-xu3
+
+# Other device specific packages
 fbset
+
+# Video driver
 xf86-video-armsoc-odroid
