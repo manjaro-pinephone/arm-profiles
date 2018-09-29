@@ -1,4 +1,5 @@
 ## Maintained by Strit ##
+# Minimal packages
 base
 sudo
 archlinuxarm-keyring
@@ -8,18 +9,15 @@ haveged
 base-devel
 xorg-server
 xorg-xinit
+
+# Sound
 #network-manager-applet
+pavucontrol-qt
+pulseaudio-alsa
+
+# LXQT packages
 networkmanager-qt
 pcmanfm-qt
-kvantum-qt5
-kvantum-theme-adapta
-papirus-maia-icon-theme
-breath-wallpaper
-openresolv
-inxi
-ttf-bitstream-vera
-noto-fonts
-#lxqt
 lximage-qt
 lxqt-about
 lxqt-admin
@@ -36,6 +34,19 @@ lxqt-sudo
 lxqt-themes
 lxqt-config
 qterminal
+
+# Themes
+kvantum-qt5
+kvantum-theme-adapta
+papirus-maia-icon-theme
+breath-wallpaper
+
+# Other packages
+openresolv
+inxi
+ttf-bitstream-vera
+noto-fonts
+#lxqt
 sddm
 sddm-qt-manjaro-theme
 octopi
