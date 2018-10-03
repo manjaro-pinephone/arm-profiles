@@ -1,0 +1,56 @@
+## Maintained by ?? ##
+## Only suitable for oc2 and xu4 ##
+
+# Base system
+base
+sudo
+archlinuxarm-keyring
+parted
+openssh
+haveged
+base-devel
+xorg-server
+xorg-xinit
+
+# Plasma packages
+bluedevil
+breeze
+drkonqi
+kde-gtk-config
+khelpcenter
+kinfocenter
+kscreen
+kscreenlocker
+ksysguard
+kwallet-pam
+kwayland-integration
+kwin
+plasma-desktop
+plasma-nm
+plasma-pa
+plasma-workspace
+plasma-wayland-session
+powerdevil
+systemsettings
+user-manager
+
+# Themes
+breath-icon-theme
+sddm-breath-theme
+plasma5-themes-breath
+breeze-gtk
+gtk-theme-breath
+breath-wallpaper
+
+# Other packages
+openresolv
+inxi
+ttf-bitstream-vera
+noto-fonts
+sddm
+octopi
+octopi-notifier-qt5
+manjaro-settings-manager
+polkit
+falkon
+wget
