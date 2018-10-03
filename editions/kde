@@ -33,6 +33,18 @@ plasma-wayland-session
 powerdevil
 systemsettings
 user-manager
+plasma-vault
+
+# KDE applications
+sddm-kcm
+dolphin
+kate
+konsole
+ark
+okular
+gwenview
+manjaro-settings-manager-kcm
+manjaro-settings-manager-knotifier
 
 # Themes
 breath-icon-theme
@@ -54,3 +66,4 @@ manjaro-settings-manager
 polkit
 falkon
 wget
+
