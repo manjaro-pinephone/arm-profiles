@@ -12,6 +12,9 @@ base-devel
 xorg-server
 xorg-xinit
 
+# Sound
+#alsa-utils
+
 # Plasma packages
 bluedevil
 breeze
@@ -29,7 +32,7 @@ plasma-desktop
 plasma-nm
 plasma-pa
 plasma-workspace
-plasma-wayland-session
+#plasma-wayland-session
 powerdevil
 systemsettings
 user-manager
