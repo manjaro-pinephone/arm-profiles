@@ -13,7 +13,7 @@ xorg-server
 xorg-xinit
 
 # Sound
-#alsa-utils
+alsa-utils
 
 # Plasma packages
 bluedevil
@@ -46,8 +46,6 @@ konsole
 ark
 okular
 gwenview
-manjaro-settings-manager-kcm
-manjaro-settings-manager-knotifier
 
 # Themes
 breath-icon-theme
@@ -66,6 +64,8 @@ sddm
 octopi
 octopi-notifier-qt5
 manjaro-settings-manager
+manjaro-settings-manager-kcm
+manjaro-settings-manager-knotifier
 polkit
 falkon
 wget
