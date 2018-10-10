@@ -1,3 +1,5 @@
 sshd.service
 sddm.service
-NetworkManager.service
+#NetworkManager.service
+connman-wait-online.service
+connman.service
