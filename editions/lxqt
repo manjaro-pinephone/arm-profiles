@@ -14,6 +14,7 @@ xorg-xinit
 # Sound
 pavucontrol-qt
 pulseaudio-alsa
+alsa-utils
 
 # LXQT packages
 networkmanager-qt
@@ -36,8 +37,6 @@ lxqt-config
 qterminal
 openbox
 obconf-qt
-compton-conf
-
 
 # Themes
 kvantum-qt5
@@ -56,9 +55,10 @@ octopi
 octopi-notifier-qt5
 manjaro-settings-manager
 polkit
-falkon
-#kwin
+firefox
 wget
-cmst
 yay
+cmst
 gvfs
+notepadqq
+

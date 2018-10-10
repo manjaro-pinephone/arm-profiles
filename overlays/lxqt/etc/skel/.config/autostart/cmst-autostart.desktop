@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Connman UI Setup
+GenericName=Network Configuration
+Comment=QT GUI frontend for connman
+Categories=Settings;System;Qt;Network;
+Icon=cmst
+Exec=cmst -w5
+Terminal=false
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+Keywords=Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Bluetooth;vpn;DNS;
+
+Name[de]=Netzwerk-Konfiguration
+
