@@ -37,6 +37,7 @@ lxqt-config
 qterminal
 openbox
 obconf-qt
+lxappearance-gtk3
 
 # Themes
 kvantum-qt5
