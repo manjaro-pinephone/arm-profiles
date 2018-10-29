@@ -6,7 +6,8 @@ uboot-raspberrypi
 raspberrypi-bootloader
 
 # Other device specific packages
-firmware-raspberrypi
+#firmware-raspberrypi
+raspberrypi-firmware
 wpa_supplicant
 
 # Video driver
