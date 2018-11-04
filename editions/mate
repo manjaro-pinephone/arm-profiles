@@ -7,7 +7,7 @@ archlinuxarm-keyring
 parted
 openssh
 haveged
-base-devel
+#base-devel
 xorg-server
 xorg-xinit
 

@@ -7,7 +7,7 @@ archlinuxarm-keyring
 parted
 openssh
 haveged
-base-devel
+#base-devel
 xorg-server
 xorg-xinit
 
@@ -58,7 +58,7 @@ manjaro-settings-manager
 polkit
 firefox
 wget
-yay
+#yay
 cmst
 gvfs
 notepadqq

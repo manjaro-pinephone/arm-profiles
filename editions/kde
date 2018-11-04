@@ -1,5 +1,5 @@
-## Maintained by ?? ##
-## Only suitable for oc2 and xu4 ##
+## Maintained by Strit ##
+## Only suitable for oc2 and xu4 (+rpi3 maybe) ##
 
 # Base system
 base
@@ -8,7 +8,7 @@ archlinuxarm-keyring
 parted
 openssh
 haveged
-base-devel
+#base-devel
 xorg-server
 xorg-xinit
 
