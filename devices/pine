@@ -1,11 +1,11 @@
 ## Maintained by ?? ##
 
 # Kernel and bootloader stuff
-linux-aarch64
-uboot-pine64
+linux-pine64
+uboot-pine64-git
 
 # Other device specific packages
-uboot-tools
-linux-firmware
+dkms-rtl8723cs
+rtl8723bt-firmware
 
 # Video drivers

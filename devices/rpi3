@@ -1,4 +1,4 @@
-## Maintained by ?? ##
+## Maintained by Strit ##
 
 # Kernel and Bootloader stuff
 linux-aarch64
@@ -6,8 +6,7 @@ uboot-raspberrypi
 raspberrypi-bootloader
 
 # Other device specific packages
-#firmware-raspberrypi
-raspberrypi-firmware
+firmware-raspberrypi
 wpa_supplicant
 
 # Video driver
