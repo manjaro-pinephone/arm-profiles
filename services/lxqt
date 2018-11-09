@@ -3,3 +3,4 @@ sddm.service
 #NetworkManager.service
 connman-wait-online.service
 connman.service
+bluetooth.service
