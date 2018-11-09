@@ -2,10 +2,12 @@
 
 # Kernel and bootloader stuff
 linux-pine64
+linux-åine64-headers
 uboot-pine64-git
 
 # Other device specific packages
 dkms-rtl8723cs
 rtl8723bt-firmware
+wpa_supplicant
 
 # Video drivers
