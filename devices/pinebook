@@ -2,7 +2,7 @@
 
 # Kernel and bootloader stuff
 linux-pine64
-linux-åine64-headers
+linux-pine64-headers
 uboot-pine64-git
 
 # Other device specific packages
