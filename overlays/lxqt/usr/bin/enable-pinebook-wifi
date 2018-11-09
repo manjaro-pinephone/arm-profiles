@@ -1,0 +1,4 @@
+#! /bin/bash
+
+echo "Enabling wifi on Pinebook..."
+sudo dkms install "rtl8723cs/2018.09.11"
