@@ -11,16 +11,12 @@ powerButtonAction=16
 [Battery]
 icon=battery-060
 
-[Batteri][BrightnessControl]
-value=25
+[Battery][BrightnessControl]
+value=50
 
 [Battery][HandleButtonEvents]
 lidAction=1
 powerButtonAction=16
-
-[Battery][SuspendSession]
-idleTime=600000
-suspendType=1
 
 [LowBattery]
 icon=battery-low
