@@ -4,3 +4,4 @@ sddm.service
 connman-wait-online.service
 connman.service
 bluetooth.service
+tlp.service
