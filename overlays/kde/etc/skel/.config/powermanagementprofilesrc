@@ -1,8 +1,8 @@
 [AC]
 icon=battery-charging
 
-[AC][DimDisplay]
-idleTime=300000
+[AC][BrightnessControl]
+value=80
 
 [AC][HandleButtonEvents]
 lidAction=1
@@ -11,11 +11,8 @@ powerButtonAction=16
 [Battery]
 icon=battery-060
 
-[Battery][DPMSControl]
-idleTime=300
-
-[Battery][DimDisplay]
-idleTime=120000
+[Batteri][BrightnessControl]
+value=25
 
 [Battery][HandleButtonEvents]
 lidAction=1
