@@ -56,17 +56,19 @@ gtk-theme-breath
 breath-wallpaper
 
 # GTK applications
-mailcap
+mailcap #dependency for firefox
 firefox
+#libreoffice-fresh #enable on final images only
 
 # Other packages
 openresolv
+#baka-mplayer #enable on final images only
 inxi
 ttf-bitstream-vera
 noto-fonts
 sddm
 octopi
-octopi-notifier-qt5
+octopi-notifier-framworks
 manjaro-settings-manager
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
