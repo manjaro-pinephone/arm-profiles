@@ -55,6 +55,10 @@ breeze-gtk
 gtk-theme-breath
 breath-wallpaper
 
+# GTK applications
+mailcap
+firefox
+
 # Other packages
 openresolv
 inxi
@@ -67,6 +71,5 @@ manjaro-settings-manager
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 polkit
-falkon
 wget
 tlp
