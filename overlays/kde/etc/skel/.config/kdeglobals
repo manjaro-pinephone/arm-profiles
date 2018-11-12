@@ -120,8 +120,10 @@ widgetStyle=Breeze
 Theme=breath
 
 [KDE]
+DoubleClickInterval=400
 ColorScheme=Breeze
 LookAndFeelPackage=org.kde.breath.desktop
+SingleClick=false
 contrast=4
 widgetStyle=breeze
 
