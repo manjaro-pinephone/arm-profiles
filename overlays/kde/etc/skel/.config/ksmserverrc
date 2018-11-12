@@ -1,5 +1,7 @@
 [General]
 screenCount=1
+confirmLogout=false
+loginMode=default
 
 [LegacySession: saved at previous logout]
 count=0
