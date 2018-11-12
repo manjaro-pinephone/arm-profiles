@@ -35,7 +35,7 @@ plugin=org.kde.plasma.icontasks
 PreloadWeight=34
 
 [Containments][2][Applets][16][Configuration][General]
-launchers=applications:org.kde.falkon.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop
+launchers=applications:org.firefox.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop
 
 [Containments][2][Applets][3]
 immutability=1
@@ -60,9 +60,6 @@ plugin=org.kde.plasma.pager
 
 [Containments][2][Applets][4][Configuration]
 PreloadWeight=26
-
-[Containments][2][Applets][5][Configuration][General]
-launchers=applications:org.kde.dolphin.desktop,applications:org.kde.falkon.desktop,applications:org.kde.konsole.desktop
 
 [Containments][2][Applets][6]
 immutability=1
