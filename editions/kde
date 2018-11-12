@@ -46,6 +46,7 @@ ark
 okular
 gwenview
 spectacle
+calligra #enable on final images only instead of libreoffice
 
 # Themes
 breath-icon-theme
@@ -62,7 +63,7 @@ firefox
 
 # Other packages
 openresolv
-#baka-mplayer #enable on final images only
+baka-mplayer #enable on final images only
 inxi
 ttf-bitstream-vera
 noto-fonts
