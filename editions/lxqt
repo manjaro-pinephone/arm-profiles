@@ -17,7 +17,6 @@ pulseaudio-alsa
 alsa-utils
 
 # LXQT packages
-networkmanager-qt
 pcmanfm-qt
 lximage-qt
 lxqt-about
