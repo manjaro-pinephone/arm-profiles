@@ -47,6 +47,7 @@ breath-wallpaper
 
 # Other packages
 openresolv
+bluez
 inxi
 ttf-bitstream-vera
 noto-fonts
@@ -56,7 +57,7 @@ octopi
 octopi-notifier-qt5
 manjaro-settings-manager
 polkit
-mailcap
+mailcap #dependency of firefox
 firefox
 wget
 #yay
