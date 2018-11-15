@@ -35,7 +35,7 @@ plugin=org.kde.plasma.icontasks
 PreloadWeight=34
 
 [Containments][2][Applets][16][Configuration][General]
-launchers=applications:firefox.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop
+launchers=applications:org.kde.falkon.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop
 
 [Containments][2][Applets][3]
 immutability=1
