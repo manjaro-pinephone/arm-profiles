@@ -1,6 +1,7 @@
 sshd.service
 sddm.service
-connman-wait-online.service
-connman.service
+NetworkManager.service
+#connman-wait-online.service
+#connman.service
 bluetooth.service
 tlp.service

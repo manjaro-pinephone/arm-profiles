@@ -17,6 +17,8 @@ pulseaudio-alsa
 alsa-utils
 
 # LXQT packages
+networkmanager-qt
+#nm-tray-git #qt applet for network-manager-qt
 pcmanfm-qt
 lximage-qt
 lxqt-about
@@ -36,17 +38,19 @@ lxqt-config
 qterminal
 openbox
 obconf-qt
-lxappearance-gtk3
+#lxappearance-gtk3
 
 # Themes
 kvantum-qt5
 kvantum-theme-adapta
 papirus-maia-icon-theme
 breath-wallpaper
+#xcursor-breeze #package does not work atm
 
 # Other packages
+#network-manager-applet
 openresolv
-bluez
+bluez-qt
 inxi
 ttf-bitstream-vera
 noto-fonts
@@ -56,12 +60,14 @@ octopi
 octopi-notifier-qt5
 manjaro-settings-manager
 polkit
-mailcap #dependency of firefox
-firefox
+#mailcap #dependency of firefox
+#firefox
+falkon
 wget
 #yay
-cmst
-gvfs
+#cmst
+#iwd #opt dependency of connman for wifi
+#gvfs
 notepadqq
 tlp
 
