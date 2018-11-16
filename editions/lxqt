@@ -18,7 +18,7 @@ alsa-utils
 
 # LXQT packages
 networkmanager-qt
-#nm-tray-git #qt applet for network-manager-qt
+nm-tray-git #qt applet for network-manager-qt
 pcmanfm-qt
 lximage-qt
 lxqt-about
@@ -48,6 +48,7 @@ breath-wallpaper
 #xcursor-breeze #package does not work atm
 
 # Other packages
+lxqt-post-install
 #network-manager-applet
 openresolv
 bluez-qt

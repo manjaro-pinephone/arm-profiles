@@ -5,3 +5,4 @@ NetworkManager.service
 #connman.service
 bluetooth.service
 tlp.service
+lxqt-post-install.service
