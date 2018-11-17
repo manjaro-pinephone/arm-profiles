@@ -1,0 +1,10 @@
+## Maintained by GrayJack and Strit ##
+
+# Kernel and bootloader stuff
+linux-aarch64-rc
+linux-aarch64-rc-headers
+uboot-rockpro64
+
+# Other device specific packages
+
+# Video drivers
