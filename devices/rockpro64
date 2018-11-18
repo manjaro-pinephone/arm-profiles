@@ -6,5 +6,6 @@ linux-aarch64-rc-headers
 uboot-rockpro64
 
 # Other device specific packages
+wpa_supplicant
 
 # Video drivers
