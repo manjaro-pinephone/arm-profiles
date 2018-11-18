@@ -7,7 +7,6 @@ archlinuxarm-keyring
 parted
 openssh
 haveged
-#base-devel
 xorg-server
 xorg-xinit
 
@@ -38,7 +37,6 @@ lxqt-config
 qterminal
 openbox
 obconf-qt
-#lxappearance-gtk3
 
 # Themes
 kvantum-qt5
@@ -47,9 +45,11 @@ papirus-maia-icon-theme
 breath-wallpaper
 #xcursor-breeze #package does not work atm
 
+# Office suite
+calligra
+
 # Other packages
 lxqt-post-install
-#network-manager-applet
 openresolv
 bluez-qt
 inxi
@@ -61,14 +61,9 @@ octopi
 octopi-notifier-qt5
 manjaro-settings-manager
 polkit
-#mailcap #dependency of firefox
-#firefox
+baka-mplayer
 falkon
 wget
-#yay
-#cmst
-#iwd #opt dependency of connman for wifi
-#gvfs
 notepadqq
 tlp
 

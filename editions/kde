@@ -8,7 +8,6 @@ archlinuxarm-keyring
 parted
 openssh
 haveged
-#base-devel
 xorg-server
 xorg-xinit
 
@@ -19,7 +18,6 @@ alsa-utils
 bluedevil
 breeze
 drkonqi
-#kde-gtk-config
 kinfocenter
 kscreen
 kscreenlocker
@@ -31,7 +29,6 @@ plasma-desktop
 plasma-nm
 plasma-pa
 plasma-workspace
-#plasma-wayland-session
 powerdevil
 systemsettings
 user-manager
@@ -46,25 +43,20 @@ ark
 okular
 gwenview
 spectacle
-calligra #enable on final images only instead of libreoffice
 falkon
 
 # Themes
 breath-icon-theme
 sddm-breath-theme
 plasma5-themes-breath
-#breeze-gtk
-#gtk-theme-breath
 breath-wallpaper
 
-# GTK applications
-#mailcap #dependency for firefox
-#firefox
-#libreoffice-fresh #enable on final images only
+# Office suite
+calligra
 
 # Other packages
 openresolv
-baka-mplayer #enable on final images only
+baka-mplayer
 inxi
 ttf-bitstream-vera
 noto-fonts
