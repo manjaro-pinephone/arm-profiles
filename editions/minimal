@@ -1,7 +1,6 @@
 ## Maintained by Strit ##
 
 # Minimal packages
-base
 sudo
 archlinuxarm-keyring
 parted
