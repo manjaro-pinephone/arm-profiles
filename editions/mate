@@ -1,15 +1,14 @@
 ## Maintained by ?? ##
 
 # Minimal packages
-base
 sudo
 archlinuxarm-keyring
 parted
 openssh
 haveged
-#base-devel
 xorg-server
 xorg-xinit
+inxi
 
 # Sound
 pavucontrol
@@ -30,7 +29,6 @@ mate-notification-daemon
 mate-system-monitor
 mate-terminal
 mate-tweak
-networkmanager
 engrampa
 
 # Themes
@@ -40,12 +38,13 @@ breath-wallpaper
 gtk-theme-breath
 
 # Other packages
+networkmanager
 network-manager-applet
 ttf-bitstream-vera
 noto-fonts
-inxi
 lightdm
 lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
 manjaro-settings-manager
 pamac
 firefox
