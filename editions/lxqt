@@ -46,7 +46,7 @@ kvantum-theme-adapta
 papirus-maia-icon-theme
 gtk-theme-breath
 breath-wallpaper
-#xcursor-breeze #package does not work atm
+xcursor-breeze #package does not work atm
 
 # Office suite
 libreoffice-fresh
