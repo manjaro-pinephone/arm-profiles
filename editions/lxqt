@@ -46,7 +46,7 @@ kvantum-theme-adapta
 papirus-maia-icon-theme
 gtk-theme-breath
 breath-wallpaper
-xcursor-breeze #package does not work atm
+xcursor-breeze
 
 # Office suite
 libreoffice-fresh
@@ -67,4 +67,8 @@ firefox
 wget
 featherpad
 tlp
+bluez-utils
+pulseaudio-bluetooth
+manjaro-hotfixes
+blueman #gtk applet for bluetooth
 

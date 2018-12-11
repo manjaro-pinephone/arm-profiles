@@ -315,6 +315,81 @@
         <direction>down</direction>
       </action>
     </keybind>
+    <keybind key="W-S-1">
+      <action name="SendToDesktop">
+        <to>1</to>
+      </action>
+    </keybind>
+    <!-- Keybinding to move window to desktop 2 -->
+    <keybind key="W-S-2">
+      <action name="SendToDesktop">
+        <to>2</to>
+      </action>
+    </keybind>
+    <!-- Keybinding to move window to desktop 3 -->
+    <keybind key="W-S-3">
+      <action name="SendToDesktop">
+        <to>3</to>
+      </action>
+    </keybind>
+    <!-- Keybinding to move window to desktop 4 -->
+    <keybind key="W-S-4">
+      <action name="SendToDesktop">
+        <to>4</to>
+      </action>
+    </keybind>
+    <!-- Keybinding to maximise window-->
+    <keybind key="W-Up">
+      <action name="Maximize"/>
+    </keybind>
+    <!-- Keybinding to unmaximise window -->
+    <keybind key="W-Down">
+      <action name="Unmaximize"/>
+    </keybind>
+    <!-- Keybinding to move window to the left or right half of the desktop -->
+    <keybind key="W-Left">
+      <action name="UnmaximizeFull"/>
+      <action name="MaximizeVert"/>
+      <action name="MoveResizeTo">
+        <width>50%</width>
+      </action>
+      <action name="MoveToEdge">
+        <direction>west</direction>
+      </action>
+    </keybind>
+    <keybind key="W-Right">
+      <action name="UnmaximizeFull"/>
+      <action name="MaximizeVert"/>
+      <action name="MoveResizeTo">
+        <width>49%</width>
+      </action>
+      <action name="MoveToEdge">
+        <direction>east</direction>
+      </action>
+    </keybind>
+    <!-- Keybinding to maximise the window to the top and bottom but leave the width as is-->
+    <keybind key="W-Prior">
+      <action name="MoveResizeTo">
+        <!-- adjust a window's height and width -->
+        <!-- <width client="yes">2/3</width> -->
+        <height>1/1</height>
+      </action>
+    </keybind>
+    <!-- Keybinding to maximise the window to the top and bottom -->
+    <keybind key="W-f">
+      <action name="MoveResizeTo">
+        <!-- adjust a window's height and width -->
+        <width client="yes">3/4</width>
+        <height>1/1</height>
+      </action>
+    </keybind>
+    <!-- center the window on the first monitor -->
+    <keybind key="W-c">
+      <action name="MoveResizeTo">
+        <x>center</x>
+        <y>center</y>
+      </action>
+    </keybind>
     <!-- Keybindings for running applications.
    Commented out as application shortcuts should be handled by lxqt-globalkeys in LXQt sessions.
   <keybind key="W-q">
