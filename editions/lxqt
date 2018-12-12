@@ -60,7 +60,7 @@ sddm
 sddm-qt-manjaro-theme
 octopi
 octopi-notifier-qt5
-manjaro-settings-manager
+#manjaro-settings-manager #disabled until timedatectl works again!
 polkit
 baka-mplayer
 firefox
