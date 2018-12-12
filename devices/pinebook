@@ -12,5 +12,3 @@ wpa_supplicant
 pinebook-post-install
 
 # Video drivers
-pine64-libgl-x11 #gpu blobs
-xf86-video-fbturbo-git
