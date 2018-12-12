@@ -38,6 +38,7 @@ plasma-vault
 # KDE applications
 sddm-kcm
 dolphin
+dolphin-plugins
 kate
 konsole
 ark
@@ -64,11 +65,13 @@ baka-mplayer
 ttf-bitstream-vera
 noto-fonts
 sddm
-octopi
-octopi-notifier-frameworks
-manjaro-settings-manager
-manjaro-settings-manager-kcm
-manjaro-settings-manager-knotifier
+#octopi
+#octopi-notifier-frameworks
+pamac
+pamac-tray-appindicator
+#manjaro-settings-manager
+#manjaro-settings-manager-kcm
+#manjaro-settings-manager-knotifier
 polkit
 wget
 tlp
