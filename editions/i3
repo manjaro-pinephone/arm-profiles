@@ -1,0 +1,10 @@
+## Maintained by Oberon ##
+
+# Minimal packages
+sudo
+archlinuxarm-keyring
+parted
+openssh
+haveged
+
+# i3 Edition packages
