@@ -6,6 +6,7 @@ uboot-odroid-c1
 
 # Other device specific packages
 fbset
+amlogic
 
 # Video driver
 xf86-video-odroid-c1

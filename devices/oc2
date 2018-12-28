@@ -6,6 +6,7 @@ uboot-odroid-c2-mainline
 
 # Other device specific packages
 fbset
+amlogic
 
 # Video driver
 xf86-video-fbturbo-git
