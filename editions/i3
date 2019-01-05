@@ -6,5 +6,8 @@ archlinuxarm-keyring
 parted
 openssh
 haveged
+xorg-server
+xorg-xinit
+inxi
 
 # i3 Edition packages

@@ -72,6 +72,5 @@ pamac-tray-appindicator
 #manjaro-settings-manager
 #manjaro-settings-manager-kcm
 #manjaro-settings-manager-knotifier
-polkit
 wget
 tlp
