@@ -9,4 +9,4 @@ uboot-rockpro64
 wpa_supplicant
 
 # Video drivers
-xf86-video-fbturno-git
+xf86-video-fbturbo-git
