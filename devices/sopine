@@ -1,11 +1,12 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
-linux-pine64
-linux-pine64-headers
+linux-aarch64
+linux-aarch64-headers
 uboot-pine64-git
 
 # Other device specific packages
 
 
 # Video drivers
+xf86-video-fbturbo-git
