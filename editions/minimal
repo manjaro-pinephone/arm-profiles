@@ -6,6 +6,8 @@ archlinuxarm-keyring
 parted
 openssh
 haveged
+inxi
+ncdu
 
 # Minimal edition packages
 iwd
