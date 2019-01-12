@@ -3,7 +3,7 @@
 # Kernel and bootloader stuff
 linux-rockpro64
 linux-rockpro64-headers
-uboot-rockpro64
+uboot-rockpro64-test
 
 # Other device specific packages
 wpa_supplicant
