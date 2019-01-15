@@ -2,11 +2,9 @@
 
 # Kernel and bootloader stuff
 linux-rockpro64
-linux-rockpro64-headers
 uboot-rockpro64
 
 # Other device specific packages
-wpa_supplicant
 
 # Video drivers
 xf86-video-fbturbo-git

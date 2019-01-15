@@ -2,7 +2,6 @@
 
 # Kernel and bootloader stuff
 linux-rockpro64
-linux-rockpro64-headers
 uboot-rock64
 
 # Other device specific packages
