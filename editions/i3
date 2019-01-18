@@ -1,5 +1,5 @@
-# i3 Edition packages
 ## Maintained by Oberon ##
+## i3 Edition packages ##
 
 accountsservice
 alsa-firmware
@@ -23,6 +23,7 @@ epdfview
 #fakeroot
 #ffmpeg
 #ffmpegthumbnailer
+firefox
 #flac
 #flex
 #gcc
@@ -51,10 +52,8 @@ htop
 inxi
 json-c
 kvantum-manjaro
-lib32-flex
 libgpod
 libtool
-lightdm-greeter
 lightdm-greeter
 lxappearance
 lxinput
@@ -75,7 +74,6 @@ modemmanager
 #morc_menu
 mousepad
 ncdu
-netctl
 network-manager-applet
 networkmanager
 networkmanager-openconnect
@@ -84,11 +82,11 @@ networkmanager-pptp
 networkmanager-vpnc
 nss-mdns
 ntp
-open-fuse-iso
+#open-fuse-iso
 openresolv
 openssh
 p7zip
-palemoon-bin
+#palemoon-bin
 pamac
 parted
 #patch
@@ -122,7 +120,6 @@ ttf-liberation
 ufw
 #upower
 vertex-maia-themes
-vi
 vibrancy-icons-teal
 viewnior
 vim
@@ -132,9 +129,8 @@ w3m
 wmutils
 xarchiver
 xautolock
-xcursor-chameleon-pearl
 xcursor-maia
-xdg-su
+#xdg-su
 xdg-user-dirs
 xdg-utils
 xdotool
