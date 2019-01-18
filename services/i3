@@ -1,1 +1,5 @@
-sshd.service 
+bluetooth.service
+lightdm.service
+NetworkManager.service
+sshd.service
+tlp.service
