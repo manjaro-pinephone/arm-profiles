@@ -13,7 +13,7 @@ artwork-pinebook-i3
 #binutils
 #bison
 blueman
-bmenu
+#bmenu
 cantarell-fonts
 #clipit
 #deluge
@@ -29,7 +29,7 @@ firefox
 #gcc
 gcolor2
 gconf
-gksu-polkit
+#gksu-polkit
 gnome-keyring
 gparted
 #groff
@@ -39,7 +39,7 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 gstreamer
-gtksourceview-pkgbuild
+#gtksourceview-pkgbuild
 gufw
 gvfs
 gvfs-afc
@@ -51,10 +51,11 @@ hexchat
 htop
 inxi
 json-c
-kvantum-manjaro
+#kvantum-manjaro
+kvantum-qt5
 libgpod
 libtool
-lightdm-greeter
+lightdm-gtk-greeter
 lxappearance
 lxinput
 #m4
@@ -120,13 +121,13 @@ ttf-liberation
 ufw
 #upower
 vertex-maia-themes
-vibrancy-icons-teal
+#vibrancy-icons-teal
 viewnior
 vim
 vlc
 volumeicon
 w3m
-wmutils
+#wmutils
 xarchiver
 xautolock
 xcursor-maia
