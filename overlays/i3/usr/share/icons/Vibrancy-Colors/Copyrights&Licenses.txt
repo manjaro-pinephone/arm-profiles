@@ -1,0 +1,134 @@
+:::::::::::::::::::::::::::::: Vibrancy Colors Icon Theme :::::::::::::::::::::::::::::::::::
+
+This icon theme is a fusion of many great open source icon themes by many open source artists.
+It was merged together, tweaked, fixed up and compiled by the RAVEfinity Project, You can visit us At: http://www.ravefinity.com/
+
+It's really hard for us (RAVEfinity) to take alot of credit for Vibrancy Colors. It is such a diverse melting pot of amazing open source artwork by lots of amazing people (More amazing then us). We want to give the other desingners proper credit. We sort of take on a "Creative Director" like role in our own theme (We don't tell anyone else what to do, We just direct our vison into our work since all the work is Open Source and we can modify and redistribute it). We change things as needed to achive a certin look and overall design vison/goal.
+
+That being said it is a unique theme. It's not just things thrown together. We work really hard to make it seemless and we make touches of our own.
+
+This Icon Theme is very much what it is thanks to Sam Hewitt, The Designer and creator of Moka and Faba Icons. He spent mouths (Im Guessing) drawing all thease beautiful app icons. Consider Buying Sam a Coffe here: http://mokaproject.com/about/ 
+
+Please support the authors whos work make up this theme. (See bellow for more detials/credits)
+
+http://mokaproject.com/about/
+http://tiheum.deviantart.com/
+https://numixproject.org/
+http://nitrux.in/
+http://elementaryos.org/ 
+
+Then Come Visit US At: http://www.ravefinity.com/ 
+for this theme and more themes like it.
+
+:::::::::::::::::::::::: The Official Credit, Copyright & Licenses  :::::::::::::::::::::::::::::::
+
+This work is based on and Licensed under 2 open source licenses.
+
+License 1, Creative Commons SA, https://creativecommons.org/licenses/by-sa/3.0/us/
+License 2, GPL v2 & v3 , http://www.gnu.org/copyleft/gpl.html
+
+:::::::::::::::::::::Copyright & Credits:::::::::::::::::::::
+
+Vibrancy Colors is a fusion (Mix) of many beautiful Open source icons themes into a "Newish" beautiful awesome flat icon theme.
+
+Vibrancy Colors is a mixture of:
+
+Moka Icons (For Application icons & majority of icons, We have Modified many app icons however) 
+
+Numix Square Icon Theme (Mime type Icons)
+
+Faenza Icons (System Panel Indicators (Monochromes), App Toolbar Icons, Few Others )
+
+KDE 5 Breeze Icons (Folder Icons (Modified Color And Symbols , Ported to GTK by RAVEfinity)
+ 
+elementary folder Symbols (Symbols used on folders eg music downloads etc.) 
+
+RAVEfinity Design (http://www.ravefinity.com/) (Icons Mixed together,crafted,tested and tweaked by RAVEfinity)
+
+
+Most Application Icons, Category Icons (Majority of artwork):
+
+(!) We have modified/swapped some of these thease icons and added new ones!
+so it does not resemble stock moka 100%.
+
+The Faba & Moka Icon Theme that is designed and developed by: 
+
+(C) 2014 Sam Hewitt <hewittsamuel@gmail.com>
+
+Please support Sam here...
+http://mokaproject.com/about/
+(License, Creative Commons SA, https://creativecommons.org/licenses/by-sa/3.0/us/ )
+
+Jason McDonald.
+New App icons for:
+Wesnosh. Hydrogen, Android Builder. More!
+(C) 2015- 2016 GPL.
+
+2 new app icons by:
+Ivan N
+Pillars of Eternity and Godot.
+http://gnome-look.org/usermanager/search.php?username=Ivanwah
+
+System Panel Indicators (Monochromes), App Toolbar Icons, Few Others 
+
+Are The Faenza Icons designed and developed by:
+(C) 2012-2014 Matthieu James <matthieu.james@gmail.com>
+
+Please Support Tiheum here:
+http://tiheum.deviantart.com/
+(License, Creative Commons SA, https://creativecommons.org/licenses/by-sa/3.0/us/ )
+
+Mime type Icons
+
+(!) We have modifed these mimetype icons, 
+New Colors in places, DOCX icons look diffrent. etc. 
+
+The Numix Square Icon Theme
+(C) 2013-2014 Numix Project
+
+Please support the Numix folks here:
+https://numixproject.org/
+(License, GPL , http://www.gnu.org/copyleft/gpl.html)
+
+
+Folder Icons.
+
+(!) We have spend hours handcrafting and createing thease new vivdly colored folders based on the KDE Breeze Folders. Seriously it took a long time!
+
+Based On The KDE Breeze Folder Icons.
+
+(C)2014 KDE Visual Group (KDE Open Source Project)
+Main Design by: Uri Herrera. (http://nitrux.in/)
+(License, Creative Commons SA, https://creativecommons.org/licenses/by-sa/3.0/us/ )
+Please support kde at kde.org
+
+Folders Also...
+(C) 2014-2015  RAVEfinity, New Folder Color Design.
+
+Symbols Used On Folders
+
+Are From the elementary icon theme.
+
+elementary Icons & Theme.
+Daniel Foré <Daniel.p.Fore@gmail.com>
+
+Please support elemntary at:
+http://elementaryos.org/ 
+
+RedShiftMono Icon by Andre, tofucyborg@hotmail.com
+(C) 2011 GPL
+
+Vibrancy Colors Icon Theme
+
+Overall Design & Direction for this icon theme: Vibrancy Colors 
+Added new Icons (Apps and more)
+Merged together, Redesigned in places, tweaked, fixed, tested, and compiled by the RAVEfinity Project, 
+
+You can visit us At: http://www.ravefinity.com/
+
+(C) 2014-2015 , Jared Sot. <ravefinity@gmail.com>
+(License, Creative Commons SA, https://creativecommons.org/licenses/by-sa/3.0/us/)
+
+It's really hard for us (RAVEfinity) to take alot of credit for Vibrancy Colors. It is such a diverse melting pot of amazing open source artwork by lots of amzing people (More amazing then us). We want to give the other desingners proper credit. We sort of take on a "Creative Director" like role in our own theme (We don't tell anyone else what to do, We just direct our vison into our work since all the work is Open Source and we can modify and redistribute it). We change things as needed to achive a certin look and overall design vison/goal. All work is Open Source No Non-Free Stuff.
+
+That being said it is a unique theme. It's not just things thrown together. We work really hard to make it seemless and we make alot of touches of our own.
