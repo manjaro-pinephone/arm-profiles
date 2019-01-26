@@ -1,7 +1,7 @@
 ## Maintained by GrayJack and Strit ##
 
 # Kernel and bootloader stuff
-linux-rockpro64
+linux-rock64
 uboot-rock64
 
 # Other device specific packages
