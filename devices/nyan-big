@@ -1,0 +1,14 @@
+## Maintained by GrayJack and Strit ##
+
+# Kernel and bootloader stuff
+linux-nyan
+
+linux-nyan-headers
+
+# choose on of the following:
+#uboot-nyan-big
+linux-nyan-chromebook
+
+# Other device specific packages
+
+# Video drivers
