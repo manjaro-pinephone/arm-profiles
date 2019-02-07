@@ -1,0 +1,15 @@
+## Maintained by Strit ##
+
+# Minimal packages
+sudo
+archlinuxarm-keyring
+parted
+openssh
+haveged
+inxi
+ncdu
+
+# Gnome edition packages
+gnome #the entire gnome group
+gnome-tweaks
+pamac
