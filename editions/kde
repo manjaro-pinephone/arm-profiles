@@ -1,5 +1,5 @@
 ## Maintained by Strit ##
-## Only suitable for oc2, xu4 and pinebook (+rpi3 maybe) ##
+## Only suitable for oc2, xu4 and pinebook ##
 
 # Base system
 sudo
@@ -61,16 +61,14 @@ firefox
 
 # Other packages
 openresolv
-baka-mplayer
+smplayer
 ttf-bitstream-vera
 noto-fonts
 sddm
-#octopi
-#octopi-notifier-frameworks
 pamac
 pamac-tray-appindicator
-#manjaro-settings-manager
-#manjaro-settings-manager-kcm
-#manjaro-settings-manager-knotifier
+manjaro-settings-manager
+manjaro-settings-manager-kcm
+manjaro-settings-manager-knotifier
 wget
 tlp
