@@ -56,6 +56,7 @@ json-c
 kvantum-qt5
 libgpod
 libtool
+light
 lightdm-gtk-greeter
 lxappearance
 lxinput
@@ -130,7 +131,6 @@ xdotool
 xfce4-power-manager
 xorg-server
 xorg-twm
-xorg-xbacklight
 xorg-xhost
 xorg-xinit
 xorg-xkill
