@@ -2,7 +2,7 @@
 AnimationSpeed=0
 Backend=XRender
 OpenGLIsUnsafe=false
-Enabled=true
+Enabled=false
 GLCore=false
 WindowBlockCompositing=true
 XRenderSmoothScale=false
