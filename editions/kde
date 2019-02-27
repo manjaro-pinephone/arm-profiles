@@ -1,7 +1,7 @@
 ## Maintained by Strit ##
 ## Not suitable for rpi devices ##
 
-# Base system
+# Minimal packages
 sudo
 archlinuxarm-keyring
 parted
@@ -11,8 +11,13 @@ xorg-server
 xorg-xinit
 inxi
 
-# Sound
+# Sound, Video and bluetooth
 alsa-utils
+smplayer
+
+# Display Manager
+sddm
+sddm-kcm
 
 # Plasma packages
 bluedevil
@@ -36,7 +41,6 @@ user-manager
 plasma-vault
 
 # KDE applications
-sddm-kcm
 dolphin
 dolphin-plugins
 kate
@@ -56,19 +60,22 @@ breath-wallpaper
 # Office suite
 libreoffice-fresh
 
-# GTK applications
+# Browser
 firefox
+
+# Package Manager
+pamac
+pamac-tray-appindicator
+
+# Fonts
+ttf-bitstream-vera
+noto-fonts
 
 # Other packages
 openresolv
-smplayer
-ttf-bitstream-vera
-noto-fonts
-sddm
-pamac
-pamac-tray-appindicator
 manjaro-settings-manager
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 wget
 tlp
+manjaro-hotfixes
