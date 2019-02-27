@@ -10,10 +10,18 @@ xorg-server
 xorg-xinit
 inxi
 
-# Sound
+# Sound, Video and bluetooth
 pavucontrol-qt
 pulseaudio-alsa
 alsa-utils
+bluez-utils
+pulseaudio-bluetooth
+blueman #gtk applet for bluetooth
+smplayer
+
+# Display Manager
+sddm
+sddm-qt-manjaro-theme
 
 # LXQT packages
 networkmanager-qt
@@ -36,9 +44,12 @@ lxqt-sudo
 lxqt-themes
 lxqt-config
 qterminal
+qpdfview
 openbox
 obconf-qt
 lxappearance-gtk3
+xarchiver #to get archive extracting working
+unzip #to support zip file extraction
 
 # Themes
 kvantum-qt5
@@ -47,27 +58,25 @@ papirus-maia-icon-theme
 gtk-theme-breath
 breath-wallpaper
 xcursor-breeze
+manjaro-icons
+
+# Browser
+firefox
 
 # Office suite
 libreoffice-fresh
 
-# Other packages
-openresolv
-manjaro-icons
+# Package Manager
+pamac
+
+# Fonts
 ttf-bitstream-vera
 noto-fonts
-sddm
-sddm-qt-manjaro-theme
-octopi
-octopi-notifier-qt5
-manjaro-settings-manager #disabled until timedatectl works again!
-smplayer
-firefox
+
+# Other packages
+openresolv
+manjaro-settings-manager
 wget
 featherpad
 tlp
-bluez-utils
-pulseaudio-bluetooth
 manjaro-hotfixes
-blueman #gtk applet for bluetooth
-qpdfview
