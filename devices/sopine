@@ -5,6 +5,7 @@ linux-pine64
 uboot-pine64-git
 
 # Other device specific packages
+pinebook-post-install
 
 
 # Video drivers

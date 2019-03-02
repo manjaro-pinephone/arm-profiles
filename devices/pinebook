@@ -12,3 +12,4 @@ wpa_supplicant
 pinebook-post-install
 
 # Video drivers
+xf86-video-fbturbo-git
