@@ -10,11 +10,22 @@ xorg-server
 xorg-xinit
 inxi
 
-# Sound
+# Sound, video and bluetooth
 pavucontrol
 pulseaudio-alsa
+smplayer
+bluez
+pulseaudio-bluetooth
+blueman
+
+# Display Manager
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
 
 # Mate packages
+networkmanager
+network-manager-applet
 caja
 marco
 mate-desktop
@@ -37,15 +48,20 @@ breath-icon-theme
 breath-wallpaper
 gtk-theme-breath
 
-# Other packages
-networkmanager
-network-manager-applet
+# Browser
+firefox
+
+# Office suite
+libreoffice-fresh
+
+# Package Manager
+pamac
+
+# Fonts
 ttf-bitstream-vera
 noto-fonts
-lightdm
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
+
+# Other packages
 manjaro-settings-manager
-pamac
-firefox
 wget
+tlp
