@@ -13,3 +13,4 @@ pinebook-post-install
 
 # Video drivers
 xf86-video-fbturbo-git
+pine64-libgl-x11
