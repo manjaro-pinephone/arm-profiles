@@ -1,7 +1,7 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
-linux-pine64
+linux-aarch64
 uboot-pine64-git
 
 # Other device specific packages
