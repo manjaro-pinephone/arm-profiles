@@ -85,7 +85,7 @@ ntp
 openresolv
 openssh
 p7zip
-pamac
+pamac-gtk
 parted
 pavucontrol
 pcmanfm

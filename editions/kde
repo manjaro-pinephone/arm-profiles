@@ -64,7 +64,7 @@ libreoffice-fresh
 firefox
 
 # Package Manager
-pamac
+pamac-gtk
 pamac-tray-appindicator
 
 # Fonts

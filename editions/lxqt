@@ -67,7 +67,7 @@ firefox
 libreoffice-fresh
 
 # Package Manager
-pamac
+pamac-gtk
 
 # Fonts
 ttf-bitstream-vera

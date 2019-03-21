@@ -72,7 +72,7 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-pamac
+pamac-gtk
 flatpak
 polkit-gnome
 powertop
