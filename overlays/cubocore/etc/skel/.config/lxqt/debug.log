@@ -1,0 +1,82 @@
+2019-03-23 15:22:23.176 (0xffffce207540) Debug: WinIdChange 600006 handle QWidgetWindow(0xaaab01636dd0, name="LXQtPanel panel1Window") QScreen(0xaaab015e75f0, name="default")
+2019-03-23 15:23:07.539 (0xffffce207540) Warning: Cannot open file '/usr/share/lxqt/graphics/helix.svg', because: No such file or directory
+2019-03-23 15:23:07.540 (0xffffce207540) Warning: Cannot open file '/usr/share/lxqt/graphics/helix.svg', because: No such file or directory
+2019-03-23 15:25:15.776 (0xffffce207540) Debug: Systray started
+2019-03-23 15:25:36.357 (0xffffce207540) Debug: ()
+2019-03-23 15:26:58.844 (0xffffce207540) Warning: "Cannot load library /usr/lib/lxqt-panel/libnetworkmonitor.so: (libstatgrab.so.10: kan ikke åbne delt objektfil: Ingen sådan fil eller filkatalog)"
+2019-03-23 15:27:46.813 (0xffffce207540) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.UnknownProperty", "Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem")
+2019-03-23 15:28:41.442 (0xffffce207540) Warning: [31mvoid DBusMenuImporterPrivate::updateActionProperty(QAction*, const QString&, const QVariant&)[0m: Unhandled property update "toggle-type"
+2019-03-23 15:37:11.007 (0xffffce207540) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.UnknownProperty", "Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem")
+2019-03-23 15:38:28.851 (0xffffce207540) Debug: Service "org.kde.StatusNotifierItem-827-1" unregistered
+2019-03-23 15:38:36.723 (0xffffce207540) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.UnknownProperty", "Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem")
+2019-03-23 15:44:40.322 (0xffffdf46f6b0) Debug: ()
+2019-03-23 15:44:41.320 (0xffffdf46f6b0) Debug: WinIdChange 600006 handle QWidgetWindow(0xaaaac9ac1250, name="LXQtPanel panel1Window") QScreen(0xaaaac99f7690, name="default")
+2019-03-23 15:44:41.367 (0xffffdf46f6b0) Debug: Systray started
+2019-03-23 15:45:49.528 (0xffffdf46f6b0) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.UnknownProperty", "Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem")
+2019-03-23 15:46:08.579 (0xffffdf46f6b0) Warning: [31mvoid DBusMenuImporterPrivate::updateActionProperty(QAction*, const QString&, const QVariant&)[0m: Unhandled property update "toggle-type"
+2019-03-23 15:52:06.098 (0xffffdf46f6b0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 10618, resource id: 8388614, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 15:52:06.108 (0xffffdf46f6b0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 10621, resource id: 8388614, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 15:52:06.112 (0xffffdf46f6b0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 10623, resource id: 8388614, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 15:52:51.997 (0xffffdf46f6b0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 12023, resource id: 8388614, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 15:52:52.000 (0xffffdf46f6b0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 12026, resource id: 8388614, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 15:52:52.001 (0xffffdf46f6b0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 12028, resource id: 8388614, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 15:54:45.114 (0xffffdf46f6b0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 13961, resource id: 8388885, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 15:54:45.116 (0xffffdf46f6b0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 13964, resource id: 8388885, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 15:54:45.117 (0xffffdf46f6b0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 13966, resource id: 8388885, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 15:56:40.978 (0xffffff4dd518) Warning: QObject::connect: No such signal QDBusAbstractInterface::moduleStateChanged(QString,bool)
+2019-03-23 15:57:06.031 (0xffffdf46f6b0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 17794, resource id: 8388614, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 15:57:06.034 (0xffffdf46f6b0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 17797, resource id: 8388614, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 15:57:06.035 (0xffffdf46f6b0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 17799, resource id: 8388614, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 15:57:18.408 (0xffffdf46f6b0) Warning: The X11 connection broke: I/O error (code 1)
+2019-03-23 16:00:50.401 (0xfffffe4e3fb0) Debug: ()
+2019-03-23 16:00:51.187 (0xfffffe4e3fb0) Debug: WinIdChange 600007 handle QWidgetWindow(0xaaab065033c0, name="LXQtPanel panel1Window") QScreen(0xaaab063ac5f0, name="default")
+2019-03-23 16:00:51.213 (0xfffffe4e3fb0) Debug: Systray started
+2019-03-23 16:03:19.405 (0xfffff3c9acf8) Warning: QObject::connect: No such signal QDBusAbstractInterface::moduleStateChanged(QString,bool)
+2019-03-23 16:03:41.700 (0xfffffd082488) Debug: Connecting to KScreen...
+2019-03-23 16:06:26.199 (0xfffffe4e3fb0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 13505, resource id: 8388614, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:06:26.202 (0xfffffe4e3fb0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 13508, resource id: 8388614, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:06:26.203 (0xfffffe4e3fb0) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 13510, resource id: 8388614, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:06:37.401 (0xfffffe4e3fb0) Warning: The X11 connection broke (error 1). Did the X11 server die?
+2019-03-23 16:10:12.702 (0xffffe692c230) Debug: ()
+2019-03-23 16:10:13.436 (0xffffe692c230) Debug: WinIdChange 600007 handle QWidgetWindow(0xaaaad6a683b0, name="LXQtPanel panel1Window") QScreen(0xaaaad68cc690, name="default")
+2019-03-23 16:10:13.487 (0xffffe692c230) Debug: Systray started
+2019-03-23 16:09:27.808 (0xffffe692c230) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.UnknownProperty", "Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem")
+2019-03-23 16:09:38.963 (0xffffe4af0c78) Warning: QObject::connect: No such signal QDBusAbstractInterface::moduleStateChanged(QString,bool)
+2019-03-23 16:11:15.983 (0xffffe692c230) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 14043, resource id: 10485766, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:11:15.990 (0xffffe692c230) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 14046, resource id: 10485766, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:11:15.991 (0xffffe692c230) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 14048, resource id: 10485766, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:11:54.022 (0xffffe692c230) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.UnknownProperty", "Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem")
+2019-03-23 16:12:57.772 (0xffffe692c230) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 20281, resource id: 6291631, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:13:00.592 (0xffffe692c230) Debug: execAction "/usr/share/applications/corefm.desktop"
+2019-03-23 16:13:28.916 (0xffffe692c230) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 20392, resource id: 12582918, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:13:30.399 (0xffffe692c230) Debug: execAction "/usr/share/applications/coreterminal.desktop"
+2019-03-23 16:14:25.065 (0xffffe692c230) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 20517, resource id: 12582918, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:14:39.857 (0xffffe692c230) Debug: execAction "/usr/share/applications/coreterminal.desktop"
+2019-03-23 16:15:35.887 (0xffffe692c230) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 22467, resource id: 12582918, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:16:11.610 (0xffffe692c230) Debug: execAction "/usr/share/applications/coreterminal.desktop"
+2019-03-23 16:20:00.126 (0xffffe692c230) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 28217, resource id: 12582918, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:20:00.131 (0xffffe692c230) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 28219, resource id: 12582918, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:20:00.137 (0xffffe692c230) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 28227, resource id: 12582918, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:20:35.246 (0xffffe692c230) Warning: The X11 connection broke: I/O error (code 1)
+2019-03-23 16:24:14.342 (0xffffcd7dca10) Debug: ()
+2019-03-23 16:24:15.028 (0xffffcd7dca10) Debug: WinIdChange 600007 handle QWidgetWindow(0xaaaadd023560, name="LXQtPanel panel1Window") QScreen(0xaaaadcf73690, name="default")
+2019-03-23 16:24:15.070 (0xffffcd7dca10) Debug: Systray started
+2019-03-23 16:23:34.672 (0xffffedee2148) Warning: QObject::connect: No such signal QDBusAbstractInterface::moduleStateChanged(QString,bool)
+2019-03-23 16:23:41.163 (0xffffcd7dca10) Debug: execAction "/usr/share/applications/corefm.desktop"
+2019-03-23 16:24:15.504 (0xffffcd7dca10) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 4562, resource id: 8388614, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:24:17.596 (0xffffcd7dca10) Debug: execAction "/usr/share/applications/corefm.desktop"
+2019-03-23 16:24:49.323 (0xffffcd7dca10) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 4854, resource id: 8388614, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:24:51.180 (0xffffcd7dca10) Debug: execAction "/usr/share/applications/corefm.desktop"
+2019-03-23 16:24:56.318 (0xffffcd7dca10) Debug: execAction "/usr/share/applications/coreterminal.desktop"
+2019-03-23 16:25:25.653 (0xffffcd7dca10) Debug: execAction "/usr/share/applications/coreterminal.desktop"
+2019-03-23 16:25:47.244 (0xffffcd7dca10) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 5142, resource id: 8388614, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 16:26:09.904 (0xffffcd7dca10) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.UnknownProperty", "Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem")
+2019-03-23 16:26:32.113 (0xffffcd7dca10) Warning: The X11 connection broke: I/O error (code 1)
+2019-03-23 17:36:23.632 (0xffffc029f910) Debug: ()
+2019-03-23 17:36:24.310 (0xffffc029f910) Debug: WinIdChange 600007 handle QWidgetWindow(0xaaab02b17650, name="LXQtPanel panel1Window") QScreen(0xaaab02a67690, name="default")
+2019-03-23 17:36:24.353 (0xffffc029f910) Debug: Systray started
+2019-03-23 17:41:00.407 (0xffffc029f910) Debug: execAction "/usr/share/applications/org.kde.falkon.desktop"
+2019-03-23 17:41:14.675 (0xffffc029f910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1060, resource id: 8388628, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 17:41:14.678 (0xffffc029f910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1063, resource id: 8388628, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 17:41:14.679 (0xffffc029f910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1065, resource id: 8388628, major code: 18 (ChangeProperty), minor code: 0
+2019-03-23 17:41:22.259 (0xffffc029f910) Warning: The X11 connection broke: I/O error (code 1)

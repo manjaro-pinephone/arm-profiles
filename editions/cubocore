@@ -1,0 +1,39 @@
+## Maintained by Strit ##
+
+# Minimal packages
+sudo
+archlinuxarm-keyring
+parted
+openssh
+haveged
+inxi
+ncdu
+
+# Cubocore edition packages
+coreapps
+
+# Display Manager
+sddm
+
+# Fonts
+cantarell-fonts
+
+# Browser
+falkon
+
+# Themes
+papirus-maia-icon-theme
+breath-wallpaper
+sddm-qt-manjaro-theme
+manjaro-icons
+
+# LXQT stuff
+lxqt-panel
+lxqt-session
+lxqt-config
+
+# Other applications
+openbox
+obconf-qt
+python2-xdg
+nm-tray-git
