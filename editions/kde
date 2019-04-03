@@ -62,6 +62,8 @@ libreoffice-fresh
 
 # Browser
 firefox
+firefox-extension-youtube-classic
+firefox-ublock-origin
 
 # Package Manager
 pamac-gtk

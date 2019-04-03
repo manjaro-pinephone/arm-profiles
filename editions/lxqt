@@ -62,6 +62,8 @@ manjaro-icons
 
 # Browser
 firefox
+firefox-extension-youtube-classic
+firefox-ublock-origin
 
 # Office suite
 libreoffice-fresh
