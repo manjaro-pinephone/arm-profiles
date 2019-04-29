@@ -1,0 +1,12 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
+linux-odroid-n2
+uboot-odroid-n2
+
+# Other device specific packages
+fbset
+amlogic
+
+# Video driver
+xf86-video-fbturbo-git
