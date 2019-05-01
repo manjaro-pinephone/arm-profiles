@@ -1,0 +1,35 @@
+[General]
+screenCount=1
+confirmLogout=false
+loginMode=default
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=1012f14514a97000153696289800000005130008
+clientId2=1012f14514a97000153696289700000005130006
+clientId3=1012f14514a97000153696289800000005130009
+clientId4=1012f14514a97000153858866900000005780008
+count=4
+discardCommand2[$e]=rm,$HOME/.config/session/kwin_1012f14514a97000153696289700000005130006_1538588832_751734
+program1=/usr/lib/org_kde_powerdevil
+program2=/usr/bin/kwin_x11
+program3=/usr/bin/octopi-notifier
+program4=/usr/bin/msm_kde_notifier
+restartCommand1=/usr/lib/org_kde_powerdevil,-session,1012f14514a97000153696289800000005130008_1538588832_740749
+restartCommand2=/usr/bin/kwin_x11,-session,1012f14514a97000153696289700000005130006_1538588832_751734
+restartCommand3=/usr/bin/octopi-notifier,-session,1012f14514a97000153696289800000005130009_1538588832_740388
+restartCommand4=/usr/bin/msm_kde_notifier,-session,1012f14514a97000153858866900000005780008_1538588832_740229
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+userId1=manjaro
+userId2=manjaro
+userId3=manjaro
+userId4=manjaro
+wasWm1=false
+wasWm2=true
+wasWm3=false
+wasWm4=false

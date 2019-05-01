@@ -1,0 +1,234 @@
+[ActivityManager]
+_k_friendly_name=Activity Manager
+
+[KDE Keyboard Layout Switcher]
+Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Skift til næste tastatur-layout
+_k_friendly_name=KDE Daemon
+
+[kaccess]
+Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Skift skærm
+_k_friendly_name=Tilgængelighed
+
+[kcm_touchpad]
+Disable Touchpad=Touchpad Off,Touchpad Off,Deaktivér touchpad
+Enable Touchpad=Touchpad On,Touchpad On,Aktivér touchpad
+Toggle Touchpad=Touchpad Toggle,Touchpad Toggle,Slå touchpad til/fra
+_k_friendly_name=KDE Daemon
+
+[kded5]
+Show System Activity=Ctrl+Esc,Ctrl+Esc,Vis systemaktivitet
+_k_friendly_name=KDE Daemon
+display=Display\tMeta+P,Display\tMeta+P,Skift skærm
+
+[khotkeys]
+_k_friendly_name=KDE Daemon
+{79aea1c6-375c-4aaf-b3e4-495a9a9e6b83}=Ctrl+Alt+T,none,Launch Konsole
+{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Search
+
+[kmix]
+_k_friendly_name=Lydstyrke
+decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Formindsk mikrofonens lydstyrke
+decrease_volume=Volume Down,Volume Down,Formindsk lydstyrke
+increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Forøg mikrofonens lydstyrke
+increase_volume=Volume Up,Volume Up,Forøg lydstyrke
+mic_mute=Microphone Mute,Microphone Mute,Mikrofon på lydløs
+mute=Volume Mute,Volume Mute,Lydløs
+
+[krunner]
+_k_friendly_name=Kør kommando
+run command=Alt+Space\tAlt+F2\tSearch,Alt+Space,Kør kommando
+run command on clipboard contents=Alt+Shift+F2,Alt+Shift+F2,Kør kommando på udklipsholderindholdet
+
+[ksmserver]
+Halt Without Confirmation=Ctrl+Alt+Shift+PgDown,none,Sluk uden bekræftelse
+Lock Session=Ctrl+Alt+L\tScreensaver,Ctrl+Alt+L\tScreensaver,Lås session
+Log Out=Ctrl+Alt+Del,none,Log ud
+Log Out Without Confirmation=Ctrl+Alt+Shift+Del,none,Log ud uden bekræftelse
+Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,none,Genstart uden bekræftelse
+_k_friendly_name=ksmserver
+
+[kwin]
+Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Aktivér vindueskrævende opmærksomhed
+Decrease Opacity=none,none,Formindsk ugennemsigtighed af aktivt vindue med 5%
+Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
+ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
+ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
+Increase Opacity=none,none,Forøg ugennemsigtighed af aktivt vindue med 5%
+Invert Screen Colors=none,none,Invertér skærmfarver
+Kill Window=Ctrl+Alt+Esc,Ctrl+Alt+Esc,Dræb vindue
+MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Center
+MoveMouseToFocus=Meta+F5,Meta+F5,Move Mouse to Focus
+MoveZoomDown=none,none,Move Zoomed Area Downwards
+MoveZoomLeft=none,none,Move Zoomed Area to Left
+MoveZoomRight=none,none,Move Zoomed Area to Right
+MoveZoomUp=none,none,Move Zoomed Area Upwards
+Remove Window From Group=none,none,Fjern vindue fra gruppe
+Setup Window Shortcut=none,none,Opsætning af vinduesgenveje
+Show Desktop=none,none,Vis skrivebord
+ShowDesktopGrid=Ctrl+F8,Ctrl+F8,Show Desktop Grid
+Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Suspendér compositing
+Switch One Desktop Down=none,none,Skift ét skrivebord nedad
+Switch One Desktop Up=none,none,Skift ét skrivebord opad
+Switch One Desktop to the Left=none,none,Skift ét skrivebord til venstre
+Switch One Desktop to the Right=none,none,Skift ét skrivebord til højre
+Switch Window Down=Meta+Alt+Down,Meta+Alt+Down,Skift til vinduet nedenfor
+Switch Window Left=Meta+Alt+Left,Meta+Alt+Left,Skift til vinduet til venstre
+Switch Window Right=Meta+Alt+Right,Meta+Alt+Right,Skift til vinduet til højre
+Switch Window Up=Meta+Alt+Up,Meta+Alt+Up,Skift til vinduet ovenfor
+Switch to Desktop 1=Ctrl+F1,Ctrl+F1,Skift til skrivebord 1
+Switch to Desktop 10=none,none,Skift til skrivebord 10
+Switch to Desktop 11=none,none,Skift til skrivebord 11
+Switch to Desktop 12=none,none,Skift til skrivebord 12
+Switch to Desktop 13=none,none,Skift til skrivebord 13
+Switch to Desktop 14=none,none,Skift til skrivebord 14
+Switch to Desktop 15=none,none,Skift til skrivebord 15
+Switch to Desktop 16=none,none,Skift til skrivebord 16
+Switch to Desktop 17=none,none,Skift til skrivebord 17
+Switch to Desktop 18=none,none,Skift til skrivebord 18
+Switch to Desktop 19=none,none,Skift til skrivebord 19
+Switch to Desktop 2=Ctrl+F2,Ctrl+F2,Skift til skrivebord 2
+Switch to Desktop 20=none,none,Skift til skrivebord 20
+Switch to Desktop 3=Ctrl+F3,Ctrl+F3,Skift til skrivebord 3
+Switch to Desktop 4=Ctrl+F4,Ctrl+F4,Skift til skrivebord 4
+Switch to Desktop 5=none,none,Skift til skrivebord 5
+Switch to Desktop 6=none,none,Skift til skrivebord 6
+Switch to Desktop 7=none,none,Skift til skrivebord 7
+Switch to Desktop 8=none,none,Skift til skrivebord 8
+Switch to Desktop 9=none,none,Skift til skrivebord 9
+Switch to Next Desktop=none,none,Skift til næste skrivebord
+Switch to Next Screen=none,none,Skift til næste skærm
+Switch to Previous Desktop=none,none,Skift til forrige skrivebord
+Switch to Previous Screen=none,none,Skift til forrige skærm
+Switch to Screen 0=none,none,Skift til skærm 0
+Switch to Screen 1=none,none,Skift til skærm 1
+Switch to Screen 2=none,none,Skift til skærm 2
+Switch to Screen 3=none,none,Skift til skærm 3
+Switch to Screen 4=none,none,Skift til skærm 4
+Switch to Screen 5=none,none,Skift til skærm 5
+Switch to Screen 6=none,none,Skift til skærm 6
+Switch to Screen 7=none,none,Skift til skærm 7
+Toggle Window Raise/Lower=none,none,Skift mellem at hæve/sænke vindue
+Walk Through Desktop List=none,none,Gå gennem skrivebordslisten
+Walk Through Desktop List (Reverse)=none,none,Gå gennem skrivebordslisten (baglæns)
+Walk Through Desktops=none,none,Gå gennem skriveborde
+Walk Through Desktops (Reverse)=none,none,Gå gennem skriveborde (baglæns)
+Walk Through Window Tabs=none,none,Gå gennem vinduesfaneblade
+Walk Through Window Tabs (Reverse)=none,none,Gå gennem vinduesfaneblade (baglæns)
+Walk Through Windows=Alt+Tab,none,Gå gennem vinduer
+Walk Through Windows (Reverse)=Alt+Shift+Backtab,none,Gå gennem vinduer (baglæns)
+Walk Through Windows Alternative=none,none,Gå gennem vinduer\\, alternativ
+Walk Through Windows Alternative (Reverse)=none,none,Gå gennem vinduer\\, alternativ (baglæns)
+Walk Through Windows of Current Application=Alt+`,none,Gå gennem vinduer for aktuelt program
+Walk Through Windows of Current Application (Reverse)=Alt+~,none,Gå gennem vinduer for aktuelt program (baglæns)
+Walk Through Windows of Current Application Alternative=none,none,Gå gennem vinduer for aktuelt program\\, alternativ
+Walk Through Windows of Current Application Alternative (Reverse)=none,none,Gå gennem vinduer for aktuelt program\\, alternativ (baglæns)
+Window Above Other Windows=none,none,Hold vindue over andre
+Window Below Other Windows=none,none,Hold vindue under andre
+Window Close=Alt+F4,Alt+F4,Luk vindue
+Window Fullscreen=none,none,Gør vindue til fuld skærm
+Window Grow Horizontal=none,none,Lad vindue vokse vandret og pak
+Window Grow Vertical=none,none,Lad vindue vokse lodret og pak
+Window Lower=none,none,Sænk vindue
+Window Maximize=Meta+PgUp,Meta+PgUp,Maksimér vindue
+Window Maximize Horizontal=none,none,Maksimér vindue vandret
+Window Maximize Vertical=none,none,Maksimér vindue lodret
+Window Minimize=Meta+PgDown,Meta+PgDown,Minimér vindue
+Window Move=none,none,Flyt vindue
+Window No Border=none,none,Skjul vindueskant
+Window On All Desktops=none,none,Hold vindue på alle skriveborde
+Window One Desktop Down=none,none,Vindue ét skrivebord nedad
+Window One Desktop Up=none,none,Vindue ét skrivebord opad
+Window One Desktop to the Left=none,none,Vindue ét skrivebord til venstre
+Window One Desktop to the Right=none,none,Vindue ét skrivebord til højre
+Window Operations Menu=Alt+F3,Alt+F3,Vinduesoperations-menu
+Window Pack Down=none,none,Pak vindue nedad
+Window Pack Left=none,none,Pak vindue til venstre
+Window Pack Right=none,none,Pak vindue til højre
+Window Pack Up=none,none,Pak vindue opad
+Window Quick Tile Bottom=Meta+Down,Meta+Down,Hurtig fliseudlægning af vindue nederst
+Window Quick Tile Bottom Left=none,none,Hurtig fliseudlægning af vindue nederst til venstre
+Window Quick Tile Bottom Right=none,none,Hurtig fliseudlægning af vindue nederst til højre
+Window Quick Tile Left=Meta+Left,Meta+Left,Hurtig fliseudlægning af vindue til venstre
+Window Quick Tile Right=Meta+Right,Meta+Right,Hurtig fliseudlægning af vindue til højre
+Window Quick Tile Top=Meta+Up,Meta+Up,Hurtig fliseudlægning af vindue øverst
+Window Quick Tile Top Left=none,none,Hurtig fliseudlægning af vindue øverst til venstre
+Window Quick Tile Top Right=none,none,Hurtig fliseudlægning af vindue øverst til højre
+Window Raise=none,none,Hæv vindue
+Window Resize=none,none,Ændr størrelse på vindue
+Window Shade=none,none,Gør vindue til skygge
+Window Shrink Horizontal=none,none,Gør vindue mindre vandret og pak
+Window Shrink Vertical=none,none,Gør vindue mindre lodret og pak
+Window to Desktop 1=none,none,Vindue til skrivebord 1
+Window to Desktop 10=none,none,Vindue til skrivebord 10
+Window to Desktop 11=none,none,Vindue til skrivebord 11
+Window to Desktop 12=none,none,Vindue til skrivebord 12
+Window to Desktop 13=none,none,Vindue til skrivebord 13
+Window to Desktop 14=none,none,Vindue til skrivebord 14
+Window to Desktop 15=none,none,Vindue til skrivebord 15
+Window to Desktop 16=none,none,Vindue til skrivebord 16
+Window to Desktop 17=none,none,Vindue til skrivebord 17
+Window to Desktop 18=none,none,Vindue til skrivebord 18
+Window to Desktop 19=none,none,Vindue til skrivebord 19
+Window to Desktop 2=none,none,Vindue til skrivebord 2
+Window to Desktop 20=none,none,Vindue til skrivebord 20
+Window to Desktop 3=none,none,Vindue til skrivebord 3
+Window to Desktop 4=none,none,Vindue til skrivebord 4
+Window to Desktop 5=none,none,Vindue til skrivebord 5
+Window to Desktop 6=none,none,Vindue til skrivebord 6
+Window to Desktop 7=none,none,Vindue til skrivebord 7
+Window to Desktop 8=none,none,Vindue til skrivebord 8
+Window to Desktop 9=none,none,Vindue til skrivebord 9
+Window to Next Desktop=none,none,Vindue til næste skrivebord
+Window to Next Screen=none,none,Vindue til næste skærm
+Window to Previous Desktop=none,none,Vindue til forrige skrivebord
+Window to Previous Screen=none,none,Vindue til forrige skærm
+Window to Screen 0=none,none,Vindue til skærm 0
+Window to Screen 1=none,none,Vindue til skærm 1
+Window to Screen 2=none,none,Vindue til skærm 2
+Window to Screen 3=none,none,Vindue til skærm 3
+Window to Screen 4=none,none,Vindue til skærm 4
+Window to Screen 5=none,none,Vindue til skærm 5
+Window to Screen 6=none,none,Vindue til skærm 6
+Window to Screen 7=none,none,Vindue til skærm 7
+_k_friendly_name=KWin
+view_actual_size=,Meta+0,Actual Size
+view_zoom_in=Meta+=,Meta+=,Zoom In
+view_zoom_out=Meta+-,Meta+-,Zoom Out
+
+[org_kde_powerdevil]
+Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Formindsk tastaturets lysstyrke
+Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Formindsk skærmens lysstyrke
+Hibernate=Hibernate,Hibernate,Dvale
+Increase Keyboard Brightness=Keyboard Brightness Up,Keyboard Brightness Up,Forøg tastaturets lysstyrke
+Increase Screen Brightness=Monitor Brightness Up,Monitor Brightness Up,Forøg skærmens lysstyrke
+PowerOff=Power Off,Power Off,Strøm fra
+Sleep=Sleep,Sleep,Suspendér
+Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Slå tastaturets baggrundslys til/fra
+_k_friendly_name=Strømstyring
+
+[plasmashell]
+_k_friendly_name=Plasma
+activate task manager entry 1=Meta+1,Meta+1,Aktivér opgavelinje-indgang 1
+activate task manager entry 10=Meta+0,Meta+0,Aktivér opgavelinje-indgang 10
+activate task manager entry 2=Meta+2,Meta+2,Aktivér opgavelinje-indgang 2
+activate task manager entry 3=Meta+3,Meta+3,Aktivér opgavelinje-indgang 3
+activate task manager entry 4=Meta+4,Meta+4,Aktivér opgavelinje-indgang 4
+activate task manager entry 5=Meta+5,Meta+5,Aktivér opgavelinje-indgang 5
+activate task manager entry 6=Meta+6,Meta+6,Aktivér opgavelinje-indgang 6
+activate task manager entry 7=Meta+7,Meta+7,Aktivér opgavelinje-indgang 7
+activate task manager entry 8=Meta+8,Meta+8,Aktivér opgavelinje-indgang 8
+activate task manager entry 9=Meta+9,Meta+9,Aktivér opgavelinje-indgang 9
+activate widget 16=none,none,Activate Icons-only Task Manager Widget
+clear-history=none,none,Ryd udklipsholderhistorik
+clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Aktivér udklipsholderhandlinger
+cycleNextAction=none,none,Næste historikelement
+cyclePrevAction=none,none,Forrige historikelement
+edit_clipboard=none,none,Redigér indhold...
+manage activities=Meta+Q,Meta+Q,Aktiviteter...
+next activity=Meta+Tab,none,Gennemgå aktiviteter
+previous activity=Meta+Shift+Tab,none,Gennemgå aktiviteter (baglæns)
+repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,Udfør handling på denne udklipsholder manuelt
+show dashboard=Ctrl+F12,Ctrl+F12,Vis skrivebord
+show-barcode=none,none,Vis stregkode...
+show-on-mouse-pos=none,none,Åbn Klipper ved musepositionen
+stop current activity=Meta+S,Meta+S,Stop aktuel aktivitet
