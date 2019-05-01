@@ -7,33 +7,62 @@ parted
 openssh
 haveged
 inxi
+xorg-server
+xorg-xinit
 ncdu
 
-# Cubocore edition packages
-coreapps
+# Sound, Video and bluetooth
+alsa-utils
 
 # Display Manager
 sddm
 
+# Plasma packages
+bluedevil
+breeze
+drkonqi
+#kde-gtk-config
+kinfocenter
+kscreen
+kscreenlocker
+ksysguard
+kwallet-pam
+kwayland-integration
+kwin
+plasma-desktop
+plasma-nm
+plasma-pa
+plasma-workspace
+powerdevil
+systemsettings
+
+#CoreApps
+coreapps #entire group
+
+
 # Fonts
 cantarell-fonts
+ttf-bitstream-vera
 
 # Browser
 falkon
 
 # Themes
-papirus-maia-icon-theme
+breath-icon-theme
+sddm-breath-theme
+plasma5-themes-breath
+gtk-theme-breath
 breath-wallpaper
-sddm-qt-manjaro-theme
-manjaro-icons
 
-# LXQT stuff
-lxqt-panel
-lxqt-session
-lxqt-config
+# Office suite
+calligra
+
+# Package Manager
+#pamac-qt #when it's ready
 
 # Other applications
-openbox
-obconf-qt
-python2-xdg
-nm-tray-git
+openresolv
+manjaro-settings-manager
+wget
+tlp
+manjaro-hotfixes
