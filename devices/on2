@@ -6,7 +6,6 @@ uboot-odroid-n2
 
 # Other device specific packages
 fbset
-amlogic
 
 # Video driver
 xf86-video-fbturbo-git
