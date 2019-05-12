@@ -1,8 +1,8 @@
-## Maintained by GrayJack and Strit ##
+## Maintained by Strit ##
 
 # Kernel and bootloader stuff
-linux-rock64
-uboot-rockpro64
+linux-aarch64
+uboot-rockpro64-test
 
 # Other device specific packages
 
