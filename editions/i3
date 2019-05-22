@@ -6,6 +6,7 @@ alsa-firmware
 alsa-plugins
 alsa-utils
 archlinuxarm-keyring
+archlinux-keyring
 #artwork-pinebook-i3
 #autoconf
 #automake

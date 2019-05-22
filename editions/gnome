@@ -4,6 +4,7 @@
 # Minimal packages
 sudo
 archlinuxarm-keyring
+archlinux-keyring
 parted
 openssh
 haveged
