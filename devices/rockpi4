@@ -1,0 +1,9 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
+linux-aarch64
+uboot-rockpi4
+
+# Other device specific packages
+
+# Video drivers
