@@ -7,4 +7,4 @@ uboot-rock64
 # Other device specific packages
 
 # Video drivers
-xf86-video-fbturbo-git
+
