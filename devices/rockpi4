@@ -5,5 +5,7 @@ linux-aarch64
 uboot-rockpi4
 
 # Other device specific packages
+ap6256-firmware
+wpa_supplicant
 
 # Video drivers
