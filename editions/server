@@ -16,3 +16,4 @@ php
 php-apache
 php-fpm
 certbot-apache
+docker

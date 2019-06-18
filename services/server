@@ -3,3 +3,4 @@ dhcpcd.service
 sshd.service
 httpd.service
 mysqld.service
+docker.service
