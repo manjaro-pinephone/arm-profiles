@@ -9,4 +9,4 @@ fbset
 amlogic
 
 # Video driver
-xf86-video-odroid-c2
+xf86-video-fbturbo-git
