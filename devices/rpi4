@@ -1,7 +1,7 @@
 ## Maintained by Dodgejcr and Dark-Sky ##
 
 # Kernel and Bootloader stuff
-#linux-raspberrypi
+linux-rpi4
 raspberrypi-bootloader
 
 # Other device specific packages
