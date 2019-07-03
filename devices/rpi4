@@ -1,8 +1,7 @@
 ## Maintained by Dodgejcr and Dark-Sky ##
 
 # Kernel and Bootloader stuff
-linux-aarch64
-uboot-raspberrypi
+#linux-raspberrypi
 raspberrypi-bootloader
 
 # Other device specific packages
