@@ -1,0 +1,9 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
+
+# Other device specific packages
+fbset
+
+# Video driver
+xf86-video-fbturbo-git
