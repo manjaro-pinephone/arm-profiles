@@ -1,4 +1,4 @@
-## Maintained by Dodgejcr and Dark-Sky ##
+## Maintained by Strit ##
 
 # Kernel and Bootloader stuff
 linux-rpi4
@@ -8,7 +8,7 @@ raspberrypi-bootloader
 firmware-raspberrypi
 pi-bluetooth
 wpa_supplicant
-# brcm-patchram-plus #fixes bluetooth
+brcm-patchram-plus #fixes bluetooth
 
 # Video driver
 xf86-video-fbturbo-git
