@@ -14,6 +14,7 @@ inxi
 # Sound, video and bluetooth
 pavucontrol
 pulseaudio-alsa
+alsa-utils
 smplayer
 bluez
 pulseaudio-bluetooth
@@ -28,20 +29,27 @@ lightdm-gtk-greeter-settings
 networkmanager
 network-manager-applet
 caja
+caja-open-terminal
 marco
+mate-calc
 mate-desktop
 mate-menus
+mate-media
 mate-panel
 mate-polkit
 mate-settings-daemon
 mate-control-center
 mate-session-manager
-mate-settings-daemon
 mate-notification-daemon
 mate-system-monitor
 mate-terminal
 mate-tweak
+mate-utils
 engrampa
+audacious
+pluma
+xpdf
+viewnior
 
 # Themes
 papirus-maia-icon-theme
@@ -68,3 +76,4 @@ noto-fonts
 manjaro-settings-manager
 wget
 tlp
+xdg-user-dirs

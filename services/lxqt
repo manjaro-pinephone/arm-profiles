@@ -3,3 +3,4 @@ sddm.service
 NetworkManager.service
 bluetooth.service
 tlp.service
+xdg-user-dirs-update.service
