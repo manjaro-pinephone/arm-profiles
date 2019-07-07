@@ -82,3 +82,4 @@ manjaro-settings-manager-knotifier
 wget
 tlp
 manjaro-hotfixes
+xdg-user-dirs
