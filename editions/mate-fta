@@ -1,0 +1,83 @@
+## Maintained by Darksky ##
+
+# Minimal packages
+sudo
+archlinuxarm-keyring
+archlinux-keyring
+parted
+openssh
+haveged
+xorg-server
+xorg-xinit
+inxi
+
+# Sound, video and bluetooth
+pavucontrol
+pulseaudio-alsa
+alsa-utils
+smplayer
+bluez
+pulseaudio-bluetooth
+blueman
+
+# Display Manager
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+
+# Mate packages
+networkmanager
+network-manager-applet
+caja
+caja-open-terminal
+marco
+mate-calc
+mate-desktop
+mate-menus
+mate-media
+mate-panel
+mate-polkit
+mate-settings-daemon
+mate-control-center
+mate-session-manager
+mate-notification-daemon
+mate-system-monitor
+mate-terminal
+mate-tweak
+mate-utils
+engrampa
+audacious
+pluma
+xpdf
+viewnior
+
+# Themes
+papirus-maia-icon-theme
+breath-icon-theme
+breath-wallpaper
+gtk-theme-breath
+
+# Browser
+#firefox
+#firefox-extension-youtube-classic
+#firefox-ublock-origin
+
+# Office suite
+#libreoffice-fresh
+
+# Package Manager
+pamac-gtk
+
+# Fonts
+ttf-bitstream-vera
+noto-fonts
+
+# Other packages
+manjaro-settings-manager
+wget
+tlp
+xdg-user-dirs
+
+# Satellite ATSC DVBT related
+tune-s2
+updatedvb

@@ -1,0 +1,7 @@
+attach-bluetooth.service
+sshd.service
+lightdm.service
+NetworkManager.service
+bluetooth.service
+tlp.service
+gpsd
