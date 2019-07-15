@@ -1,16 +1,16 @@
 [directory]
 caja-icon-view-keep-aligned=true
-caja-icon-view-layout-timestamp=1562782885
+caja-icon-view-layout-timestamp=1563030734
 
 [home]
 caja-icon-position=64,102
 icon-scale=1
-caja-icon-position-timestamp=1562782885
+caja-icon-position-timestamp=1563025087
 
 [trash]
 caja-icon-position=64,182
 icon-scale=1
-caja-icon-position-timestamp=1562782885
+caja-icon-position-timestamp=1563025087
 
 [PINEBOOKneon.volume]
 caja-icon-position=64,182
@@ -20,4 +20,4 @@ caja-icon-position-timestamp=1542312498
 [computer]
 caja-icon-position=64,22
 icon-scale=1
-caja-icon-position-timestamp=1562782885
+caja-icon-position-timestamp=1563025087

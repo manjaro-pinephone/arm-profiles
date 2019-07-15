@@ -1,0 +1,80 @@
+use_xft yes
+xftfont HandelGotD:size=8
+xftalpha 0.5
+update_interval 4.0
+total_run_times 0
+own_window yes
+own_window_type normal
+own_window_transparent yes
+own_window_argb_value 0
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+minimum_size 200 5
+maximum_width 220
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders yes
+default_color grey
+default_shade_color red
+default_outline_color green
+alignment top_right
+gap_x 5
+gap_y 5
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+override_utf8_locale yes
+
+TEXT
+
+$alignc SYSTEM INFORMATION
+
+${color}${time %a, } ${color }${time %e %B %G}
+${color}UpTime: ${color }$uptime
+${color}Kernel: ${color }$kernel
+
+CPU CORE 1: $alignr ${cpu cpu1}%
+${cpubar cpu1 7,200}
+CPU CORE 2: $alignr ${cpu cpu2}%
+${cpubar cpu2 7,200}
+CPU CORE 3: $alignr ${cpu cpu3}%
+${cpubar cpu3 7,200}
+CPU CORE 4: $alignr ${cpu cpu4}%
+${cpubar cpu4 7,200}
+
+RAM: $alignc $mem / $memmax $alignr $memperc%
+${membar}
+
+SWAP: $alignc $swap / $swapmax $alignr $swapperc%
+${swapbar}
+
+/ $alignc ${fs_used /} / ${fs_size /} $alignr ${fs_free_perc /}%
+${fs_bar /}
+
+DISK I/O:   / $alignr ${diskio /dev/mmcblk0p2} /s
+${alignr}${diskiograph /dev/mmcblk0p2 12,200}
+
+PROCESSES:
+
+$processes Processes ($running_processes Running)
+
+NAME $alignr PID     CPU
+
+${top name 1} $alignr ${top pid 1} ${top cpu 1}
+${top name 2} $alignr ${top pid 2} ${top cpu 2}
+${top name 3} $alignr ${top pid 3} ${top cpu 3}
+${top name 4} $alignr ${top pid 4} ${top cpu 4}
+${top name 5} $alignr ${top pid 5} ${top cpu 5}
+${top name 1} $alignr ${top pid 1} ${top cpu 6}
+${top name 2} $alignr ${top pid 2} ${top cpu 7}
+${top name 3} $alignr ${top pid 3} ${top cpu 8}
+${top name 4} $alignr ${top pid 4} ${top cpu 9}
+${top name 5} $alignr ${top pid 5} ${top cpu 10}
+
+NETWORK:
+
+Inbound $alignr ${downspeed eth0} /s
+${downspeedgraph eth0 12,200}
+Outbound $alignr ${upspeed eth0} /s
+${upspeedgraph eth0 12,200}

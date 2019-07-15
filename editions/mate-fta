@@ -17,8 +17,8 @@ pulseaudio-alsa
 alsa-utils
 smplayer
 bluez
-pulseaudio-bluetooth
-blueman
+#pulseaudio-bluetooth
+#blueman
 
 # Display Manager
 lightdm
@@ -58,9 +58,9 @@ breath-wallpaper
 gtk-theme-breath
 
 # Browser
-#firefox
-#firefox-extension-youtube-classic
-#firefox-ublock-origin
+firefox
+firefox-extension-youtube-classic
+firefox-ublock-origin
 
 # Office suite
 #libreoffice-fresh
@@ -77,6 +77,9 @@ manjaro-settings-manager
 wget
 tlp
 xdg-user-dirs
+conky
+htop
+cpupower
 
 # Satellite ATSC DVBT related
 tune-s2

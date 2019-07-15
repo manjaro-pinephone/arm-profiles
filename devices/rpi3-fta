@@ -9,9 +9,9 @@ raspberrypi-bootloader
 
 # Other device specific packages
 firmware-raspberrypi
-pi-bluetooth
+#pi-bluetooth
 wpa_supplicant
-brcm-patchram-plus
+#brcm-patchram-plus
 
 # Video driver
 #xf86-video-fbturbo-git
