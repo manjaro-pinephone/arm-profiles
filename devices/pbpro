@@ -1,0 +1,10 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
+linux-aarch64
+uboot-rockpro64
+
+# Other device specific packages
+
+# Video drivers
+xf86-video-fbturbo-git #needed because lima/panfrost is not working properly yet
