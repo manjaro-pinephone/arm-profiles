@@ -4,6 +4,7 @@
 uboot-vim3
 
 # Other device specific packages
+ap6398s-firmware
 fbset
 
 # Video driver
