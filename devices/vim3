@@ -1,6 +1,7 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
+linux-vim3
 uboot-vim3
 
 # Other device specific packages
