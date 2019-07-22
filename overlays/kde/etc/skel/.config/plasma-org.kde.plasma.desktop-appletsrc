@@ -18,6 +18,9 @@ wallpaperplugin=org.kde.image
 [Containments][1][Configuration]
 PreloadWeight=26
 
+[Containments][1][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Matcha-Dark/contents/images/1920x1080.jpg
+
 [Containments][2]
 activityId=
 formfactor=2
@@ -46,6 +49,7 @@ PreloadWeight=92
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
+icon=start-here-manjaro
 systemApplications=systemsettings.desktop,org.kde.kinfocenter.desktop
 
 [Containments][2][Applets][3][Configuration][Shortcuts]

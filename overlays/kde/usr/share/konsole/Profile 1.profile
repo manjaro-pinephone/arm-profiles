@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=GreenOnBlack
+ColorScheme=Matcha-Dark
 
 [General]
 Name=Profil 1
