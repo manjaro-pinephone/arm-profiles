@@ -79,7 +79,19 @@ tlp
 xdg-user-dirs
 conky
 htop
-cpupower
+dhclient
+avahi
+# cpupower
+
+# File systems access
+gvfs
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+ifuse
+mtpfs
+ntfs-3g
 
 # Satellite ATSC DVBT related
 tune-s2

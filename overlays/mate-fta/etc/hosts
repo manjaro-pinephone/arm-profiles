@@ -1,0 +1,6 @@
+# Static table lookup for hostnames.
+# See hosts(5) for details.
+
+127.0.0.1 localhost localhost.localdomain
+# 127.0.1.1 put your machine's hostname here (/etc/hostname)
+

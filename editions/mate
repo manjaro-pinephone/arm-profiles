@@ -28,6 +28,7 @@ lightdm-gtk-greeter-settings
 # Mate packages
 networkmanager
 network-manager-applet
+dhclient
 caja
 caja-open-terminal
 marco
@@ -77,3 +78,13 @@ manjaro-settings-manager
 wget
 tlp
 xdg-user-dirs
+
+# File systems access
+gvfs
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+ifuse
+mtpfs
+ntfs-3g
