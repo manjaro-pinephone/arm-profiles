@@ -1,5 +1,5 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop
-recent=exo-terminal-emulator.desktop
+recent=exo-file-manager.desktop,xfce4-screenshooter.desktop,exo-terminal-emulator.desktop
 button-title=Applications
 button-icon=/usr/share/icons/manjaro-logo.svg
 button-single-row=false

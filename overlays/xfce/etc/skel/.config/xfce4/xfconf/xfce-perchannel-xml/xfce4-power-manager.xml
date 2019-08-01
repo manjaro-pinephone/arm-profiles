@@ -6,5 +6,8 @@
     <property name="blank-on-ac" type="int" value="0"/>
     <property name="lock-screen-suspend-hibernate" type="bool" value="false"/>
     <property name="logind-handle-lid-switch" type="bool" value="false"/>
+    <property name="show-tray-icon" type="bool" value="true"/>
+    <property name="general-notification" type="bool" value="true"/>
+    <property name="presentation-mode" type="bool" value="false"/>
   </property>
 </channel>
