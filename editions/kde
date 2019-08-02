@@ -53,17 +53,13 @@ gwenview
 spectacle
 
 # Themes
-#breath-icon-theme
-#sddm-breath-theme
-#plasma5-themes-breath
-#gtk-theme-breath
-#breath-wallpaper
 papirus-maia-icon-theme
 matcha-dynamic-sddm
 matcha-kde
 matcha-gtk-theme
 konsole-colorscheme-matcha
 matcha-kde-wallpapers
+manjaro-arm-wallpapers
 
 # Office suite
 libreoffice-fresh
