@@ -9,5 +9,8 @@
     <property name="show-tray-icon" type="bool" value="true"/>
     <property name="general-notification" type="bool" value="true"/>
     <property name="presentation-mode" type="bool" value="false"/>
+    <property name="brightness-switch-restore-on-exit" type="int" value="-1"/>
+    <property name="brightness-switch" type="int" value="0"/>
+    <property name="brightness-level-on-battery" type="uint" value="50"/>
   </property>
 </channel>
