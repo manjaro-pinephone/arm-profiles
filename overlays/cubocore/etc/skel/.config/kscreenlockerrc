@@ -5,4 +5,4 @@ update_info=kscreenlocker.upd:0.1-autolock
 Autolock=false
 
 [Greeter]
-Theme=org.kde.breath.desktop
+Theme=com.gitlab.cscs.matcha-dark

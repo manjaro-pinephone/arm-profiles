@@ -17,6 +17,7 @@ alsa-utils
 
 # Display Manager
 sddm
+matcha-dynamic-sddm
 
 # Plasma packages
 bluedevil
@@ -49,11 +50,10 @@ ttf-bitstream-vera
 falkon
 
 # Themes
-breath-icon-theme
-sddm-breath-theme
-plasma5-themes-breath
-gtk-theme-breath
-breath-wallpaper
+papirus-maia-icon-theme
+matcha-kde
+matcha-gtk-theme
+manjaro-arm-wallpapers
 
 # Office suite
 calligra
