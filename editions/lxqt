@@ -22,7 +22,7 @@ smplayer
 
 # Display Manager
 sddm
-sddm-qt-manjaro-theme
+matcha-dynamic-sddm
 
 # LXQT packages
 networkmanager-qt
@@ -54,11 +54,11 @@ unzip #to support zip file extraction
 
 # Themes
 kvantum-qt5
-kvantum-theme-adapta
 papirus-maia-icon-theme
-gtk-theme-breath
-breath-wallpaper
 xcursor-breeze
+matcha-gtk-theme
+kvantum-theme-matcha
+manjaro-arm-wallpapers
 manjaro-icons
 
 # Browser
