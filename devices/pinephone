@@ -2,10 +2,10 @@
 
 # Kernel and bootloader stuff
 linux-pinephone
-#uboot-pinephone
+uboot-pinephone
 
 # Other device specific packages
-#pinebook-post-install
+pinebook-post-install
 
 
 # Video drivers
