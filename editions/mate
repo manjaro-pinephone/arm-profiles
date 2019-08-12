@@ -56,9 +56,11 @@ viewnior
 
 # Themes
 papirus-maia-icon-theme
-breath-icon-theme
-breath-wallpaper
-gtk-theme-breath
+qt5ct
+kvantum-qt5 
+kvantum-theme-matcha
+matcha-gtk-theme
+manjaro-arm-wallpapers
 
 # Browser
 firefox

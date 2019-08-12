@@ -31,7 +31,9 @@
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-2" type="string" value="actions"/>
-    <property name="plugin-3" type="string" value="tasklist"/>
+    <property name="plugin-3" type="string" value="tasklist">
+      <property name="flat-buttons" type="bool" value="false"/>
+    </property>
     <property name="plugin-15" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
@@ -59,7 +61,7 @@
       </property>
     </property>
     <property name="plugin-10" type="string" value="separator">
-      <property name="style" type="uint" value="3"/>
+      <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-11" type="string" value="launcher">
       <property name="items" type="array">
@@ -71,13 +73,15 @@
         <value type="string" value="15646658773.desktop"/>
       </property>
     </property>
-    <property name="plugin-13" type="string" value="separator"/>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="1"/>
+    </property>
     <property name="plugin-1" type="string" value="battery"/>
     <property name="plugin-8" type="string" value="separator">
-      <property name="style" type="uint" value="3"/>
+      <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-14" type="string" value="separator">
-      <property name="style" type="uint" value="3"/>
+      <property name="style" type="uint" value="0"/>
     </property>
   </property>
 </channel>

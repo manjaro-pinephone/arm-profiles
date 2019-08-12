@@ -80,15 +80,13 @@ xfce4-xkb-plugin
 xfce4-pulseaudio-plugin
 
 ## Themes
-# kvantum-qt5
-# kvantum-theme-adapta
+qt5ct
+kvantum-qt5
+kvantum-theme-matcha
+matcha-gtk-theme
+manjaro-arm-wallpapers
 papirus-maia-icon-theme
-breath-icon-theme
-gtk-theme-breath
-breath-wallpaper
-breath-dark-icon-theme
 xcursor-breeze
-manjaro-icons
 
 # Browser
 firefox
