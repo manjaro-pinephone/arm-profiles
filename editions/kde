@@ -31,7 +31,7 @@ kscreenlocker
 ksysguard
 kwallet-pam
 kwayland-integration
-plasma-wayland-session
+#plasma-wayland-session
 kwin
 plasma-desktop
 plasma-nm
