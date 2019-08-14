@@ -7,6 +7,7 @@
       <value type="string" value="org.manjaro.pamac.manager"/>
       <value type="string" value="Package Manager"/>
       <value type="string" value="Xfce volume control"/>
+      <value type="string" value="xfce4-settings-helper"/>
     </property>
   </property>
   <property name="primary-monitor" type="uint" value="1"/>

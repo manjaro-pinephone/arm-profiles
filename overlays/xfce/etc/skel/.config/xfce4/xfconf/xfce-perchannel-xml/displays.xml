@@ -15,4 +15,5 @@
       </property>
     </property>
   </property>
+  <property name="ActiveProfile" type="string" value="Default"/>
 </channel>
