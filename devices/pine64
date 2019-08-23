@@ -1,0 +1,12 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
+linux-pine64
+uboot-pine64-git
+
+# Other device specific packages
+pinebook-post-install
+
+
+# Video drivers
+xf86-video-fbturbo-git
