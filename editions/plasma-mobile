@@ -1,0 +1,11 @@
+## Maintained by Dodgejcr ##
+
+# Minimal packages
+sudo
+archlinuxarm-keyring
+archlinux-keyring
+parted
+openssh
+haveged
+inxi
+ncdu 
