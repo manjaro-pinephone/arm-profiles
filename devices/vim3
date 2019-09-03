@@ -2,7 +2,7 @@
 
 # Kernel and bootloader stuff
 linux-vim3
-uboot-vim3
+boot-vim3
 
 # Other device specific packages
 ap6398s-firmware
