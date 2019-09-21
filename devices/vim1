@@ -1,0 +1,12 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
+linux-vim3
+boot-vim1
+
+# Other device specific packages
+#bluetooth-vim3
+fbset
+
+# Video driver
+xf86-video-fbturbo-git
