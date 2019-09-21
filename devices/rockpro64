@@ -1,7 +1,7 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
-linux-aarch64-rc
+linux-aarch64
 uboot-rockpro64
 
 # Other device specific packages
