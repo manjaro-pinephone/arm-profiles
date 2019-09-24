@@ -11,32 +11,32 @@ inxi
 ncdu 
 
 # PM Packages
-lxc-android-git
-xf86-video-hwcomposer
-drihybris
-glamor-hybris
-libhybris-xorg
-libhybris
-hybris-android-headers-7
-hybris-usb
+#lxc-android-git
+#xf86-video-hwcomposer
+#drihybris
+#glamor-hybris
+#libhybris-xorg
+#libhybris
+#hybris-android-headers-7
+#hybris-usb
 
 # Maybe more?
-android-headers
-koko-git
+#android-headers
+#koko-git
 kpeoplevcard-git
-kwinwrapper-git
+#kwinwrapper-git
 libqofono-qt5
-okular-frameworks-git
+#okular-frameworks-git
 plasma-angelfish-git
 plasma-camera-git
-plasma-maliit-framework-git
-plasma-maliit-plugin-git
+plasma-maliit-framework
+plasma-maliit-plugins
 plasma-mobile-git
-plasma-phone-components-git
+#plasma-phone-components-git
 plasma-samegame-git
 plasma-settings-git
 simplelogin
-ubuntu-accounts-qml-module
+#ubuntu-accounts-qml-module
 
 
 
