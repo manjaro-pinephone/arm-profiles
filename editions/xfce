@@ -28,6 +28,7 @@ networkmanager
 network-manager-applet
 dhclient
 manjaro-hotfixes
+manjaro-settings-samba
 
 ## XFCE Group
 exo

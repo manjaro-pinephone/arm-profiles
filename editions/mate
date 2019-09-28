@@ -83,6 +83,7 @@ tlp
 xdg-user-dirs
 
 # File systems access
+manjaro-settings-samba
 gvfs
 gvfs-gphoto2
 gvfs-mtp
