@@ -81,6 +81,7 @@ manjaro-settings-manager
 wget
 tlp
 xdg-user-dirs
+cpu-temp-speed
 
 # File systems access
 manjaro-settings-samba

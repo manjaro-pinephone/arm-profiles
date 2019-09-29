@@ -116,6 +116,7 @@ mousepad
 viewnior
 wget
 tlp
+cpu-temp-speed
 
 # File systems access
 gvfs
