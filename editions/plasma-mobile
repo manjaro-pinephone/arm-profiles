@@ -1,6 +1,6 @@
 ## Maintained by Dodgejcr ##
 
-# Minimal packages
+## Minimal packages
 sudo
 archlinuxarm-keyring
 archlinux-keyring
@@ -10,7 +10,18 @@ haveged
 inxi
 ncdu 
 
-# PM Packages
+## PM Packages
+libqofono-qt5
+plasma-angelfish-git
+plasma-camera-git
+plasma-maliit-framework
+plasma-maliit-plugins
+plasma-phone-components-git
+plasma-settings-git
+sddm
+
+## Android packages
+#android-headers
 #lxc-android-git
 #xf86-video-hwcomposer
 #drihybris
@@ -19,24 +30,3 @@ ncdu
 #libhybris
 #hybris-android-headers-7
 #hybris-usb
-
-# Maybe more?
-#android-headers
-#koko-git
-kpeoplevcard-git
-#kwinwrapper-git
-libqofono-qt5
-#okular-frameworks-git
-plasma-angelfish-git
-plasma-camera-git
-plasma-maliit-framework
-plasma-maliit-plugins
-plasma-mobile-git
-#plasma-phone-components-git
-plasma-samegame-git
-plasma-settings-git
-simplelogin
-#ubuntu-accounts-qml-module
-
-
-
