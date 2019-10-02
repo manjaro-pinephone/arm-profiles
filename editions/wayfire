@@ -1,0 +1,52 @@
+## Maintained by Strit ##
+
+# Minimal packages
+sudo
+archlinuxarm-keyring
+archlinux-keyring
+parted
+openssh
+haveged
+inxi
+ncdu
+
+# Sound and Video utilities
+alsa-utils
+
+# Display Manager
+sddm
+matcha-dynamic-sddm
+
+# Fonts
+noto-fonts
+
+# Themes
+kvantum-qt5
+breeze-icons
+
+# Wayfire packages
+wayfire-git
+wf-config-git
+wcm-git
+wf-sound-control-git
+wf-shell-git
+waybar
+
+# CoreApps
+#coreaction
+#corefm
+#coregarage
+#corepad
+#corestats
+#corestuff
+#coreterminal
+
+# Other
+qt5-wayland
+networkmanager-qt
+#nm-tray-git
+#openresolv
+#wget
+#manjaro-settings-manager
+#tlp
+#manjaro-hotfixes

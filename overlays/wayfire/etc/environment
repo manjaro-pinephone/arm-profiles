@@ -1,0 +1,7 @@
+export QT_QPA_PLATFORMTHEME=qt5ct
+#export QT_STYLE_OVERRIDE=kvantum
+export EDITOR=/usr/bin/nano
+export QT_QPA_PLATFORM=wayland-egl
+export CLUTTER_BACKEND=wayland
+export SDL_VIDEODRIVER=wayland
+export GDK_BACKEND=wayland
