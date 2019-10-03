@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=CoreStuff
+Comment=An activity viewer for CuboCore Application Suite.
+Exec=corestuff
+Icon=/usr/share/icons/hicolor/scalable/apps/corestuff.svg
+Type=Application
+Categories=Qt;Utility;System;
+Terminal=false
+StartupNotify=true
