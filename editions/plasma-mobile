@@ -12,8 +12,8 @@ ncdu
 
 ## PM Packages
 libqofono-qt5
-plasma-angelfish-git
-plasma-camera-git
+plasma-angelfish
+plasma-camera
 plasma-maliit-framework
 plasma-maliit-plugins
 plasma-phone-components-git
