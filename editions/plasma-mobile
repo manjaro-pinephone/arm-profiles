@@ -30,3 +30,12 @@ sddm
 #libhybris
 #hybris-android-headers-7
 #hybris-usb
+
+## Wayland stuff
+kwayland
+kwayland-integration
+egl-wayland
+glew-wayland
+glfw-wayland
+waylandpp
+xorg-server-xwayland
