@@ -11,6 +11,8 @@ inxi
 xorg-server
 xorg-xinit
 ncdu
+nano
+dhcpcd
 
 # Sound, Video and bluetooth
 alsa-utils

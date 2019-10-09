@@ -9,6 +9,8 @@ openssh
 haveged
 inxi
 ncdu
+nano
+dhcpcd
 
 # Minimal edition packages
 iwd

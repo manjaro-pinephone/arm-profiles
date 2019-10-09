@@ -10,6 +10,8 @@ openssh
 haveged
 inxi
 ncdu
+nano
+dhcpcd
 
 # Gnome edition packages
 adwaita-icon-theme

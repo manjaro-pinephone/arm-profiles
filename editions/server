@@ -8,6 +8,9 @@ archlinux-keyring
 parted
 openssh
 haveged
+inxi
+nano
+dhcpcd
 
 # Server packages
 apache

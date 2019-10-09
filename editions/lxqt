@@ -10,6 +10,9 @@ haveged
 xorg-server
 xorg-xinit
 inxi
+ncdu
+nano
+dhcpcd
 
 # Sound, Video and bluetooth
 pavucontrol-qt

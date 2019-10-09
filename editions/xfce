@@ -7,6 +7,10 @@ archlinux-keyring
 parted
 openssh
 haveged
+inxi
+ncdu
+nano
+dhcpcd
 
 # Sound, video and bluetooth
 pavucontrol

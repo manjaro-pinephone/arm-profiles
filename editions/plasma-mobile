@@ -8,7 +8,9 @@ parted
 openssh
 haveged
 inxi
-ncdu 
+ncdu
+nano
+dhcpcd
 
 ## PM Packages
 libqofono-qt5
@@ -34,8 +36,8 @@ sddm
 ## Wayland stuff
 kwayland
 kwayland-integration
-egl-wayland
-glew-wayland
-glfw-wayland
-waylandpp
+qt5-wayland
 xorg-server-xwayland
+
+## Other
+mesa-git

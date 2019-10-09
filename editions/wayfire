@@ -9,6 +9,8 @@ openssh
 haveged
 inxi
 ncdu
+nano
+dhcpcd
 
 # Sound and Video utilities
 alsa-utils
