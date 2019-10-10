@@ -1,9 +1,7 @@
 ## Maintained by Dodgejcr ##
 
-## Minimal packages
+# Minimal packages
 sudo
-archlinuxarm-keyring
-archlinux-keyring
 parted
 openssh
 haveged
@@ -12,7 +10,7 @@ ncdu
 nano
 dhcpcd
 
-## PM Packages
+# PM Packages
 libqofono-qt5
 plasma-angelfish
 plasma-camera
@@ -22,7 +20,7 @@ plasma-phone-components-git
 plasma-settings-git
 sddm
 
-## Android packages
+# Android packages
 #android-headers
 #lxc-android-git
 #xf86-video-hwcomposer
@@ -33,11 +31,11 @@ sddm
 #hybris-android-headers-7
 #hybris-usb
 
-## Wayland stuff
+# Wayland stuff
 kwayland
 kwayland-integration
 qt5-wayland
 xorg-server-xwayland
 
-## Other
+# Other
 mesa-git
