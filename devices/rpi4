@@ -12,4 +12,3 @@ wpa_supplicant
 brcm-patchram-plus #fixes bluetooth
 
 # Video driver
-xf86-video-fbturbo-git
