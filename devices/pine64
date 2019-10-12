@@ -3,6 +3,8 @@
 # Kernel and bootloader stuff
 linux-pine64
 uboot-pine64-git
+bootsplash-theme-manjaro
+bootsplash-systemd
 
 # Other device specific packages
 pinebook-post-install

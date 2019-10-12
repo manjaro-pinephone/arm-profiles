@@ -3,6 +3,8 @@
 # Kernel and bootloader stuff
 linux-pinephone
 uboot-pinephone
+bootsplash-theme-manjaro
+bootsplash-systemd
 
 # Other device specific packages
 pinebook-post-install
