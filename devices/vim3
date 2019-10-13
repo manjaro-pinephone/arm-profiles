@@ -3,6 +3,8 @@
 # Kernel and bootloader stuff
 linux-vim3
 boot-vim3
+bootsplash-theme-manjaro
+bootsplash-systemd
 
 # Other device specific packages
 ap6398s-firmware
