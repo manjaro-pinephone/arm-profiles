@@ -3,6 +3,8 @@
 # Kernel and bootloader stuff
 linux-aarch64
 uboot-rockpro64
+bootsplash-theme-manjaro
+bootsplash-systemd
 
 # Other device specific packages
 
