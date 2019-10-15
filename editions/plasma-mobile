@@ -39,4 +39,4 @@ qt5-wayland
 xorg-server-xwayland
 
 # Other
-mesa-git
+#mesa-git
