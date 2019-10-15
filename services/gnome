@@ -2,3 +2,5 @@ sshd.service
 gdm.service
 NetworkManager.service
 bluetooth.service
+bootsplash-hide-when-booted.service
+bootsplash-show-on-shutdown.service

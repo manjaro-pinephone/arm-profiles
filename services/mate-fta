@@ -5,3 +5,5 @@ lightdm.service
 NetworkManager.service
 tlp.service
 gpsd
+bootsplash-hide-when-booted.service
+bootsplash-show-on-shutdown.service

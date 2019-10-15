@@ -3,3 +3,5 @@ lightdm.service
 NetworkManager.service
 sshd.service
 tlp.service
+bootsplash-hide-when-booted.service
+bootsplash-show-on-shutdown.service

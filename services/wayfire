@@ -3,3 +3,5 @@ dhcpcd.service
 sshd.service 
 sddm.service
 NetworkManager.service
+bootsplash-hide-when-booted.service
+bootsplash-show-on-shutdown.service

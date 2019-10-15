@@ -4,3 +4,5 @@ sshd.service
 httpd.service
 mysqld.service
 docker.service
+bootsplash-hide-when-booted.service
+bootsplash-show-on-shutdown.service
