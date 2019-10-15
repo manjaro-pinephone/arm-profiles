@@ -4,6 +4,8 @@
 linux-rpi4
 linux-rpi4-headers
 raspberrypi-bootloader
+bootsplash-theme-manjaro
+bootsplash-systemd
 
 # Other device specific packages
 firmware-raspberrypi

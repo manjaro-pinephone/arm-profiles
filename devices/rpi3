@@ -4,6 +4,8 @@
 linux-aarch64
 uboot-raspberrypi
 raspberrypi-bootloader
+bootsplash-theme-manjaro
+bootsplash-systemd
 
 # Other device specific packages
 firmware-raspberrypi
