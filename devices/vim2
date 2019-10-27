@@ -7,7 +7,8 @@ bootsplash-theme-manjaro
 bootsplash-systemd
 
 # Other device specific packages
-#bluetooth-vim3
+#bluetooth-vim3'
+khadas-utils
 fbset
 
 # Video driver
