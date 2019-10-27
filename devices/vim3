@@ -9,6 +9,7 @@ bootsplash-systemd
 # Other device specific packages
 ap6398s-firmware
 bluetooth-vim3
+khadas-utils
 fbset
 
 # Video driver
