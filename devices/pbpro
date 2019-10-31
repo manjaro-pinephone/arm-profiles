@@ -2,7 +2,7 @@
 
 # Kernel and bootloader stuff
 linux-aarch64
-uboot-rockpro64
+uboot-pinebookpro
 bootsplash-theme-manjaro
 bootsplash-systemd
 
