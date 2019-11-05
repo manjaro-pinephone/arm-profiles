@@ -1,7 +1,7 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
-linux-aarch64
+linux-pinebookpro
 uboot-pinebookpro
 bootsplash-theme-manjaro
 bootsplash-systemd
@@ -9,4 +9,4 @@ bootsplash-systemd
 # Other device specific packages
 
 # Video drivers
-xf86-video-fbturbo-git #needed because lima/panfrost is not working properly yet
+#xf86-video-fbturbo-git #needed because lima/panfrost is not working properly yet
