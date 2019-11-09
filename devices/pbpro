@@ -8,6 +8,6 @@ bootsplash-systemd
 
 # Other device specific packages
 ap6256-firmware
+pinebookpro-post-install
 
 # Video drivers
-#xf86-video-fbturbo-git #needed because lima/panfrost is not working properly yet
