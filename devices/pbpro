@@ -8,6 +8,7 @@ bootsplash-systemd
 
 # Other device specific packages
 ap6256-firmware
+wpa_supplicant
 pinebookpro-post-install
 
 # Video drivers
