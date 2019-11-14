@@ -9,6 +9,7 @@ inxi
 ncdu
 nano
 dhcpcd
+man-pages
 
 # Minimal edition packages
 iwd

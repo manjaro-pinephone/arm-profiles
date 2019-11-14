@@ -11,6 +11,7 @@ xorg-xinit
 ncdu
 nano
 dhcpcd
+man-pages
 
 # Sound, Video and bluetooth
 alsa-utils

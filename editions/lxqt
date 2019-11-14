@@ -11,6 +11,7 @@ inxi
 ncdu
 nano
 dhcpcd
+man-pages
 
 # Sound, Video and bluetooth
 pavucontrol-qt

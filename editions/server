@@ -9,6 +9,7 @@ haveged
 inxi
 nano
 dhcpcd
+man-pages
 
 # Server packages
 apache

@@ -10,6 +10,7 @@ inxi
 ncdu
 nano
 dhcpcd
+man-pages
 
 # Gnome edition packages
 adwaita-icon-theme
