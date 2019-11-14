@@ -12,6 +12,7 @@ inxi
 ncdu
 nano
 dhcpcd
+man-pages
 
 # Sound, Video and bluetooth
 alsa-utils
@@ -61,6 +62,7 @@ matcha-gtk-theme
 konsole-colorscheme-matcha
 matcha-kde-wallpapers
 manjaro-arm-wallpapers
+breeze-gtk
 
 # Office suite
 libreoffice-fresh
