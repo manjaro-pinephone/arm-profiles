@@ -12,3 +12,4 @@ wpa_supplicant
 pinebookpro-post-install
 
 # Video drivers
+xf86-video-fbturbo-git #Panfrost is not quite ready yet
