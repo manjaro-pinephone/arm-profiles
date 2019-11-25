@@ -16,3 +16,158 @@
 2018-08-27 16:42:41.762 (0x7ef7b8c4) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 29218, resource id: 25165830, major code: 18 (ChangeProperty), minor code: 0
 2018-08-27 16:44:31.612 (0x7e99185c) Debug: Connecting to KScreen...
 2018-08-27 16:53:02.569 (0x7ef7b8c4) Debug: Desktop count changed from 2 to 1
+2019-10-31 12:53:52.763 (0x7ff1de3de8) Debug: New PolkitAgentListener  0x558cb61ea0
+2019-10-31 12:53:52.775 (0x7ff1de3de8) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ff1de3df8) for  0x558cb61ea0
+2019-10-31 12:53:56.718 (0x7fd6518a60) Debug: XdgDesktopFile "/usr/share/applications/firefox.desktop" is not valid
+2019-10-31 12:53:58.616 (0x7fd6518a60) Debug: ()
+2019-10-31 12:54:01.300 (0x7fd6518a60) Debug: WinIdChange 1000008 handle QWidgetWindow(0x55b73b1330, name="LXQtPanel panel1Window") QScreen(0x55b68b7be0, name="HDMI-1")
+2019-10-31 12:54:01.552 (0x7fd6518a60) Debug: Systray started
+2019-10-31 12:54:09.513 (0x7fe94ed770) Debug: BatteryChanged discharging: true chargeLevel: nan actionTime: QTime(Invalid)
+2019-10-31 12:54:09.605 (0x7fe94ed770) Debug: Inhibit got: 35
+2019-10-31 12:54:09.607 (0x7fe94ed770) Debug: Starting idlenesswatcher
+2019-10-31 12:56:58.654 (0x7fd6518a60) Debug: execAction "/usr/share/applications/qterminal.desktop"
+2019-10-31 12:58:22.157 (0x7fd6518a60) Debug: execAction "/usr/share/applications/qterminal.desktop"
+2019-10-31 13:09:25.750 (0x7fe94ed770) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:09:25.749 (0x7fd6518a60) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:09:25.836 (0x7fd6518a60) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:09:25.836 (0x7fe94ed770) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:09:25.844 (0x7fe94ed770) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:09:25.846 (0x7fd6518a60) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:09:27.523 (0x7fe94ed770) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:09:27.524 (0x7fd6518a60) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:09:27.581 (0x7fd6518a60) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:09:27.583 (0x7fe94ed770) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:09:27.588 (0x7fe94ed770) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:09:27.590 (0x7fd6518a60) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:18:49.526 (0x7fe68ee850) Warning: "Session 'session', new input device '/dev/input/mouse0', keyboard setting will be (optionaly) reloaded..."
+2019-10-31 13:18:49.605 (0x7fe68ee850) Warning: "Session 'session', new input device '/dev/input/event1', keyboard setting will be (optionaly) reloaded..."
+2019-10-31 13:18:49.617 (0x7fd6518a60) Warning: UdevQt: unhandled device action "bind"
+2019-10-31 13:18:49.617 (0x7fe94ed770) Warning: UdevQt: unhandled device action "bind"
+2019-10-31 13:18:49.656 (0x7fe68ee850) Warning: "Session 'session', new input device '/dev/input/event0', keyboard setting will be (optionaly) reloaded..."
+2019-10-31 13:18:49.668 (0x7fe94ed770) Warning: UdevQt: unhandled device action "bind"
+2019-10-31 13:18:49.668 (0x7fd6518a60) Warning: UdevQt: unhandled device action "bind"
+2019-10-31 13:18:49.900 (0x7fd6518a60) Warning: UdevQt: unhandled device action "bind"
+2019-10-31 13:18:49.904 (0x7fe94ed770) Warning: UdevQt: unhandled device action "bind"
+2019-10-31 13:18:57.040 (0x7fe68ee850) Warning: "Session 'session', new input device '/dev/input/event3', keyboard setting will be (optionaly) reloaded..."
+2019-10-31 13:18:57.050 (0x7fe68ee850) Warning: "Session 'session', new input device '/dev/input/event2', keyboard setting will be (optionaly) reloaded..."
+2019-10-31 13:18:57.062 (0x7fe94ed770) Warning: UdevQt: unhandled device action "bind"
+2019-10-31 13:18:57.063 (0x7fd6518a60) Warning: UdevQt: unhandled device action "bind"
+2019-10-31 13:18:57.065 (0x7fe68ee850) Warning: "Session 'session', new input device '/dev/input/event4', keyboard setting will be (optionaly) reloaded..."
+2019-10-31 13:18:57.076 (0x7fe94ed770) Warning: UdevQt: unhandled device action "bind"
+2019-10-31 13:18:57.076 (0x7fd6518a60) Warning: UdevQt: unhandled device action "bind"
+2019-10-31 13:18:57.224 (0x7fd6518a60) Warning: UdevQt: unhandled device action "bind"
+2019-10-31 13:18:57.231 (0x7fe94ed770) Warning: UdevQt: unhandled device action "bind"
+2019-10-31 13:19:59.962 (0x7fd6518a60) Debug: execAction "/usr/share/applications/qterminal.desktop"
+2019-10-31 13:25:01.384 (0x7fd6518a60) Debug: execAction "/usr/share/applications/qterminal.desktop"
+2019-10-31 13:31:14.358 (0x7fd6518a60) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:31:14.358 (0x7fe94ed770) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:31:14.406 (0x7fe94ed770) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:31:14.406 (0x7fd6518a60) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:31:14.415 (0x7fe94ed770) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:31:14.415 (0x7fd6518a60) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:31:21.606 (0x7fe94ed770) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:31:21.606 (0x7fd6518a60) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:31:21.700 (0x7fe94ed770) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:31:21.700 (0x7fd6518a60) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:31:21.708 (0x7fe94ed770) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 13:31:21.709 (0x7fd6518a60) Warning: UdevQt: unhandled device action "unbind"
+2019-10-31 21:10:17.254 (0x7fd6518a60) Warning: The X11 connection broke: I/O error (code 1)
+2019-10-31 21:10:19.329 (0x7fe68ee850) Warning: Module lxqt-panel.desktop won't terminate ... killing.
+2019-10-31 21:10:19.353 (0x7fe68ee850) Warning: QProcess: Destroyed while process ("lxqt-panel") is still running.
+2019-11-01 06:09:29.431 (0x7fe6b44338) Debug: New PolkitAgentListener  0x55adc7e8a0
+2019-11-01 06:09:29.442 (0x7fe6b44338) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7fe6b44348) for  0x55adc7e8a0
+2019-11-01 06:09:31.266 (0x7fe0805910) Debug: XdgDesktopFile "/usr/share/applications/firefox.desktop" is not valid
+2019-11-01 06:09:32.500 (0x7fe0805910) Debug: ()
+2019-11-01 06:09:35.044 (0x7fe0805910) Debug: WinIdChange 1000008 handle QWidgetWindow(0x556d577290, name="LXQtPanel panel1Window") QScreen(0x556ca7abc0, name="HDMI-1")
+2019-11-01 06:09:35.200 (0x7fe0805910) Debug: Systray started
+2019-11-01 06:09:37.933 (0x7ff4d7cad0) Debug: BatteryChanged discharging: true chargeLevel: nan actionTime: QTime(Invalid)
+2019-11-01 06:09:37.985 (0x7ff4d7cad0) Debug: Inhibit got: 35
+2019-11-01 06:09:37.987 (0x7ff4d7cad0) Debug: Starting idlenesswatcher
+2019-11-01 06:09:38.397 (0x7fe0805910) Warning:     * Error image is NULL
+2019-11-01 06:09:38.742 (0x7fe0805910) Warning:     * Error image is NULL
+2019-11-01 06:10:46.136 (0x7fe0805910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 2776, resource id: 16777378, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 06:10:46.269 (0x7fe0805910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 2804, resource id: 16777378, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 06:10:54.917 (0x7fe0805910) Warning:     * Error image is NULL
+2019-11-01 06:12:32.808 (0x7fe0805910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 4893, resource id: 16777411, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 06:12:54.896 (0x7fe0805910) Warning:     * Error image is NULL
+2019-11-01 06:13:01.763 (0x7fe0805910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 6509, resource id: 16777509, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 06:14:02.409 (0x7fe0805910) Warning:     * Error image is NULL
+2019-11-01 06:14:38.752 (0x7fe0805910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 9090, resource id: 16777652, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 06:17:56.728 (0x7fe0805910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 14192, resource id: 37748737, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 06:18:12.851 (0x7fe0805910) Debug: execAction "/usr/share/applications/pcmanfm-qt.desktop"
+2019-11-01 06:20:38.916 (0x7fe0805910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 14672, resource id: 14680174, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 06:22:35.006 (0x7fe0805910) Debug: execAction "/usr/share/applications/pcmanfm-qt.desktop"
+2019-11-01 06:28:46.839 (0x7fe0805910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 16987, resource id: 14680306, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 06:30:20.855 (0x7fe6b44338) Debug: Listener adapter polkit_qt_listener_initiate_authentication
+2019-11-01 06:30:20.863 (0x7fe6b44338) Debug: GSimpleAsyncResult: 0x55adfe61d0
+2019-11-01 06:30:20.865 (0x7fe6b44338) Debug: polkit_qt_listener_initiate_authentication callback for  0x55adc7e8a0
+2019-11-01 06:30:21.256 (0x7fe6b44338) Debug: REQUEST
+2019-11-01 06:30:30.609 (0x7fe6b44338) Debug: COMPLETED
+2019-11-01 06:30:30.609 (0x7fe6b44338) Debug: Listener adapter polkit_qt_listener_initiate_authentication_finish
+2019-11-01 06:30:30.609 (0x7fe6b44338) Debug: polkit_qt_listener_initiate_authentication_finish callback for  0x55adc7e8a0
+2019-11-01 06:31:13.426 (0x7fe0805910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 18502, resource id: 35651598, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 06:31:13.428 (0x7fe0805910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 18505, resource id: 35651598, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 06:31:15.949 (0x7fe0805910) Debug: execAction "/usr/share/applications/qterminal.desktop"
+2019-11-01 06:32:02.573 (0x7fe0805910) Debug: execAction "/usr/share/applications/pcmanfm-qt.desktop"
+2019-11-01 06:33:05.565 (0x7fe0805910) Debug: execAction "/usr/share/applications/qterminal.desktop"
+2019-11-01 06:35:24.268 (0x7fe0805910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 20125, resource id: 14680367, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 06:35:47.094 (0x7fe0805910) Warning:     * Error image is NULL
+2019-11-01 06:37:15.080 (0x7fe0805910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 24028, resource id: 16778293, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 06:37:18.371 (0x7fe0805910) Debug: execAction "/usr/share/applications/qterminal.desktop"
+2019-11-01 06:39:22.724 (0x7fe0805910) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 24413, resource id: 35651590, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 06:40:53.608 (0x7fe1293e98) Debug: New PolkitAgentListener  0x559134a0a0
+2019-11-01 06:40:53.665 (0x7fe1293e98) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7fe1293ea8) for  0x559134a0a0
+2019-11-01 06:40:56.930 (0x7ff92bbc20) Debug: ()
+2019-11-01 06:40:59.364 (0x7ff92bbc20) Debug: WinIdChange e00008 handle QWidgetWindow(0x55b0c0b5e0, name="LXQtPanel panel1Window") QScreen(0x55aff46cf0, name="HDMI-1")
+2019-11-01 06:40:59.576 (0x7ff92bbc20) Debug: Systray started
+2019-11-01 06:41:03.370 (0x7ff5af1e60) Debug: BatteryChanged discharging: true chargeLevel: nan actionTime: QTime(Invalid)
+2019-11-01 06:41:03.399 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:41:03.413 (0x7ff5af1e60) Debug: Inhibit got: 35
+2019-11-01 06:41:03.414 (0x7ff5af1e60) Debug: Starting idlenesswatcher
+2019-11-01 06:44:59.185 (0x7ff92bbc20) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 15260, resource id: 14680482, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 06:45:31.658 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:46:27.058 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:46:48.290 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:46:48.353 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:47:14.739 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:47:14.748 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:47:14.761 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:47:14.772 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:47:14.781 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:47:14.802 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:47:14.814 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:47:14.832 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:47:14.882 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:47:14.913 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:47:29.011 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:47:29.023 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:47:29.043 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 06:47:29.059 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 07:01:21.992 (0x7ff92bbc20) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 45293, resource id: 14680613, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 07:02:05.883 (0x7ff92bbc20) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 46563, resource id: 35651721, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 07:07:03.305 (0x7ff92bbc20) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 50082, resource id: 14682405, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 07:07:40.223 (0x7ff92bbc20) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 51493, resource id: 35651590, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 07:07:40.237 (0x7ff92bbc20) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 51539, resource id: 35651590, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 07:08:53.966 (0x7ff92bbc20) Debug: execAction "/usr/share/applications/chromium.desktop"
+2019-11-01 07:11:06.737 (0x7ff92bbc20) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 55219, resource id: 37748737, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 07:12:28.449 (0x7ff92bbc20) Debug: Desktop count changed from 1 to 2
+2019-11-01 07:13:24.282 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 07:13:24.741 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 07:13:24.760 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 07:13:24.776 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 07:13:24.784 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 07:13:24.800 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 07:13:24.814 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 07:13:24.832 (0x7ff92bbc20) Warning:     * Error image is NULL
+2019-11-01 07:16:49.993 (0x7ff92bbc20) Debug: execAction "/usr/share/applications/pcmanfm-qt.desktop"
+2019-11-01 07:17:34.151 (0x7ff92bbc20) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 20814, resource id: 18874488, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 07:18:15.348 (0x7ff92bbc20) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 22580, resource id: 14686617, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 07:19:19.176 (0x7ff92bbc20) Debug: execAction "/usr/share/applications/pcmanfm-qt.desktop"
+2019-11-01 07:30:17.875 (0x7ff92bbc20) Debug: execAction "/usr/share/applications/chromium.desktop"
+2019-11-01 07:34:26.819 (0x7ff92bbc20) Debug: execAction "/usr/share/applications/qterminal.desktop"
+2019-11-01 07:42:16.606 (0x7ff92bbc20) Debug: execAction "/usr/share/applications/qterminal.desktop"
+2019-11-01 08:02:41.853 (0x7ff92bbc20) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 28905, resource id: 35651590, major code: 18 (ChangeProperty), minor code: 0
+2019-11-01 08:03:27.044 (0x7ff92bbc20) Debug: execAction "/usr/share/applications/qterminal.desktop"
+2019-11-01 08:03:53.668 (0x7ff92bbc20) Debug: execAction "/usr/share/applications/pcmanfm-qt.desktop"
+2019-11-01 08:05:05.539 (0x7ff92bbc20) Debug: execAction "/usr/share/applications/qterminal.desktop"
+2019-11-01 08:05:25.267 (0x7ff92bbc20) Debug: execAction "/usr/share/applications/pcmanfm-qt.desktop"

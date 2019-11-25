@@ -3,4 +3,6 @@
 #
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
+
 QT_QUICK_BACKEND=software
+QT_QPA_PLATFORMTHEME=qt5ct

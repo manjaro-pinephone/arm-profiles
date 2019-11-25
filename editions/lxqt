@@ -10,16 +10,15 @@ xorg-xinit
 inxi
 ncdu
 nano
-dhcpcd
-man-pages
+# dhcpcd
 
 # Sound, Video and bluetooth
 pavucontrol-qt
 pulseaudio-alsa
 alsa-utils
-bluez-utils
+bluez
 pulseaudio-bluetooth
-blueman #gtk applet for bluetooth
+blueman
 smplayer
 
 # Display Manager
@@ -27,9 +26,11 @@ sddm
 matcha-dynamic-sddm
 
 # LXQT packages
-networkmanager-qt
-nm-tray-git #qt applet for network-manager-qt
-bluez-qt
+networkmanager
+network-manager-applet
+dhclient
+manjaro-hotfixes
+manjaro-settings-samba
 pcmanfm-qt
 lximage-qt
 lxqt-about
@@ -56,6 +57,7 @@ unzip #to support zip file extraction
 
 # Themes
 kvantum-qt5
+qt5ct
 papirus-maia-icon-theme
 xcursor-breeze
 matcha-gtk-theme
@@ -64,8 +66,17 @@ manjaro-arm-wallpapers
 manjaro-icons
 
 # Browser
-firefox
-firefox-ublock-origin
+chromium
+
+# File systems access
+gvfs
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+ifuse
+mtpfs
+ntfs-3g
 
 # Office suite
 libreoffice-fresh
@@ -78,9 +89,16 @@ ttf-bitstream-vera
 noto-fonts
 
 # Other packages
-openresolv
+#openresolv
 manjaro-settings-manager
 wget
 featherpad
 tlp
-manjaro-hotfixes
+htop
+mesa-demos
+audacious
+xdg-utils
+xdg-user-dirs
+mpg123
+faad2
+cpu-temp-speed
