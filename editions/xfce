@@ -130,6 +130,9 @@ gvfs-smb
 ifuse
 mtpfs
 ntfs-3g
+mpv
+ffmpeg
+usb_modeswitch
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support

@@ -3,5 +3,6 @@ lightdm.service
 NetworkManager.service
 bluetooth.service
 tlp.service
+org.freedesktop.Accounts.service
 bootsplash-hide-when-booted.service
 bootsplash-show-on-shutdown.service

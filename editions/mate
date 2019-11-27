@@ -56,6 +56,9 @@ audacious
 pluma
 xpdf
 viewnior
+mpv
+ffmpeg
+usb_modeswitch
 
 # Themes
 papirus-maia-icon-theme
