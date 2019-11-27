@@ -5,5 +5,6 @@
     <property name="Properties" type="empty">
       <property name="libinput_Tapping_Enabled" type="int" value="1"/>
     </property>
+    <property name="Acceleration" type="double" value="8.000000"/>
   </property>
 </channel>
