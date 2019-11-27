@@ -18,7 +18,7 @@ man-pages
 alsa-utils
 smplayer
 pulseaudio-alsa
-pulseuadio-bluetooth
+pulseaudio-bluetooth
 
 # Display Manager
 sddm
