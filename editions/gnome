@@ -12,7 +12,6 @@ nano
 dhclient
 
 # Gnome edition packages
-#adwaita-icon-theme
 alsa-firmware
 baobab
 dconf-editor
@@ -39,7 +38,6 @@ gnome-shell
 gnome-shell-extensions
 gnome-system-log
 gnome-system-monitor
-gnome-terminal
 gnome-user-docs
 gnome-user-share
 papirus-maia-icon-theme
@@ -72,7 +70,6 @@ mutter
 nautilus
 nautilus-terminal
 networkmanager
-# network-manager-applet
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
@@ -83,7 +80,6 @@ openresolv
 flatpak
 polkit-gnome
 powertop
-#pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
 pulseaudio-zeroconf
@@ -125,7 +121,6 @@ xorg-xrdb
 man-pages
 wpa_supplicant
 gnome-power-manager
-# gnome-flashback
 gnome-panel
 gnome-menus
 

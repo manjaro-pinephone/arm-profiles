@@ -1,4 +1,4 @@
 [Desktop Entry]
 Type=Application
 Name=trash-icon
-Exec=sh -c "$HOME/bins/trash.sh -d"
+Exec=sh -c "$HOME/Trash/trash.sh -d"
