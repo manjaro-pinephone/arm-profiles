@@ -23,6 +23,7 @@ firefox-ublock-origin
 sddm
 matcha-dynamic-sddm
 chrome-gnome-shell
+gnome-power-manager
 gnome-applets
 gedit 
 gnome-calculator
@@ -40,6 +41,8 @@ gnome-system-log
 gnome-system-monitor
 gnome-user-docs
 gnome-user-share
+gnome-terminal
+nautilus
 papirus-maia-icon-theme
 qt5ct
 kvantum-qt5 
@@ -67,8 +70,6 @@ ntfs-3g
 manjaro-hotfixes
 mousetweaks
 mutter
-nautilus
-nautilus-terminal
 networkmanager
 networkmanager-openconnect
 networkmanager-openvpn

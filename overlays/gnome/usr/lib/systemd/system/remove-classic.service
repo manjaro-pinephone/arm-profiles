@@ -1,0 +1,9 @@
+[Unit]
+After=network.target
+
+[Service]
+User=root
+ExecStart=/usr/local/bin/remove-classic.sh
+
+[Install]
+WantedBy=default.target
