@@ -4,7 +4,7 @@
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
 #QT_QUICK_BACKEND=software
-$(dbus-launch)
+#$(dbus-launch)
 QT_QPA_PLATFORM=wayland
 QT_QPA_PLATFORMTHEME=KDE
 QT_WAYLAND_DISABLE_WINDOWDECORATION=1
