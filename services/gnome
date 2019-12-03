@@ -5,4 +5,3 @@ bluetooth.service
 tlp.service
 bootsplash-hide-when-booted.service
 bootsplash-show-on-shutdown.service
-remove-classic.service

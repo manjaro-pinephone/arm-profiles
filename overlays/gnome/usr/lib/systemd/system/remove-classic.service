@@ -1,9 +1,8 @@
 [Unit]
-After=network.target
+Description=Disable Gnome Classic
 
 [Service]
-User=root
 ExecStart=/usr/local/bin/remove-classic.sh
 
 [Install]
-WantedBy=default.target
+WantedBy=multi-user.target
