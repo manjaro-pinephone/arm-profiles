@@ -1,4 +1,4 @@
-## Maintained by Dodgejcr ##
+## Maintained by Strit ##
 
 # Minimal packages
 sudo
@@ -11,16 +11,39 @@ nano
 dhcpcd
 man-pages
 
+# OpenGLES qt packages
+qt5-es2-base
+qt5-es2-declarative
+qt5-es2-multimedia
+
 # PM Packages
 libqofono-qt5
 plasma-angelfish
 plasma-camera
-plasma-maliit-framework
-plasma-maliit-plugins
 plasma-phone-components-git
 plasma-settings-git
 plasma-nano-git
+plasma-phonebook-git
+calindori-git
+index-git
+spacebar-git
+
+# Packages to be built
+#qmlkonsole-git
+#qrca-git
+#keysmith-git
+
+# Regular Plasma packages
+bluedevil
+breeze
+kirigami-gallery
+konsole
+kwallet-pam
+polkit-kde-agent
+powerdevil
 sddm
+kscreen
+xdg-desktop-portal-kde
 
 # Android packages
 #android-headers
@@ -38,6 +61,7 @@ kwayland
 kwayland-integration
 qt5-wayland
 xorg-server-xwayland
+qt5-virtualkeyboard
 
 # Other
-#mesa-git
+mesa-git
