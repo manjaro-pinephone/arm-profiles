@@ -1,8 +1,7 @@
 ## Maintained by Strit ##
 
 # Kernel and Bootloader stuff
-linux-aarch64
-uboot-raspberrypi
+linux-rpi4-mainline
 raspberrypi-bootloader
 bootsplash-theme-manjaro
 bootsplash-systemd
