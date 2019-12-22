@@ -5,7 +5,7 @@ icon=battery-charging
 value=80
 
 [AC][HandleButtonEvents]
-lidAction=1
+lidAction=64
 powerButtonAction=16
 
 [Battery]
@@ -15,7 +15,7 @@ icon=battery-060
 value=50
 
 [Battery][HandleButtonEvents]
-lidAction=1
+lidAction=64
 powerButtonAction=16
 
 [LowBattery]
@@ -31,7 +31,7 @@ idleTime=120
 idleTime=60000
 
 [LowBattery][HandleButtonEvents]
-lidAction=1
+lidAction=64
 powerButtonAction=16
 
 [LowBattery][SuspendSession]
