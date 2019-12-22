@@ -9,5 +9,7 @@
     <property name="show-tray-icon" type="bool" value="true"/>
     <property name="general-notification" type="bool" value="true"/>
     <property name="presentation-mode" type="bool" value="true"/>
+    <property name="lid-action-on-battery" type="uint" value="0"/>
+    <property name="lid-action-on-ac" type="uint" value="0"/>
   </property>
 </channel>
