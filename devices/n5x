@@ -1,7 +1,18 @@
-## Maintained by: Strit ##
+## Maintained by: Dodgejcr ##
 
 # Kernels and bootloader
 
 # Other firmware and stuff
 
 # Video and other drivers
+
+# Android packages
+#android-headers
+#lxc-android-git
+#xf86-video-hwcomposer
+#drihybris
+#glamor-hybris
+#libhybris-xorg
+#libhybris
+#hybris-android-headers-7
+#hybris-usb

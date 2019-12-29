@@ -48,17 +48,6 @@ xdg-desktop-portal-kde
 plasma-nm
 plasma-pa
 
-# Android packages
-#android-headers
-#lxc-android-git
-#xf86-video-hwcomposer
-#drihybris
-#glamor-hybris
-#libhybris-xorg
-#libhybris
-#hybris-android-headers-7
-#hybris-usb
-
 # Wayland stuff
 kwayland
 kwayland-integration
