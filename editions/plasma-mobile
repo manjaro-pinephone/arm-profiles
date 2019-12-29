@@ -15,6 +15,7 @@ man-pages
 qt5-es2-base
 qt5-es2-declarative
 qt5-es2-multimedia
+qt5-es2-wayland
 
 # PM Packages
 libqofono-qt5
@@ -26,7 +27,7 @@ plasma-nano-git
 plasma-phonebook-git
 calindori-git
 index-git
-spacebar-git
+#spacebar-git
 
 # Packages to be built
 #qmlkonsole-git
@@ -38,12 +39,14 @@ bluedevil
 breeze
 kirigami-gallery
 konsole
-kwallet-pam
+#kwallet-pam
 polkit-kde-agent
 powerdevil
 sddm
 kscreen
 xdg-desktop-portal-kde
+plasma-nm
+plasma-pa
 
 # Android packages
 #android-headers
@@ -59,9 +62,9 @@ xdg-desktop-portal-kde
 # Wayland stuff
 kwayland
 kwayland-integration
-qt5-wayland
 xorg-server-xwayland
 qt5-virtualkeyboard
 
 # Other
 mesa-git
+tlp

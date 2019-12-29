@@ -1,6 +1,6 @@
-systemd-networkd.service
-dhcpcd.service
 sshd.service 
 sddm.service
+NetworkManager.service
+bluetooth.service
 bootsplash-hide-when-booted.service
 bootsplash-show-on-shutdown.service
