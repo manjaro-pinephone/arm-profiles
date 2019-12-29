@@ -28,6 +28,7 @@ plasma-phonebook-git
 calindori-git
 index-git
 #spacebar-git
+plasma-mobile-nm
 
 # Packages to be built
 #qmlkonsole-git
@@ -45,7 +46,6 @@ powerdevil
 sddm
 kscreen
 xdg-desktop-portal-kde
-plasma-nm
 plasma-pa
 
 # Wayland stuff
