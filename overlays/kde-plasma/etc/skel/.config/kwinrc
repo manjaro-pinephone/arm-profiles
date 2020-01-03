@@ -16,5 +16,5 @@ DesktopListLayout=org.kde.breeze.desktop
 LayoutName=org.kde.breeze.desktop
 
 [org.kde.kdecoration2]
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Matcha-Dark
+library=org.kde.breeze
+theme=

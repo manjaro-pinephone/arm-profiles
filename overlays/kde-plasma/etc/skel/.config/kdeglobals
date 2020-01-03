@@ -108,8 +108,8 @@ ForegroundPositive=52,152,219
 ForegroundVisited=145,61,136
 
 [General]
-ColorScheme=Matcha-Dark
-Name=Breath
+ColorScheme=Breath2Dark
+Name=Breat2
 XftAntialias=true
 XftHintStyle=
 XftSubPixel=none
@@ -117,12 +117,12 @@ shadeSortColumn=true
 widgetStyle=Breeze
 
 [Icons]
-Theme=Papirus-Dark-Maia
+Theme=breath2-dark
 
 [KDE]
 DoubleClickInterval=400
 ColorScheme=Breeze
-LookAndFeelPackage=com.gitlab.cscs.matcha-dark
+LookAndFeelPackage=org.kde.breath2.desktop
 SingleClick=false
 contrast=4
 widgetStyle=breeze

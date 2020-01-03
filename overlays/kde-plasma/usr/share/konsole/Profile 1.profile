@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=Matcha-Dark
+ColorScheme=Breeze
 
 [General]
 Name=Profil 1

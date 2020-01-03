@@ -5,4 +5,7 @@ update_info=kscreenlocker.upd:0.1-autolock
 Autolock=false
 
 [Greeter]
-Theme=com.gitlab.cscs.matcha-dark
+Theme=org.kde.breath2.desktop
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Breath2/contents/images/1920x1080.png
