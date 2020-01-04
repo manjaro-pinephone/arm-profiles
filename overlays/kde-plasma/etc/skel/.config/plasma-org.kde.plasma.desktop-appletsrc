@@ -49,7 +49,7 @@ PreloadWeight=92
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
-icon=start-here-manjaro
+icon=manjaro-settings-manager
 systemApplications=systemsettings.desktop,org.kde.kinfocenter.desktop
 
 [Containments][2][Applets][3][Configuration][Shortcuts]
