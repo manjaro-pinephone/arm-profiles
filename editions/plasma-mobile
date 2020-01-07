@@ -19,6 +19,9 @@ qt5-es2-wayland
 
 # PM Packages
 libqofono-qt5
+ofonoctl
+telepathy-ofono
+eg25
 plasma-angelfish
 plasma-camera
 plasma-phone-components-git
@@ -27,7 +30,7 @@ plasma-nano-git
 plasma-phonebook-git
 calindori-git
 index-git
-#spacebar-git
+spacebar-git
 plasma-mobile-nm
 
 # Packages to be built
@@ -36,6 +39,7 @@ plasma-mobile-nm
 #keysmith-git
 
 # Regular Plasma packages
+bluez
 bluedevil
 breeze
 kirigami-gallery
