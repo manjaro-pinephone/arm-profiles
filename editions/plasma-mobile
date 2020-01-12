@@ -18,10 +18,7 @@ qt5-es2-multimedia
 qt5-es2-wayland
 
 # PM Packages
-libqofono-qt5
-ofonoctl
 telepathy-ofono
-eg25
 plasma-angelfish
 plasma-camera
 plasma-phone-components-git

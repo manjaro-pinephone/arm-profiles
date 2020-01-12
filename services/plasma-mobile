@@ -2,8 +2,5 @@ sshd.service
 sddm.service
 NetworkManager.service
 bluetooth.service
-ofono.service
-eg25.service
-ofonoctl.service
 bootsplash-hide-when-booted.service
 bootsplash-show-on-shutdown.service

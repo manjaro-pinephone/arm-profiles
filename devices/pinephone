@@ -12,6 +12,9 @@ dkms-rtl8723cs
 rtl8723bt-firmware
 wpa_supplicant
 pinebook-post-install
+eg25
+libqofono-qt5
+ofonoctl
 
 
 # Video drivers
