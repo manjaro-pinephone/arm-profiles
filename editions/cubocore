@@ -18,7 +18,7 @@ alsa-utils
 
 # Display Manager
 sddm
-matcha-dynamic-sddm
+sddm-breath2-theme
 
 # Plasma packages
 bluedevil
@@ -40,7 +40,27 @@ powerdevil
 systemsettings
 
 #CoreApps
-coreapps #entire group
+coreaction
+corearchiver
+corefm
+coregarage
+corehunt
+coreimage
+coreinfo
+corekeyboard
+corepad
+corepaint
+corepdf
+corepins
+corerenamer
+coreshot
+corestats
+corestuff
+coreterminal
+coretime
+coretoppings
+coreuniverse
+
 
 
 # Fonts
@@ -51,9 +71,9 @@ ttf-bitstream-vera
 falkon
 
 # Themes
-papirus-maia-icon-theme
-matcha-kde
-matcha-gtk-theme
+breath2-icon-themes
+plasma5-themes-breath2
+gtk-theme-breath
 manjaro-arm-wallpapers
 
 # Office suite
@@ -69,3 +89,4 @@ wget
 tlp
 manjaro-hotfixes
 xdg-user-dirs
+xf86-video-fbturbo-git
