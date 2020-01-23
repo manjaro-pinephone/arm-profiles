@@ -27,7 +27,7 @@ IntensityEffect=0
 BackgroundAlternate=224,223,222
 BackgroundNormal=41,47,52
 DecorationFocus=26,188,156
-DecorationHover=54,215,183
+DecorationHover=26,188,156
 ForegroundActive=155,89,182
 ForegroundInactive=130,148,163
 ForegroundLink=76,107,138
@@ -55,7 +55,7 @@ ForegroundVisited=61,174,230
 BackgroundAlternate=54,215,183
 BackgroundNormal=26,188,156
 DecorationFocus=26,188,156
-DecorationHover=54,215,183
+DecorationHover=26,188,156
 ForegroundActive=96,55,113
 ForegroundInactive=222,222,222
 ForegroundLink=0,98,218
@@ -69,7 +69,7 @@ ForegroundVisited=145,61,136
 BackgroundAlternate=62,71,78
 BackgroundNormal=41,47,52
 DecorationFocus=26,188,156
-DecorationHover=54,215,183
+DecorationHover=26,188,156
 ForegroundActive=155,89,182
 ForegroundInactive=130,148,163
 ForegroundLink=126,178,230
@@ -81,9 +81,9 @@ ForegroundVisited=145,61,136
 
 [Colors:View]
 BackgroundAlternate=62,71,78
-BackgroundNormal=41,47,52
+BackgroundNormal=33,37,41
 DecorationFocus=26,188,156
-DecorationHover=54,215,183
+DecorationHover=26,188,156
 ForegroundActive=155,89,182
 ForegroundInactive=130,148,163
 ForegroundLink=76,107,138
@@ -96,7 +96,7 @@ ForegroundVisited=145,61,136
 [Colors:Window]
 BackgroundAlternate=62,71,78
 BackgroundNormal=41,47,52
-DecorationFocus=54,215,183
+DecorationFocus=26,188,156
 DecorationHover=26,188,156
 ForegroundActive=155,89,182
 ForegroundInactive=130,148,163
@@ -117,11 +117,11 @@ shadeSortColumn=true
 widgetStyle=Breeze
 
 [Icons]
-Theme=breath2-dark
+Theme=breath2
 
 [KDE]
-DoubleClickInterval=400
 ColorScheme=Breeze
+DoubleClickInterval=400
 LookAndFeelPackage=org.kde.breath2.desktop
 SingleClick=false
 contrast=4
