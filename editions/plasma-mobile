@@ -29,9 +29,9 @@ calindori-git
 index-git
 spacebar-git
 plasma-mobile-nm
+qmlkonsole-git
 
 # Packages to be built
-#qmlkonsole-git
 #qrca-git
 #keysmith-git
 
@@ -40,7 +40,6 @@ bluez
 bluedevil
 breeze
 kirigami-gallery
-konsole
 #kwallet-pam
 polkit-kde-agent
 powerdevil
@@ -48,6 +47,12 @@ sddm
 kscreen
 xdg-desktop-portal-kde
 plasma-pa
+#discover
+#packagekit-qt5
+
+# Theming
+manjaro-arm-wallpapers
+manjaro-icons
 
 # Wayland stuff
 kwayland
@@ -58,3 +63,4 @@ qt5-virtualkeyboard
 # Other
 mesa-git
 tlp
+alsa-utils
