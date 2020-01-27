@@ -30,6 +30,7 @@ index-git
 spacebar-git
 plasma-mobile-nm
 qmlkonsole-git
+kongress-git
 
 # Packages to be built
 #qrca-git
