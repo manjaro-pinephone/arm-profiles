@@ -1,4 +1,6 @@
 [Containments][1]
+AppOrder=org.kde.phone.dialer.desktop,org.kde.mobile.angelfish.desktop,org.kde.phone.calindori.desktop,org.kde.mobile.camera.desktop
+Favorites=org.kde.phone.dialer.desktop,org.kde.mobile.angelfish.desktop,org.kde.phone.calindori.desktop,org.kde.mobile.camera.desktop
 MaxFavoriteCount=4
 activityId=33756094-fc15-402f-88a8-eb8b662978c5
 formfactor=0
@@ -9,6 +11,7 @@ plugin=org.kde.phone.homescreen
 wallpaperplugin=org.kde.image
 
 [Containments][1][Wallpaper][org.kde.image][General]
+FillMode=2
 Image=file:///usr/share/wallpapers/manjaro-arm/generic/manjaro-arm.png
 
 [Containments][2]
