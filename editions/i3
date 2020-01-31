@@ -60,7 +60,6 @@ libtool
 light
 lightdm-gtk-greeter
 lxappearance
-lxinput
 #maia-console
 manjaro-arm-wallpapers
 manjaro-hotfixes
@@ -137,6 +136,7 @@ xorg-server
 xorg-twm
 xorg-xhost
 xorg-xinit
+xorg-xinput
 xorg-xkill
 xorg-xprop
 xterm
