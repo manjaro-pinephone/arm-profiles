@@ -1,13 +1,13 @@
 [General]
-ColorScheme=Breeze Dark
-Name=Breeze Dark
+ColorScheme=Breeze
+Name=Breeze
 shadeSortColumn=true
 widgetStyle=Breeze
 
 [Icons]
-Theme=breeze-dark
+Theme=breeze
 
 [KDE]
-ColorScheme=Breeze Dark
+ColorScheme=Breeze
 contrast=4
 widgetStyle=Breeze
