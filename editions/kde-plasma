@@ -57,18 +57,13 @@ gwenview
 spectacle
 
 # Themes
-#papirus-maia-icon-theme
-#matcha-dynamic-sddm
-#matcha-kde
-#matcha-gtk-theme
-#konsole-colorscheme-matcha
-#matcha-kde-wallpapers
 breath2-icon-themes
 gtk-theme-breath
 plasma5-themes-breath2
 sddm-breath2-theme
 manjaro-arm-wallpapers
 breeze-gtk
+manjaro-icons
 
 
 # Office suite
