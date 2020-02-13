@@ -23,7 +23,7 @@ smplayer
 
 # Display Manager
 sddm
-matcha-dynamic-sddm
+sddm-breath2-theme
 
 # LXQT packages
 networkmanager
@@ -61,7 +61,7 @@ qt5ct
 papirus-maia-icon-theme
 xcursor-breeze
 matcha-gtk-theme
-kvantum-theme-matcha
+kvantum-theme-matchama
 manjaro-arm-wallpapers
 manjaro-icons
 

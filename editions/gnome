@@ -21,7 +21,7 @@ evince
 firefox
 firefox-ublock-origin
 sddm
-matcha-dynamic-sddm
+sddm-breath2-theme
 chrome-gnome-shell
 gnome-power-manager
 gnome-applets
@@ -46,7 +46,7 @@ nautilus
 papirus-maia-icon-theme
 qt5ct
 kvantum-qt5 
-kvantum-theme-matcha
+kvantum-theme-matchama
 matcha-gtk-theme
 manjaro-arm-wallpapers
 file-roller

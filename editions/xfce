@@ -36,7 +36,7 @@ manjaro-settings-samba
 ## XFCE Group
 exo
 garcon
-gtk-xfce-engine
+#gtk-xfce-engine
 thunar
 thunar-volman
 tumbler
@@ -52,8 +52,8 @@ xfwm4
 # xfwm4-themes
 
 ## XFCE Extras
-gconf              # fix qt-theme
-gksu
+#gconf              # fix qt-theme
+#gksu
 orage
 thunar-archive-plugin
 thunar-media-tags-plugin
@@ -86,7 +86,7 @@ xfce4-pulseaudio-plugin
 ## Themes
 qt5ct
 kvantum-qt5
-kvantum-theme-matcha
+kvantum-theme-matchama
 matcha-gtk-theme
 manjaro-arm-wallpapers
 papirus-maia-icon-theme
@@ -112,7 +112,6 @@ galculator-gtk2
 audacious
 htop
 qpdf
-inxi
 manjaro-settings-manager
 mlocate
 mousepad
@@ -141,9 +140,9 @@ unrar  # RAR archive support
 ## Xorg Input Drivers
 xf86-input-elographics
 #xf86-input-evdev
-xf86-input-keyboard
+#xf86-input-keyboard
 xf86-input-libinput
-xf86-input-mouse
+#xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics
