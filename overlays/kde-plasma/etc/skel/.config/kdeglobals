@@ -122,7 +122,6 @@ Theme=breath2-dark
 [KDE]
 ColorScheme=Breeze
 DoubleClickInterval=400
-LookAndFeelPackage=org.kde.breath2.desktop
 SingleClick=false
 contrast=4
 widgetStyle=breeze
