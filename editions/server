@@ -10,6 +10,7 @@ inxi
 nano
 dhcpcd
 man-pages
+man-db
 
 # Server packages
 apache

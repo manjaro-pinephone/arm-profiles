@@ -10,6 +10,7 @@ ncdu
 nano
 dhcpcd
 man-pages
+man-db
 
 # Sound and Video utilities
 alsa-utils

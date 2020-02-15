@@ -120,6 +120,7 @@ xorg-xhost
 xorg-xmodmap
 xorg-xrdb
 man-pages
+man-db
 wpa_supplicant
 gnome-power-manager
 gnome-panel
