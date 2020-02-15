@@ -10,6 +10,7 @@ ncdu
 nano
 dhcpcd
 man-pages
+man-db
 
 # OpenGLES qt packages
 qt5-es2-base

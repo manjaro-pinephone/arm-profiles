@@ -12,7 +12,7 @@ ncdu
 nano
 dhcpcd
 man-pages
-
+man-db
 # Sound, Video and bluetooth
 alsa-utils
 
