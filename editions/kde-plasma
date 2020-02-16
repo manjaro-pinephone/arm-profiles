@@ -17,7 +17,7 @@ man-db
 
 # openGLES 2 packages
 qt5-es2-base
-qt5-es2-declaractive
+qt5-es2-declarative
 qt5-es2-multimedia
 
 # Sound, Video and bluetooth
