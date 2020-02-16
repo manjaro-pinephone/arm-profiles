@@ -53,8 +53,6 @@ xfwm4
 # xfwm4-themes
 
 ## XFCE Extras
-#gconf              # fix qt-theme
-#gksu
 orage
 thunar-archive-plugin
 thunar-media-tags-plugin
@@ -141,9 +139,7 @@ unrar  # RAR archive support
 ## Xorg Input Drivers
 xf86-input-elographics
 #xf86-input-evdev
-#xf86-input-keyboard
 xf86-input-libinput
-#xf86-input-mouse
 xf86-input-void
 
 ## Xorg Server and Graphics
