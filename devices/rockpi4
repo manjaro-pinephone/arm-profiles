@@ -11,4 +11,3 @@ ap6256-firmware
 wpa_supplicant
 
 # Video drivers
-xf86-video-fbturbo-git #needed because lima/panfrost is not working properly yet

@@ -10,4 +10,3 @@ bootsplash-systemd
 fbset
 
 # Video driver
-xf86-video-fbturbo-git

@@ -9,4 +9,3 @@ bootsplash-systemd
 # Other device specific packages
 
 # Video drivers
-xf86-video-fbturbo-git #needed because lima/panfrost is not working properly yet
