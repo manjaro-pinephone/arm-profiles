@@ -11,13 +11,14 @@ nano
 dhcpcd
 man-pages
 man-db
+xf86-video-dummy
 
 # Sound and Video utilities
 alsa-utils
 
 # Display Manager
 sddm
-matcha-dynamic-sddm
+sddm-breath2-theme
 
 # Fonts
 noto-fonts

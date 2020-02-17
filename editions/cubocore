@@ -13,6 +13,8 @@ nano
 dhcpcd
 man-pages
 man-db
+xf86-video-dummy
+
 # Sound, Video and bluetooth
 alsa-utils
 

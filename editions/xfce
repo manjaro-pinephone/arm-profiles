@@ -11,6 +11,7 @@ nano
 dhcpcd
 man-pages
 man-db
+xf86-video-dummy
 
 # Sound, video and bluetooth
 pavucontrol
@@ -149,7 +150,6 @@ numlockx
 xorg-twm
 xorg-xinit
 xorg-xkill
-xf86-video-dummy
 
 ## Desktop Utils
 xdg-utils
