@@ -149,6 +149,7 @@ numlockx
 xorg-twm
 xorg-xinit
 xorg-xkill
+xf86-video-dummy
 
 ## Desktop Utils
 xdg-utils
