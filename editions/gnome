@@ -10,7 +10,6 @@ inxi
 ncdu
 nano
 dhclient
-xf86-video-dummy
 
 # Gnome edition packages
 alsa-firmware

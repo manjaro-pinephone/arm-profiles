@@ -11,7 +11,6 @@ inxi
 ncdu
 nano
 # dhcpcd
-xf86-video-dummy
 
 # Sound, Video and bluetooth
 pavucontrol-qt
