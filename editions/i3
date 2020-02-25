@@ -30,7 +30,7 @@ firefox-ublock-origin
 #flex
 #gcc
 gcolor2
-gconf
+#gconf
 #gksu-polkit
 gnome-keyring
 gparted
