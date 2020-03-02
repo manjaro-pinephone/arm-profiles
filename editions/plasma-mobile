@@ -19,6 +19,10 @@ qt5-es2-multimedia
 qt5-es2-wayland
 
 # PM Packages
+xdg-utils
+desktop-file-utils
+telephony-service
+telepathy-mission-control
 telepathy-ofono
 plasma-angelfish
 plasma-camera
@@ -32,6 +36,7 @@ spacebar-git
 plasma-mobile-nm
 qmlkonsole-git
 kongress-git
+plasma-pix-git
 
 # Packages to be built
 #qrca-git
@@ -49,8 +54,10 @@ sddm
 kscreen
 xdg-desktop-portal-kde
 plasma-pa
-#discover
-#packagekit-qt5
+discover
+packagekit-qt5
+qt5-pim-git
+debianutils
 
 # Theming
 manjaro-arm-wallpapers
