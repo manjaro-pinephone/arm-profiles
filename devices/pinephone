@@ -8,7 +8,7 @@ bootsplash-theme-manjaro
 bootsplash-systemd
 
 # Other device specific packages
-dkms-rtl8723cs
+#dkms-rtl8723cs
 rtl8723bt-firmware
 wpa_supplicant
 pinephone-post-install
