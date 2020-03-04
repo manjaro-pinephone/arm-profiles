@@ -7,11 +7,9 @@ uboot-pinetab
 bootsplash-theme-manjaro
 bootsplash-systemd
 
+# Video drivers
+
 # Other device specific packages
-dkms-rtl8723cs
 rtl8723bt-firmware
 wpa_supplicant
-pinephone-post-install
-
-
-# Video drivers
+pinetab-post-install

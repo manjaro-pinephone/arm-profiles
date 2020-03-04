@@ -7,14 +7,12 @@ uboot-pinephone
 bootsplash-theme-manjaro
 bootsplash-systemd
 
+# Video drivers
+
 # Other device specific packages
-#dkms-rtl8723cs
 rtl8723bt-firmware
 wpa_supplicant
-pinephone-post-install
 eg25
 libqofono-qt5
 ofonoctl
-
-
-# Video drivers
+pinephone-post-install
