@@ -7,11 +7,11 @@ uboot-pine64-git
 bootsplash-theme-manjaro
 bootsplash-systemd
 
+# Video drivers
+xf86-video-fbturbo-git
+
 # Other device specific packages
 dkms-rtl8723cs
 rtl8723bt-firmware
 wpa_supplicant
 pinebook-post-install
-
-# Video drivers
-xf86-video-fbturbo-git

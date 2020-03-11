@@ -6,9 +6,10 @@ uboot-pinebookpro
 bootsplash-theme-manjaro
 bootsplash-systemd
 
+# Video drivers
+
 # Other device specific packages
 ap6256-firmware
 wpa_supplicant
+pinebookpro-audio
 pinebookpro-post-install
-
-# Video drivers

@@ -7,10 +7,11 @@ raspberrypi-bootloader
 bootsplash-theme-manjaro
 bootsplash-systemd
 
+# Video driver
+
 # Other device specific packages
 firmware-raspberrypi
 pi-bluetooth
 wpa_supplicant
 brcm-patchram-plus #fixes bluetooth
-
-# Video driver
+rpi4-post-install

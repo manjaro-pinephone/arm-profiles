@@ -9,11 +9,12 @@ raspberrypi-bootloader
 bootsplash-theme-manjaro
 bootsplash-systemd
 
+# Video driver
+#xf86-video-fbturbo-git
+
 # Other device specific packages
 firmware-raspberrypi
 #pi-bluetooth
 wpa_supplicant
 #brcm-patchram-plus
-
-# Video driver
-#xf86-video-fbturbo-git
+rpi3-post-install

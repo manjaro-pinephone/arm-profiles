@@ -6,10 +6,11 @@ boot-vim3
 bootsplash-theme-manjaro
 bootsplash-systemd
 
+# Video driver
+
 # Other device specific packages
 ap6398s-firmware
 bluetooth-vim3
 khadas-utils
 fbset
-
-# Video driver
+vim3-post-install

@@ -6,7 +6,8 @@ uboot-odroid-n2
 bootsplash-theme-manjaro
 bootsplash-systemd
 
+# Video driver
+
 # Other device specific packages
 fbset
-
-# Video driver
+on2-post-install

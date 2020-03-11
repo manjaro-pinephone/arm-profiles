@@ -6,8 +6,9 @@ uboot-rockpi4
 bootsplash-theme-manjaro
 bootsplash-systemd
 
+# Video drivers
+
 # Other device specific packages
 ap6256-firmware
 wpa_supplicant
-
-# Video drivers
+rockpi4-post-install

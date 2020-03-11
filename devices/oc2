@@ -6,9 +6,10 @@ uboot-odroid-c2-mainline
 bootsplash-theme-manjaro
 bootsplash-systemd
 
+# Video driver
+xf86-video-fbturbo-git
+
 # Other device specific packages
 fbset
 amlogic
-
-# Video driver
-xf86-video-fbturbo-git
+oc2-post-install
