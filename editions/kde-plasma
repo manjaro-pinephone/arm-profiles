@@ -1,5 +1,4 @@
 ## Maintained by Strit ##
-## Not suitable for rpi devices ##
 
 # Minimal packages
 sudo
@@ -19,6 +18,7 @@ man-db
 qt5-es2-base
 qt5-es2-declarative
 qt5-es2-multimedia
+gtk3-nocsd
 
 # Sound, Video and bluetooth
 alsa-utils
