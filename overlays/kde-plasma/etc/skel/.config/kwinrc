@@ -10,6 +10,9 @@ XRenderSmoothScale=false
 [Desktops]
 Number=1
 
+[Plugins]
+contrastEnabled=false
+
 [TabBox]
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
