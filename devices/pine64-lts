@@ -2,7 +2,7 @@
 
 # Kernel and bootloader stuff
 linux-pine64
-uboot-pine64-git
+uboot-pine64-lts
 bootsplash-theme-manjaro
 bootsplash-systemd
 
