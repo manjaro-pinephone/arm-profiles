@@ -37,6 +37,7 @@ plasma-mobile-nm
 qmlkonsole-git
 kongress-git
 plasma-pix-git
+plasma-dialer-git
 
 # Packages to be built
 #qrca-git
