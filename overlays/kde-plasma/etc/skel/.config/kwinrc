@@ -11,7 +11,7 @@ XRenderSmoothScale=false
 Number=1
 
 [Plugins]
-bluEnabled=false
+blurEnabled=false
 contrastEnabled=false
 
 [TabBox]
