@@ -1,0 +1,16 @@
+## Maintained by ?? ##
+
+# Minimal packages
+sudo
+parted
+openssh
+haveged
+inxi
+ncdu
+nano
+dhcpcd
+man-pages
+man-db
+
+# Phosh packages
+phosh
