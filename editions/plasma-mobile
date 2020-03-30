@@ -74,3 +74,4 @@ qt5-virtualkeyboard
 mesa-git
 tlp
 alsa-utils
+wget
