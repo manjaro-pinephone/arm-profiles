@@ -89,9 +89,8 @@ noto-fonts
 
 # Other packages
 openresolv
-#manjaro-settings-manager
-#manjaro-settings-manager-kcm
-#manjaro-settings-manager-knotifier
+manjaro-settings-manager
+manjaro-settings-manager-kcm
 wget
 tlp
 manjaro-hotfixes
