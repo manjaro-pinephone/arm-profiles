@@ -1,7 +1,7 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
-linux-vim3
+linux-vim
 boot-vim2
 bootsplash-theme-manjaro
 bootsplash-systemd
@@ -10,7 +10,7 @@ bootsplash-systemd
 xf86-video-fbturbo-git
 
 # Other device specific packages
-#bluetooth-vim3'
-khadas-utils
+#bluetooth-vim3
+#khadas-utils
 fbset
 vim3-post-install
