@@ -14,12 +14,6 @@ dhcpcd
 man-pages
 man-db
 
-# openGLES 2 packages
-qt5-es2-base
-qt5-es2-declarative
-qt5-es2-multimedia
-gtk3-nocsd
-
 # Sound, Video and bluetooth
 alsa-utils
 smplayer
@@ -95,3 +89,4 @@ wget
 tlp
 manjaro-hotfixes
 xdg-user-dirs
+gtk3-nocsd
