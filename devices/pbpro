@@ -12,4 +12,5 @@ bootsplash-systemd
 ap6256-firmware
 wpa_supplicant
 pinebookpro-audio
+xf86-input-synaptics
 pinebookpro-post-install
