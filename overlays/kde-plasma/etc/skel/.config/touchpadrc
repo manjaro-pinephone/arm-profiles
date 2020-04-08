@@ -1,0 +1,15 @@
+[autodisable]
+OnlyDisableTapAndScrollOnKeyboardActivity=false
+
+[parameters]
+AccelFactor=0.10487455832626234
+CircScrollDelta=5.73
+HorizScrollDelta=1.1
+MaxSpeed=49.12340691396174
+MaxTapMove=1.8
+MinSpeed=0.39076252833677383
+OneFingerTapButton=LeftButton
+Tapping=false
+ThreeFingerTapButton=MiddleButton
+TwoFingerTapButton=RightButton
+VertScrollDelta=1.1
