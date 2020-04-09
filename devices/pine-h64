@@ -1,0 +1,14 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
+linux-aarch64
+linux-aarch64-headers
+uboot-pine-h64
+bootsplash-theme-manjaro
+bootsplash-systemd
+
+# Video drivers
+xf86-video-fbturbo-git
+
+# Other stuff
+pinebook-post-install
