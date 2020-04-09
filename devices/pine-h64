@@ -10,5 +10,8 @@ bootsplash-systemd
 # Video drivers
 xf86-video-fbturbo-git
 
-# Other stuff
+# Other device specific packages
+dkms-rtl8723cs
+rtl8723bt-firmware
+wpa_supplicant
 pinebook-post-install
