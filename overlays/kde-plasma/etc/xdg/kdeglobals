@@ -120,6 +120,7 @@ widgetStyle=Breeze
 Theme=breath2-dark
 
 [KDE]
+AnimationDurationFactor=0.5
 ColorScheme=Breeze
 DoubleClickInterval=400
 SingleClick=false
