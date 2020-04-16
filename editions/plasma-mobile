@@ -59,6 +59,8 @@ discover
 packagekit-qt5
 qt5-pim-git
 debianutils
+koko
+peruse
 
 # Theming
 manjaro-arm-wallpapers
@@ -75,3 +77,5 @@ mesa-git
 tlp
 alsa-utils
 wget
+qwikaccess-git
+vvave-git
