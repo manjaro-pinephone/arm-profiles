@@ -15,5 +15,5 @@ wpa_supplicant
 eg25
 libqofono-qt5
 ofonoctl
-pinephone-post-install
 pinephone-modem-audio
+pinephone-post-install
