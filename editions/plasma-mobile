@@ -24,8 +24,8 @@ desktop-file-utils
 telephony-service
 telepathy-mission-control
 telepathy-ofono
-plasma-angelfish
-plasma-camera
+plasma-angelfish-git
+plasma-camera-git
 plasma-phone-components-git
 plasma-settings-git
 plasma-nano-git
