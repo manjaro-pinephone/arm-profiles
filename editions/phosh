@@ -12,6 +12,19 @@ dhcpcd
 man-pages
 man-db
 
+# Display Manager
+lightdm
+
 # Phosh packages
 gnome-session
+mutter
 phosh
+
+# Theming
+manjaro-arm-wallpapers
+
+# Other packages
+mesa
+gnome-keyring
+polkit
+xorg-server-xwayland

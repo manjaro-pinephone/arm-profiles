@@ -1,0 +1,9 @@
+[Unit]
+Description=Launch Phosh.
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/phosh
+
+[Install]
+WantedBy=graphical.target

@@ -1,5 +1,6 @@
 systemd-networkd.service
 dhcpcd.service
-sshd.service 
+sshd.service
+lightdm.service
 bootsplash-hide-when-booted.service
 bootsplash-show-on-shutdown.service
