@@ -13,4 +13,5 @@ man-pages
 man-db
 
 # Phosh packages
+gnome-session
 phosh
