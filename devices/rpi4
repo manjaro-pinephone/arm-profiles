@@ -4,6 +4,7 @@
 linux-rpi4
 linux-rpi4-headers
 raspberrypi-bootloader
+raspberrypi-bootloader-x
 bootsplash-theme-manjaro
 bootsplash-systemd
 

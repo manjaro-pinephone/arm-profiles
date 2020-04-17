@@ -6,6 +6,7 @@
 linux-aarch64-udl-rc
 linux-aarch64-udl-rc-headers
 raspberrypi-bootloader
+raspberrypi-bootloader-x
 bootsplash-theme-manjaro
 bootsplash-systemd
 

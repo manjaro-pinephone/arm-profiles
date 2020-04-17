@@ -3,6 +3,7 @@
 # Kernel and Bootloader stuff
 linux-rpi4-mainline
 raspberrypi-bootloader
+raspberrypi-bootloader-x
 bootsplash-theme-manjaro
 bootsplash-systemd
 
