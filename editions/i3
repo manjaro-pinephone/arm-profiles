@@ -62,6 +62,7 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 nss-mdns
+ntfs-3g
 ntp
 openresolv
 openssh
@@ -117,3 +118,4 @@ xorg-xinput
 xorg-xkill
 xorg-xprop
 xterm
+zswap-arm

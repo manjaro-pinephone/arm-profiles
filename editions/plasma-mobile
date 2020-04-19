@@ -11,6 +11,8 @@ nano
 dhcpcd
 man-pages
 man-db
+ntfs-3g
+zswap-arm
 
 # OpenGLES qt packages
 qt5-es2-base
@@ -38,6 +40,7 @@ qmlkonsole-git
 kongress-git
 plasma-pix-git
 plasma-dialer-git
+vvave-git
 
 # Packages to be built
 #qrca-git
@@ -78,4 +81,4 @@ tlp
 alsa-utils
 wget
 qwikaccess-git
-vvave-git
+xdg-user-dirs

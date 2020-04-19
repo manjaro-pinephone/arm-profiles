@@ -10,6 +10,7 @@ inxi
 ncdu
 nano
 dhclient
+zswap-arm
 
 # Gnome edition packages
 alsa-firmware

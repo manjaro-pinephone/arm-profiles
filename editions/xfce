@@ -11,6 +11,7 @@ nano
 dhcpcd
 man-pages
 man-db
+zswap-arm
 
 # Sound, video and bluetooth
 pavucontrol

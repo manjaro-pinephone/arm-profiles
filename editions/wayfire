@@ -11,6 +11,8 @@ nano
 dhcpcd
 man-pages
 man-db
+ntfs-3g
+zswap-arm
 
 # Sound and Video utilities
 alsa-utils

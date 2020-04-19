@@ -11,6 +11,8 @@ inxi
 ncdu
 nano
 # dhcpcd
+ntfs-3g
+zswap-arm
 
 # Sound, Video and bluetooth
 pavucontrol-qt
