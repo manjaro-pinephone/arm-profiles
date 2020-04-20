@@ -48,7 +48,7 @@ plugin=org.kde.plasma.kickoff
 PreloadWeight=92
 
 [Containments][2][Applets][3][Configuration][General]
-favoritesPortedToKAstats=true
+favorites=firefox.desktop,org.kde.dolphin.desktop,org.kde.konsole.desktop,systemsettings.desktop
 icon=manjaro
 systemApplications=systemsettings.desktop,org.kde.kinfocenter.desktop
 
