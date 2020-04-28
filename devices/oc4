@@ -1,0 +1,12 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
+linux-aarch64-rc
+uboot-odroid-c4
+bootsplash-theme-manjaro
+bootsplash-systemd
+
+# Video driver
+
+# Other device specific packages
+fbset
