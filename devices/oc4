@@ -10,3 +10,4 @@ bootsplash-systemd
 
 # Other device specific packages
 fbset
+oc4-post-install
