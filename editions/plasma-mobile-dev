@@ -1,0 +1,84 @@
+## Maintained by Spikerguy ##
+
+# Minimal packages
+sudo
+parted
+openssh
+haveged
+inxi
+ncdu
+nano
+dhcpcd
+man-pages
+man-db
+ntfs-3g
+zswap-arm
+
+# OpenGLES qt packages
+qt5-es2-base
+qt5-es2-declarative
+qt5-es2-multimedia
+qt5-es2-wayland
+
+# PM Packages
+xdg-utils
+desktop-file-utils
+telephony-service
+telepathy-mission-control
+telepathy-ofono
+plasma-angelfish-git
+plasma-camera-git
+plasma-phone-components-git
+plasma-settings-git
+plasma-nano-git
+plasma-phonebook-git
+calindori-git
+index-git
+spacebar-git
+plasma-mobile-nm
+qmlkonsole-git
+kongress-git
+plasma-pix-git
+plasma-dialer-git
+vvave-git
+
+# Packages to be built
+#qrca-git
+#keysmith-git
+
+# Regular Plasma packages
+bluez
+bluedevil
+breeze
+kirigami-gallery
+kwallet-pam
+polkit-kde-agent
+powerdevil
+sddm
+kscreen
+xdg-desktop-portal-kde
+plasma-pa
+discover
+packagekit-qt5
+qt5-pim-git
+debianutils
+koko
+peruse
+
+# Theming
+manjaro-arm-wallpapers
+manjaro-icons
+
+# Wayland stuff
+kwayland
+kwayland-integration
+xorg-server-xwayland
+qt5-virtualkeyboard
+
+# Other
+mesa-git
+tlp
+alsa-utils
+wget
+qwikaccess-git
+xdg-user-dirs

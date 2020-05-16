@@ -1,0 +1,6 @@
+sshd.service 
+sddm.service
+NetworkManager.service
+bluetooth.service
+tlp.service
+zswap-arm.service

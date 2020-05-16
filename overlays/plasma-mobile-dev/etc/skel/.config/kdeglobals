@@ -1,0 +1,13 @@
+[General]
+ColorScheme=Breeze
+Name=Breeze
+shadeSortColumn=true
+widgetStyle=Breeze
+
+[Icons]
+Theme=breeze
+
+[KDE]
+ColorScheme=Breeze
+contrast=4
+widgetStyle=Breeze
