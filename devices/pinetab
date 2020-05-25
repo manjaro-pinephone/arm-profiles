@@ -1,8 +1,8 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
-linux-pinephone
-linux-pinephone-headers
+linux-aarch64-rc
+linux-aarch64-rc-headers
 uboot-pinetab
 bootsplash-theme-manjaro
 bootsplash-systemd
@@ -10,6 +10,7 @@ bootsplash-systemd
 # Video drivers
 
 # Other device specific packages
+dkms-rtl8723cs
 rtl8723bt-firmware
 wpa_supplicant
 pinetab-post-install
