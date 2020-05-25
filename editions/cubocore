@@ -18,29 +18,18 @@ zswap-arm
 
 # Sound, Video and bluetooth
 alsa-utils
+bluez
+pulseaudio-bluetooth
 
 # Display Manager
 sddm
-sddm-breath2-theme
 
-# Plasma packages
-bluedevil
-breeze
-drkonqi
-#kde-gtk-config
-kinfocenter
-kscreen
-kscreenlocker
-ksysguard
-kwallet-pam
-kwayland-integration
-kwin
-plasma-desktop
-plasma-nm
-plasma-pa
-plasma-workspace
-powerdevil
-systemsettings
+
+# DesQ packages
+desq-session-git
+#desq-shell-git
+oyster-git
+networkmanager-qt
 
 #CoreApps
 coreaction
@@ -58,7 +47,7 @@ corepins
 corerenamer
 coreshot
 corestats
-corestuff
+#corestuff
 coreterminal
 coretime
 coretoppings
@@ -74,10 +63,9 @@ ttf-bitstream-vera
 falkon
 
 # Themes
-breath2-icon-themes
-plasma5-themes-breath2
-gtk-theme-breath
-manjaro-arm-wallpapers
+breeze-icons
+manjaro-icons
+#manjaro-arm-wallpapers
 
 # Office suite
 calligra
@@ -86,10 +74,11 @@ calligra
 #pamac-qt #when it's ready
 
 # Other applications
+openbox
 openresolv
 manjaro-settings-manager
+manjaro-arm-flasher
 wget
 tlp
 manjaro-hotfixes
 xdg-user-dirs
-xf86-video-fbturbo-git
