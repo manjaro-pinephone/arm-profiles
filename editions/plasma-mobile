@@ -54,8 +54,6 @@ xdg-desktop-portal-kde
 plasma-pa
 discover
 packagekit-qt5
-debianutils
-peruse
 
 # Theming
 manjaro-arm-wallpapers
@@ -68,8 +66,9 @@ xorg-server-xwayland
 qt5-virtualkeyboard
 
 # Other
-mesa
 tlp
 alsa-utils
 wget
 xdg-user-dirs
+debianutils
+flatpak

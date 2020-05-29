@@ -29,10 +29,11 @@ sddm
 desq-session-git
 #desq-shell-git
 oyster-git
+desq-settings-git
 networkmanager-qt
 
 #CoreApps
-coreaction
+#coreaction
 corearchiver
 corefm
 coregarage
@@ -68,7 +69,7 @@ manjaro-icons
 #manjaro-arm-wallpapers
 
 # Office suite
-calligra
+#calligra
 
 # Package Manager
 #pamac-qt #when it's ready
