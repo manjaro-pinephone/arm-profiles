@@ -22,8 +22,7 @@ telepathy-mission-control
 telepathy-ofono
 plasma-angelfish
 plasma-camera
-plasma-phone-components-git #Tagged release 5.18 does not work
-#plasma-phone-components
+plasma-phone-components
 plasma-settings-git #No tagged release yet
 plasma-nano
 plasma-phonebook-git #No tagged release yet
@@ -33,7 +32,8 @@ spacebar-git #No tagged release yet
 plasma-mobile-nm
 qmlkonsole-git #No tagged release yet
 pix
-plasma-dialer-git #Only needed with git version of phone-components
+plasma-dialer-git #Needed when using plasma-phone-components 5.19 or newer
+#plasma-dialer #Only has an old tagged release. Needed when using plasma-phone-components 5.19 or newer
 vvave
 
 # Packages to be built
@@ -72,3 +72,4 @@ wget
 xdg-user-dirs
 debianutils
 flatpak
+iio-sensor-proxy
