@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=updateDVB
-Comment=Scan & Play FTA Streams
-Exec=/usr/local/bin/updateDVB
-Terminal=false
-Type=Application
-Icon=/usr/share/icons/updateDVB-36.png
