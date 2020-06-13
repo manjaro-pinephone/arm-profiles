@@ -1,7 +1,7 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
-linux-pinebookpro
+linux-aarch64
 uboot-pinebookpro
 bootsplash-theme-manjaro
 bootsplash-systemd
