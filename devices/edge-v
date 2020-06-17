@@ -1,0 +1,13 @@
+## Maintained by Spikerguy ##
+
+# Kernel and bootloader stuff
+linux-vim
+uboot-edge-v
+bootsplash-theme-manjaro
+bootsplash-systemd
+
+# Video drivers
+
+# Other device specific packages
+nanopc-t4-post-install
+ap6398s-firmware
