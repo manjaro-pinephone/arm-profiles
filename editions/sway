@@ -1,0 +1,130 @@
+## Maintained by Appelgriebsch ##
+
+# Minimal packages
+sudo
+parted
+openssh
+haveged
+inxi
+ncdu
+nano
+dhcpcd
+man-pages
+man-db
+zswap-arm
+upower
+
+# Sound, video and bluetooth
+pavucontrol
+pulseaudio-alsa
+alsa-utils
+bluez
+bluez-utils
+pulseaudio-bluetooth
+blueman
+
+# Display Manager
+greetd
+greetd-gtkgreet
+wlogout
+
+# Network
+avahi
+networkmanager
+networkmanager-openvpn
+network-manager-applet
+dhclient
+manjaro-hotfixes
+manjaro-settings-samba
+
+# Core Sway Packages
+sway
+swaybg
+swayidle
+swaylock
+mako
+termite
+qt5-wayland
+waybar
+wl-clipboard
+wofi
+xorg-server-xwayland
+
+# Sway Extras
+bemenu
+bemenu-wlroots
+grim
+grimshot
+imv
+slurp
+wdisplays
+
+# Themes
+qt5ct
+kvantum-qt5
+kvantum-theme-matchama
+lxappearance
+gtk3-nocsd
+matcha-gtk-theme
+manjaro-arm-wallpapers
+papirus-maia-icon-theme
+xcursor-breeze
+
+# Browser
+firefox
+firefox-ublock-origin
+
+# Email
+thunderbird
+
+# Office suite
+libreoffice-fresh
+
+# Package Manager
+pamac-gtk
+pamac-tray-appindicator
+polkit-gnome
+
+# Fonts
+ttf-bitstream-vera
+noto-fonts
+ttf-fira-code
+ttf-fira-mono
+ttf-font-awesome
+ttf-roboto
+
+# other base packages
+base-devel
+cpu-temp-speed
+curl
+htop
+light
+mlocate
+neofetch
+neovim
+wget
+tlp
+xdg-user-dirs
+
+# Other Applications
+celluloid
+epdfview
+ffmpeg
+gcolor3
+manjaro-settings-manager
+mntray
+mpv
+ranger
+seahorse
+
+# File systems access
+pcmanfm-gtk3
+gvfs
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+ifuse
+mtpfs
+ntfs-3g
+usb_modeswitch
