@@ -107,15 +107,21 @@ tlp
 xdg-user-dirs
 
 # Other Applications
+atool
 celluloid
 epdfview
 ffmpeg
+ffmpegthumbnailer
 gcolor3
 manjaro-settings-manager
+mediainfo
 mntray
 mpv
+odt2txt
 ranger
 seahorse
+silver
+ytop
 
 # File systems access
 pcmanfm-gtk3

@@ -12,23 +12,23 @@
 
 @keyframes blink-warning {
     70% {
-        color: white;
+        color: #F5F7FA;
     }
 
     to {
-        color: white;
-        background-color: orange;
+        color: #F5F7FA;
+        background-color: #E66B2B;
     }
 }
 
 @keyframes blink-critical {
     70% {
-      color: white;
+      color: #F5F7FA;
     }
 
     to {
-        color: white;
-        background-color: red;
+        color: #F5F7FA;
+        background-color: #EF5253;
     }
 }
 
@@ -48,8 +48,8 @@
 
 /* The whole bar */
 #waybar {
-    background: #2E3440;
-    color: white;
+    background: #1B2224;
+    color: #F5F7FA;
     font-family: Cantarell, Noto Sans, sans-serif;
     font-size: 13px;
 }
@@ -81,11 +81,11 @@
 }
 
 #battery.warning {
-    color: orange;
+    color: #E66B2B;
 }
 
 #battery.critical {
-    color: red;
+    color: #EF5253;
 }
 
 #battery.warning.discharging {
@@ -107,11 +107,11 @@
 }
 
 #cpu.warning {
-    color: orange;
+    color: #E66B2B;
 }
 
 #cpu.critical {
-    color: red;
+    color: #EF5253;
 }
 
 #memory {
@@ -121,18 +121,18 @@
 }
 
 #memory.warning {
-    color: orange;
+    color: #E66B2B;
 }
 
 #memory.critical {
-    color: red;
+    color: #EF5253;
     animation-name: blink-critical;
     animation-duration: 2s;
 }
 
 #mode {
     background: #64727D;
-    border-top: 2px solid white;
+    border-top: 2px solid #F5F7FA;
     /* To compensate for the top border and still have vertical centering */
     padding-bottom: 2px;
 }
@@ -142,7 +142,7 @@
 }
 
 #network.disconnected {
-    color: orange;
+    color: #E66B2B;
 }
 
 #pulseaudio {
@@ -162,7 +162,7 @@
 }
 
 #temperature.critical {
-    color: red;
+    color: #EF5253;
 }
 
 #tray {
@@ -179,16 +179,16 @@
     padding-bottom: 2px;
     padding-left: 10px;
     padding-right: 10px;
-    color: #888888;
+    color: #A6AFB8;
 }
 
 #workspaces button.focused {
-    border-color: #81A1C1;
-    color: white;
-    background-color: #81A1C1;
+    border-color: #7CC844;
+    color: #F5F7FA;
+    background-color: #7CC844;
 }
 
 #workspaces button.urgent {
-    border-color: #c9545d;
-    color: #c9545d;
+    border-color: #EF5253;
+    color: #EF5253;
 }
