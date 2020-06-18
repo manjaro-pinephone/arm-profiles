@@ -29,7 +29,8 @@ hide_edge_borders smart
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/wallpapers/manjaro-arm/generic/manjaro-pine64-2b.png fill
+output * bg /usr/share/wallpapers/manjaro-arm/generic/manjaro-arm2.png fill
+
 #
 # Example configuration:
 #
