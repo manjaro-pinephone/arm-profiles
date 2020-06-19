@@ -1,0 +1,13 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
+linux-aarch64
+uboot-nanopi-neo-plus2
+bootsplash-theme-manjaro
+bootsplash-systemd
+
+# Video drivers
+xf86-video-fbturbo-git
+
+# Other device specific packages
+pinebook-post-install
