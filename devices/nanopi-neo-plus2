@@ -10,4 +10,5 @@ bootsplash-systemd
 xf86-video-fbturbo-git
 
 # Other device specific packages
+kvim1-firmware
 pinebook-post-install
