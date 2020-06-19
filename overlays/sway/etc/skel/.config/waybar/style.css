@@ -154,7 +154,7 @@
 }
 
 #custom-spotify {
-    color: rgb(102, 220, 105);
+    color: #52CBB0;
 }
 
 #temperature {
@@ -183,9 +183,9 @@
 }
 
 #workspaces button.focused {
-    border-color: #7CC844;
+    border-color: #52CBB0;
     color: #F5F7FA;
-    background-color: #7CC844;
+    background-color: #52CBB0;
 }
 
 #workspaces button.urgent {

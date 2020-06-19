@@ -265,9 +265,8 @@ client.background       $base07
 # xwayland disable
 
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec --no-startup-id mako --default-timeout 5000 --icons 1  --markup 1 --actions 1
+exec --no-startup-id mako --default-timeout 5000 --icons 1  --markup 1 --actions 1 --background-color '#52CBB0'
 exec --no-startup-id pamac-tray-appindicator
-# doesn't work with default nm-applet, needs AUR build with libindicator support
 exec --no-startup-id nm-applet --indicator
 exec --no-startup-id blueman-applet
 exec --no-startup-id mntray
