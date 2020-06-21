@@ -1,0 +1,13 @@
+# global variables
+include /etc/sway/config.d/00-global-definitions
+
+include /etc/sway/inputs/default-touchpad
+include /etc/sway/inputs/default-keyboard-ansi
+include /etc/sway/outputs/default
+
+# colorscheme
+include /etc/sway/themes/matcha-theme
+include /etc/sway/config.d/10-ui-settings
+
+exec "gtkgreet -l -c sway; swaymsg exit"
+bindsym $mod+Shift+e exec wlogout --layout /etc/wlogout/user-loggedout --buttons-per-row 3

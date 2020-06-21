@@ -1,4 +1,0 @@
-# `-l` activates layer-shell mode. Notice that `swaymsg exit` will run after gtkgreet.
-include /etc/sway/config.d/*
-exec "gtkgreet -l -c sway; swaymsg exit"
-bindsym Mod4+Shift+e exec wlogout --layout /etc/wlogout/user-loggedout --buttons-per-row 3

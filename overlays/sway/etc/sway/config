@@ -1,0 +1,24 @@
+# Default config for sway
+#
+# Copy this to ~/.config/sway/config and edit it to your liking.
+#
+# Read `man 5 sway` for a complete reference.
+
+# global variables
+include /etc/sway/config.d/00-global-definitions
+
+include /etc/sway/inputs/default-touchpad
+include /etc/sway/inputs/default-keyboard-ansi
+include /etc/sway/outputs/default
+
+# colorscheme
+include /etc/sway/themes/matcha-theme
+include /etc/sway/config.d/10-ui-settings
+
+# enable modes
+include /etc/sway/config.d/20-normal-mode
+include /etc/sway/config.d/30-scratchpad-mode
+include /etc/sway/config.d/40-resize-mode
+
+# autostart applications
+include /etc/sway/config.d/99-autostart-applications
