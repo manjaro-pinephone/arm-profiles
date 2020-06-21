@@ -109,7 +109,6 @@ xdg-user-dirs
 # Other Applications
 atool
 celluloid
-epdfview
 ffmpeg
 ffmpegthumbnailer
 gcolor3
@@ -122,6 +121,8 @@ ranger
 seahorse
 silver
 ytop
+zathura
+zathura-pdf-poppler
 
 # File systems access
 pcmanfm-gtk3
