@@ -10,7 +10,7 @@ set $up k
 set $right l
 
 # styles
-set $theme matcha
+set $theme /etc/sway/themes/matcha
 set $background /usr/share/wallpapers/manjaro-arm/generic/manjaro-arm2.png
 
 # Your preferred terminal emulator
@@ -38,3 +38,6 @@ set $statusbar waybar
 
 # logout command
 set $logout wlogout --layout /etc/wlogout/user-loggedin
+
+# shutdown command
+set $shutdown wlogout --layout /etc/wlogout/user-loggedout --buttons-per-row 3

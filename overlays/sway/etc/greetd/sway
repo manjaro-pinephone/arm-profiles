@@ -5,4 +5,6 @@ include /etc/sway/inputs/*
 include /etc/sway/outputs/*
 
 exec "gtkgreet -l -c sway; swaymsg exit"
-bindsym $mod+Shift+e exec wlogout --layout /etc/wlogout/user-loggedout --buttons-per-row 3
+
+# offer shutdown options
+bindsym $mod+Shift+e exec $shutdown
