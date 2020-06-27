@@ -69,7 +69,8 @@ manjaro-arm-wallpapers
 manjaro-icons
 
 # Browser
-chromium
+firefox
+firefox-ublock-origin
 
 # File systems access
 gvfs
