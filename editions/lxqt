@@ -24,8 +24,9 @@ blueman
 smplayer
 
 # Display Manager
-sddm
-sddm-breath2-theme
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
 
 # LXQT packages
 networkmanager

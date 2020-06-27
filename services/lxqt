@@ -1,5 +1,5 @@
 sshd.service
-sddm.service
+lightdm.service
 NetworkManager.service
 bluetooth.service
 tlp.service
