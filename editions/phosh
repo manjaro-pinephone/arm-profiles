@@ -16,11 +16,17 @@ zswap-arm
 
 # Display Manager
 lightdm
+lightdm-gtk-greeter
 
 # Phosh packages
 gnome-session
 mutter
 phosh
+calls
+chatty
+kgx
+sound-theme-phosh
+squeekboard
 
 # Theming
 manjaro-arm-wallpapers
