@@ -1,4 +1,5 @@
-## Maintained by ?? ##
+## Maintained by Strit ##
+## Only builds on arm-unstable branch currently ##
 
 # Minimal packages
 sudo
@@ -19,19 +20,24 @@ lightdm
 lightdm-gtk-greeter
 
 # Phosh packages
+gtk3-mobile
 gnome-session
 mutter
 phosh
 calls
 chatty
+purple-matrix
 kgx
 sound-theme-phosh
 squeekboard
+gnome-control-center-mobile
+gnome-software-mobile
 
 # Theming
 manjaro-arm-wallpapers
 
 # Other packages
+networkmanager
 mesa
 gnome-keyring
 polkit
