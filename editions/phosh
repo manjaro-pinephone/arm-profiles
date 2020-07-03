@@ -1,5 +1,5 @@
 ## Maintained by Strit ##
-## Only builds on arm-unstable branch currently ##
+## Only builds on arm-unstable and arm-testing branch currently ##
 
 # Minimal packages
 sudo
@@ -32,6 +32,16 @@ sound-theme-phosh
 squeekboard
 gnome-control-center-mobile
 gnome-software-mobile
+
+# Gnome packages
+gnome-calculator
+gnome-clocks
+fractal
+gnote
+eog
+gnome-podcasts
+lollypop
+gedit
 
 # Theming
 manjaro-arm-wallpapers
