@@ -21,7 +21,6 @@ lightdm-gtk-greeter
 
 # Phosh packages
 gtk3-mobile
-gnome-session
 mutter
 phosh
 calls
@@ -49,10 +48,9 @@ manjaro-arm-wallpapers
 
 # Other packages
 bluez
-bluez-pulseaudio
+pulseaudio-bluetooth
 iio-sensor-proxy
 networkmanager
-mesa
 gnome-keyring
 polkit
 xorg-server-xwayland
