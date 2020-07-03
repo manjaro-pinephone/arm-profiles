@@ -36,6 +36,7 @@ gnome-software-mobile
 # Gnome packages
 gnome-calculator
 gnome-clocks
+gnome-keyring
 fractal
 gnote
 eog
@@ -47,6 +48,8 @@ gedit
 manjaro-arm-wallpapers
 
 # Other packages
+bluez
+bluez-pulseaudio
 networkmanager
 mesa
 gnome-keyring
