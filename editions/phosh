@@ -50,6 +50,7 @@ manjaro-arm-wallpapers
 # Other packages
 bluez
 bluez-pulseaudio
+iio-sensor-proxy
 networkmanager
 mesa
 gnome-keyring
