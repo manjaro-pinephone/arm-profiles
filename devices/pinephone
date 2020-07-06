@@ -1,4 +1,4 @@
-## Maintained by Spikerguy ##
+## Maintained by Spikerguy and Philm##
 
 # Kernel and bootloader stuff
 linux-pinephone
@@ -12,8 +12,10 @@ bootsplash-systemd
 # Other device specific packages
 rtl8723bt-firmware
 wpa_supplicant
-eg25
+#eg25
+eg25-misc
 libqofono-qt5
 ofonoctl
-pinephone-modem-audio
+#pinephone-modem-audio
+alsa-ucm-pinephone
 pinephone-post-install
