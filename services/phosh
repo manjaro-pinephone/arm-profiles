@@ -10,4 +10,4 @@ pinephone-post-install.service
 ofono.service
 eg25.service
 pinephone-modem-audio.service
-wys
+wys.service
