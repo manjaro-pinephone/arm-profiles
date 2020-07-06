@@ -3,13 +3,8 @@
 # Minimal packages
 sudo
 parted
-<<<<<<< HEAD
-ofonoctl
-libqofono-qt5
-=======
 libqofono-qt5
 ofonoctl
->>>>>>> dev
 openssh
 haveged
 inxi
