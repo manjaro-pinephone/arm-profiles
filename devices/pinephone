@@ -13,9 +13,5 @@ bootsplash-systemd
 rtl8723bt-firmware
 wpa_supplicant
 eg25
-#eg25-misc
-libqofono-qt5
-ofonoctl
 pinephone-modem-audio
-#alsa-ucm-pinephone
 pinephone-post-install
