@@ -12,6 +12,7 @@ bootsplash-systemd
 # Other device specific packages
 rtl8723bt-firmware
 wpa_supplicant
+wys
 eg25
 pinephone-modem-audio
 pinephone-post-install
