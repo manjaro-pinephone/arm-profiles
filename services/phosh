@@ -1,8 +1,12 @@
 sshd.service
 NetworkManager.service
 ModemManager.service
-lightdm.service
+phosh.service
 bluetooth.service
 zswap-arm.service
 bootsplash-hide-when-booted.service
 bootsplash-show-on-shutdown.service
+pinephone-post-install.service
+ofono.service
+eg25.service
+pinephone-modem-audio.service

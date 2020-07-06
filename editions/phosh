@@ -16,8 +16,8 @@ ntfs-3g
 zswap-arm
 
 # Display Manager
-lightdm
-lightdm-gtk-greeter
+#lightdm
+#lightdm-gtk-greeter
 
 # Phosh packages
 gtk3-mobile
