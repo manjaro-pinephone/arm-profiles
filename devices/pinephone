@@ -12,7 +12,7 @@ bootsplash-systemd
 # Other device specific packages
 rtl8723bt-firmware
 wpa_supplicant
-#eg25
+eg25
 eg25-misc
 libqofono-qt5
 ofonoctl
