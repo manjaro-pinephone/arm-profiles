@@ -4,6 +4,7 @@
 sudo
 parted
 ofonoctl
+libqofono-qt5
 openssh
 haveged
 inxi
