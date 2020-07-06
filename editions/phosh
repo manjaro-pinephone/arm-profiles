@@ -35,6 +35,7 @@ gnome-software-mobile
 
 # Gnome packages
 gnome-calculator
+gnome-contacts
 gnome-clocks
 gnome-keyring
 fractal
