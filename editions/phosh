@@ -15,10 +15,6 @@ man-db
 ntfs-3g
 zswap-arm
 
-# Display Manager
-#lightdm
-#lightdm-gtk-greeter
-
 # Phosh packages
 gtk3-mobile
 mutter
@@ -35,6 +31,7 @@ gnome-software-mobile
 
 # Gnome packages
 gnome-calculator
+gnome-contacts
 gnome-clocks
 gnome-keyring
 fractal
