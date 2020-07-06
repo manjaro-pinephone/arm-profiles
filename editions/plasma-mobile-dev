@@ -3,6 +3,7 @@
 # Minimal packages
 sudo
 parted
+ofonoctl
 openssh
 haveged
 inxi

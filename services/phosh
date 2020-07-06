@@ -1,7 +1,7 @@
 sshd.service
 NetworkManager.service
 ModemManager.service
-lightdm.service
+phosh.service
 bluetooth.service
 zswap-arm.service
 bootsplash-hide-when-booted.service
