@@ -30,6 +30,7 @@ wlogout
 
 # Network
 avahi
+firewalld
 networkmanager
 networkmanager-openvpn
 network-manager-applet
@@ -86,8 +87,8 @@ pamac-tray-appindicator
 polkit-gnome
 
 # Fonts
-ttf-bitstream-vera
 noto-fonts
+ttf-bitstream-vera
 ttf-fira-code
 ttf-fira-mono
 ttf-font-awesome
@@ -95,20 +96,25 @@ ttf-roboto
 
 # other base packages
 base-devel
+bat
 cpu-temp-speed
 curl
+exa
 htop
 light
 mlocate
 neofetch
 neovim
+ripgrep
 wget
 tlp
 xdg-user-dirs
 
 # Other Applications
 atool
-celluloid
+cups-pdf
+file-roller
+foliate
 ffmpeg
 ffmpegthumbnailer
 gcolor3
@@ -119,7 +125,9 @@ mpv
 odt2txt
 ranger
 seahorse
+simple-scan
 silver
+system-config-printer
 ytop
 zathura
 zathura-pdf-poppler
