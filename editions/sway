@@ -115,7 +115,6 @@ xdg-user-dirs
 # Other Applications
 atool
 cups-pdf
-file-roller
 foliate
 ffmpeg
 ffmpegthumbnailer
@@ -135,7 +134,11 @@ zathura
 zathura-pdf-poppler
 
 # File systems access
-pcmanfm-gtk3
+thunar
+thunar-archive-plugin
+thunar-volman
+tumbler
+file-roller
 gvfs
 gvfs-gphoto2
 gvfs-mtp
