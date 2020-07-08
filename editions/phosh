@@ -21,6 +21,8 @@ mutter
 phosh
 calls
 chatty
+flashlight
+powersupply
 purple-matrix
 kgx
 sound-theme-phosh
@@ -28,6 +30,8 @@ squeekboard
 gnome-contacts
 gnome-control-center-mobile
 gnome-software-mobile
+gnome-usage # works only as root
+gnome-sound-recorder
 
 # Gnome packages
 gnome-calculator
