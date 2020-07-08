@@ -16,5 +16,4 @@ bootsplash-systemd
 firmware-raspberrypi
 pi-bluetooth
 wpa_supplicant
-brcm-patchram-plus #fixes bluetooth
 rpi4-post-install
