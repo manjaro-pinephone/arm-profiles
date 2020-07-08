@@ -90,9 +90,9 @@ polkit-gnome
 
 # Fonts
 noto-fonts
+noto-fonts-emoji
 ttf-bitstream-vera
-ttf-fira-code
-ttf-fira-mono
+ttf-jetbrains-mono
 ttf-font-awesome
 ttf-roboto
 
