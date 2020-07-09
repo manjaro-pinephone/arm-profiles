@@ -10,7 +10,7 @@ bindsym $mod+Shift+q kill
 
 # Start your launcher
 bindsym $mod+d exec $appmenu
-bindsym $mod+Shift+d exec $menu
+bindsym $alt+d exec $menu
 
 # Drag floating windows by holding down $mod and left mouse button.
 # Resize them with right mouse button + $mod.
@@ -24,10 +24,13 @@ bindsym $mod+Shift+c reload
 
 # Exit sway (logs you out of your Wayland session)
 bindsym $mod+Shift+e exec $logout
+
+# Taking screenshots (full-screen, active window, or dedicated area)
 bindsym Print exec grimshot save screen
-bindsym Alt+Print exec grimshot save win
+bindsym $alt+Print exec grimshot save win
 bindsym $mod+Print exec grimshot save area
 
+# Media key bindings
 bindsym XF86AudioLowerVolume exec amixer -q sset 'Master' 5%-
 bindsym XF86AudioMute exec amixer -q sset 'Master' toggle
 bindsym XF86AudioRaiseVolume exec amixer -q sset 'Master' 5%+
@@ -58,6 +61,7 @@ bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
+
 #
 # Workspaces:
 #
@@ -85,6 +89,7 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 # Note: workspaces can have any name you want, not just numbers.
 # We just use 1-10 as the default.
+
 #
 # Layout stuff:
 #
@@ -110,6 +115,7 @@ bindsym $mod+space focus mode_toggle
 
 # Move focus to the parent container
 bindsym $mod+a focus parent
+
 #
 # Status Bar:
 #

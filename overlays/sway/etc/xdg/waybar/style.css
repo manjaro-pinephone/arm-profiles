@@ -44,13 +44,14 @@
     min-height: 0;
     margin: 0;
     padding: 0;
+    font-family: "FontAwesome 5 Free Solid", "Noto Sans", Roboto, sans-serif;
 }
 
 /* The whole bar */
 #waybar {
     background: #1B2224;
     color: #F5F7FA;
-    font-family: Noto Sans, sans-serif;
+    font-family: "Noto Sans", Roboto, sans-serif;
     font-size: 13px;
 }
 
