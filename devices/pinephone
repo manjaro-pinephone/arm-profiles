@@ -15,7 +15,9 @@ rtl8723bt-firmware
 wpa_supplicant
 wys
 eg25
+#eg25-misc
 pinephone-modem-audio
 pinephone-post-install
 #pinephone-modem-scripts
 #pinephone-softsleep
+#alsa-ucm-pinephone

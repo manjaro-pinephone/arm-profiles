@@ -29,7 +29,7 @@ squeekboard
 gnome-contacts
 gnome-control-center-mobile
 gnome-software-mobile
-gnome-usage # works only as root
+gnome-usage-mobile # works only as root
 gnome-sound-recorder
 
 # Gnome packages
@@ -58,3 +58,6 @@ polkit
 xorg-server-xwayland
 pinephone-manjaro-tweaks
 actkbd-pinephone-volume
+hwtest
+psensor
+firefox
