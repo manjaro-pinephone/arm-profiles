@@ -89,10 +89,10 @@ pamac-tray-appindicator
 polkit-gnome
 
 # Fonts
+nerd-fonts-terminus
 noto-fonts
 noto-fonts-emoji
 ttf-bitstream-vera
-ttf-jetbrains-mono
 ttf-font-awesome
 ttf-roboto
 
@@ -119,6 +119,7 @@ foliate
 ffmpeg
 ffmpegthumbnailer
 gcolor3
+gnome-epub-thumbnailer
 manjaro-settings-manager
 mediainfo
 mntray
