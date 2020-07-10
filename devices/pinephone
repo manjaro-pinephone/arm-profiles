@@ -16,8 +16,10 @@ wpa_supplicant
 wys
 eg25
 #eg25-misc
-pinephone-modem-audio
+pinephone-modem-audio # service is still broken somehow
 pinephone-post-install
+pinephone-manjaro-tweaks
+actkbd-pinephone-volume
 #pinephone-modem-scripts
 #pinephone-softsleep
 #alsa-ucm-pinephone

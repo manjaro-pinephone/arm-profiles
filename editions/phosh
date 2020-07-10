@@ -56,8 +56,6 @@ networkmanager
 gnome-keyring
 polkit
 xorg-server-xwayland
-pinephone-manjaro-tweaks
-actkbd-pinephone-volume
 hwtest
 psensor
 firefox
