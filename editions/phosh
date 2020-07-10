@@ -21,7 +21,6 @@ mutter
 phosh
 calls
 chatty
-flashlight
 powersupply
 purple-matrix
 kgx
@@ -57,3 +56,5 @@ networkmanager
 gnome-keyring
 polkit
 xorg-server-xwayland
+pinephone-manjaro-tweaks
+actkbd-pinephone-volume
