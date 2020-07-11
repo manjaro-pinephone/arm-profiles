@@ -10,16 +10,14 @@ bootsplash-systemd
 # Video drivers
 
 # Other device specific packages
-flashlight
+flashlight # GTK app
 rtl8723bt-firmware
 wpa_supplicant
 wys
-eg25
-#eg25-misc
-pinephone-modem-audio # service is still broken somehow
+ofono
 pinephone-post-install
 pinephone-manjaro-tweaks
-actkbd-pinephone-volume
-#pinephone-modem-scripts
-#pinephone-softsleep
-#alsa-ucm-pinephone
+actkbd-pinephone-volume # might not work yet
+pinephone-modem-scripts
+pinephone-softsleep
+alsa-ucm-pinephone
