@@ -22,7 +22,9 @@ phosh
 calls
 chatty
 powersupply
+purple-mm-sms
 purple-matrix
+purple-telegram
 kgx
 sound-theme-phosh
 squeekboard
@@ -37,6 +39,7 @@ gnome-calculator
 gnome-contacts
 gnome-clocks
 gnome-keyring
+gnome-maps
 fractal
 gnote
 eog
@@ -47,6 +50,7 @@ gedit
 # Theming
 manjaro-arm-wallpapers
 manjaro-icons
+papirus-maia-icon-theme
 
 # Other packages
 bluez
@@ -56,6 +60,6 @@ networkmanager
 gnome-keyring
 polkit
 xorg-server-xwayland
-hwtest
+#hwtest
 psensor
 firefox
