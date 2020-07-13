@@ -37,6 +37,9 @@ bindsym XF86AudioRaiseVolume exec amixer -q sset 'Master' 5%+
 bindsym XF86MonBrightnessDown exec light -U 5
 bindsym XF86MonBrightnessUp exec light -A 5
 
+# capture PowerOff key
+bindsym XF86PowerOff exec $logout
+
 #
 # Moving around:
 #
