@@ -1,6 +1,6 @@
 [General]
 screenCount=1
-confirmLogout=false
+confirmLogout=true
 loginMode=default
 
 [LegacySession: saved at previous logout]
