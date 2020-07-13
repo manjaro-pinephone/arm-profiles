@@ -47,10 +47,8 @@
             "warning": 30,
             "critical": 15
         },
-        // Connected to AC
-        "format": "  {icon}  {capacity}%", // Icon: bolt
-        // Not connected to AC
-        "format-discharging": "{icon}  {capacity}%",
+        "format-charging": "  {icon}  {capacity}%", // Icon: bolt
+        "format": "{icon}  {capacity}%",
         "format-icons": [
             "", // Icon: battery-full
             "", // Icon: battery-three-quarters
@@ -58,7 +56,9 @@
             "", // Icon: battery-quarter
             ""  // Icon: battery-empty
         ],
-        "tooltip": true
+        "format-time": "{H} h {M} min",
+        "tooltip": true,
+        "bat": "cw2015-battery"         // axp20x-battery for Pinebook
     },
 
     "clock": {

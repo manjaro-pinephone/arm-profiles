@@ -116,6 +116,13 @@ bindsym $mod+space focus mode_toggle
 # Move focus to the parent container
 bindsym $mod+a focus parent
 
+# override mode for specific applications
+for_window [app_id="pavucontrol"] floating enable
+for_window [instance="lxappearance"] floating enable sticky enable border normal
+for_window [app_id="pamac-manager"] floating enable
+for_window [app_id="blueman-manager"] floating enable
+for_window [app_id="nm-connection-editor"] floating enable
+
 #
 # Status Bar:
 #
