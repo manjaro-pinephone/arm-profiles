@@ -64,9 +64,9 @@ Sway has up to ten different workspaces that can be freely arranged on the avail
 
 After activating the Resize Mode you should see a message in the statusbar.
 
-- resize the current application window: **\<movement-key\>**
-- increase the gaps between windows: **+**
-- decrease the gaps between windows: **-**
+- resize the current application window: **\<movement-key\>** (can be used together with **Shift** for larger offsets)
+- increase the gaps between windows: **+** (can be used together with **Shift** for larger offsets)
+- decrease the gaps between windows: **-** (can be used together with **Shift** for larger offsets)
 - exit the resize mode: **Enter** or **ESC**
 
 ## Scratchpad Mode
@@ -87,3 +87,15 @@ Sway has a "scratchpad", which is a bag of holding for windows.  You can send wi
 - reload Sway configuration: **$mod** + **Shift** + **c**
 - exit Sway session: **$mod** + **Shift** + **e**
 
+## Appendix A: Pinebook related tweaks
+
+If you have the predecessor of the Pinebook Pro you will have to do the following minor tweaks on the default installation:
+
+- for the correct battery status in Waybar you will have to update it's config (default in `/etc/xdg/waybar/`) by copying it to `$HOME/.config/waybar` and change the value of the "bat" property in the battery section
+
+```json
+    "battery": {
+        ...
+        "bat": "cw2015-battery"         // <--- set to "axp20x-battery" for Pinebook
+    },
+```

@@ -10,18 +10,26 @@ mode "resize" {
     bindsym $down resize grow height 10px
     bindsym $up resize shrink height 10px
     bindsym $right resize grow width 10px
+    bindsym Shift+$left resize shrink width 20px
+    bindsym Shift+$down resize grow height 20px
+    bindsym Shift+$up resize shrink height 20px
+    bindsym Shift+$right resize grow width 20px
 
     # Ditto, with arrow keys
     bindsym Left resize shrink width 10px
     bindsym Down resize grow height 10px
     bindsym Up resize shrink height 10px
     bindsym Right resize grow width 10px
+    bindsym Shift+Left resize shrink width 20px
+    bindsym Shift+Down resize grow height 20px
+    bindsym Shift+Up resize shrink height 20px
+    bindsym Shift+Right resize grow width 20px
 
     ## Resize // Window Gaps // + - ##
-    bindsym minus gaps inner current minus 6
-    bindsym plus gaps inner current plus 6
-    bindsym Shift+minus gaps inner current minus 12
-    bindsym Shift+plus gaps inner current plus 12
+    bindsym minus gaps inner current minus 6px
+    bindsym plus gaps inner current plus 6px
+    bindsym Shift+minus gaps inner current minus 12px
+    bindsym Shift+plus gaps inner current plus 12px
 
     # Return to default mode
     bindsym Return mode "default"
