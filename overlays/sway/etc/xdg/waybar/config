@@ -27,8 +27,8 @@
     ],
     "modules-right": [
         "network",
-        "memory",
         "cpu",
+        "memory",
         "battery",
 	"backlight",
         "pulseaudio",
@@ -42,7 +42,7 @@
     // -------------------------------------------------------------------------
 
     "battery": {
-        "interval": 60,
+        "interval": 30,
         "states": {
             "warning": 30,
             "critical": 15
@@ -50,13 +50,12 @@
         "format-charging": "  {icon}  {capacity}%", // Icon: bolt
         "format": "{icon}  {capacity}%",
         "format-icons": [
-            "", // Icon: battery-full
-            "", // Icon: battery-three-quarters
+            "", // Icon: battery-empty
+            "", // Icon: battery-quarter
             "", // Icon: battery-half
-            "", // Icon: battery-quarter
-            ""  // Icon: battery-empty
+            "", // Icon: battery-three-quarters
+            ""  // Icon: battery-full
         ],
-        "format-time": "{H} h {M} min",
         "tooltip": false,
         "bat": "cw2015-battery"         // axp20x-battery for Pinebook
     },
@@ -64,12 +63,12 @@
     "clock": {
       "interval": 60,
       "format": "  {:%e %b %Y %H:%M}", // Icon: calendar-alt
-      "tooltip-format": "{:%e %B %Y %H:%M}"
+      "tooltip": false
     },
 
     "cpu": {
         "interval": 5,
-        "format": "  {usage}% ({load})", // Icon: microchip
+        "format": "  {usage}%", // Icon: microchip
         "states": {
           "warning": 70,
           "critical": 90
