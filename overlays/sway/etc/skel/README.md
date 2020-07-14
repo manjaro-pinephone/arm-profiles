@@ -65,6 +65,8 @@ Sway has up to ten different workspaces that can be freely arranged on the avail
 After activating the Resize Mode you should see a message in the statusbar.
 
 - resize the current application window: **\<movement-key\>**
+- increase the gaps between windows: **+**
+- decrease the gaps between windows: **-**
 - exit the resize mode: **Enter** or **ESC**
 
 ## Scratchpad Mode
