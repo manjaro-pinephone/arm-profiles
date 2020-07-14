@@ -12,7 +12,7 @@ The directory hosts various configuration files of which the important ones are:
 
 ## Basics
 
-The default modifier key (**$mod**) is the Super/Windows/Pine key (depending on your keyboard layout); the alternative modifier (**$alt**) is set to the Alt key.
+The default modifier key (**$mod**) is the Alt key.
 
 Additionally, there are two kind of **movement key** sets:
 
@@ -25,7 +25,7 @@ Sway has up to ten different workspaces that can be freely arranged on the avail
 
 - open a new terminal window: **$mod** + **Enter**
 - open the application launcher: **$mod** + **d**
-- open the run command: **$alt** + **d**
+- open the run command: **$mod** + **Shift** + **d**
 - kill the application (forcefully): **$mod** + **Shift** + **q**
 
 ## Using Workspaces
@@ -78,7 +78,7 @@ Sway has a "scratchpad", which is a bag of holding for windows.  You can send wi
 
 - screenshot of the whole screen: **Print Screen**
 - screenshot of the current application window: **$mod** + **Print Screen**
-- screenshot of certain area of the screen: **$alt** + **Print Screen**
+- screenshot of certain area of the screen: **$mod** + **Shift** + **Print Screen**
 
 ## Restart / Exit
 
