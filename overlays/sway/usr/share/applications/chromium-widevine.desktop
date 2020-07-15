@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Version=1.0
+Name=Chromium Widevine
+GenericName=Web Browser
+Categories=Network;WebBrowser;
+Comment=Browser for Netflix, Amazon and Spotify
+Exec=/usr/local/bin/launch_chromium_widevine.sh
+Icon=/usr/share/icons/chromium.png
