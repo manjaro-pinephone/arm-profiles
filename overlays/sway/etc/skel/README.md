@@ -87,7 +87,11 @@ Sway has a "scratchpad", which is a bag of holding for windows.  You can send wi
 - reload Sway configuration: **$mod** + **Shift** + **c**
 - exit Sway session: **$mod** + **Shift** + **e**
 
-## Appendix A: Pinebook related tweaks
+## Appendix A: Chromium with Widevine for Netflix, Spotify and Co.
+
+As part of the Sway profile you also received a custom bash script `/usr/local/bin/install_chromium_widevine.sh`, which when executed will create a custom systemd-spawn container in `/var/lib/machines/chromium_widevine` based on Debian 10 Buster armhf. Additionally, a compatible Chromium version incl. the required DRM extensions are installed into this container. This will take some time, but when finished you are able to either launch a custom Chromium-Widevine application either via the shell (`/usr/local/bin/launch_chromium_widevine.sh`), or via the application launcher (`Chromium-Widevine`).
+
+## Appendix B: Pinebook related tweaks
 
 If you have the predecessor of the Pinebook Pro you will have to do the following minor tweaks on the default installation:
 
