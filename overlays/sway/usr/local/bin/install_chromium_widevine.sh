@@ -2,13 +2,21 @@
 
 set -e
 
+if [[ $EUID -ne 0 ]]; then
+   echo "This script must be run as root" 1>&2
+   exit 1
+fi
+
 CONTAINER_DIR=/var/lib/machines/
 CONTAINER_ID=chromium_widevine
 TEMP_DIR="$(mktemp -p /var/cache/ -td ChromeOS-IMG.XXXXXX)"
 
-if [[ $EUID -ne 0 ]]; then
-   echo "This script must be run as root" 1>&2
-   exit 1
+# check online connectivity
+wget -q --spider https://google.com
+CONNECTION_STATUS=$?
+if [ $CONNECTION_STATUS -ne 0 ]; then
+  echo "You have to establish an online connection first!" 1>&2
+  exit 1
 fi
 
 # check for command availability
@@ -17,19 +25,19 @@ available () {
 }
 
 if ! available debootstrap; then
-  pacman -S debian-archive-keyring debootstrap
+  pacman -S --noconfirm debian-archive-keyring debootstrap
 fi
 
 if ! available xhost; then
-  pacman -S xorg-xhost
+  pacman -S --noconfirm xorg-xhost
 fi
 
 if ! available curl; then
-  pacman -S curl
+  pacman -S --noconfirm curl
 fi
 
 if ! available git; then
-  pacman -S git
+  pacman -S --noconfirm git
 fi
 
 if [ ! -d $CONTAINER_DIR ]; then
@@ -93,4 +101,4 @@ EOF
 echo Cleaning up...
 umount "$TEMP_DIR/img"
 losetup -d "$LOOPD"
-rmdir "$TEMP_DIR"
+rm -rf "$TEMP_DIR"

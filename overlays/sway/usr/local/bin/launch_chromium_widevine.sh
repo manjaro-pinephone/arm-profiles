@@ -4,11 +4,11 @@ CONTAINER_DIR=/var/lib/machines/
 CONTAINER_ID=chromium_widevine
 
 machinectl -q image-status $CONTAINER_ID >/dev/null 2>&1
-
 IMAGE_STATUS=$?
 
 if [ $IMAGE_STATUS -ne 0 ]; then
   echo Please run the install_chromium_widevine script first!
+  notify-send -u critical "Missing image" "Please run the install_chromium_widevine script!"
   exit 1
 fi
 
