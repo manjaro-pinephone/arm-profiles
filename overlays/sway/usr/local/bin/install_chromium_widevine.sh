@@ -14,7 +14,7 @@ TEMP_DIR="$(mktemp -p /var/cache/ -td ChromeOS-IMG.XXXXXX)"
 # check online connectivity
 wget -q --spider https://google.com
 CONNECTION_STATUS=$?
-if [ $CONNECTION_STATUS -ne 0 ]; then
+if [[ $CONNECTION_STATUS -ne 0 ]]; then
   echo "You have to establish an online connection first!" 1>&2
   exit 1
 fi
@@ -40,12 +40,12 @@ if ! available git; then
   pacman -S --noconfirm git
 fi
 
-if [ ! -d $CONTAINER_DIR ]; then
+if [[ ! -d $CONTAINER_DIR ]]; then
   echo Creating base directory for systemd containers $CONTAINER_DIR...
   mkdir -p $CONTAINER_DIR
 fi
 
-if [ ! -d $CONTAINER_DIR/$CONTAINER_ID ]; then
+if [[ ! -d $CONTAINER_DIR/$CONTAINER_ID ]]; then
   echo Bootstrap new Debian 10 Buster armhf container
   cd $CONTAINER_DIR
   debootstrap --include=systemd-container,debconf --components=main,universe --arch=armhf buster $CONTAINER_ID
