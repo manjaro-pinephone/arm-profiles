@@ -10,7 +10,6 @@ bootsplash-systemd
 # Video drivers
 
 # Other device specific packages
-flashlight # GTK app
 rtl8723bt-firmware
 anx7688-firmware
 wpa_supplicant
