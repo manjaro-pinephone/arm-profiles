@@ -14,11 +14,6 @@ flashlight # GTK app
 rtl8723bt-firmware
 anx7688-firmware
 wpa_supplicant
-wys
 ofono
 pinephone-post-install
 pinephone-manjaro-tweaks
-actkbd-pinephone-volume # might not work yet
-pinephone-modem-scripts
-pinephone-softsleep
-alsa-ucm-pinephone
