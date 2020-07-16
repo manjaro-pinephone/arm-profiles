@@ -17,3 +17,20 @@ wpa_supplicant
 ofono
 pinephone-post-install
 pinephone-manjaro-tweaks
+
+# Edition specifc packages
+
+>phosh wys
+>phosh actkbd-pinephone-volume # might not work yet
+>phosh pinephone-modem-scripts
+>phosh pinephone-softsleep
+>phosh alsa-ucm-pinephone
+
+>plasma-mobile eg25
+>plasma-mobile-dev eg25
+>plasma-mobile pinephone-modem-audio
+>plasma-mobile-dev pinephone-modem-audio
+>plasma-mobile ofonoctl
+>plasma-mobile-dev ofonoctl
+>plasma-mobile libqofono-qt5
+>plasma-mobile-dev libqofono-qt5

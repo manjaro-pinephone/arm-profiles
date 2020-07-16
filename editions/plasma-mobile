@@ -3,8 +3,6 @@
 # Minimal packages
 sudo
 parted
-libqofono-qt5
-ofonoctl
 openssh
 haveged
 inxi
