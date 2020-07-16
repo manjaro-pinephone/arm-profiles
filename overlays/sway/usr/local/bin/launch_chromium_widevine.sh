@@ -1,7 +1,5 @@
 #!/bin/sh
 
-set -e
-
 CONTAINER_DIR=/var/lib/machines/
 CONTAINER_ID=chromium_widevine
 
@@ -48,4 +46,5 @@ pkexec systemd-nspawn --directory $CONTAINER_DIR/$CONTAINER_ID \
                --bind=/dev/v4l \
                --bind=$HOME/.local/share/chromium_widevine:/home/chromium \
                --user chromium \
-               --as-pid2 /usr/bin/chromium-browser "--user-agent='Mozilla/5.0 (X11; CrOS armv7l 12607.82.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.123 Safari/537.36'"
+               --as-pid2 /usr/bin/chromium-browser \
+               "--user-agent='Mozilla/5.0 (X11; CrOS armv7l 12607.82.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.123 Safari/537.36'"
