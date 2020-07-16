@@ -1,12 +1,11 @@
 #!/bin/sh
 
-set -e
-
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root" 1>&2
    exit 1
 fi
 
+DEBIAN_VER=buster
 CONTAINER_DIR=/var/lib/machines/
 CONTAINER_ID=chromium_widevine
 TEMP_DIR="$(mktemp -p /var/cache/ -td ChromeOS-IMG.XXXXXX)"
@@ -18,6 +17,23 @@ if [[ $CONNECTION_STATUS -ne 0 ]]; then
   echo "You have to establish an online connection first!" 1>&2
   exit 1
 fi
+
+# message functions
+msg() {
+  ALL_OFF="\e[1;0m"
+  BOLD="\e[1;1m"
+  GREEN="${BOLD}\e[1;32m"
+  local mesg=$1; shift
+  printf "${GREEN}==>${ALL_OFF}${BOLD} ${mesg}${ALL_OFF}\n" "$@" >&2
+}
+
+info() {
+  ALL_OFF="\e[1;0m"
+  BOLD="\e[1;1m"
+  BLUE="${BOLD}\e[1;34m"
+  local mesg=$1; shift
+  printf "${BLUE}  ->${ALL_OFF}${BOLD} ${mesg}${ALL_OFF}\n" "$@" >&2
+}
 
 # check for command availability
 available () {
@@ -41,34 +57,33 @@ if ! available git; then
 fi
 
 if [[ ! -d $CONTAINER_DIR ]]; then
-  echo Creating base directory for systemd containers $CONTAINER_DIR...
+  info "Creating base directory for systemd containers $CONTAINER_DIR..."
   mkdir -p $CONTAINER_DIR
 fi
 
 if [[ ! -d $CONTAINER_DIR/$CONTAINER_ID ]]; then
-  echo Bootstrap new Debian 10 Buster armhf container
+  info "Bootstrap new Debian 10 Buster armhf container $CONTAINER_ID..."
   cd $CONTAINER_DIR
-  debootstrap --include=systemd-container,debconf --components=main,universe --arch=armhf buster $CONTAINER_ID
+  debootstrap --include=systemd-container,debconf --components=main,universe --arch=armhf $DEBIAN_VER $CONTAINER_ID
 fi
 
-echo "Cloning docker-chromium-armhf from Git repo..."
+info "Cloning docker-chromium-armhf from Git repo..."
 git clone --progress https://github.com/spikerguy/docker-chromium-armhf/ $TEMP_DIR
 
-echo "Downloading ChromeOS image..."
+info "Downloading ChromeOS image..."
 CHROMEOS_URL="$(curl -s https://dl.google.com/dl/edgedl/chromeos/recovery/recovery.conf | grep -A11 CB5-312T | sed -n 's/^url=//p')"
 CHROMEOS_IMG="$(basename "$CHROMEOS_URL" .zip)"
 curl -L "$CHROMEOS_URL" | zcat > "$TEMP_DIR/$CHROMEOS_IMG"
 
 # Note the next free loop device in a variable
-echo "Mounting ChromeOS image..."
+info "Mounting local ChromeOS image..."
 LOOPD="$(losetup -f)"
 mkdir -p $TEMP_DIR/img
 losetup -Pf "$TEMP_DIR/$CHROMEOS_IMG"
 mount -o ro "${LOOPD}p3" "$TEMP_DIR/img"
 
-echo Setting up environment in systemd container $CONTAINER_ID
+info "Setting up environment in systemd container $CONTAINER_ID..."
 systemd-nspawn --directory="$CONTAINER_DIR/$CONTAINER_ID" --bind-ro=$TEMP_DIR:/tmp/chromium --pipe /bin/bash <<'EOF'
-echo Installing required dependencies...
 apt install --yes --no-install-recommends \
   fontconfig fontconfig-config fonts-dejavu-core gconf-service gconf2-common \
   libasn1-8-heimdal libasound2 libasound2-data libatk1.0-0 libatk1.0-data libavahi-client3 libavahi-common-data \
@@ -86,21 +101,19 @@ apt install --yes --no-install-recommends \
   mesa-va-drivers mesa-vdpau-drivers mesa-utils libosmesa6 libegl1-mesa libwayland-egl1-mesa libgl1-mesa-dri \
   libgles2-mesa libegl1 libgles2
 
-echo "Installing latest supported Chromium version..."
 apt install /tmp/chromium/dependencies/chromium*.deb
 
-echo "Moving files into place..."
 cp -R /tmp/chromium/img/opt/google/chrome/libwidevinecdm.so /usr/lib/chromium-browser
 cp -R /tmp/chromium/img/opt/google/chrome/pepper /usr/lib/chromium-browser
 cp -R /tmp/chromium/widevine/netflix-1080p-1.20.1 /usr/lib/chromium-browser/netflix-1080p
 cp -R /tmp/chromium/chromium-settings /etc/chromium-browser/default
 
-echo Adding chromium user...
 useradd -m -s /bin/bash chromium
 gpasswd -a chromium audio
 EOF
 
-echo Cleaning up...
+info "Cleaning up..."
 umount "$TEMP_DIR/img"
 losetup -d "$LOOPD"
 rm -rf "$TEMP_DIR"
+msg "All done! You can use the launcher to start the Chromium Widevine application"
