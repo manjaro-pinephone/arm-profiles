@@ -6,5 +6,6 @@ tlp.service
 zswap-arm.service
 pinephone-post-install.service
 ofono.service
-pinephone-modem-scripts.pinephone-modem-setup.service
-pinephone-modem-scripts.pinephone-modem.service
+eg25.service
+ofonoctl.service
+pinephone-modem-audio.service
