@@ -39,11 +39,13 @@ pkexec systemd-nspawn --directory $CONTAINER_DIR/$CONTAINER_ID \
                --setenv=DISPLAY=$DISPLAY \
                --setenv=PULSE_SERVER=unix:/run/user/host/pulse/native \
                --setenv=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/host/bus \
+               --setenv=LIBVA_DRIVER_NAME=v4l2_request \
                --bind-ro=$host_pulseaudio:/run/user/host/pulse \
                --bind-ro=$host_dbus:/run/user/host/bus \
                --bind-ro=/usr/share/themes/:$XDG_DATA_HOME/themes/ \
                --bind=/dev/dri \
                --bind=/dev/shm \
+               --bind=/dev/v4l \
                --bind=$HOME/.local/share/chromium_widevine:/home/chromium \
                --user chromium \
                --as-pid2 /usr/bin/chromium-browser "--user-agent='Mozilla/5.0 (X11; CrOS armv7l 12607.82.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.123 Safari/537.36'"
