@@ -83,7 +83,8 @@ apt install --yes --no-install-recommends \
   libx11-data libxau6 libxcb-render0 libxcb-shm0 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxdmcp6 \
   libxext6 libxfixes3 libxi6 libxinerama1 libxml2 libxrandr2 libxrender1 libxss1 libxtst6 shared-mime-info ucf \
   x11-common xdg-utils libpulse0 pulseaudio-utils wget libatk-bridge2.0-0 libatspi2.0-0 libgtk-3-0 \
-  mesa-va-drivers mesa-vdpau-drivers mesa-utils libosmesa6 libegl1-mesa libwayland-egl1-mesa libgl1-mesa-dri
+  mesa-va-drivers mesa-vdpau-drivers mesa-utils libosmesa6 libegl1-mesa libwayland-egl1-mesa libgl1-mesa-dri \
+  libgles2-mesa libegl1 libgles2
 
 echo "Installing latest supported Chromium version..."
 apt install /tmp/chromium/dependencies/chromium*.deb
@@ -92,6 +93,7 @@ echo "Moving files into place..."
 cp -R /tmp/chromium/img/opt/google/chrome/libwidevinecdm.so /usr/lib/chromium-browser
 cp -R /tmp/chromium/img/opt/google/chrome/pepper /usr/lib/chromium-browser
 cp -R /tmp/chromium/widevine/netflix-1080p-1.20.1 /usr/lib/chromium-browser/netflix-1080p
+cp -R /tmp/chromium/chromium-settings /etc/chromium-browser/default
 
 echo Adding chromium user...
 useradd -m -s /bin/bash chromium
