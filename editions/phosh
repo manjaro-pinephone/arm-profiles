@@ -1,6 +1,14 @@
 ## Maintained by Philm and Spikerquy ##
 ## Only builds on arm-unstable and arm-testing branch currently ##
 
+# Phone specific packages
+>phone wys
+>phone actkbd-pinephone-volume # might not work yet
+>phone pinephone-modem-scripts
+>phone pinephone-softsleep
+>phone alsa-ucm-pinephone
+>phone flashlight
+
 # Minimal packages
 sudo
 parted

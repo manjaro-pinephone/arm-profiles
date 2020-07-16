@@ -17,11 +17,3 @@ wpa_supplicant
 ofono
 pinephone-post-install
 pinephone-manjaro-tweaks
-
-# Edition specifc packages
-
-wys
-actkbd-pinephone-volume # might not work yet
-pinephone-modem-scripts
-pinephone-softsleep
-alsa-ucm-pinephone
