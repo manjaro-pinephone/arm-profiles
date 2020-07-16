@@ -1,0 +1,27 @@
+## Maintained by Spikerguy and Philm##
+
+# Kernel and bootloader stuff
+linux-pinephone
+linux-pinephone-headers
+uboot-pinephone
+bootsplash-theme-manjaro
+bootsplash-systemd
+
+# Video drivers
+
+# Other device specific packages
+flashlight # GTK app
+rtl8723bt-firmware
+anx7688-firmware
+wpa_supplicant
+ofono
+pinephone-post-install
+pinephone-manjaro-tweaks
+
+# Edition specifc packages
+
+wys
+actkbd-pinephone-volume # might not work yet
+pinephone-modem-scripts
+pinephone-softsleep
+alsa-ucm-pinephone
