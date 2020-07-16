@@ -82,6 +82,11 @@ qt5-virtualkeyboard
 mesa-git
 tlp
 alsa-utils
+pulseaudio-bluetooth
 wget
-qwikaccess-git
+#qwikaccess-git
 xdg-user-dirs
+debianutils
+flatpak
+iio-sensor-proxy
+manjaro-arm-flasher
