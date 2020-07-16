@@ -8,6 +8,5 @@ bootsplash-hide-when-booted.service
 bootsplash-show-on-shutdown.service
 pinephone-post-install.service
 ofono.service
-eg25.service
-ofonoctl.service
-pinephone-modem-audio.service
+pinephone-modem-scripts.pinephone-modem-setup.service
+pinephone-modem-scripts.pinephone-modem.service
