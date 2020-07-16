@@ -34,8 +34,8 @@ spacebar-git #No tagged release yet
 plasma-mobile-nm
 qmlkonsole-git #No tagged release yet
 pix
-plasma-dialer-git #Needed when using plasma-phone-components 5.19 or newer
-#plasma-dialer #Only has an old tagged release. Needed when using plasma-phone-components 5.19 or newer
+plasma-dialer-git
+#plasma-dialer #Only has an old tagged release, so we use the -git one for now.
 vvave
 
 # Packages to be built
@@ -70,6 +70,7 @@ qt5-virtualkeyboard
 # Other
 tlp
 alsa-utils
+pulseaudio-bluetooth
 wget
 xdg-user-dirs
 debianutils
