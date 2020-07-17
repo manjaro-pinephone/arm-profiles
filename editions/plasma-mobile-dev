@@ -3,6 +3,7 @@
 # Phone specific packages
 >phone eg25
 >phone pinephone-modem-audio
+>phone ofono
 >phone ofonoctl
 >phone libqofono-qt5
 >phone >phone flashlight # until built in flashlight works
