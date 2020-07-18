@@ -13,5 +13,5 @@ bootsplash-systemd
 rtl8723bt-firmware
 anx7688-firmware
 wpa_supplicant
-pinephone-post-install
 pinephone-manjaro-tweaks
+pinephone-post-install
