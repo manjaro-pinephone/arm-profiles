@@ -2,11 +2,11 @@
 ## Only builds on arm-unstable and arm-testing branch currently ##
 
 # Phone specific packages
->phone wys
->phone actkbd-pinephone-volume # might not work yet
->phone pinephone-modem-scripts
->phone alsa-ucm-pinephone
->phone flashlight
+>pinephone wys
+>pinephone actkbd-pinephone-volume # might not work yet
+>pinephone pinephone-modem-scripts
+>pinephone alsa-ucm-pinephone
+>pinephone flashlight
 
 # Minimal packages
 sudo

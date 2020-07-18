@@ -1,12 +1,12 @@
 ## Maintained by Strit ##
 
 # Phone specific packages
->phone eg25
->phone pinephone-modem-audio
->phone ofono
->phone ofonoctl
->phone libqofono-qt5
->phone flashlight # until built in flashlight works
+>pinephone eg25
+>pinephone pinephone-modem-audio
+>pinephone ofono
+>pinephone ofonoctl
+>pinephone libqofono-qt5
+>pinephone flashlight # until built in flashlight works
 
 # Minimal packages
 sudo
@@ -40,7 +40,7 @@ spacebar-git #No tagged release yet
 plasma-mobile-nm
 qmlkonsole-git #No tagged release yet
 pix
-plasma-dialer-git
+>pinephone plasma-dialer-git
 #plasma-dialer #Only has an old tagged release, so we use the -git one for now.
 vvave
 
