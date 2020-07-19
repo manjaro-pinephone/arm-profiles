@@ -2,15 +2,16 @@
 
 # Kernel and bootloader stuff
 linux-vim
-boot-vim1
+uboot-vim1
 bootsplash-theme-manjaro
 bootsplash-systemd
 
 # Video driver
-xf86-video-fbturbo-git
+#xf86-video-fbturbo-git
 
 # Other device specific packages
 #bluetooth-vim3
 khadas-utils
 fbset
-vim3-post-install
+kvim1-firmware
+vim1-post-install
