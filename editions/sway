@@ -141,6 +141,7 @@ thunar-archive-plugin
 thunar-volman
 tumbler
 file-roller
+gparted
 gvfs
 gvfs-gphoto2
 gvfs-mtp
@@ -149,4 +150,5 @@ gvfs-smb
 ifuse
 mtpfs
 ntfs-3g
+exfat-utils
 usb_modeswitch

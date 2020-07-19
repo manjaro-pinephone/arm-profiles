@@ -121,10 +121,11 @@ bindsym $mod+a focus parent
 
 # override mode for specific applications
 for_window [app_id="pavucontrol"] floating enable
-for_window [instance="lxappearance"] floating enable sticky enable border normal
+for_window [instance="lxappearance"] floating enable
 for_window [app_id="pamac-manager"] floating enable
 for_window [app_id="blueman-manager"] floating enable
 for_window [app_id="nm-connection-editor"] floating enable
+for_window [title="File Operation Progress"] floating enable
 
 #
 # Status Bar:
