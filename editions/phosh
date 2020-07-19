@@ -26,10 +26,10 @@ zswap-arm
 gtk3-mobile
 mutter
 phosh
-calls
+>pinephone calls
 chatty
 powersupply
-purple-mm-sms
+>pinephone purple-mm-sms
 purple-matrix
 purple-telegram
 kgx
