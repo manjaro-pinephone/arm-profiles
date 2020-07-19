@@ -37,7 +37,7 @@ kgx
 sound-theme-phosh
 squeekboard
 gnome-camera
-gnome-contacts
+gnome-contacts-mobile
 gnome-control-center-mobile
 gnome-software-mobile
 gnome-usage-mobile # works only as root
