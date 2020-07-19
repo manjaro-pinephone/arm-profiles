@@ -3,7 +3,6 @@
 
 # Phone specific packages
 >pinephone wys
->pinephone actkbd-pinephone-volume # might not work yet
 >pinephone pinephone-modem-scripts
 >pinephone alsa-ucm-pinephone
 >pinephone flashlight
@@ -28,6 +27,8 @@ mutter
 phosh
 >pinephone calls
 chatty
+>pinephone epiphany
+evince-mobile
 powersupply
 >pinephone purple-mm-sms
 purple-matrix
@@ -41,6 +42,7 @@ gnome-control-center-mobile
 gnome-software-mobile
 gnome-usage-mobile # works only as root
 gnome-sound-recorder
+gnome-initial-setup-mobile
 
 # Gnome packages
 gnome-calculator
@@ -48,12 +50,18 @@ gnome-contacts
 gnome-clocks
 gnome-keyring
 gnome-maps
+gnome-2048
+gnome-calendar
+gnome-chess
+gnome-todo
+file-roller
 fractal
 gnote
 eog
 gnome-podcasts
 lollypop
 gedit
+geary
 
 # Theming
 manjaro-arm-wallpapers
@@ -62,6 +70,7 @@ papirus-maia-icon-theme
 
 # Other packages
 bluez
+pamac-cli
 pulseaudio-bluetooth
 iio-sensor-proxy
 networkmanager
@@ -71,3 +80,5 @@ xorg-server-xwayland
 #hwtest
 psensor
 firefox
+telegram-desktop
+qt5-wayland # for telegram-desktop
