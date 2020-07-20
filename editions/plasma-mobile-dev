@@ -50,6 +50,8 @@ plasma-pix-git
 >pinephone plasma-dialer-git
 >pinephone mplus-font # needed to display * and # in dialer
 vvave-git
+buho-git
+nota-git
 
 # Packages to be built
 #qrca-git
@@ -96,3 +98,8 @@ debianutils
 flatpak
 iio-sensor-proxy
 manjaro-arm-flasher
+pamac-cli
+psensor
+firefox
+telegram-desktop
+qt5-wayland # for telegram-desktop

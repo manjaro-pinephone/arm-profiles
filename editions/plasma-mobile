@@ -87,3 +87,8 @@ debianutils
 flatpak
 iio-sensor-proxy
 manjaro-arm-flasher
+pamac-cli
+psensor
+firefox
+telegram-desktop
+qt5-wayland # for telegram-desktop
