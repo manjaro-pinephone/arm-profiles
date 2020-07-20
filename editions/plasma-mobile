@@ -41,8 +41,12 @@ qmlkonsole-git #No tagged release yet
 pix
 >pinephone plasma-dialer-git
 >pinephone mplus-font # needed to display * and # in dialer
-#plasma-dialer #Only has an old tagged release, so we use the -git one for now.
+#>pinephone plasma-dialer #Only has an old tagged release, so we use the -git one for now.
 vvave
+buho
+nota
+station
+communicator
 
 # Packages to be built
 #qrca
