@@ -48,6 +48,7 @@ qmlkonsole-git
 kongress-git
 plasma-pix-git
 >pinephone plasma-dialer-git
+>pinephone mplus-font # needed to display * and # in dialer
 vvave-git
 
 # Packages to be built
