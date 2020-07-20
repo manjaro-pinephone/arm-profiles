@@ -25,7 +25,6 @@ zswap-arm
 # PM Packages
 xdg-utils
 desktop-file-utils
-telephony-service
 telepathy-mission-control
 telepathy-ofono
 plasma-angelfish
