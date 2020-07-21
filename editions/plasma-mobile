@@ -22,6 +22,12 @@ man-db
 ntfs-3g
 zswap-arm
 
+# OpenGLES qt packages
+qt5-es2-base
+qt5-es2-declarative
+qt5-es2-multimedia
+qt5-es2-wayland
+
 # PM Packages
 xdg-utils
 desktop-file-utils

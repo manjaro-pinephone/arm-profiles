@@ -29,6 +29,7 @@ qt5-es2-multimedia
 qt5-es2-wayland
 
 # PM Packages
+kwin-git
 xdg-utils
 desktop-file-utils
 telepathy-mission-control
@@ -85,6 +86,7 @@ kwayland
 kwayland-integration
 xorg-server-xwayland
 qt5-virtualkeyboard
+kwayland-server-git
 
 # Other
 mesa-git
