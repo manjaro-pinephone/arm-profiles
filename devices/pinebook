@@ -7,9 +7,6 @@ uboot-pinebook
 bootsplash-theme-manjaro
 bootsplash-systemd
 
-# Video drivers
-xf86-video-fbturbo-git
-
 # Other device specific packages
 dkms-rtl8723cs
 rtl8723bt-firmware
