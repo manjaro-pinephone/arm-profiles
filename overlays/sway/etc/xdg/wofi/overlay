@@ -1,0 +1,9 @@
+# fixed overlay config for the wofi launcher
+
+allow_markup=true
+no_actions=true
+hide_scroll=true
+hide_search=true
+lines=10
+term=termite
+width=300
