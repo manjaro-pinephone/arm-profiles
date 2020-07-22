@@ -11,6 +11,7 @@ bindsym $mod+Shift+q kill
 # Start your launcher
 bindsym $mod+d exec $appmenu
 bindsym $mod+Shift+d exec $menu
+bindsym $mod+Ctrl+d exec $selwin
 
 # Drag floating windows by holding down $mod and left mouse button.
 # Resize them with right mouse button + $mod.

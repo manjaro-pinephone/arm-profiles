@@ -103,6 +103,7 @@ cpu-temp-speed
 curl
 exa
 htop
+jq
 light
 mlocate
 neofetch

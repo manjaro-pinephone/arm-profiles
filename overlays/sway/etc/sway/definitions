@@ -21,6 +21,7 @@ set $term termite
 # on the original workspace that the command was run on.
 set $appmenu wofi --show drun --conf /etc/xdg/wofi/config --style /etc/xdg/wofi/style.css --prompt app | xargs swaymsg exec --
 set $menu wofi --show run --conf /etc/xdg/wofi/config --style /etc/xdg/wofi/style.css --prompt exec | xargs swaymsg exec --
+set $selwin sws.sh --dmenu-cmd "wofi --conf /etc/xdg/wofi/config --style /etc/xdg/wofi/style.css --show dmenu" --format "%W | %A - %T"
 
 ### Idle configuration
 # This will lock your screen after 300 seconds of inactivity, then turn off

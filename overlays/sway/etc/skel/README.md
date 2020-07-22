@@ -35,6 +35,7 @@ Sway has up to ten different workspaces that can be freely arranged on the avail
 
 ## Focussing Windows
 
+- open the window selector: **$mod** + **Ctrl** + **d** 
 - focus another application window: **$mod** + **\<movement-key\>** (see [Basics](#Basics))
 
 ## Moving Windows
