@@ -25,15 +25,12 @@ bindsym $mod+Shift+c reload
 # Exit sway (logs you out of your Wayland session)
 bindsym $mod+Shift+e exec $logout
 
-# Taking screenshots (full-screen, active window, or dedicated area)
-bindsym Print exec grimshot save screen
-bindsym $mod+Print exec grimshot save win
-bindsym $mod+Shift+Print exec grimshot save area
-
 # Media key bindings
 bindsym XF86AudioLowerVolume exec amixer -q sset 'Master' 5%-
 bindsym XF86AudioMute exec amixer -q sset 'Master' toggle
 bindsym XF86AudioRaiseVolume exec amixer -q sset 'Master' 5%+
+
+# Screen brightness bindings
 bindsym XF86MonBrightnessDown exec light -U 5
 bindsym XF86MonBrightnessUp exec light -A 5
 

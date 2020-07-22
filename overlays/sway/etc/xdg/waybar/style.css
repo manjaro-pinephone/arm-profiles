@@ -132,10 +132,7 @@
 }
 
 #mode {
-    background: #64727D;
-    border-top: 2px solid #F5F7FA;
-    /* To compensate for the top border and still have vertical centering */
-    padding-bottom: 2px;
+    background: #222E38;
 }
 
 #network {

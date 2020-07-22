@@ -46,7 +46,6 @@ Sway has up to ten different workspaces that can be freely arranged on the avail
 - toggle full-screen for the current application window: **$mod** + **f**
 - split the current application window vertically: **$mod** + **v**
 - split the current application window horizontally: **$mod** + **b**
-- enter resize mode for the current application window: **$mod** + **r** (see [Resize Mode](#Resize%20Mode))
 
 ## Changing the Container Layout
 
@@ -64,9 +63,10 @@ Sway has up to ten different workspaces that can be freely arranged on the avail
 
 After activating the Resize Mode you should see a message in the statusbar.
 
+- enter resize mode for the current application window: **$mod** + **r**
 - resize the current application window: **\<movement-key\>** (can be used together with **Shift** for larger offsets)
-- increase the gaps between windows: **+** (can be used together with **Shift** for larger offsets)
-- decrease the gaps between windows: **-** (can be used together with **Shift** for larger offsets)
+- increase the gaps between windows: **+**
+- decrease the gaps between windows: **-**
 - exit the resize mode: **Enter** or **ESC**
 
 ## Scratchpad Mode
@@ -76,11 +76,25 @@ Sway has a "scratchpad", which is a bag of holding for windows.  You can send wi
 - move the current application window to the Scratchpad: **$mod** + **Shift** + **Minus**
 - activate the Scratchpad Mode: **$mod** + **Minus**
 
-## Screenshots
+## Screenshot Mode
 
-- screenshot of the whole screen: **Print Screen**
-- screenshot of the current application window: **$mod** + **Print Screen**
-- screenshot of certain area of the screen: **$mod** + **Shift** + **Print Screen**
+- enter screenshot mode: **$mod** + **Shift** + **s**
+- copy screenshot of the whole screen: **f**
+- save screenshot of the whole screen: **Shift** + **f**
+- copy screenshot of the application window: **w**
+- save screenshot of the application window: **Shift** + **w**
+- copy screenshot of certain area of the screen: **r**
+- save screenshot of certain area of the screen: **Shift** + **r**
+- exit the resize mode: **Enter** or **ESC**
+
+## Screenshot Recording Mode
+
+- enter screenshot recording mode: **$mod** + **Shift** + **r**
+- record the whole screen: **f**
+- record the whole screen with audio: **Shift** + **f**
+- record a certain area of the screen: **r**
+- record a certain area of the screen with audio: **Shift** + **r**
+- exit the resize mode: **Enter** or **ESC**
 
 ## Restart / Exit
 

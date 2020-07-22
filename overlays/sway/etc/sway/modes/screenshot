@@ -1,0 +1,20 @@
+set $mode_screenshot "<span foreground='$base0A'></span>  \
+<span foreground='$base05'><b>Fullscreen</b></span> <span foreground='$base0A'>(<b>f</b>)</span> \
+<span foreground='$base01'>—</span> \
+<span foreground='$base05'><b>Window</b></span> <span foreground='$base0A'>(<b>w</b>)</span> \
+<span foreground='$base01'>—</span> \
+<span foreground='$base05'><b>Region</b></span> <span foreground='$base0A'>(<b>r</b>)</span>"
+
+mode --pango_markup $mode_screenshot {
+    bindsym f exec --no-startup-id grimshot copy screen, mode "default"
+    bindsym Shift+f exec --no-startup-id grimshot save screen ~/Pictures/screenshot-$(date +'%Y-%m-%d-%H%M%S'), mode "default"
+    bindsym w exec --no-startup-id grimshot copy win, mode "default"
+    bindsym Shift+w exec --no-startup-id grimshot save win ~/Pictures/screenshot-$(date +'%Y-%m-%d-%H%M%S'), mode "default"
+    bindsym r exec --no-startup-id grimshot copy area, mode "default"
+    bindsym Shift+r exec --no-startup-id grimshot save area ~/Pictures/screenshot-$(date +'%Y-%m-%d-%H%M%S'), mode "default"
+
+    # Return to default mode.
+    bindsym Escape mode "default"
+    bindsym Return mode "default"
+}
+bindsym $mod+Shift+s mode $mode_screenshot
