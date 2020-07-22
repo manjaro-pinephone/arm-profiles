@@ -19,8 +19,8 @@ set $term termite
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $appmenu wofi --show drun --insensitive --allow-images --allow-markup --prompt app | xargs swaymsg exec --
-set $menu wofi --show run --insensitive --prompt exec | xargs swaymsg exec --
+set $appmenu wofi --show drun --conf /etc/xdg/wofi/config --style /etc/xdg/wofi/style.css --prompt app | xargs swaymsg exec --
+set $menu wofi --show run --conf /etc/xdg/wofi/config --style /etc/xdg/wofi/style.css --prompt exec | xargs swaymsg exec --
 
 ### Idle configuration
 # This will lock your screen after 300 seconds of inactivity, then turn off

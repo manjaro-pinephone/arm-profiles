@@ -18,6 +18,8 @@ if [[ $CONNECTION_STATUS -ne 0 ]]; then
   exit 1
 fi
 
+set -e
+
 # message functions
 msg() {
   ALL_OFF="\e[1;0m"

@@ -12,6 +12,8 @@ if [[ $IMAGE_STATUS -ne 0 ]]; then
   exit 1
 fi
 
+set -e
+
 if [[ ! -d $HOME/.local/share/chromium_widevine ]]; then
   mkdir -p $HOME/.local/share/chromium_widevine
 fi
@@ -40,6 +42,7 @@ pkexec systemd-nspawn --directory $CONTAINER_DIR/$CONTAINER_ID \
                --setenv=LIBVA_DRIVER_NAME=v4l2_request \
                --bind-ro=$host_pulseaudio:/run/user/host/pulse \
                --bind-ro=$host_dbus:/run/user/host/bus \
+               --bind-ro=/var/run/dbus/system_bus_socket \
                --bind-ro=/usr/share/themes/:$XDG_DATA_HOME/themes/ \
                --bind=/dev/dri \
                --bind=/dev/shm \

@@ -26,15 +26,11 @@ mode "resize" {
     bindsym Shift+Right resize grow width 20px
 
     ## Resize // Window Gaps // + - ##
-    bindsym minus gaps inner current minus 6px
-    bindsym plus gaps inner current plus 6px
-    bindsym Shift+minus gaps inner current minus 12px
-    bindsym Shift+plus gaps inner current plus 12px
+    bindsym minus gaps inner current minus 5px
+    bindsym plus gaps inner current plus 5px
 
     # Return to default mode
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
-
 bindsym $mod+r mode "resize"
-
