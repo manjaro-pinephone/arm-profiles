@@ -18,3 +18,4 @@ exec --no-startup-id pamac-tray-appindicator
 exec --no-startup-id nm-applet --indicator
 exec --no-startup-id blueman-applet
 exec --no-startup-id mntray
+exec --no-startup-id swhelp.sh

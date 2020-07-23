@@ -18,7 +18,8 @@ if [[ $CONNECTION_STATUS -ne 0 ]]; then
   exit 1
 fi
 
-set -e
+set -e # error if a command as non 0 exit
+set -u # error if undefined variable
 
 # message functions
 msg() {
