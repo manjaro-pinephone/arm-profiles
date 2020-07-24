@@ -4,7 +4,10 @@
 # Author: Appelgriebsch
 # License: MIT
 
-if [ -f $HOME/.swhelp_overlay ]; then exit 1; fi
+PIDFILE=$HOME/.swhelp_visible
+FIRST_RUN=$HOME/.firstrun
+
+if [ -f $PIDFILE ]; then exit 1; fi
 
 DMENU_OPT="--conf /etc/xdg/wofi/overlay --style /etc/xdg/wofi/style.css --location 7 --xoffset 10 --yoffset -10"
 
@@ -22,8 +25,25 @@ cat <<EOF | wofi --show dmenu $DMENU_OPT
   Open Help Overlay: <b>\$mod</b> + <b>?</b>
   Close Help Overlay: <b>Escape</b>
 EOF
-if [ -f $HOME/.swhelp_overlay ]; then rm $HOME/.swhelp_overlay; fi
+if [ -f $PIDFILE ]; then rm $PIDFILE; fi
+if [ -f $FIRST_RUN ]; then rm $FIRST_RUN; fi
 }
 
-touch $HOME/.swhelp_overlay
+for i in "$@"
+do
+case $i in
+  --autostart)
+    AUTOSTART=YES
+    ;;
+  *)
+    # unknown option
+    ;;
+esac
+done
+
+if [ "$AUTOSTART" == "YES" ]; then
+    if [ ! -f $FIRST_RUN ]; then exit 1; fi
+fi
+
+touch $PIDFILE
 spawn_help_overlay &
