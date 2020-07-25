@@ -5,8 +5,7 @@ exec $idle
 exec_always import-gtk3-settings.sh \
     gtk-theme:gtk-theme-name \
     icon-theme:gtk-icon-theme-name \
-    cursor-theme:gtk-cursor-theme-name \
-    gtk-font:gtk-font-name
+    cursor-theme:gtk-cursor-theme-name
 
 # enable gnome-keyring daemon
 exec systemctl --user import-environment && gnome-keyring-daemon --components=ssh\,secrets\,pkcs11 --start
