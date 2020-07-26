@@ -52,19 +52,19 @@ cursor_shape = block
 #roundness = 2.0
 
 [colors]
-# Base16 Seti UI
-# Author: 
+# based on Base16 Seti UI
+# Author: Appelgriebsch
 
 foreground          = #d6d6d6
 foreground_bold     = #d6d6d6
 cursor              = #d6d6d6
-cursor_foreground   = #151718
-background          = rgba(21, 23, 24, 0.9)
+cursor_foreground   = #141a1b
+background          = rgba(20, 26, 27, 0.9)
 
 # 16 color space
 
 # Black, Gray, Silver, White
-color0  = #151718
+color0  = #141a1b
 color8  = #41535B
 color7  = #d6d6d6
 color15 = #ffffff

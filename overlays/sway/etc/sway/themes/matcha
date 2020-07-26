@@ -1,7 +1,7 @@
-## Base16 Seti UI
-# Author: 
+# based on Base16 Seti UI
+# Author: Appelgriebsch
 
-set $base00 #151718
+set $base00 #141a1b
 set $base01 #282a2b
 set $base02 #3B758C
 set $base03 #41535B

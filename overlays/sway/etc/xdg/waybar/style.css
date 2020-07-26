@@ -8,12 +8,12 @@
 
 /*
 *
-* Base16 Seti UI
-* Author: 
+* based on Base16 Seti UI
+* Author: Appelgriebsch
 *
 */
 
-@define-color base00 #151718;
+@define-color base00 #141a1b;
 @define-color base01 #282a2b;
 @define-color base02 #3b758c;
 @define-color base03 #41535b;
@@ -202,7 +202,7 @@
     padding-bottom: 2px;
     padding-left: 10px;
     padding-right: 10px;
-    color: @base07;
+    color: @base05;
 }
 
 #workspaces button.focused {
