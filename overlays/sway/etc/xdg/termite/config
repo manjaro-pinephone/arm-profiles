@@ -81,17 +81,17 @@ color10 = #9fca56
 color3  = #e6cd69
 color11 = #e6cd69
 
-# Blue
-color4  = #55b5db
-color12 = #55b5db
+# Teal
+color4  = #16a085
+color12 = #16a085
 
 # Purple
 color5  = #a074c4
 color13 = #a074c4
 
-# Teal
-color6  = #16a085
-color14 = #16a085
+# Blue
+color6  = #55b5db
+color14 = #55b5db
 
 # Extra colors
 color16 = #db7b55
