@@ -9,10 +9,8 @@ FIRST_RUN=$HOME/.firstrun
 
 if [ -f $PIDFILE ]; then exit 1; fi
 
-DMENU_OPT="--conf /etc/xdg/wofi/overlay --style /etc/xdg/wofi/style.css --location 7 --xoffset 10 --yoffset -10"
-
 spawn_help_overlay() {
-cat <<EOF | wofi --show dmenu $DMENU_OPT
+cat <<EOF | wofi --show dmenu "$@"
   <b>Manjaro ARM Sway Edition</b>
   Default Modifier: <b>Alt</b>
   New Terminal: <b>\$mod</b> + <b>Enter</b>
@@ -46,4 +44,4 @@ if [ "$AUTOSTART" == "YES" ]; then
 fi
 
 touch $PIDFILE
-spawn_help_overlay &
+spawn_help_overlay "$@" &
