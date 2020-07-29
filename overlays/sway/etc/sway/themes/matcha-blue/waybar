@@ -13,7 +13,7 @@
 *
 */
 
-@define-color base00 #141a1b;
+@define-color base00 #14161b;
 @define-color base01 #282a2b;
 @define-color base02 #3b758c;
 @define-color base03 #41535b;

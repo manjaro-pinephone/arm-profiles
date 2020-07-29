@@ -10,7 +10,7 @@
 window {
   opacity: 0.9;
   border: 2px solid #55b5db;
-  background-color: #141a1b;
+  background-color: #14161b;
   color: #ffffff;
   border-radius: 5px;
 }

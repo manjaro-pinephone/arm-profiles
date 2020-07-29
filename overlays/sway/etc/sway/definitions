@@ -40,7 +40,7 @@ set $idle swayidle -w \
 set $statusbar launch_waybar.sh
 
 # logout command
-set $logout wlogout --layout /etc/wlogout/user-loggedin
+set $logout wlogout --layout /etc/sway/wlogout/user-loggedin -css $theme/wlogout
 
 # shutdown command
-set $shutdown wlogout --layout /etc/wlogout/user-loggedout --buttons-per-row 3
+set $shutdown wlogout --layout /etc/sway/wlogout/user-loggedout --buttons-per-row 3 -css $theme/wlogout

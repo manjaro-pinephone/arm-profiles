@@ -5,8 +5,8 @@ window {
     background-color: rgba(12, 12, 12, 0.9);
 }
 button {
-    color: #F5F7FA;
-    background-color: #1B2224;
+    color: #fffff;
+    background-color: #141a1b;
     border-style: solid;
     border-width: 2px;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ button {
 }
 
 button:focus, button:active, button:hover {
-    background-color: #52CBB0;
+    background-color: #16a085;
     outline-style: none;
 }
 
