@@ -1,6 +1,8 @@
 # based on Base16 Seti UI
 # Author: Appelgriebsch
 
+set $background /usr/share/wallpapers/manjaro-arm/generic/manjaro-arm.png
+
 set $base00 #14161b
 set $base01 #282a2b
 set $base02 #3B758C

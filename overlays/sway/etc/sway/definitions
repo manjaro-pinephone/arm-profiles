@@ -12,8 +12,6 @@ set $right l
 # styles - matcha-green or matcha-blue
 set $theme /etc/sway/themes/matcha-green
 
-set $background /usr/share/wallpapers/manjaro-arm/generic/manjaro-arm2.png
-
 # Your preferred terminal emulator
 set $term termite --config $theme/termite
 
