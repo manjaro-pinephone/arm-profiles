@@ -14,7 +14,7 @@ prepare_gtk3_settings() {
   local settings_dir=$HOME/.config/gtk-3.0
 
   mkdir -p $settings_dir
-  echo "[settings]" > $settings_dir/settings.ini
+  echo "[Settings]" > $settings_dir/settings.ini
   cat $1 >> $settings_dir/settings.ini
 }
 
@@ -23,7 +23,7 @@ prepare_gtk4_settings() {
   local settings_dir=$HOME/.config/gtk-4.0
 
   mkdir -p $settings_dir
-  echo "[settings]" > $settings_dir/settings.ini
+  echo "[Settings]" > $settings_dir/settings.ini
   cat $1 >> $settings_dir/settings.ini
 }
 
