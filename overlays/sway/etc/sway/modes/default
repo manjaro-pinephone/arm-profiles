@@ -128,6 +128,9 @@ for_window [title="File Operation Progress"] floating enable
 for_window [app_id="firefox" title="Library"] floating enable
 for_window [app_id="thunderbird" title=".*Reminder"] floating enable
 
+default_border pixel 1
+hide_edge_borders smart
+
 #
 # Status Bar:
 #

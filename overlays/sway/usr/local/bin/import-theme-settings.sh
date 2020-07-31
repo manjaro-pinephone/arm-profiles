@@ -1,11 +1,12 @@
 #!/bin/sh
 
-# usage: import-gsettings <theme-file> <gsettings key>:<settings.ini key> <gsettings key>:<settings.ini key> ...
+# usage: import-gsettings <theme-dir> <gsettings key>:<settings.ini key> <gsettings key>:<settings.ini key> ...
+
 prepare_gtk2_settings() {
   local theme_file=$1
   local settings_dir=$HOME
 
-  echo "include \"/home/andi/.gtkrc-2.0.mine\"" > $settings_dir/.gtkrc-2.0
+  echo "include \"$HOME/.gtkrc-2.0.mine\"" > $settings_dir/.gtkrc-2.0
   cat $1 >> $settings_dir/.gtkrc-2.0
 }
 
@@ -36,20 +37,26 @@ prepare_kvantum_settings() {
   cat $1 >> $settings_dir/kvantum.kvconfig
 }
 
-if [ -f "$1/gtk" ]; then
-  prepare_gtk2_settings $1/gtk
-  prepare_gtk3_settings $1/gtk
-  prepare_gtk4_settings $1/gtk
-fi
-
-if [ -f "$1/kvantum" ]; then
-  prepare_kvantum_settings $1/kvantum
-fi
-
-expression=""
-for pair in "$@"; do
+update_gsettings() {
+  local theme_file=$1/gtk
+  expression=""
+  for pair in "$@"; do
     IFS=:; set -- $pair
     expressions="$expressions -e 's:^$2=(.*)$:gsettings set org.gnome.desktop.interface $1 \1:e'"
-done
-IFS=
-eval exec sed -E $expressions "${XDG_CONFIG_HOME:-$HOME/.config}"/gtk-3.0/settings.ini >/dev/null
+  done
+  IFS=
+  eval exec sed -E $expressions $theme_file >/dev/null
+}
+
+if [ -d "$HOME/.config" ]; then
+  if [ -f "$1/gtk" ]; then
+    prepare_gtk2_settings $1/gtk
+    prepare_gtk3_settings $1/gtk
+    prepare_gtk4_settings $1/gtk
+  fi
+  if [ -f "$1/kvantum" ]; then
+    prepare_kvantum_settings $1/kvantum
+  fi
+fi
+
+update_gsettings $@

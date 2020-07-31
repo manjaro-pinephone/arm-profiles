@@ -4,7 +4,7 @@ include /etc/sway/inputs/*
 include /etc/sway/outputs/*
 
 # start gtkgreeter
-exec "gtkgreet -l -c sway; swaymsg exit"
+exec "GTK_THEME=$gtk-theme gtkgreet -l -c sway; swaymsg exit"
 
 # offer shutdown options
 bindsym $mod+Shift+e exec $shutdown

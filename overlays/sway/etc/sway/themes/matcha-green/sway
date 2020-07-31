@@ -1,8 +1,11 @@
 # based on Base16 Seti UI
 # Author: Appelgriebsch
 
+# some global theme specific variables
 set $background /usr/share/wallpapers/manjaro-arm/generic/manjaro-arm2.png
+set $gtk-theme Matcha-dark-sea
 
+# a theme specific color map
 set $base00 #141a1b
 set $base01 #282a2b
 set $base02 #3B758C
@@ -19,9 +22,6 @@ set $base0C #16a085
 set $base0D #55b5db
 set $base0E #a074c4
 set $base0F #8a553f
-
-default_border pixel 1
-hide_edge_borders smart
 
 # Basic color configuration using the Base16 variables for windows and borders.
 # Property Name         Border  BG      Text    Indicator Child Border
