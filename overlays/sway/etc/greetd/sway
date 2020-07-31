@@ -3,12 +3,6 @@ include /etc/sway/definitions
 include /etc/sway/inputs/*
 include /etc/sway/outputs/*
 
-# enable gtk3 theming
-exec import-gtk3-settings.sh $theme/gtk \
-    gtk-theme:gtk-theme-name \
-    icon-theme:gtk-icon-theme-name \
-    cursor-theme:gtk-cursor-theme-name
-
 # start gtkgreeter
 exec "gtkgreet -l -c sway; swaymsg exit"
 

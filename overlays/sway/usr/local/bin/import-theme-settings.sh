@@ -15,7 +15,7 @@ prepare_gtk3_settings() {
 
   mkdir -p $settings_dir
   echo "[Settings]" > $settings_dir/settings.ini
-  cat $1 >> $settings_dir/settings.ini
+  cat $1 | sed 's/"//g' >> $settings_dir/settings.ini
 }
 
 prepare_gtk4_settings() {
@@ -24,13 +24,26 @@ prepare_gtk4_settings() {
 
   mkdir -p $settings_dir
   echo "[Settings]" > $settings_dir/settings.ini
-  cat $1 >> $settings_dir/settings.ini
+  cat $1 | sed 's/"//g' >> $settings_dir/settings.ini
 }
 
-if [ -f "$1" ]; then
-  prepare_gtk2_settings $1
-  prepare_gtk3_settings $1
-  prepare_gtk4_settings $1
+prepare_kvantum_settings() {
+  local theme_file=$1
+  local settings_dir=$HOME/.config/Kvantum
+
+  mkdir -p $settings_dir
+  echo "[General]" > $settings_dir/kvantum.kvconfig
+  cat $1 >> $settings_dir/kvantum.kvconfig
+}
+
+if [ -f "$1/gtk" ]; then
+  prepare_gtk2_settings $1/gtk
+  prepare_gtk3_settings $1/gtk
+  prepare_gtk4_settings $1/gtk
+fi
+
+if [ -f "$1/kvantum" ]; then
+  prepare_kvantum_settings $1/kvantum
 fi
 
 expression=""
