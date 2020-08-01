@@ -8,7 +8,8 @@ The directory hosts various configuration files of which the important ones are:
 - ```/etc/sway/definitions```: host the global definitions such as the application launcher, terminal, the idle program, default and alternative modifier key, ...
 - ```/etc/sway/config```: the default Sway configuration file. If you want to customize it, you should create a copy in ```$HOME/.config/sway``` and change it as needed.
 - ```/etc/sway/config.d/99-autostart-applications```: contains all the programs that has to be started as soon as the Sway session initializes
-- ```/etc/sway/themes/matcha-green```: the color configurations to match the matcha theme of Manjaro
+- ```/etc/sway/themes/matcha-green```: the color configurations to match the default matcha sea theme of Manjaro
+- ```/etc/sway/themes/matcha-blue```: an alternative color configurations based on the matcha azul theme of Manjaro
 
 ## Basics
 
@@ -110,7 +111,7 @@ As part of the Sway profile you also received a custom bash script `/usr/local/b
 
 If you have the predecessor of the Pinebook Pro you will have to do the following minor tweaks on the default installation:
 
-- for the correct battery status in Waybar you will have to update it's config (default in `/etc/sway/waybar/`) and change the value of the "bat" property in the battery section
+- for the correct battery status in Waybar you will have to update it's config (default in `$HOME/.config/waybar`) and change the value of the "bat" property in the battery section
 
 ```json
     "battery": {
