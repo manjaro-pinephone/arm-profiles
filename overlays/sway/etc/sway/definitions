@@ -18,10 +18,10 @@ set $term termite --config $theme/termite
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $appmenu wofi --show drun --conf /etc/sway/wofi/config --style $theme/wofi --prompt "Application Launcher" | xargs swaymsg exec --
-set $menu wofi --show run --conf /etc/sway/wofi/config --style $theme/wofi --exec-search --prompt "Run Command" | xargs swaymsg exec --
-set $selwin sws.sh --dmenu-cmd "wofi --conf /etc/sway/wofi/config --style $theme/wofi --show dmenu" --format "%W | %A - %T"
-set $help swhelp.sh --conf /etc/sway/wofi/swhelp --style $theme/wofi --location 7 --xoffset 10 --yoffset -10
+set $appmenu wofi --show drun --prompt "Application Launcher" | xargs swaymsg exec --
+set $menu wofi --show run --exec-search --prompt "Run Command" | xargs swaymsg exec --
+set $selwin sws.sh --dmenu-cmd "wofi --show dmenu" --format "%W | %A - %T"
+set $help swhelp.sh --conf $HOME/.config/wofi/swhelp --location 7 --xoffset 10 --yoffset -10
 
 ### Idle configuration
 # This will lock your screen after 300 seconds of inactivity, then turn off
@@ -35,7 +35,7 @@ set $idle swayidle -w \
     before-sleep 'swaylock -f -c 000000'
 
 # statusbar command
-set $statusbar launch_waybar.sh
+set $statusbar waybar
 
 # logout command
 set $logout wlogout --layout /etc/sway/wlogout/user-loggedin --css $theme/wlogout

@@ -9,8 +9,8 @@
 
 window {
   opacity: 0.9;
-  border: 2px solid #16a085;
-  background-color: #141a1b;
-  color: #ffffff;
+  border: 2px solid ACCENT_COLOR;
+  background-color: BACKGROUND_COLOR;
+  color: TEXT_COLOR;
   border-radius: 5px;
 }

@@ -1,0 +1,1 @@
+exec_always 'mkdir -p $HOME/.config/mako && cat /etc/sway/themes/templates/mako | sed "s/BACKGROUND_COLOR/$background-color/g; s/GUI_FONT/$gui-font/g; s/ACCENT_COLOR/$accent-color/g;" > $HOME/.config/mako/config'

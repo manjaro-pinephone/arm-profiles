@@ -27,6 +27,12 @@ set $base0D #55b5db
 set $base0E #a074c4
 set $base0F #8a553f
 
+set $accent-color $base0D
+set $background-color $base00
+set $text-color $base07
+set $warning-color $base09
+set $error-color $base08
+
 # Basic color configuration using the Base16 variables for windows and borders.
 # Property Name         Border  BG      Text    Indicator Child Border
 client.focused          $base05 $base0D $base00 $base0D $base0D
