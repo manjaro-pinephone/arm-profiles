@@ -4,6 +4,10 @@
 # some global theme specific variables
 set $background /usr/share/wallpapers/manjaro-arm/generic/manjaro-arm2.png
 set $gtk-theme Matcha-dark-sea
+set $icon-theme Papirus-Dark-Maia
+set $cursor-theme xcursor-breeze
+set $gui-font Noto Sans 11
+set $kvantum-theme Matchama-Dark
 
 # a theme specific color map
 set $base00 #141a1b

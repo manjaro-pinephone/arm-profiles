@@ -1,0 +1,2 @@
+exec_always 'mkdir -p $HOME/.config/qt5ct && \
+  cat /etc/sway/themes/templates/qt5ct | sed "s/ICON_THEME/$icon-theme/g" > $HOME/.config/qt5ct/qt5ct.conf'

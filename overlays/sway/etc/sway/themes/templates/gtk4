@@ -1,7 +1,8 @@
-gtk-theme-name="Matcha-dark-azul"
-gtk-icon-theme-name="Papirus-Dark"
-gtk-font-name="Noto Sans 11"
-gtk-cursor-theme-name="xcursor-breeze"
+[Settings]
+gtk-theme-name=GTK_THEME
+gtk-icon-theme-name=ICON_THEME
+gtk-font-name=GUI_FONT
+gtk-cursor-theme-name=CURSOR_THEME
 gtk-cursor-theme-size=0
 gtk-toolbar-style=GTK_TOOLBAR_BOTH
 gtk-toolbar-icon-size=GTK_ICON_SIZE_LARGE_TOOLBAR
@@ -11,5 +12,5 @@ gtk-enable-event-sounds=1
 gtk-enable-input-feedback-sounds=1
 gtk-xft-antialias=1
 gtk-xft-hinting=1
-gtk-xft-hintstyle="hintfull"
+gtk-xft-hintstyle=hintfull
 

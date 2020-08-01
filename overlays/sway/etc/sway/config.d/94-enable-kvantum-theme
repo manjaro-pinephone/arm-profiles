@@ -1,0 +1,2 @@
+exec_always 'mkdir -p $HOME/.config/Kvantum && \
+  cat /etc/sway/themes/templates/kvantum | sed "s/KVANTUM_THEME/$kvantum-theme/g" > $HOME/.config/Kvantum/kvantum.kvconfig'

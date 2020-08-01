@@ -1,0 +1,2 @@
+exec_always 'mkdir -p $HOME/.config/gtk-4.0 && \
+  cat /etc/sway/themes/templates/gtk4 | sed "s/GTK_THEME/$gtk-theme/g; s/ICON_THEME/$icon-theme/g; s/GUI_FONT/$gui-font/g; s/CURSOR_THEME/$cursor-theme/g;" > $HOME/.config/gtk-4.0/settings.ini'
