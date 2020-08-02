@@ -6,12 +6,12 @@ set $mode_screenshot "<span foreground='$base0A'></span>  \
 <span foreground='$base05'><b>Region</b></span> <span foreground='$base0A'>(<b>r</b>)</span>"
 
 mode --pango_markup $mode_screenshot {
-    bindsym f exec --no-startup-id grimshot copy screen, mode "default"
-    bindsym Shift+f exec --no-startup-id grimshot save screen ~/Pictures/screenshot-$(date +'%Y-%m-%d-%H%M%S'), mode "default"
-    bindsym w exec --no-startup-id grimshot copy win, mode "default"
-    bindsym Shift+w exec --no-startup-id grimshot save win ~/Pictures/screenshot-$(date +'%Y-%m-%d-%H%M%S'), mode "default"
-    bindsym r exec --no-startup-id grimshot copy area, mode "default"
-    bindsym Shift+r exec --no-startup-id grimshot save area ~/Pictures/screenshot-$(date +'%Y-%m-%d-%H%M%S'), mode "default"
+    bindsym f exec --no-startup-id grimshot --notify copy screen, mode "default"
+    bindsym Shift+f exec --no-startup-id grimshot --notify save screen ~/Pictures/screenshot-$(date +'%Y-%m-%d-%H%M%S').png, mode "default"
+    bindsym w exec --no-startup-id grimshot --notify copy win, mode "default"
+    bindsym Shift+w exec --no-startup-id grimshot --notify save win ~/Pictures/screenshot-$(date +'%Y-%m-%d-%H%M%S').png, mode "default"
+    bindsym r exec --no-startup-id grimshot --notify copy area, mode "default"
+    bindsym Shift+r exec --no-startup-id grimshot --notify save area ~/Pictures/screenshot-$(date +'%Y-%m-%d-%H%M%S').png, mode "default"
 
     # Return to default mode.
     bindsym Escape mode "default"
