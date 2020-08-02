@@ -1,2 +1,3 @@
-exec_always 'mkdir -p $HOME/.config/wofi && cat /etc/sway/themes/templates/wofi | sed "s/BACKGROUND_COLOR/$background-color/g; s/TEXT_COLOR/$text-color/g; s/ACCENT_COLOR/$accent-color/g;" > $HOME/.config/wofi/style.css'
-
+exec_always {
+  'mkdir -p $HOME/.config/wofi && cat /etc/sway/themes/templates/wofi | sed -e $theme_template_script -e $theme_color_script > $HOME/.config/wofi/style.css'
+}

@@ -4,6 +4,7 @@ allow_markup=true
 no_actions=true
 hide_scroll=true
 hide_search=true
+print_line_num=true
 lines=12
 term=termite
 width=300

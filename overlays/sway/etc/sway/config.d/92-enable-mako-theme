@@ -1,1 +1,3 @@
-exec_always 'mkdir -p $HOME/.config/mako && cat /etc/sway/themes/templates/mako | sed "s/BACKGROUND_COLOR/$background-color/g; s/GUI_FONT/$gui-font/g; s/ACCENT_COLOR/$accent-color/g;" > $HOME/.config/mako/config'
+exec_always {
+  'mkdir -p $HOME/.config/mako && cat /etc/sway/themes/templates/mako | sed -e $theme_template_script -e $theme_color_script > $HOME/.config/mako/config'
+}

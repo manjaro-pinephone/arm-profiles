@@ -21,7 +21,7 @@ set $term termite --config $theme/termite
 set $appmenu wofi --show drun --prompt "Application Launcher" | xargs swaymsg exec --
 set $menu wofi --show run --exec-search --prompt "Run Command" | xargs swaymsg exec --
 set $selwin sws.sh --dmenu-cmd "wofi --show dmenu" --format "%W | %A - %T"
-set $help swhelp.sh --conf $HOME/.config/wofi/swhelp --location 7 --xoffset 10 --yoffset -10
+set $help swhelp.sh --conf $HOME/.config/wofi/swhelp --location 7 --xoffset 15 --yoffset -30
 
 ### Idle configuration
 # This will lock your screen after 300 seconds of inactivity, then turn off
