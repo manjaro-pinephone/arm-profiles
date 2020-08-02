@@ -121,3 +121,14 @@ bindsym $mod+a focus parent
 default_border pixel 1
 hide_edge_borders smart
 
+#
+# Status Bar:
+#
+# Read `man 5 sway-bar` for more information about this section.
+bar {
+    position top
+
+    # Run waybar instead of swaybar
+    swaybar_command $statusbar
+}
+
