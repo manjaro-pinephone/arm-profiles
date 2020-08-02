@@ -1,0 +1,2 @@
+exec_always 'mkdir -p $HOME/.config/wlogout && cat /etc/sway/themes/templates/wlogout | sed "s/TRANSPARENT_BACKGROUND_COLOR/$transparent-background-color/g; s/BACKGROUND_COLOR/$background-color/g; s/TEXT_COLOR/$text-color/g; s/ACCENT_COLOR/$accent-color/g;" > $HOME/.config/wlogout/style.css'
+

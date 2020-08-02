@@ -25,7 +25,7 @@ floating_modifier $mod normal
 bindsym $mod+Shift+c reload
 
 # Exit sway (logs you out of your Wayland session)
-bindsym $mod+Shift+e exec $logout
+bindsym $mod+Shift+e exec $shutdown
 
 # Media key bindings
 bindsym XF86AudioLowerVolume exec amixer -q sset 'Master' 5%-
@@ -37,7 +37,7 @@ bindsym XF86MonBrightnessDown exec light -U 5
 bindsym XF86MonBrightnessUp exec light -A 5
 
 # capture PowerOff key
-bindsym XF86PowerOff exec $logout
+bindsym XF86PowerOff exec $shutdown
 
 #
 # Moving around:
@@ -118,39 +118,6 @@ bindsym $mod+space focus mode_toggle
 # Move focus to the parent container
 bindsym $mod+a focus parent
 
-# override mode for specific applications
-for_window [app_id="pavucontrol"] floating enable
-for_window [instance="lxappearance"] floating enable
-for_window [app_id="pamac-manager"] floating enable
-for_window [app_id="blueman-manager"] floating enable
-for_window [app_id="nm-connection-editor"] floating enable
-for_window [title="File Operation Progress"] floating enable
-for_window [app_id="firefox" title="Library"] floating enable
-for_window [app_id="thunderbird" title=".*Reminder"] floating enable
-
 default_border pixel 1
 hide_edge_borders smart
 
-#
-# Status Bar:
-#
-# Read `man 5 sway-bar` for more information about this section.
-bar {
-    position top
-
-    # Run waybar instead of swaybar
-    swaybar_command $statusbar
-
-    colors {
-        background $base00
-        separator  $base01
-        statusline $base04
-
-        # State             Border  BG      Text
-        focused_workspace   $base05 $base0C $base00
-        active_workspace    $base05 $base03 $base00
-        inactive_workspace  $base03 $base01 $base05
-        urgent_workspace    $base08 $base08 $base00
-        binding_mode        $base00 $base0A $base00
-    }
-}

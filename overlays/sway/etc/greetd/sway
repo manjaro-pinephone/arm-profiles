@@ -3,8 +3,15 @@ include /etc/sway/definitions
 include /etc/sway/inputs/*
 include /etc/sway/outputs/*
 
+# enable wlogout theme
+exec_always 'mkdir -p /tmp/wlogout && cat /etc/sway/themes/templates/wlogout | sed "s/TRANSPARENT_BACKGROUND_COLOR/$transparent-background-color/g; s/BACKGROUND_COLOR/$background-color/g; s/TEXT_COLOR/$text-color/g; s/ACCENT_COLOR/$accent-color/g;" > /tmp/wlogout/style.css'
+
 # start gtkgreeter
 exec "GTK_THEME=$gtk-theme gtkgreet -l -c sway; swaymsg exit"
 
 # offer shutdown options
-bindsym $mod+Shift+e exec $shutdown
+bindsym $mod+Shift+e exec $shutdown --layout /etc/greetd/wlogout --css /tmp/wlogout/style.css
+
+# capture PowerOff key
+bindsym XF86PowerOff exec $shutdown --layout /etc/greetd/wlogout --css /tmp/wlogout/style.css
+

@@ -1,0 +1,2 @@
+exec_always 'mkdir -p $HOME/.config/waybar && cat /etc/sway/themes/templates/waybar | sed "s/BACKGROUND_COLOR/$background-color/g; s/DIM_TEXT_COLOR/$dim-text-color/g; s/TEXT_COLOR/$text-color/g; s/ACCENT_COLOR/$accent-color/g; s/WARNING_COLOR/$warning-color/g; s/ERROR_COLOR/$error-color/g;" > $HOME/.config/waybar/style.css'
+

@@ -1,1 +1,0 @@
-exec_always 'cat /etc/sway/themes/templates/gtk2 | sed "s/GTK_THEME/$gtk-theme/g; s/ICON_THEME/$icon-theme/g; s/GUI_FONT/$gui-font/g; s/CURSOR_THEME/$cursor-theme/g;" > $HOME/.gtkrc-2.0'

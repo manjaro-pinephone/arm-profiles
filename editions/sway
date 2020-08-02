@@ -53,8 +53,6 @@ wofi
 xorg-server-xwayland
 
 # Sway Extras
-bemenu
-bemenu-wlroots
 grim
 grimshot
 imv
