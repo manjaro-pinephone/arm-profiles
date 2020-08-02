@@ -12,9 +12,6 @@ if [[ $IMAGE_STATUS -ne 0 ]]; then
   exit 1
 fi
 
-set -e # error if a command as non 0 exit
-set -u # error if undefined variable
-
 if [[ ! -d $HOME/.local/share/chromium_widevine ]]; then
   mkdir -p $HOME/.local/share/chromium_widevine
 fi
@@ -33,6 +30,9 @@ else # default guess
    host_pulseaudio=/run/user/$UID/pulse;
 fi
 
+set -e # error if a command as non 0 exit
+set -u # error if undefined variable
+
 xhost +local:
 
 pkexec systemd-nspawn --directory $CONTAINER_DIR/$CONTAINER_ID \
@@ -44,7 +44,6 @@ pkexec systemd-nspawn --directory $CONTAINER_DIR/$CONTAINER_ID \
                --bind-ro=$host_pulseaudio:/run/user/host/pulse \
                --bind-ro=$host_dbus:/run/user/host/bus \
                --bind-ro=/var/run/dbus/system_bus_socket \
-               --bind-ro=/usr/share/themes/:$XDG_DATA_HOME/themes/ \
                --bind=/dev/dri \
                --bind=/dev/shm \
                --bind=/dev/v4l \
