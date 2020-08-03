@@ -1,0 +1,3 @@
+exec_always {
+  'mkdir -p $HOME/.config/termite && cat /etc/sway/themes/templates/termite | sed -e $term_color_script -e $theme_color_script > $HOME/.config/termite/config'
+}

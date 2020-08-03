@@ -13,7 +13,7 @@ set $right l
 set $theme /etc/sway/themes/matcha-green
 
 # Your preferred terminal emulator
-set $term termite --config $theme/termite
+set $term termite
 
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened

@@ -28,14 +28,7 @@ set $base0D #55b5db
 set $base0E #a074c4
 set $base0F #8a553f
 
-set $background-color $base00
 set $transparent-background-color rgba(20, 22, 27, 0.9)
-set $dim-text-color $base05
-set $text-color $base06
-set $bright-text-color $base07
-set $accent-color $base0D
-set $warning-color $base09
-set $error-color $base08
 
 # Basic color configuration using the Base16 variables for windows and borders.
 # Property Name         Border  BG      Text    Indicator Child Border
@@ -46,5 +39,6 @@ client.urgent           $base08 $base08 $base00 $base08 $base08
 client.placeholder      $base00 $base00 $base05 $base00 $base00
 client.background       $base07
 
-set $theme_template_script "s/GTK_THEME/$gtk-theme/g; s/ICON_THEME/$icon-theme/g; s/CURSOR_THEME/$cursor-theme/g; s/GUI_FONT/$gui-font/g; s/TERM_FONT/$term-font/g; s/KVANTUM_THEME/$kvantum-theme/g;"
-set $theme_color_script "s/TRANSPARENT_BACKGROUND_COLOR/$transparent-background-color/g; s/BACKGROUND_COLOR/$background-color/g; s/BRIGHT_TEXT_COLOR/$bright-text-color/g; s/DIM_TEXT_COLOR/$dim-text-color/g; s/TEXT_COLOR/$text-color/g; s/ACCENT_COLOR/$accent-color/g; s/WARNING_COLOR/$warning-color/g; s/ERROR_COLOR/$error-color/g;"
+set $theme_template_script "s/GTK_THEME/$gtk-theme/g; s/ICON_THEME/$icon-theme/g; s/CURSOR_THEME/$cursor-theme/g; s/GUI_FONT/$gui-font/g; s/KVANTUM_THEME/$kvantum-theme/g;"
+set $theme_color_script "s/TRANSPARENT_BACKGROUND_COLOR/$transparent-background-color/g; s/BACKGROUND_COLOR/$base00/g; s/BRIGHT_TEXT_COLOR/$base07/g; s/DIM_TEXT_COLOR/$base05/g; s/TEXT_COLOR/$base06/g; s/ACCENT_COLOR/$base0D/g; s/ALTERNATIVE_COLOR/$base0C/g; s/WARNING_COLOR/$base09/g; s/ERROR_COLOR/$base08/g;"
+set $term_color_script "s/TERM_FONT/$term-font/g; s/COLOR_BLACK/$base00/g; s/COLOR_EXTRA3/$base01/g; s/COLOR_EXTRA4/$base02/g; s/COLOR_GRAY/$base03/g; s/COLOR_EXTRA5/$base04/g; s/COLOR_SILVER/$base05/g; s/COLOR_EXTRA6/$base06/g; s/COLOR_WHITE/$base07/g; s/COLOR_RED/$base08/g; s/COLOR_EXTRA1/$base09/g; s/COLOR_YELLOW/$base0A/g; s/COLOR_GREEN/$base0B/g; s/COLOR_TEAL/$base0C/g; s/COLOR_BLUE/$base0D/g; s/COLOR_PURPLE/$base0E/g; s/COLOR_EXTRA2/$base0F/g;"
