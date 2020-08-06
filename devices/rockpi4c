@@ -1,0 +1,14 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
+linux-aarch64
+uboot-rockpi4c
+bootsplash-theme-manjaro
+bootsplash-systemd
+
+# Video drivers
+
+# Other device specific packages
+ap6256-firmware
+wpa_supplicant
+rockpi4-post-install

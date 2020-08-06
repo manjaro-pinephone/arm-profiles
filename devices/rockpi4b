@@ -2,7 +2,7 @@
 
 # Kernel and bootloader stuff
 linux-aarch64
-uboot-rockpi4
+uboot-rockpi4b
 bootsplash-theme-manjaro
 bootsplash-systemd
 
