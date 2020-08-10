@@ -1,0 +1,13 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
+linux
+uboot-odroid-n2-plus
+bootsplash-theme-manjaro
+bootsplash-systemd
+
+# Video driver
+
+# Other device specific packages
+fbset
+on2-post-install
