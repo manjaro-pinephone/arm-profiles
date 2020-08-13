@@ -1,7 +1,7 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
-linux-aarch64
+linux
 uboot-odroid-c2-mainline
 bootsplash-theme-manjaro
 bootsplash-systemd

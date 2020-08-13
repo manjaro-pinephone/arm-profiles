@@ -1,7 +1,7 @@
 ## Maintained by Spikerguy ##
 
 # Kernel and bootloader stuff
-linux-aarch64
+linux
 uboot-nanopi-neo-plus2
 bootsplash-theme-manjaro
 bootsplash-systemd

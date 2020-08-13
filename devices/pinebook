@@ -1,8 +1,8 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
-linux-aarch64
-linux-aarch64-headers
+linux
+linux-headers
 uboot-pinebook
 bootsplash-theme-manjaro
 bootsplash-systemd
