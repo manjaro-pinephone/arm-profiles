@@ -71,7 +71,7 @@ if [[ ! -d $CONTAINER_DIR/$CONTAINER_ID ]]; then
 fi
 
 info "Cloning docker-chromium-armhf from Git repo..."
-git clone --progress https://github.com/spikerguy/docker-chromium-armhf/ $TEMP_DIR
+git clone --progress --depth=1 https://github.com/appelgriebsch/docker-chromium-armhf/ $TEMP_DIR
 
 info "Downloading ChromeOS image..."
 CHROMEOS_URL="$(curl -s https://dl.google.com/dl/edgedl/chromeos/recovery/recovery.conf | grep -A11 CB5-312T | sed -n 's/^url=//p')"
