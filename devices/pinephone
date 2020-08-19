@@ -3,6 +3,8 @@
 # Kernel and bootloader stuff
 linux-pinephone
 linux-pinephone-headers
+#linux56-pinephone
+#linux56-pinephone-headers
 uboot-pinephone
 bootsplash-theme-manjaro
 bootsplash-systemd
