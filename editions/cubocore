@@ -59,6 +59,7 @@ coreuniverse
 # Fonts
 cantarell-fonts
 ttf-bitstream-vera
+wqy-microhei #chinese
 
 # Browser
 falkon

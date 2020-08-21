@@ -93,6 +93,7 @@ noto-fonts-emoji
 ttf-bitstream-vera
 ttf-font-awesome
 ttf-roboto
+wqy-microhei #chinese
 
 # other base packages
 base-devel

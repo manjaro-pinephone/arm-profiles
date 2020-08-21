@@ -83,6 +83,7 @@ pamac-tray-appindicator
 # Fonts
 ttf-bitstream-vera
 noto-fonts
+wqy-microhei #chinese
 
 # Other packages
 openresolv

@@ -83,6 +83,7 @@ pamac-gtk
 # Fonts
 ttf-bitstream-vera
 noto-fonts
+wqy-microhei #chinese
 
 # Other packages
 manjaro-settings-manager
