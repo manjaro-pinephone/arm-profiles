@@ -118,6 +118,7 @@ cups-pdf
 foliate
 ffmpeg
 ffmpegthumbnailer
+libva-v4l2-request
 gcolor3
 gnome-epub-thumbnailer
 hexyl
