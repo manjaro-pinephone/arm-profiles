@@ -92,7 +92,7 @@ qt5-virtualkeyboard
 kwayland-server-git
 
 # Other
-mesa-git
+mesa
 tlp
 alsa-utils
 pulseaudio-bluetooth
