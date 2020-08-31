@@ -1,9 +1,6 @@
 # enable idle mode
 exec $idle
 
-# enable gnome-keyring daemon
-exec systemctl --user import-environment && gnome-keyring-daemon --components=ssh\,secrets\,pkcs11 --start
-
 # autostart background applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id mako

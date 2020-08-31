@@ -5,10 +5,6 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-if [ -n "$SWAYSOCK" ]; then
-  export $(gnome-keyring-daemon --start --components=pkcs11\,secrets\,ssh)
-fi
-
 export EDITOR=nvim
 
 SILVER=(status:black:white user:yellow:black dir:blue:black git:green:black cmdtime:magenta:black)
