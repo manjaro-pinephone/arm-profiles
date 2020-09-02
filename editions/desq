@@ -1,0 +1,87 @@
+## Maintained by Strit ##
+
+# Minimal packages
+sudo
+parted
+openssh
+haveged
+inxi
+xorg-server
+xorg-xinit
+ncdu
+nano
+dhcpcd
+man-pages
+man-db
+ntfs-3g
+zswap-arm
+
+# Sound, Video and bluetooth
+alsa-utils
+bluez
+pulseaudio-bluetooth
+
+# Display Manager
+sddm
+
+
+# DesQ packages
+desq-session-git
+#desq-shell-git
+oyster-git
+desq-settings-git
+networkmanager-qt
+
+#CoreApps
+#coreaction
+corearchiver
+corefm
+coregarage
+corehunt
+coreimage
+coreinfo
+corekeyboard
+corepad
+corepaint
+corepdf
+corepins
+corerenamer
+coreshot
+corestats
+#corestuff
+coreterminal
+coretime
+coretoppings
+coreuniverse
+
+
+
+# Fonts
+cantarell-fonts
+ttf-bitstream-vera
+wqy-microhei #chinese
+
+# Browser
+falkon
+
+# Themes
+breeze-icons
+manjaro-icons
+qt5ct
+#manjaro-arm-wallpapers
+
+# Office suite
+#calligra
+
+# Package Manager
+#pamac-qt #when it's ready
+
+# Other applications
+openbox
+openresolv
+manjaro-settings-manager
+manjaro-arm-flasher
+wget
+tlp
+manjaro-hotfixes
+xdg-user-dirs
