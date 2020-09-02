@@ -78,7 +78,7 @@ powertop
 pulseaudio-alsa
 pulseaudio-bluetooth
 #pygtk # needed for deluge
-#qt5-styleplugins #no longer in the repo
+qt5-styleplugins
 qt5ct
 ranger
 screenfetch
