@@ -9,6 +9,7 @@
 >pinephone modemmanager-pp
 >pinephone anbox-image-aarch64
 >pinephone anbox
+>pinephone mobile-config-firefox
 
 # Minimal packages
 sudo
@@ -39,7 +40,7 @@ purple-telegram
 kgx
 sound-theme-phosh
 squeekboard
-gnome-camera
+pinhole
 gnome-contacts-mobile
 gnome-control-center-mobile
 gnome-software-mobile
