@@ -119,7 +119,10 @@ biometryd
 unity-notifications
 telephony-service
 unity8-git
+
+# Apps
 firefox
+mobile-config-firefox
 plasma-angelfish-git
 
 #temp packages
