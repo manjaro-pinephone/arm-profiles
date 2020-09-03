@@ -121,3 +121,6 @@ telephony-service
 unity8-git
 firefox
 plasma-angelfish-git
+
+#temp packages
+imagemagick
