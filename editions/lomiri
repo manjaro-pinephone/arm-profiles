@@ -1,0 +1,123 @@
+## Maintained by Furkan ##
+
+# Minimal packages
+sudo
+parted
+openssh
+haveged
+inxi
+ncdu
+nano
+dhcpcd
+man-pages
+man-db
+ntfs-3g
+
+# PM Packages
+hfd-service-git
+lomiri-mobile-session
+lightdm-lomiri
+egl-wayland
+wlroots
+xdg-utils
+desktop-file-utils
+telephony-service-git
+telepathy-mission-control
+telepathy-ofono
+index-git
+qmlkonsole-git #No tagged release yet
+qt5-wayland
+maliit-framework-git
+maliit-keyboard-git
+
+# Packages to be built
+#qrca
+#keysmith
+#alligator
+
+# Regular Plasma packages
+bluez
+bluedevil
+powerdevil
+discover
+packagekit-qt5
+
+# Theming
+manjaro-arm-wallpapers
+manjaro-icons
+
+# Wayland stuff
+kwayland
+kwayland-integration
+xorg-server-xwayland
+qt5-virtualkeyboard
+
+# Indicators
+ayatana-indicator-session-git
+ayatana-indicator-display-git
+ayatana-indicator-notifications-git
+ayatana-indicator-messages-git
+ayatana-indicator-sound-git
+ayatana-indicator-power-git
+ayatana-indicator-datetime-git
+libaccounts-glib # dep of datetime
+ayatana-indicator-power-git
+indicator-network-git
+#ayatana-ido-git
+
+# Other
+tlp
+alsa-utils
+wget
+xdg-user-dirs
+debianutils
+flatpak
+iio-sensor-proxy
+
+# Lomiri
+repowerd-git
+unity-system-compositor-git
+lcov
+wlcs
+mir
+cmake-extras-git
+libqtdbustest-git
+unity-api-git
+dbus-test-runner
+ubuntu-download-manager-git
+properties-cpp
+ubuntu-app-launch-git
+process-cpp
+zmqpp
+url-dispatcher-git
+persistent-cache-cpp-git
+thumbnailer-git
+qt5-pim-git
+qt5-systems-git
+humanity-icon-theme
+ubuntu-themes
+ubuntu-ui-toolkit-git
+gsettings-qt-git
+content-hub-git
+libqtdbusmock-git
+qtmir-git
+settings-components-git
+# history-service-git
+dbus-cpp
+trust-store-git
+click-git
+accountsservice-ubuntu
+geonames-git
+qmenumodel-git
+libqofono-qt5
+system-settings-git
+gmenuharness-bzr
+qdjango-git
+libusermetrics-git
+gsettings-ubuntu-touch-schemas-git
+biometryd
+unity-notifications
+telephony-service
+unity8-git
+firefox
+plasma-angelfish-git
