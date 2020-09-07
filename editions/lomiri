@@ -1,5 +1,12 @@
 ## Maintained by Furkan ##
 
+# Phone specific packages
+>pinephone eg25
+>pinephone pinephone-modem-audio
+>pinephone ofono
+>pinephone ofonoctl
+>pinephone libqofono-qt5
+
 # Minimal packages
 sudo
 parted
