@@ -19,6 +19,7 @@ dhcpcd
 man-pages
 man-db
 ntfs-3g
+zswap-arm
 
 # PM Packages
 hfd-service-git
