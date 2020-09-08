@@ -23,17 +23,11 @@ pulseaudio-bluetooth
 
 # Display Manager
 sddm
-
-
-# DesQ packages
-desq-session-git
-#desq-shell-git
-oyster-git
-desq-settings-git
-networkmanager-qt
+#matcha-dynamic-sddm
 
 #CoreApps
-#coreaction
+#cubocore-git
+coreaction
 corearchiver
 corefm
 coregarage
@@ -48,7 +42,6 @@ corepins
 corerenamer
 coreshot
 corestats
-#corestuff
 coreterminal
 coretime
 coretoppings
@@ -65,10 +58,13 @@ wqy-microhei #chinese
 falkon
 
 # Themes
-breeze-icons
-manjaro-icons
 qt5ct
-#manjaro-arm-wallpapers
+kvantum-qt5
+papirus-maia-icon-theme
+matcha-gtk-theme
+kvantum-theme-matchama
+manjaro-arm-wallpapers
+xcursor-breeze
 
 # Office suite
 #calligra
