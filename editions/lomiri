@@ -1,4 +1,4 @@
-## Maintained by Furkan ##
+## Maintained by Furkan and Philip##
 
 # Phone specific packages
 >pinephone eg25
@@ -127,6 +127,7 @@ biometryd
 unity-notifications
 telephony-service
 unity8-git
+history-service-git
 
 # Apps
 firefox
