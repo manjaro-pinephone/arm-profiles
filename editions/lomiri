@@ -7,6 +7,12 @@
 >pinephone ofonoctl
 >pinephone libqofono-qt5
 
+# Qt5 ES2 (can be enabled)
+#qt5-es2-base
+#qt5-es2-declarative
+#qt5-es2-multimedia
+#qt5-es2-wayland
+
 # Minimal packages
 sudo
 parted
@@ -32,8 +38,8 @@ desktop-file-utils
 telephony-service-git
 telepathy-mission-control
 telepathy-ofono
-index-git
-qmlkonsole-git #No tagged release yet
+#index-git
+#qmlkonsole-git #No tagged release yet
 qt5-wayland
 maliit-framework-git
 maliit-keyboard-git
@@ -129,10 +135,19 @@ telephony-service
 unity8-git
 history-service-git
 
+# Lomiri Apps
+#dialer-app-git
+camera-app-git
+#messaging-app-git
+#address-book-app-git
+#lomiri-terminal-app-git
+lomiri-filemanager-app-git
+#morph-browser-git
+lomiri-clock-app-git
+
 # Apps
 firefox
 mobile-config-firefox
-plasma-angelfish-git
 
 #temp packages
 imagemagick
