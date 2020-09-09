@@ -26,7 +26,7 @@ sddm
 #matcha-dynamic-sddm
 
 #CoreApps
-#cubocore-git
+cubocore-git
 coreaction
 corearchiver
 corefm
@@ -55,12 +55,12 @@ ttf-bitstream-vera
 wqy-microhei #chinese
 
 # Browser
-falkon
+#falkon
 
 # Themes
 qt5ct
 kvantum-qt5
-papirus-maia-icon-theme
+breath2-icon-themes
 matcha-gtk-theme
 kvantum-theme-matchama
 manjaro-arm-wallpapers
@@ -76,7 +76,7 @@ xcursor-breeze
 openbox
 openresolv
 manjaro-settings-manager
-manjaro-arm-flasher
+#manjaro-arm-flasher
 wget
 tlp
 manjaro-hotfixes
