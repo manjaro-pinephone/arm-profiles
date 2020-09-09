@@ -8,10 +8,10 @@
 >pinephone libqofono-qt5
 
 # Qt5 ES2 (can be enabled)
-#qt5-es2-base
-#qt5-es2-declarative
-#qt5-es2-multimedia
-#qt5-es2-wayland
+qt5-es2-base
+qt5-es2-declarative
+qt5-es2-multimedia
+qt5-es2-wayland
 
 # Minimal packages
 sudo
