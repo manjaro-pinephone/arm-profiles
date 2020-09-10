@@ -6,8 +6,6 @@ parted
 openssh
 haveged
 inxi
-xorg-server
-xorg-xinit
 ncdu
 nano
 dhcpcd
@@ -26,7 +24,7 @@ sddm
 #matcha-dynamic-sddm
 
 #CoreApps
-cubocore-git
+ion-git
 coreaction
 corearchiver
 corefm
@@ -81,3 +79,4 @@ wget
 tlp
 manjaro-hotfixes
 xdg-user-dirs
+networkmanager-qt
