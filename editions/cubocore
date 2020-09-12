@@ -71,7 +71,7 @@ xcursor-breeze
 #pamac-qt #when it's ready
 
 # Other applications
-openbox
+upower #for battery detection
 openresolv
 manjaro-settings-manager
 #manjaro-arm-flasher
