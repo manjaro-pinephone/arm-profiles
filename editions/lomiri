@@ -38,11 +38,10 @@ desktop-file-utils
 telephony-service-git
 telepathy-mission-control
 telepathy-ofono
-#index-git
-#qmlkonsole-git #No tagged release yet
 qt5-wayland
 maliit-framework-git
 maliit-keyboard-git
+lomiri-keyboard-git
 
 # Packages to be built
 #qrca
@@ -77,7 +76,6 @@ ayatana-indicator-datetime-git
 libaccounts-glib # dep of datetime
 ayatana-indicator-power-git
 indicator-network-git
-#ayatana-ido-git
 
 # Other
 tlp
@@ -116,7 +114,7 @@ content-hub-git
 libqtdbusmock-git
 qtmir-git
 settings-components-git
-# history-service-git
+history-service-git
 dbus-cpp
 trust-store-git
 click-git
@@ -133,17 +131,20 @@ biometryd
 unity-notifications
 telephony-service
 unity8-git
-history-service-git
+lomiri-sounds
 
 # Lomiri Apps
-#dialer-app-git
+dialer-app-git
 camera-app-git
-#messaging-app-git
-#address-book-app-git
-#lomiri-terminal-app-git
+messaging-app-git
+lomiri-terminal-app-git
 lomiri-filemanager-app-git
 #morph-browser-git
 lomiri-clock-app-git
+lomiri-music-app-git
+lomiri-docviewer-app-git
+lomiri-calculator-app-git
+lomiri-gallery-app-git
 
 # Apps
 firefox

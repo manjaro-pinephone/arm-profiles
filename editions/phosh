@@ -48,6 +48,7 @@ gnome-software-mobile
 gnome-usage-mobile # works only as root
 gnome-sound-recorder
 gnome-initial-setup-mobile
+dnsmasq
 
 # Gnome packages
 gnome-calculator
