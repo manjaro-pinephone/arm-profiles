@@ -40,7 +40,7 @@ telepathy-mission-control
 telepathy-ofono
 qt5-wayland
 maliit-framework-git
-maliit-keyboard-git
+#maliit-keyboard-git
 lomiri-keyboard-git
 
 # Packages to be built
@@ -51,9 +51,9 @@ lomiri-keyboard-git
 # Regular Plasma packages
 bluez
 bluedevil
-powerdevil
-discover
-packagekit-qt5
+
+# Phosh packages
+gnome-software-mobile
 
 # Theming
 manjaro-arm-wallpapers
