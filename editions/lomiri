@@ -32,7 +32,6 @@ hfd-service-git
 lomiri-mobile-session
 lightdm-lomiri
 egl-wayland
-wlroots
 xdg-utils
 desktop-file-utils
 telephony-service-git
@@ -53,17 +52,14 @@ bluez
 bluedevil
 
 # Phosh packages
-gnome-software-mobile
+#gnome-software-mobile
 
 # Theming
 manjaro-arm-wallpapers
 manjaro-icons
 
 # Wayland stuff
-kwayland
-kwayland-integration
 xorg-server-xwayland
-qt5-virtualkeyboard
 
 # Indicators
 ayatana-indicator-session-git
@@ -76,6 +72,8 @@ ayatana-indicator-datetime-git
 libaccounts-glib # dep of datetime
 ayatana-indicator-power-git
 indicator-network-git
+lomiri-indicator-location-git
+lomiri-indicator-bluetooth-git
 
 # Other
 tlp
@@ -90,12 +88,10 @@ iio-sensor-proxy
 repowerd-git
 unity-system-compositor-git
 lcov
-wlcs
 mir
 cmake-extras-git
 libqtdbustest-git
 unity-api-git
-dbus-test-runner
 ubuntu-download-manager-git
 properties-cpp
 ubuntu-app-launch-git
@@ -111,7 +107,6 @@ ubuntu-themes
 ubuntu-ui-toolkit-git
 gsettings-qt-git
 content-hub-git
-libqtdbusmock-git
 qtmir-git
 settings-components-git
 history-service-git
@@ -123,7 +118,6 @@ geonames-git
 qmenumodel-git
 libqofono-qt5
 system-settings-git
-gmenuharness-bzr
 qdjango-git
 libusermetrics-git
 gsettings-ubuntu-touch-schemas-git
@@ -139,16 +133,12 @@ camera-app-git
 messaging-app-git
 lomiri-terminal-app-git
 lomiri-filemanager-app-git
-#morph-browser-git
+morph-browser-git
 lomiri-clock-app-git
 lomiri-music-app-git
 lomiri-docviewer-app-git
 lomiri-calculator-app-git
 lomiri-gallery-app-git
-
-# Apps
-firefox
-mobile-config-firefox
 
 #temp packages
 imagemagick
