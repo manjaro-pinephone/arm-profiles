@@ -1,6 +1,6 @@
 sshd.service
 NetworkManager.service
-ModemManager.service
+>pinephone ModemManager.service
 phosh.service
 bluetooth.service
 zswap-arm.service
