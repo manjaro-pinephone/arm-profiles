@@ -6,6 +6,9 @@
 >pinephone ofono
 >pinephone ofonoctl
 >pinephone libqofono-qt5
+>pinephone hfd-service-git
+
+qmenumodel-git
 
 # Qt5 ES2 (can be enabled)
 qt5-es2-base
@@ -72,6 +75,7 @@ ayatana-indicator-datetime-git
 libaccounts-glib # dep of datetime
 ayatana-indicator-power-git
 indicator-network-git
+lomiri-indicator-transfer-git
 lomiri-indicator-location-git
 lomiri-indicator-bluetooth-git
 
@@ -129,7 +133,7 @@ lomiri-sounds
 
 # Lomiri Apps
 dialer-app-git
-camera-app-git
+#camera-app-git
 messaging-app-git
 lomiri-terminal-app-git
 lomiri-filemanager-app-git
@@ -142,3 +146,4 @@ lomiri-gallery-app-git
 
 #temp packages
 imagemagick
+pamac-cli

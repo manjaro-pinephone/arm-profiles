@@ -40,7 +40,7 @@ purple-telegram
 kgx
 sound-theme-phosh
 squeekboard
-pinhole
+megapixels
 xdg-user-dirs
 gnome-contacts-mobile
 gnome-control-center-mobile
@@ -68,6 +68,9 @@ lollypop
 gedit
 geary-mobile
 
+# Cinnamon packages
+nemo
+
 # Theming
 manjaro-arm-wallpapers
 manjaro-icons
@@ -83,7 +86,6 @@ gnome-keyring
 polkit
 xorg-server-xwayland
 #hwtest
-psensor
 firefox
 telegram-desktop
 qt5-wayland # for telegram-desktop

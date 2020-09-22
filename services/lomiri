@@ -12,3 +12,4 @@ bootsplash-show-on-shutdown.service
 >pinephone ofonoctl.service
 >pinephone pinephone-modem-audio.service
 repowerd.service
+hfd-service.service
