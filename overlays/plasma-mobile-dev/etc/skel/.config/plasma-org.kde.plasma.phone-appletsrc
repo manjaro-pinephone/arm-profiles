@@ -8,9 +8,6 @@ location=0
 plugin=org.kde.phone.homescreen
 wallpaperplugin=org.kde.image
 
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/manjaro-arm/generic/manjaro-arm.png
-
 [Containments][2]
 activityId=
 formfactor=2

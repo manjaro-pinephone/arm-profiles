@@ -9,6 +9,7 @@
 >pinephone hfd-service-git
 
 qmenumodel-git
+sensorfw-git
 
 # Qt5 ES2 (can be enabled)
 qt5-es2-base
@@ -100,6 +101,7 @@ unity-api-git
 ubuntu-download-manager-git
 properties-cpp
 ubuntu-app-launch-git
+ttf-ubuntu-font-family
 process-cpp
 zmqpp
 url-dispatcher-git

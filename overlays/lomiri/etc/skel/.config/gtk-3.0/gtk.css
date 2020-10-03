@@ -1,0 +1,18 @@
+.window-frame {
+box-shadow: none;
+margin: 0;
+}
+
+decoration  {
+transition: 0;
+box-shadow: none;
+margin: 0;
+padding: 0;
+}
+
+decoration:backdrop  {
+transition: 0;
+box-shadow: none;
+margin: 0;
+padding: 0;
+}
