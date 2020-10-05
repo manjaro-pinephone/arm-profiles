@@ -48,9 +48,11 @@ gnome-software-mobile
 gnome-usage-mobile # works only as root
 gnome-sound-recorder
 gnome-initial-setup-mobile
+gnome-todo-mobile
 dnsmasq
 
 # Gnome packages
+gnome-authenticator
 gnome-calculator
 gnome-clocks
 gnome-keyring
@@ -58,7 +60,7 @@ gnome-maps
 gnome-2048
 gnome-calendar
 gnome-chess
-gnome-todo
+gnuchess 
 file-roller
 fractal
 gnote
