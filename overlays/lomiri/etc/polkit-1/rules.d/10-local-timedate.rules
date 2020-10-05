@@ -1,4 +1,4 @@
-polkit.addRule(function(action, subject)) {
+polkit.addRule(function(action, subject) {
     if (action == "org.freedesktop.timedate1.set-time" ||
         action == "org.freedesktop.timedate1.set-timezone" ||
         action == "org.freedesktop.timedate1.set-local-rtc" ||
