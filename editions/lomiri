@@ -149,6 +149,9 @@ lomiri-docviewer-app-git
 lomiri-calculator-app-git
 lomiri-gallery-app-git
 
+# GTK3
+gtk3-mobile # use mobile version to scale properly
+
 #temp packages
 imagemagick
 pamac-cli
