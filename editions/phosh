@@ -68,7 +68,10 @@ eog
 gnome-podcasts
 lollypop
 gedit
-geary-mobile
+#geary-mobile
+geary
+
+hdr-plus-git
 
 # Cinnamon packages
 nemo
