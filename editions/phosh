@@ -5,7 +5,7 @@
 >pinephone wys
 >pinephone pinephone-modem-scripts
 >pinephone alsa-ucm-pinephone
->pinephone flashlight
+#>pinephone flashlight
 >pinephone modemmanager-pp
 #>pinephone anbox-image-aarch64
 #>pinephone anbox
