@@ -7,8 +7,8 @@
 >pinephone alsa-ucm-pinephone
 >pinephone flashlight
 >pinephone modemmanager-pp
->pinephone anbox-image-aarch64
->pinephone anbox
+#>pinephone anbox-image-aarch64
+#>pinephone anbox
 >pinephone mobile-config-firefox
 
 # Minimal packages
@@ -45,7 +45,7 @@ xdg-user-dirs
 gnome-contacts-mobile
 gnome-control-center-mobile
 gnome-software-mobile
-gnome-usage-mobile # works only as root
+gnome-usage-mobile
 gnome-sound-recorder
 gnome-initial-setup-mobile
 gnome-todo-mobile
@@ -63,13 +63,13 @@ gnome-chess
 gnuchess 
 file-roller
 fractal
-gnote
+#gnote
 eog
 gnome-podcasts
 lollypop
 gedit
-#geary-mobile
-geary
+geary-mobile
+#geary
 
 hdr-plus-git
 
