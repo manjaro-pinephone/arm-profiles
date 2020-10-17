@@ -4,7 +4,7 @@
 # Phone specific packages
 >pinephone wys
 >pinephone pinephone-modem-scripts
->pinephone alsa-ucm-pinephone
+>pinephone alsa-ucm-linux59-pinephone
 #>pinephone flashlight
 >pinephone modemmanager-pp
 #>pinephone anbox-image-aarch64

@@ -1,10 +1,10 @@
 ## Maintained by Spikerguy and Philm##
 
 # Kernel and bootloader stuff
-linux-pinephone
-linux-pinephone-headers
-#linux56-pinephone
-#linux56-pinephone-headers
+#linux-pinephone
+#linux-pinephone-headers
+linux59-pinephone
+linux59-pinephone-headers
 uboot-pinephone
 bootsplash-theme-manjaro
 bootsplash-systemd
