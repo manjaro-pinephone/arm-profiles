@@ -14,6 +14,7 @@ bootsplash-systemd
 # Other device specific packages
 rtl8723bt-firmware
 anx7688-firmware
+ov5640-firmware
 wpa_supplicant
 pinephone-post-install
 pinephone-manjaro-tweaks
