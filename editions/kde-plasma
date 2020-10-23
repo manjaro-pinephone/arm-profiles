@@ -38,7 +38,7 @@ kscreenlocker
 ksysguard
 kwallet-pam
 kwayland-integration
-#plasma-wayland-session
+plasma-wayland-session
 kwin
 plasma-desktop
 plasma-nm
@@ -57,7 +57,6 @@ konsole
 ark
 okular
 gwenview
-spectacle
 
 # Themes
 breath2-icon-themes
@@ -92,6 +91,7 @@ manjaro-settings-manager-kcm
 wget
 tlp
 manjaro-hotfixes
+flameshot
 xdg-user-dirs
 networkmanager-openvpn
 mntray
