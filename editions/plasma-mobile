@@ -53,6 +53,8 @@ buho
 nota
 station
 communicator
+kaccounts-providers
+kpeoplesink
 
 # Packages to be built
 #qrca
@@ -98,3 +100,4 @@ psensor
 firefox
 telegram-desktop
 qt5-wayland # for telegram-desktop
+vim
