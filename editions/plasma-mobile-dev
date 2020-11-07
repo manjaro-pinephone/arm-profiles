@@ -29,20 +29,28 @@ qt5-es2-multimedia
 qt5-es2-wayland
 
 # PM Packages
->pinephone mplus-font # needed to display * and # in dialer
->pinephone plasma-dialer-git
 buho-git
 calindori-git
 desktop-file-utils
 index-git
+kaccounts-providers-git
+kalk-git
+kclock-git
+keysmith-git
 kio-extras-git
 kongress-git
+kpeoplesink-git
+krecorder-git
+kweather-git
 kwin-git
 maliit-framework-git
 maliit-keyboard-git
 mauikit-git
+>pinephone mplus-font # needed to display * and # in dialer
 nota-git
+okular-mobile-git
 plasma-angelfish-git
+>pinephone plasma-dialer-git
 plasma-mobile-nm
 plasma-nano-git
 plasma-phone-components-git
@@ -55,8 +63,6 @@ telepathy-mission-control
 telepathy-ofono
 vvave-git
 xdg-utils
-kaccounts-providers-git
-kpeoplesink-git
 
 # Packages to be built
 #qrca-git

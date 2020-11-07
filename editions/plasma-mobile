@@ -29,32 +29,38 @@ qt5-es2-multimedia
 qt5-es2-wayland
 
 # PM Packages
-xdg-utils
+buho
+calindori
+communicator
 desktop-file-utils
-telepathy-mission-control
-telepathy-ofono
+index
+kaccounts-providers
+kalk
+kclock
+keysmith
+kpeoplesink
+krecorder
+kweather
+>pinephone mplus-font # needed to display * and # in dialer
+nota
+okular-mobile
+pix
 plasma-angelfish
 plasma-camera
-plasma-phone-components
-plasma-settings-git #No tagged release yet
-plasma-nano
-plasma-phonebook-git #No tagged release yet
-calindori
-index
-spacebar-git #No tagged release yet
-plasma-mobile-nm
-qmlkonsole-git #No tagged release yet
-pix
->pinephone plasma-dialer-git
->pinephone mplus-font # needed to display * and # in dialer
 #>pinephone plasma-dialer #Only has an old tagged release, so we use the -git one for now.
-vvave
-buho
-nota
+>pinephone plasma-dialer-git
+plasma-mobile-nm
+plasma-nano
+plasma-phone-components
+plasma-phonebook-git #No tagged release yet
+plasma-settings-git #No tagged release yet
+qmlkonsole-git #No tagged release yet
+spacebar-git #No tagged release yet
 station
-communicator
-kaccounts-providers
-kpeoplesink
+telepathy-mission-control
+telepathy-ofono
+vvave
+xdg-utils
 
 # Packages to be built
 #qrca
