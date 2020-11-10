@@ -1,8 +1,7 @@
 ## Maintained by Philm ##
 
 # Phone specific packages
->pinephone eg25
-#>pinephone pinephone-modem-audio
+>pinephone pinephone-modem-scripts
 >pinephone ofono
 >pinephone ofonoctl
 >pinephone libqofono-qt5

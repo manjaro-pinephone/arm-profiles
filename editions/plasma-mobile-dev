@@ -1,9 +1,7 @@
 ## Maintained by Spikerguy ##
 
 # Phone specific packages
-#>pinephone eg25
->pinephone pinephone-modem-scripts # needed for Megi-Kernel
-#>pinephone pinephone-modem-audio
+>pinephone pinephone-modem-scripts
 >pinephone ofono
 >pinephone ofonoctl
 >pinephone libqofono-qt5
