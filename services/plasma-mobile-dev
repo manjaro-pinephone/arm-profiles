@@ -11,4 +11,4 @@ bootsplash-show-on-shutdown.service
 >pinephone ofono.service
 >pinephone eg25.service
 >pinephone ofonoctl.service
->pinephone pinephone-modem-audio.service
+#>pinephone pinephone-modem-audio.service
