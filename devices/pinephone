@@ -12,7 +12,7 @@ bootsplash-systemd
 # Video drivers
 
 # Other device specific packages
-rtl8723bt-firmware
+rtl8723bt-firmware-megi
 anx7688-firmware
 ov5640-firmware
 wpa_supplicant
