@@ -111,7 +111,7 @@ iio-sensor-proxy
 manjaro-arm-flasher
 pamac-cli
 psensor
-firefox
+#firefox
 telegram-desktop
 qt5-wayland # for telegram-desktop
 megapixels
