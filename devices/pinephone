@@ -11,6 +11,10 @@ bootsplash-systemd
 
 # Video drivers
 
+# Audio configs
+pinephone-modem-scripts
+alsa-ucm-pinephone
+
 # Other device specific packages
 rtl8723bt-firmware-megi
 anx7688-firmware

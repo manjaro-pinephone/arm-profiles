@@ -1,7 +1,6 @@
 ## Maintained by Philm ##
 
 # Phone specific packages
->pinephone pinephone-modem-scripts
 >pinephone ofono
 >pinephone ofonoctl
 >pinephone libqofono-qt5
