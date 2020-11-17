@@ -39,7 +39,7 @@ keysmith
 kpeoplesink
 krecorder
 kweather
->pinephone mplus-font # needed to display * and # in dialer
+>pinephone fonts-noto-cjk # needed to display * and # in dialer
 nota
 okular-mobile
 pix
