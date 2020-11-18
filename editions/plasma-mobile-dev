@@ -44,7 +44,7 @@ kwin-git
 maliit-framework-git
 maliit-keyboard-git
 mauikit-git
->pinephone fonts-noto-cjk # needed to display * and # in dialer
+>pinephone noto-fonts-cjk # needed to display * and # in dialer
 nota-git
 okular-mobile-git
 plasma-angelfish-git
