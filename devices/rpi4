@@ -14,6 +14,6 @@ bootsplash-systemd
 
 # Other device specific packages
 firmware-raspberrypi
-pi-bluetooth
+brcm-patchram-plus
 wpa_supplicant
 rpi4-post-install
