@@ -11,9 +11,7 @@
 }
 
 window {
-  opacity: 0.9;
   border: 2px solid @accent_color;
-  background-color: @background_color;
   color: @text_color;
   border-radius: 5px;
 }

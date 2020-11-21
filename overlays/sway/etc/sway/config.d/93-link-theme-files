@@ -1,6 +1,5 @@
 exec_always {
-  'mkdir -p $HOME/.config/termite && ln -s $theme/termite $HOME/.config/termite/config'
-  'mkdir -p $HOME/.config/waybar && ln -s $theme/theme.css $HOME/.config/waybar/'
-  'mkdir -p $HOME/.config/wlogout && ln -s $theme/theme.css $HOME/.config/wlogout/'
-  'mkdir -p $HOME/.config/wofi && ln -s $theme/theme.css $HOME/.config/wofi/'
+  'mkdir -p $HOME/.config/waybar && ln -sf $theme/theme.css $HOME/.config/waybar/'
+  'mkdir -p $HOME/.config/wlogout && ln -sf $theme/theme.css $HOME/.config/wlogout/'
+  'mkdir -p $HOME/.config/wofi && ln -sf $theme/theme.css $HOME/.config/wofi/'
 }

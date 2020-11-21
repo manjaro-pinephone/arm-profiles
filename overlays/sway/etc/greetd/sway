@@ -4,7 +4,7 @@ include /etc/sway/inputs/*
 include /etc/sway/outputs/*
 
 # enable wlogout theme
-exec_always 'mkdir -p /tmp/gtkgreet && ln -s $theme/theme.css /tmp/gtkgreet/'
+exec_always 'mkdir -p /tmp/gtkgreet && ln -sf $theme/theme.css /tmp/gtkgreet/'
 
 # start gtkgreeter
 exec "GTK_THEME=$gtk-theme gtkgreet -l -c sway; swaymsg exit"
