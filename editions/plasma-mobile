@@ -38,6 +38,7 @@ keysmith
 kpeoplesink
 krecorder
 kweather
+neochat
 >pinephone noto-fonts-cjk # needed to display * and # in dialer
 nota
 okular-mobile
@@ -68,6 +69,7 @@ xdg-utils
 bluez
 bluedevil
 breeze
+kdeconnect
 kwallet-pam
 polkit-kde-agent
 powerdevil

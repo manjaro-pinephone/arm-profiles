@@ -43,6 +43,7 @@ kwin-git
 maliit-framework-git
 maliit-keyboard-git
 mauikit-git
+neochat-git
 >pinephone noto-fonts-cjk # needed to display * and # in dialer
 nota-git
 okular-mobile-git
@@ -69,6 +70,7 @@ xdg-utils
 bluez
 bluedevil
 breeze
+kdeconnect-git
 kirigami-gallery
 kwallet-pam
 polkit-kde-agent
@@ -79,7 +81,7 @@ xdg-desktop-portal-kde
 plasma-pa
 discover
 packagekit-qt5
-qt5-pim-git
+qt5-pim-git297
 debianutils
 #koko
 #peruse
