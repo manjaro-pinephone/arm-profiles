@@ -96,21 +96,31 @@ ttf-roboto
 wqy-microhei #chinese
 
 # other base packages
+aerc
+bandwhich
 base-devel
 bat
+cmatrix
 cpu-temp-speed
 curl
 exa
+fzf
 htop
+httpie
+hyperfine
 jq
 light
 mlocate
 neofetch
 neovim
 ripgrep
+rsync
 wget
 tlp
+w3m
 xdg-user-dirs
+yad
+yay
 
 # Other Applications
 atool
@@ -128,6 +138,7 @@ mntray
 mpv
 odt2txt
 ranger
+remmina
 seahorse
 simple-scan
 silver
