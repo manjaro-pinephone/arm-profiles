@@ -63,7 +63,8 @@
     "clock": {
       "interval": 60,
       "format": "  {:%e %b %Y %H:%M}", // Icon: calendar-alt
-      "tooltip": false
+      "tooltip": true,
+      "tooltip-format": "<big>{:%B %Y}</big>\n<tt>{calendar}</tt>"
     },
 
     "cpu": {
@@ -111,9 +112,9 @@
 
     "backlight": {
     	"format": "{icon} {percent}%",
-	"format-icons": ["", ""],
-        "on-scroll-down": "light -A 1",
-        "on-scroll-up": "light -U 1"
+	    "format-icons": ["", ""],
+      "on-scroll-down": "light -A 1",
+      "on-scroll-up": "light -U 1"
     },
 
     "pulseaudio": {
