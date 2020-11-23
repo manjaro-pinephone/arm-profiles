@@ -30,7 +30,8 @@
         "cpu",
         "memory",
         "battery",
-	"backlight",
+        "backlight",
+        "idle_inhibitor",
         "pulseaudio",
         "tray",
         "clock"
@@ -61,18 +62,18 @@
     },
 
     "clock": {
-      "interval": 60,
-      "format": "  {:%e %b %Y %H:%M}", // Icon: calendar-alt
-      "tooltip": true,
-      "tooltip-format": "<big>{:%B %Y}</big>\n<tt>{calendar}</tt>"
+        "interval": 60,
+        "format": "  {:%e %b %Y %H:%M}", // Icon: calendar-alt
+        "tooltip": true,
+        "tooltip-format": "<big>{:%B %Y}</big>\n<tt>{calendar}</tt>"
     },
 
     "cpu": {
         "interval": 5,
         "format": "  {usage}%", // Icon: microchip
         "states": {
-          "warning": 70,
-          "critical": 90
+            "warning": 70,
+            "critical": 90
         }
     },
 
@@ -111,10 +112,18 @@
     },
 
     "backlight": {
-    	"format": "{icon} {percent}%",
-	    "format-icons": ["", ""],
-      "on-scroll-down": "light -A 1",
-      "on-scroll-up": "light -U 1"
+        "format": "{icon} {percent}%",
+        "format-icons": ["", ""],
+        "on-scroll-down": "light -A 1",
+        "on-scroll-up": "light -U 1"
+    },
+
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
     },
 
     "pulseaudio": {
@@ -149,6 +158,7 @@
     },
 
     "tray": {
-        "icon-size": 21
+        "icon-size": 21,
+        "spacing": 5
     }
 }
