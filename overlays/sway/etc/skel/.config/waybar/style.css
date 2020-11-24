@@ -62,12 +62,12 @@
 #battery,
 #clock,
 #cpu,
-#custom-keyboard-layout,
 #memory,
 #mode,
 #network,
 #pulseaudio,
 #temperature,
+#idle_inhibitor,
 #tray {
     padding-left: 10px;
     padding-right: 10px;
