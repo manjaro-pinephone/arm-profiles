@@ -82,9 +82,8 @@ plasma-pa
 discover
 packagekit-qt5
 # qt5-pim
-debianutils
 koko
-#peruse
+# peruse
 
 # Theming
 #manjaro-arm-wallpapers
