@@ -83,7 +83,7 @@ discover
 packagekit-qt5
 qt5-pim
 debianutils
-#koko
+koko
 #peruse
 
 # Theming
