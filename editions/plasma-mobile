@@ -1,4 +1,4 @@
-## Maintained by Philm ##
+## Maintained by Bernhard ##
 
 # Phone specific packages
 >pinephone ofono
@@ -28,33 +28,35 @@ qt5-es2-wayland
 # PM Packages
 buho
 calindori
-communicator
 desktop-file-utils
 index
 kaccounts-providers
 kalk
 kclock
 keysmith
+kio-extras
+kongress
 kpeoplesink
 krecorder
 kweather
+kwin
+maliit-framework
+maliit-keyboard
+mauikit
 neochat
 >pinephone noto-fonts-cjk # needed to display * and # in dialer
 nota
 okular-mobile
-pix
 plasma-angelfish
-plasma-camera
-#>pinephone plasma-dialer #Only has an old tagged release, so we use the -git one for now.
->pinephone plasma-dialer-git
+>pinephone plasma-dialer
 plasma-mobile-nm
 plasma-nano
 plasma-phone-components
-plasma-phonebook-git #No tagged release yet
-plasma-settings-git #No tagged release yet
-qmlkonsole-git #No tagged release yet
-spacebar-git #No tagged release yet
-station
+plasma-phonebook
+plasma-pix
+plasma-settings
+qmlkonsole
+spacebar
 telepathy-mission-control
 telepathy-ofono
 vvave
@@ -63,13 +65,13 @@ xdg-utils
 # Packages to be built
 #qrca
 #keysmith
-#alligator
 
 # Regular Plasma packages
 bluez
 bluedevil
 breeze
 kdeconnect
+kirigami-gallery
 kwallet-pam
 polkit-kde-agent
 powerdevil
@@ -79,18 +81,24 @@ xdg-desktop-portal-kde
 plasma-pa
 discover
 packagekit-qt5
+qt5-pim
+debianutils
+#koko
+#peruse
 
 # Theming
-manjaro-arm-wallpapers
-manjaro-icons
+#manjaro-arm-wallpapers
+#manjaro-icons
 
 # Wayland stuff
 kwayland
 kwayland-integration
 xorg-server-xwayland
 qt5-virtualkeyboard
+kwayland-server
 
 # Other
+mesa
 tlp
 alsa-utils
 pulseaudio-bluetooth
@@ -99,11 +107,12 @@ xdg-user-dirs
 debianutils
 flatpak
 iio-sensor-proxy
-manjaro-arm-flasher
+#manjaro-arm-flasher
 pamac-cli
 psensor
 #firefox
 telegram-desktop
 qt5-wayland # for telegram-desktop
+megapixels
 vim
 bootsplash-theme-kde
