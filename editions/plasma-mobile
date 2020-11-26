@@ -82,7 +82,7 @@ plasma-pa
 discover
 packagekit-qt5
 qt5-pim-git
-koko
+# koko
 # peruse
 
 # Theming
