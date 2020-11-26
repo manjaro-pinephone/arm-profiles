@@ -104,6 +104,7 @@ cmatrix
 cpu-temp-speed
 curl
 exa
+fd
 fzf
 hey
 htop
