@@ -54,7 +54,7 @@ plasma-mobile-settings
 plasma-nano-git
 plasma-phone-components-git
 plasma-phonebook-git
-plasma-pix-git
+#plasma-pix-git
 plasma-settings-git
 qmlkonsole-git
 spacebar-git
@@ -84,7 +84,7 @@ discover
 packagekit-qt5
 qt5-pim-git
 debianutils
-#koko
+koko
 #peruse
 
 # Theming

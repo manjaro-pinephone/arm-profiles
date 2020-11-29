@@ -54,7 +54,7 @@ plasma-mobile-settings
 plasma-nano
 plasma-phone-components
 plasma-phonebook
-plasma-pix
+#plasma-pix
 plasma-settings
 qmlkonsole
 spacebar
@@ -83,7 +83,7 @@ plasma-pa
 discover
 packagekit-qt5
 qt5-pim-git
-# koko
+koko
 # peruse
 
 # Theming
