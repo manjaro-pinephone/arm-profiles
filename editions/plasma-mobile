@@ -56,6 +56,7 @@ plasma-phone-components
 plasma-phonebook
 #plasma-pix
 plasma-settings
+plymouth-shim
 qmlkonsole
 spacebar
 telepathy-mission-control
