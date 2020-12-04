@@ -35,7 +35,7 @@ kalk-git
 kclock-git
 keysmith-git
 kio-extras-git
-# kongress-git # currently conflicts with calindori-git
+kongress-git
 kpeoplesink-git
 krecorder-git
 kweather-git
