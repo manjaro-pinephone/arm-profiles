@@ -1,7 +1,6 @@
 sshd.service 
 sddm.service
 NetworkManager.service
->pinephone ModemManager.service
 bluetooth.service
 tlp.service
 zswap-arm.service
