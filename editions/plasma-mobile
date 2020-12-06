@@ -86,6 +86,7 @@ discover
 packagekit-qt5
 qt5-pim-git
 koko
+qqc2-breeze-style
 # peruse
 
 # Theming
@@ -96,7 +97,6 @@ koko
 kwayland
 kwayland-integration
 xorg-server-xwayland
-qt5-virtualkeyboard
 kwayland-server
 
 # Other

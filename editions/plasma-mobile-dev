@@ -79,14 +79,15 @@ kwallet-pam
 polkit-kde-agent
 powerdevil-git
 sddm
-kscreen
+kscreen-git
 xdg-desktop-portal-kde
-plasma-pa
-discover
+plasma-pa-git
+discover-git
 packagekit-qt5
 qt5-pim-git
 debianutils
 koko
+qqc2-breeze-style-git
 #peruse
 
 # Theming
@@ -94,10 +95,9 @@ koko
 #manjaro-icons
 
 # Wayland stuff
-kwayland
-kwayland-integration
+kwayland-git
+kwayland-integration-git
 xorg-server-xwayland
-qt5-virtualkeyboard
 kwayland-server-git
 
 # Other
