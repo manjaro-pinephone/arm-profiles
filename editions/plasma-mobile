@@ -110,7 +110,7 @@ debianutils
 flatpak
 iio-sensor-proxy
 #manjaro-arm-flasher
-pamac-cli
+#pamac-cli
 psensor
 #firefox
 telegram-desktop
