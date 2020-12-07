@@ -85,6 +85,7 @@ plasma-pa
 discover
 packagekit-qt5
 koko
+qqc2-breeze-style
 # peruse
 
 # Theming
@@ -95,7 +96,6 @@ koko
 kwayland
 kwayland-integration
 xorg-server-xwayland
-qt5-virtualkeyboard
 kwayland-server
 
 # Other

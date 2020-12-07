@@ -89,6 +89,7 @@ manjaro-settings-manager-kcm
 manjaro-hotfixes
 manjaro-arm-flasher
 manjaro-arm-installer
+mntray
 
 # Other packages
 openresolv
@@ -97,4 +98,3 @@ tlp
 flameshot
 xdg-user-dirs
 networkmanager-openvpn
-mntray
