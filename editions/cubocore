@@ -63,6 +63,7 @@ matcha-gtk-theme
 kvantum-theme-matchama
 manjaro-arm-wallpapers
 xcursor-breeze
+manjaro-icons
 
 # Office suite
 #calligra
@@ -70,13 +71,16 @@ xcursor-breeze
 # Package Manager
 #pamac-qt #when it's ready
 
+# Manjaro tools
+manjaro-settings-manager
+manjaro-hotfixes
+manjaro-arm-flasher
+manjaro-arm-installer
+
 # Other applications
 upower #for battery detection
 openresolv
-manjaro-settings-manager
-#manjaro-arm-flasher
 wget
 tlp
-manjaro-hotfixes
 xdg-user-dirs
 networkmanager-qt

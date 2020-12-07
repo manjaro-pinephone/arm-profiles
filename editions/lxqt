@@ -32,8 +32,6 @@ lightdm-gtk-greeter-settings
 networkmanager
 network-manager-applet
 dhclient
-manjaro-hotfixes
-manjaro-settings-samba
 pcmanfm-qt
 lximage-qt
 lxqt-about
@@ -93,9 +91,15 @@ ttf-bitstream-vera
 noto-fonts
 wqy-microhei #chinese
 
+# Manjaro tools
+manjaro-settings-manager
+manjaro-hotfixes
+manjaro-settings-samba
+manjaro-arm-flasher
+manjaro-arm-installer
+
 # Other packages
 #openresolv
-manjaro-settings-manager
 wget
 featherpad
 tlp

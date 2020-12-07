@@ -1,0 +1,17 @@
+## Maintained by Spikerguy ##
+
+# Kernel and bootloader stuff
+linux-vim
+boot-gt1-ultimate
+bootsplash-theme-manjaro
+bootsplash-systemd
+
+# Video driver
+xf86-video-fbturbo-git
+
+# Other device specific packages
+#bluetooth-vim3
+#khadas-utils
+kvim2-firmware
+fbset
+gt1-ultimate-post-install

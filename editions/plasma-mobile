@@ -1,12 +1,9 @@
-## Maintained by Philm ##
+## Maintained by Bernhard ##
 
 # Phone specific packages
->pinephone eg25
->pinephone pinephone-modem-audio
 >pinephone ofono
 >pinephone ofonoctl
 >pinephone libqofono-qt5
->pinephone flashlight # until built in flashlight works
 
 # Minimal packages
 sudo
@@ -29,40 +26,55 @@ qt5-es2-multimedia
 qt5-es2-wayland
 
 # PM Packages
-xdg-utils
+buho
+calindori
 desktop-file-utils
+index
+kaccounts-providers
+kalk
+kclock
+keysmith
+kio-extras
+kongress
+kpeoplesink
+krecorder
+ktrip
+kweather
+kwin
+maliit-framework
+maliit-keyboard
+mauikit
+neochat
+>pinephone noto-fonts-cjk # needed to display * and # in dialer
+nota
+okular-mobile
+plasma-angelfish
+>pinephone plasma-dialer
+plasma-mobile-nm
+plasma-mobile-settings
+plasma-nano
+plasma-phone-components
+plasma-phonebook
+#plasma-pix
+plasma-settings
+plymouth-shim
+qmlkonsole
+spacebar
 telepathy-mission-control
 telepathy-ofono
-plasma-angelfish
-plasma-camera
-plasma-phone-components
-plasma-settings-git #No tagged release yet
-plasma-nano
-plasma-phonebook-git #No tagged release yet
-calindori
-index
-spacebar-git #No tagged release yet
-plasma-mobile-nm
-qmlkonsole-git #No tagged release yet
-pix
->pinephone plasma-dialer-git
->pinephone mplus-font # needed to display * and # in dialer
-#>pinephone plasma-dialer #Only has an old tagged release, so we use the -git one for now.
 vvave
-buho
-nota
-station
-communicator
+xdg-utils
 
 # Packages to be built
 #qrca
 #keysmith
-#alligator
 
 # Regular Plasma packages
 bluez
 bluedevil
 breeze
+kdeconnect
+kirigami-gallery
 kwallet-pam
 polkit-kde-agent
 powerdevil
@@ -72,18 +84,22 @@ xdg-desktop-portal-kde
 plasma-pa
 discover
 packagekit-qt5
+koko
+qqc2-breeze-style
+# peruse
 
 # Theming
-manjaro-arm-wallpapers
-manjaro-icons
+#manjaro-arm-wallpapers
+#manjaro-icons
 
 # Wayland stuff
 kwayland
 kwayland-integration
 xorg-server-xwayland
-qt5-virtualkeyboard
+kwayland-server
 
 # Other
+mesa
 tlp
 alsa-utils
 pulseaudio-bluetooth
@@ -92,9 +108,13 @@ xdg-user-dirs
 debianutils
 flatpak
 iio-sensor-proxy
-manjaro-arm-flasher
-pamac-cli
+#manjaro-arm-flasher
+#pamac-cli
 psensor
-firefox
+#firefox
 telegram-desktop
 qt5-wayland # for telegram-desktop
+megapixels
+vim
+bootsplash-theme-kde
+breeze-gtk

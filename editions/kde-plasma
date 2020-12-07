@@ -46,7 +46,6 @@ plasma-pa
 plasma-workspace
 powerdevil
 systemsettings
-user-manager
 plasma-vault
 
 # KDE applications
@@ -57,7 +56,6 @@ konsole
 ark
 okular
 gwenview
-spectacle
 
 # Themes
 breath2-icon-themes
@@ -85,13 +83,18 @@ ttf-bitstream-vera
 noto-fonts
 wqy-microhei #chinese
 
-# Other packages
-openresolv
+# Manjaro tools
 manjaro-settings-manager
 manjaro-settings-manager-kcm
+manjaro-hotfixes
+manjaro-arm-flasher
+manjaro-arm-installer
+mntray
+
+# Other packages
+openresolv
 wget
 tlp
-manjaro-hotfixes
+flameshot
 xdg-user-dirs
 networkmanager-openvpn
-mntray

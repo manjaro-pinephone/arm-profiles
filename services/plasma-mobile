@@ -6,8 +6,9 @@ tlp.service
 zswap-arm.service
 bootsplash-hide-when-booted.service
 bootsplash-show-on-shutdown.service
+plymouth-shim.service
 >pinephone pinephone-post-install.service
 >pinephone ofono.service
->pinephone eg25.service
 >pinephone ofonoctl.service
->pinephone pinephone-modem-audio.service
+>pinephone pinephone-modem-scripts.pinephone-modem-setup.service
+>pinephone pinephone-modem-scripts.pinephone-modem.service

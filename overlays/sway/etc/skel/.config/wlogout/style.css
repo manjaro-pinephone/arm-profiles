@@ -1,12 +1,15 @@
+/* import css definitions for current theme */
+@import url("theme.css");
+
 * {
     background-image: none;
 }
 window {
-    background-color: TRANSPARENT_BACKGROUND_COLOR;
+    background-color: @transparent_background_color;
 }
 button {
-    color: TEXT_COLOR;
-    background-color: BACKGROUND_COLOR;
+    color: @text_color;
+    background-color: @background_color;
     border-style: solid;
     border-width: 2px;
     background-repeat: no-repeat;
@@ -15,7 +18,7 @@ button {
 }
 
 button:focus, button:active, button:hover {
-    background-color: ACCENT_COLOR;
+    background-color: @accent_color;
     outline-style: none;
 }
 

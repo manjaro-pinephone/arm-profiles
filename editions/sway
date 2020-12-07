@@ -95,27 +95,38 @@ ttf-font-awesome
 ttf-roboto
 wqy-microhei #chinese
 
-# other base packages
+# some interesting CLI tools
+aerc
+bandwhich
 base-devel
 bat
+cmatrix
 cpu-temp-speed
 curl
 exa
+fd
+fzf
+hey
 htop
+httpie
+hyperfine
 jq
 light
 mlocate
 neofetch
 neovim
 ripgrep
+rsync
 wget
 tlp
+w3m
 xdg-user-dirs
+yad
+yay
 
 # Other Applications
 atool
 cups-pdf
-foliate
 ffmpeg
 ffmpegthumbnailer
 libva-v4l2-request
@@ -128,6 +139,7 @@ mntray
 mpv
 odt2txt
 ranger
+remmina
 seahorse
 simple-scan
 silver

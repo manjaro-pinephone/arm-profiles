@@ -1,0 +1,16 @@
+## Maintained by Spikerguy ##
+
+# Kernel and bootloader stuff
+linux-vim
+uboot-gtking-pro
+bootsplash-theme-manjaro
+bootsplash-systemd
+
+# Video driver
+
+# Other device specific packages
+kvim2-firmware
+#bluetooth-vim3
+khadas-utils
+#fbset
+vim3-post-install

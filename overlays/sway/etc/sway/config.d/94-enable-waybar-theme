@@ -1,3 +1,0 @@
-exec_always {
-  'mkdir -p $HOME/.config/waybar && cat /etc/sway/themes/templates/waybar | sed -e $theme_template_script -e $theme_color_script > $HOME/.config/waybar/style.css'
-}

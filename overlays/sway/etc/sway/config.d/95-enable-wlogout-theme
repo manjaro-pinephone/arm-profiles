@@ -1,3 +1,0 @@
-exec_always {
-  'mkdir -p $HOME/.config/wlogout && cat /etc/sway/themes/templates/wlogout | sed -e $theme_template_script -e $theme_color_script > $HOME/.config/wlogout/style.css'
-}

@@ -2,7 +2,6 @@
 ## Only builds on arm-unstable and arm-testing branch currently ##
 
 # Phone specific packages
->pinephone wys
 >pinephone pinephone-modem-scripts
 >pinephone alsa-ucm-pinephone
 #>pinephone flashlight
