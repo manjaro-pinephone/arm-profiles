@@ -7,10 +7,11 @@ bootsplash-theme-manjaro
 bootsplash-systemd
 
 # Video driver
-xf86-video-fbturbo-git
+#xf86-video-fbturbo-git
 
 # Other device specific packages
 #bluetooth-vim3
 #khadas-utils
 fbset
-vim3-post-install
+kvim2-firmware
+vim2-post-install
