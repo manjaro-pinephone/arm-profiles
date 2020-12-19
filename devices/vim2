@@ -13,5 +13,7 @@ bootsplash-systemd
 #bluetooth-vim3
 #khadas-utils
 fbset
+kvim1-firmware
 kvim2-firmware
+ap6398s-firmware
 vim2-post-install
