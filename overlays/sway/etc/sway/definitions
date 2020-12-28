@@ -1,6 +1,6 @@
 ### Variables
 #
-# Logo key. Use Mod1 for Alt.
+# Logo key. Use Mod1 for Alt and Mod4 for Super.
 set $mod Mod1
 
 # Home row direction keys, like vim
@@ -14,6 +14,7 @@ set $theme /etc/sway/themes/matcha-green
 
 # Your preferred terminal emulator
 set $term termite --config=$theme/termite
+set $term_float $term --name=floating_shell --exec
 
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
@@ -23,16 +24,25 @@ set $menu wofi --show run --exec-search --prompt "Run Command" --term $term | xa
 set $selwin sws.sh --dmenu-cmd "wofi --show dmenu" --format "%W | %A - %T"
 set $help swhelp.sh --conf $HOME/.config/wofi/swhelp --location 7 --xoffset 15 --yoffset -30
 
+### Lockscreen configuration
+#
+set $locking exec swaylock -c "$base01" -F \
+    --inside-color "$base01" \
+    --ring-color "$base02" \
+    --ring-ver-color "$base0D" \
+    --ring-clear-color "$base0B" \
+    --inside-clear-color "$base07"
+
 ### Idle configuration
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
 #
 set $idle swayidle -w \
-    timeout 300 'swaylock -f -c 000000' \
+    timeout 300 'exec $locking' \
     timeout 600 'swaymsg "output * dpms off"' \
     resume 'swaymsg "output * dpms on"' \
-    before-sleep 'swaylock -f -c 000000'
+    before-sleep 'exec $locking'
 
 # statusbar command
 set $statusbar waybar

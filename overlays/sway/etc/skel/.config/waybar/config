@@ -33,6 +33,8 @@
         "backlight",
         "idle_inhibitor",
         "pulseaudio",
+        "bluetooth",
+        "custom/pacman",
         "tray",
         "clock"
     ],
@@ -74,7 +76,8 @@
         "states": {
             "warning": 70,
             "critical": 90
-        }
+        },
+        "on-click": "swaymsg exec \\$term_float htop"
     },
 
     "memory": {
@@ -83,16 +86,17 @@
         "states": {
             "warning": 70,
             "critical": 90
-        }
+        },
+        "on-click": "swaymsg exec \\$term_float htop"
     },
 
     "network": {
         "interval": 5,
         "format-wifi": "  {essid} ({signalStrength}%)", // Icon: wifi
-        "format-ethernet": "  {ifname}: {ipaddr}/{cidr}", // Icon: ethernet
+        "format-ethernet": "  {ifname}", // Icon: ethernet
         "format-disconnected": "⚠  Disconnected",
         "tooltip-format": "{ifname}: {ipaddr}",
-        "on-click": "nm-connection-editor"
+        "on-click": "swaymsg exec \\$term_float nmtui"
     },
 
     "sway/mode": {
@@ -160,5 +164,24 @@
     "tray": {
         "icon-size": 21,
         "spacing": 5
+    },
+
+    "custom/pacman": {
+        "format": "  {}",
+        "interval": 3600,
+        "exec-if": "[ $(checkupdates | wc -l) -gt 0 ]",
+        "exec": "checkupdates | wc -l",
+        "on-click": "pamac-manager && pamac checkupdates -a -q | wc -l",
+    },
+
+    "bluetooth": {
+        "format": "{icon}",
+        "interval": 30,
+        "format-icons": {
+            "enabled": "",
+            "disabled": ""
+        },
+        "on-click": "blueman-manager",
+        "tooltip-format": "{status}"
     }
 }

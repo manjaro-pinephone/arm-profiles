@@ -7,4 +7,4 @@ for_window [app_id="nm-connection-editor"] floating enable
 for_window [title="File Operation Progress"] floating enable
 for_window [app_id="firefox" title="Library"] floating enable
 for_window [app_id="thunderbird" title=".*Reminder"] floating enable
-
+for_window [app_id="floating_shell"] floating enable, border pixel 1, sticky enable

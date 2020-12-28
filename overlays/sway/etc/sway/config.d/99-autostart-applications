@@ -4,8 +4,8 @@ exec $idle
 # autostart background applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id mako
-exec --no-startup-id pamac-tray-appindicator
-exec --no-startup-id nm-applet --indicator
-exec --no-startup-id blueman-applet
+# exec --no-startup-id pamac-tray-appindicator
+# exec --no-startup-id nm-applet --indicator
+# exec --no-startup-id blueman-applet
 exec --no-startup-id mntray
 exec --no-startup-id $help --autostart

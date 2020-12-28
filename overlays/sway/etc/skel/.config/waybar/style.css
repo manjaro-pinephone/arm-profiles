@@ -68,6 +68,9 @@
 #pulseaudio,
 #temperature,
 #idle_inhibitor,
+#bluetooth,
+#backlight,
+#custom-pacman,
 #tray {
     padding-left: 10px;
     padding-right: 10px;
@@ -143,6 +146,7 @@
 }
 
 #network.disconnected {
+    margin-top: 6px;
     color: @warning_color;
 }
 
@@ -192,4 +196,12 @@
 #workspaces button.urgent {
     border-color: @error_color;
     color: @error_color;
+}
+
+#custom-pacman {
+    color: @warning_color;
+}
+
+#bluetooth.disabled {
+    color: @warning_color;
 }
