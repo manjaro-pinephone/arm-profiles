@@ -27,13 +27,13 @@
     ],
     "modules-right": [
         "network",
+        "bluetooth",
         "cpu",
         "memory",
         "battery",
         "backlight",
         "idle_inhibitor",
         "pulseaudio",
-        "bluetooth",
         "custom/pacman",
         "tray",
         "clock"
@@ -132,8 +132,8 @@
 
     "pulseaudio": {
         //"scroll-step": 1,
-        "format": "{icon}  {volume}%",
-        "format-bluetooth": "{icon}  {volume}%",
+        "format": "{icon}  {volume}%    {format_source}",
+        "format-bluetooth": "{icon}  {volume}%",
         "format-muted": "",
         "format-icons": {
             "headphones": "",
@@ -170,8 +170,8 @@
         "format": "  {}",
         "interval": 3600,
         "exec-if": "[ $(checkupdates | wc -l) -gt 0 ]",
-        "exec": "checkupdates | wc -l",
-        "on-click": "pamac-manager && pamac checkupdates -a -q | wc -l",
+        "exec": "pamac checkupdates | wc -l",
+        "on-click": "pamac-manager --updates && pamac checkupdates -a -q | wc -l",
     },
 
     "bluetooth": {

@@ -47,18 +47,20 @@
     min-height: 0;
     margin: 0;
     padding: 0;
-    font-family: "FontAwesome 5 Free Solid", "Noto Sans", Roboto, sans-serif;
+    font-family: "FontAwesome 5 Free Solid", "TerminessTTF Nerd Font", sans-serif;
 }
 
 /* The whole bar */
 #waybar {
     background: @background_color;
     color: @text_color;
-    font-family: "Noto Sans", Roboto, sans-serif;
-    font-size: 13px;
+    font-family: "TerminessTTF Nerd Font", sans-serif;
+    font-size: 16px;
 }
 
 /* Each module */
+#custom-pacman,
+#bluetooth,
 #battery,
 #clock,
 #cpu,
@@ -68,9 +70,7 @@
 #pulseaudio,
 #temperature,
 #idle_inhibitor,
-#bluetooth,
 #backlight,
-#custom-pacman,
 #tray {
     padding-left: 10px;
     padding-right: 10px;
@@ -156,10 +156,6 @@
 
 #pulseaudio.muted {
     /* No styles */
-}
-
-#custom-spotify {
-    color: @accent_color;
 }
 
 #temperature {
