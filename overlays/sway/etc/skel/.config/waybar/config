@@ -50,7 +50,7 @@
             "warning": 30,
             "critical": 15
         },
-        "format-charging": "  {icon}  {capacity}%", // Icon: bolt
+        "format-charging": " {icon} {capacity}%", // Icon: bolt
         "format": "{icon}  {capacity}%",
         "format-icons": [
             "", // Icon: battery-empty
@@ -72,7 +72,7 @@
 
     "cpu": {
         "interval": 5,
-        "format": "  {usage}%", // Icon: microchip
+        "format": " {usage}%", // Icon: microchip
         "states": {
             "warning": 70,
             "critical": 90
@@ -82,7 +82,7 @@
 
     "memory": {
         "interval": 5,
-        "format": "  {}%", // Icon: memory
+        "format": " {}%", // Icon: memory
         "states": {
             "warning": 70,
             "critical": 90
@@ -92,8 +92,8 @@
 
     "network": {
         "interval": 5,
-        "format-wifi": "  {essid} ({signalStrength}%)", // Icon: wifi
-        "format-ethernet": "  {ifname}", // Icon: ethernet
+        "format-wifi": " {essid} ({signalStrength}%)", // Icon: wifi
+        "format-ethernet": " {ifname}", // Icon: ethernet
         "format-disconnected": "⚠  Disconnected",
         "tooltip-format": "{ifname}: {ipaddr}",
         "on-click": "swaymsg exec \\$term_float nmtui"
@@ -132,8 +132,8 @@
 
     "pulseaudio": {
         //"scroll-step": 1,
-        "format": "{icon}  {volume}%    {format_source}",
-        "format-bluetooth": "{icon}  {volume}%",
+        "format": "{icon} {volume}%   {format_source}",
+        "format-bluetooth": "{icon} {volume}%",
         "format-muted": "",
         "format-icons": {
             "headphones": "",
@@ -150,7 +150,7 @@
     "temperature": {
       "critical-threshold": 80,
       "interval": 5,
-      "format": "{icon}  {temperatureC}°C",
+      "format": "{icon} {temperatureC}°C",
       "format-icons": [
           "", // Icon: temperature-empty
           "", // Icon: temperature-quarter
@@ -167,7 +167,7 @@
     },
 
     "custom/pacman": {
-        "format": "  {}",
+        "format": " {}",
         "interval": 3600,
         "exec-if": "[ $(checkupdates | wc -l) -gt 0 ]",
         "exec": "pamac checkupdates | wc -l",

@@ -26,12 +26,7 @@ set $help swhelp.sh --conf $HOME/.config/wofi/swhelp --location 7 --xoffset 15 -
 
 ### Lockscreen configuration
 #
-set $locking exec swaylock -c "$base01" -F \
-    --inside-color "$base01" \
-    --ring-color "$base02" \
-    --ring-ver-color "$base0D" \
-    --ring-clear-color "$base0B" \
-    --inside-clear-color "$base07"
+set $locking swaylock --daemonize --config $theme/swaylock
 
 ### Idle configuration
 # This will lock your screen after 300 seconds of inactivity, then turn off
