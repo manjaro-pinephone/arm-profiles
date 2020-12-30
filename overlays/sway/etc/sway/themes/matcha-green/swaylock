@@ -1,8 +1,9 @@
-color=#282a2b
-inside-color=#282a2b
+color=#141a1b
+inside-color=#141a1b
 inside-clear-color=#eeeeee
-ring-color=#3B758C
-ring-ver-color=#55b5db
+inside-ver-color=#16a085
+ring-color=#16a085
+ring-ver-color=#9fca56
 ring-clear-color=#9fca56
 ignore-empty-password
 show-failed-attempts
