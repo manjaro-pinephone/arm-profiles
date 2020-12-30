@@ -9,4 +9,4 @@ bootsplash-show-on-shutdown.service
 >pinephone pinephone-post-install.service
 >pinephone pinephone-modem-scripts.pinephone-modem-setup.service
 >pinephone pinephone-modem-scripts.pinephone-modem.service
-#>pinephone anbox-container-manager.service
+>pinephone anbox-container-manager.service

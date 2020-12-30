@@ -6,8 +6,8 @@
 >pinephone alsa-ucm-pinephone
 #>pinephone flashlight
 >pinephone modemmanager-pp
-#>pinephone anbox-image-aarch64
-#>pinephone anbox
+>pinephone anbox-image-aarch64
+>pinephone anbox
 >pinephone mobile-config-firefox
 
 # Minimal packages
@@ -72,9 +72,6 @@ geary-mobile
 
 #hdr-plus-git
 
-# Cinnamon packages
-nemo
-
 # Theming
 manjaro-arm-wallpapers
 manjaro-icons
@@ -83,6 +80,7 @@ papirus-maia-icon-theme
 # Other packages
 bluez
 pamac-cli
+portfolio-file-manager
 pulseaudio-bluetooth
 iio-sensor-proxy
 networkmanager
