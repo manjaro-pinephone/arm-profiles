@@ -7,11 +7,11 @@ include /etc/sway/outputs/*
 exec_always 'mkdir -p /tmp/gtkgreet && ln -sf $theme/theme.css /tmp/gtkgreet/'
 
 # start gtkgreeter
-exec "GTK_THEME=$gtk-theme gtkgreet -l -c sway; swaymsg exit"
+exec "GTK_THEME=$gtk-theme gtkgreet -l -s /etc/greetd/style.css -c sway; swaymsg exit"
 
 # offer shutdown options
-bindsym $mod+Shift+e exec $shutdown --layout /etc/greetd/wlogout --css /etc/greetd/style.css
+bindsym $mod+Shift+e exec $shutdown --layout /etc/greetd/wlogout --css /etc/greetd/wlogout.css
 
 # capture PowerOff key
-bindsym XF86PowerOff exec $shutdown --layout /etc/greetd/wlogout --css /etc/greetd/style.css
+bindsym XF86PowerOff exec $shutdown --layout /etc/greetd/wlogout --css /etc/greetd/wlogout.css
 

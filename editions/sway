@@ -23,6 +23,7 @@ bluez
 bluez-utils
 pulseaudio-bluetooth
 blueman
+pulsemixer
 
 # Display Manager
 greetd
@@ -50,7 +51,7 @@ qt5-wayland
 waybar
 wl-clipboard
 wofi
-xorg-server-xwayland
+xorg-xwayland
 
 # Sway Extras
 grim
@@ -83,7 +84,6 @@ libreoffice-fresh
 
 # Package Manager
 pamac-gtk
-pamac-tray-appindicator
 polkit-gnome
 
 # Fonts
@@ -97,9 +97,12 @@ wqy-microhei #chinese
 
 # some interesting CLI tools
 aerc
+amfora
 bandwhich
 base-devel
 bat
+bpytop
+chafa
 cmatrix
 cpu-temp-speed
 curl
@@ -145,7 +148,6 @@ simple-scan
 silver
 system-config-printer
 ueberzug
-ytop
 zathura
 zathura-pdf-poppler
 
