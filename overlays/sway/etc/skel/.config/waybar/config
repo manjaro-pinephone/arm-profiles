@@ -60,6 +60,7 @@
             ""  // Icon: battery-full
         ],
         "tooltip": false,
+        "on-click": "powersupply",
         "bat": "cw2015-battery"         // axp20x-battery for Pinebook
     },
 
