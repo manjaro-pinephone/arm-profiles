@@ -76,7 +76,7 @@ firefox-ublock-origin
 
 # Package Manager
 pamac-gtk
-pamac-tray-appindicator
+pamac-tray-icon-plasma
 
 # Fonts
 ttf-bitstream-vera
