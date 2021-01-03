@@ -1,5 +1,4 @@
 ## Maintained by ?? ##
-## Not suitable for rpi devices ##
 
 # Minimal packages
 sudo
@@ -134,5 +133,5 @@ libreoffice-fresh
 
 # Package Manager
 pamac-gtk
-pamac-tray-appindicator
+pamac-gnome-integration
 pamac-cli
