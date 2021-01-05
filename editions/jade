@@ -1,0 +1,53 @@
+## Maintained by Strit ##
+
+# Minimal packages
+sudo
+parted
+openssh
+haveged
+inxi
+ncdu
+nano
+man-pages
+man-db
+ntfs-3g
+zswap-arm
+
+# Audio and video
+alsa-firmware
+alsa-utils
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+# Display Manager
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+
+# Jade edition packages
+jade-menu-data #not yet in repo
+jadesktop #not yet in repo
+python-jade-application-kit #not yet in repo
+web-installer-url-handler #not yet in repo
+dunst-notify-speech #not yet in repo
+discover-software-center-jak #not yet in repo
+firefox
+guake
+nautilus
+gedit
+lightlocker
+
+# Package Manager
+pamac-gtk
+
+# Fonts
+ttf-roboto
+adobe-source-code-pro-fonts
+
+# Other packages
+networkmanager
+ntp
+openresolv
+netctl
+networkmanager-openconnect
