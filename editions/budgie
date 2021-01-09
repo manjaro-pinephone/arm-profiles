@@ -1,0 +1,144 @@
+## Maintained by Darksky ##
+
+# Minimal packages
+sudo
+parted
+openssh
+haveged
+ncdu
+nano
+dhcpcd
+man-pages
+man-db
+zswap-arm
+
+# Sound, video and bluetooth
+pavucontrol
+pulseaudio-alsa
+alsa-utils
+smplayer
+bluez
+pulseaudio-bluetooth
+blueman
+manjaro-hotfixes
+
+# Display Manager
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+
+# Budgie packages
+budgie-desktop
+budgie-extras
+
+# xorg packages
+xorg-server
+xorg-xinit
+xf86-input-elographics
+
+# Gnome packages
+baobab
+evince
+libappindicator-gtk3
+gnome-calculator
+gnome-control-center
+gnome-calendar
+gnome-clocks
+gnome-color-manager
+gnome-disk-utility
+gnome-font-viewer
+gnome-settings-daemon
+gnome-menus
+gnome-music
+gnome-user-share
+gnome-system-log
+gnome-system-monitor
+gnome-terminal
+gnome-screenshot
+nautilus
+libnautilus-extension
+grilo-plugins
+gucharmap
+mousetweaks
+file-roller
+p7zip
+unrar
+lrzip
+sushi
+gedit
+yelp
+mutter
+eog
+tracker
+tracker-miners
+tracker3
+tracker3
+dconf
+
+# Network
+networkmanager
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+nss-mdns
+avahi
+
+audacious
+mpv
+ffmpeg
+usb_modeswitch
+
+# Themes
+papirus-maia-icon-theme
+qt5ct
+kvantum-qt5 
+kvantum-theme-matchama
+matcha-gtk-theme
+manjaro-arm-wallpapers
+
+# Browser
+firefox
+firefox-ublock-origin
+
+# Office suite
+libreoffice-fresh
+
+# Package Manager
+pamac-gtk
+
+# Fonts
+ttf-dejavu
+ttf-bitstream-vera
+noto-fonts
+wqy-microhei #chinese
+
+# Other packages
+manjaro-settings-manager
+wget
+tlp
+xdg-user-dirs
+cpu-temp-speed
+htop
+mesa-demos
+inxi
+lm_sensors
+usbutils
+wmctrl
+xorg-xdpyinfo
+xorg-xprop
+xorg-xrandr
+screenfetch
+
+# File systems access
+manjaro-settings-samba
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+ifuse
+mtpfs
+ntfs-3g
+mntray

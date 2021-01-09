@@ -1,0 +1,31 @@
+{
+	"Version": "1.1.3",
+	"ServerURL": "http://manjaro.moson.eu:10111/news",
+	"MaxArticles": 15,
+	"AvailableCategories": [
+		"Testing Updates",
+		"Stable Updates",
+		"Stable Staging Updates",
+		"Unstable Updates",
+		"Twitter",
+		"News",
+		"Releases",
+		"ARM News",
+		"ARM Releases",
+		"ARM Stable Updates",
+		"ARM Testing Updates",
+		"ARM Unstable Updates"
+	],
+	"Categories": [
+		"All"
+	],
+	"AddCategoriesBranch": [
+		"Announcements"
+	],
+	"RefreshInterval": 600,
+	"HideNoNews": false,
+	"Autostart": true,
+	"ErrorNotifications": true,
+	"DelayAfterStart": 60,
+	"SetCategoriesFromBranch": true
+}

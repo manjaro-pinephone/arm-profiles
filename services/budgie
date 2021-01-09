@@ -1,0 +1,8 @@
+sshd.service
+lightdm.service
+NetworkManager.service
+bluetooth.service
+tlp.service
+zswap-arm.service
+bootsplash-hide-when-booted.service
+bootsplash-show-on-shutdown.service

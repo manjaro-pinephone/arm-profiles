@@ -1,0 +1,46 @@
+{
+    "apps": {
+        "Screenshot": {
+            "id": "org.gnome.Screenshot.desktop",
+            "name": "Screenshot",
+            "isActive": true,
+            "index": 0
+        },
+        "Terminal": {
+            "id": "org.gnome.Terminal.desktop",
+            "name": "Terminal",
+            "isActive": true,
+            "index": 1
+        },
+        "Calculator": {
+            "id": "org.gnome.Calculator.desktop",
+            "name": "Calculator",
+            "isActive": true,
+            "index": 2
+        },
+        "Files": {
+            "id": "org.gnome.Nautilus.desktop",
+            "name": "Files",
+            "isActive": true,
+            "index": 3
+        },
+        "Firefox": {
+            "id": "firefox.desktop",
+            "name": "Firefox",
+            "isActive": true,
+            "index": 4
+        },
+        "Budgie Desktop Settings": {
+            "id": "budgie-desktop-settings.desktop",
+            "name": "Budgie Desktop Settings",
+            "isActive": true,
+            "index": 5
+        },
+        "Settings": {
+            "id": "gnome-control-center.desktop",
+            "name": "Settings",
+            "isActive": true,
+            "index": 6
+        }
+    }
+}
