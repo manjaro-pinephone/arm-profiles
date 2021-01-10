@@ -19,7 +19,6 @@ alsa-utils
 smplayer
 bluez
 pulseaudio-bluetooth
-blueman
 manjaro-hotfixes
 
 # Display Manager
@@ -77,6 +76,7 @@ dconf
 
 # Network
 networkmanager
+network-manager-applet
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
