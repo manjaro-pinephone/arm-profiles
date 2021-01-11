@@ -146,6 +146,7 @@ lomiri-music-app-git
 lomiri-docviewer-app-git
 lomiri-calculator-app-git
 lomiri-gallery-app-git
+unav
 
 # GTK3
 gtk3-mobile # use mobile version to scale properly
