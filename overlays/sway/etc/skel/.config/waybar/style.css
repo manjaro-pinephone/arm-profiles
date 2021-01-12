@@ -156,6 +156,7 @@
 
 #pulseaudio.muted {
     /* No styles */
+    color: @warning_color;
 }
 
 #temperature {
@@ -172,6 +173,8 @@
 
 #window {
     font-weight: bold;
+    margin-right: 25px;
+    color: @accent_color;
 }
 
 #workspaces button {
@@ -180,13 +183,15 @@
     padding-bottom: 2px;
     padding-left: 10px;
     padding-right: 10px;
-    color: @dim_text_color;
+    color: @accent_color;
+    font-weight: bold;
 }
 
 #workspaces button.focused {
     border-color: @accent_color;
     color: @text_color;
     background-color: @accent_color;
+    font-weight: bold;
 }
 
 #workspaces button.urgent {

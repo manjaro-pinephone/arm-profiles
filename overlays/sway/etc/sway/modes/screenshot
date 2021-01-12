@@ -17,4 +17,6 @@ mode --pango_markup $mode_screenshot {
     bindsym Escape mode "default"
     bindsym Return mode "default"
 }
+
+## Launch // Screenshot Mode ##
 bindsym $mod+Shift+s mode $mode_screenshot

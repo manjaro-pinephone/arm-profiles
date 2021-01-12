@@ -28,5 +28,7 @@ mode --pango_markup $mode_recording {
     bindsym Escape mode "default"
     bindsym Return mode "default"
 }
+
+## Launch // Recording Mode ##
 bindsym $mod+Shift+r mode $mode_recording
 

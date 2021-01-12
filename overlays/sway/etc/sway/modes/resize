@@ -37,4 +37,5 @@ mode --pango_markup $mode_resize {
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
+## Launch // Resize Mode ##
 bindsym $mod+r mode $mode_resize
