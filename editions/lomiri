@@ -1,4 +1,4 @@
-## Maintained by Furkan and Philip##
+## Maintained by Furkan and Philip ##
 
 # Phone specific packages
 >pinephone ofono
@@ -79,6 +79,10 @@ indicator-network-git
 lomiri-indicator-transfer-git
 lomiri-indicator-location-git
 lomiri-indicator-bluetooth-git
+
+# GPS
+location-service-git
+gpsd
 
 # Other
 tlp
