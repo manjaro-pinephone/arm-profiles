@@ -118,3 +118,4 @@ megapixels
 vim
 bootsplash-theme-kde
 breeze-gtk
+lcms2 # needed for kwin nightmode
