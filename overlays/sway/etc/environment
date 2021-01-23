@@ -3,3 +3,24 @@
 #
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
+
+# enable as long as Mesa driver isn't supporting modifiers properly
+export WLR_DRM_NO_MODIFIERS=1
+
+# remove client side decoration in GTK3
+export LD_PRELOAD=/usr/lib/libgtk3-nocsd.so.0
+export GTK_CSD=0
+
+# QT should use wayland
+export QT_QPA_PLATFORM=wayland"
+export QT_QPA_PLATFORMTHEME=qt5ct
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+
+# enable video accel via v2l
+export LIBVA_DRIVER_NAME=v4l2_request
+export LIBVA_V4L2_REQUEST_VIDEO_PATH=/dev/video1
+
+# Most pure GTK3 apps use wayland by default, but some,
+# like Firefox, need the backend to be explicitely selected.
+export MOZ_ENABLE_WAYLAND=1
+export MOZ_DBUS_REMOTE=1
