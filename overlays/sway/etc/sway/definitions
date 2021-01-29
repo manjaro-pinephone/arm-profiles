@@ -20,8 +20,7 @@ set $term_float_landscape $term --name=floating_shell_landscape --exec
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $appmenu wofi --show drun --prompt "Application Launcher" | xargs swaymsg exec --
-set $menu wofi --show run --exec-search --prompt "Run Command" --term $term | xargs swaymsg exec --
+set $appmenu wofi --show "drun,run" --prompt "Application Launcher" --term $term | xargs swaymsg exec --
 set $selwin sws.sh --dmenu-cmd "wofi --show dmenu" --format "%W | %A - %T"
 set $help swhelp.sh --conf $HOME/.config/wofi/swhelp --location 7 --xoffset 15 --yoffset -30
 

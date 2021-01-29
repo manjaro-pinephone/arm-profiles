@@ -10,8 +10,6 @@ bindsym $mod+Shift+q kill
 
 ## Launch // Application Launcher ##
 bindsym $mod+d exec $appmenu
-## Launch // Command Runner ##
-bindsym $mod+Shift+d exec $menu
 ## Launch // Window Switcher ##
 bindsym $mod+Ctrl+d exec $selwin
 
