@@ -1,12 +1,11 @@
 ## Maintained by Spikerguy and Philm##
 
 # Kernel and bootloader stuff
-linux-pinephone-next
-linux-pinephone-next-headers
+linux-pinephone
+linux-pinephone-headers
 uboot-pinephone
 bootsplash-theme-manjaro
 bootsplash-systemd
-eg25-manager
 
 # Video drivers
 
