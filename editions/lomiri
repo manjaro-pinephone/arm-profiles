@@ -1,10 +1,11 @@
-## Maintained by Furkan and Philip##
+## Maintained by Furkan and Philip ##
 
 # Phone specific packages
 >pinephone ofono
 >pinephone ofonoctl
 >pinephone libqofono-qt5
 >pinephone hfd-service-git
+>pinephone pinephone-modem-scripts-ofono
 
 qmenumodel-git
 sensorfw-git
@@ -79,6 +80,10 @@ indicator-network-git
 lomiri-indicator-transfer-git
 lomiri-indicator-location-git
 lomiri-indicator-bluetooth-git
+
+# GPS
+location-service-git
+gpsd
 
 # Other
 tlp
