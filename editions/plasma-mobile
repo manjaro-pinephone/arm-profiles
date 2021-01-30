@@ -4,7 +4,6 @@
 >pinephone ofono
 >pinephone ofonoctl
 >pinephone libqofono-qt5
->pinephone pinephone-modem-scripts-ofono
 
 # Minimal packages
 sudo
