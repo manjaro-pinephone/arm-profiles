@@ -25,13 +25,16 @@ qt5-es2-declarative
 qt5-es2-multimedia
 qt5-es2-wayland
 
-clip-git
-
 # Multimedia packages
 gst-libav
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-ugly
+
+clip-git
+
+# Personal assistance
+mycroft-gui-git
 
 # PM Packages
 buho

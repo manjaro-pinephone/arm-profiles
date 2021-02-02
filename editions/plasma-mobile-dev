@@ -33,6 +33,9 @@ gst-plugins-ugly
 
 clip-git
 
+# Personal assistance
+mycroft-gui-git
+
 # PM Packages
 buho-git
 calindori-git
