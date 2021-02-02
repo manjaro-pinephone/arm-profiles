@@ -110,6 +110,10 @@ kwayland-integration-git
 xorg-server-xwayland
 kwayland-server-git
 
+# GTK3 - apps for integration development
+gnome-chess
+gnuchess
+
 # Other
 mesa
 tlp
