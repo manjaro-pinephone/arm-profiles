@@ -1,0 +1,28 @@
+# Maintainer: Caleb Connolly <caleb@connolly.tech>
+# OnePlus 6 / enchilada
+
+# Kernel and bootloader stuff
+linux-sdm845
+linux-sdm845-headers
+bootsplash-theme-manjaro
+bootsplash-systemd
+
+# Signed firmware extracted from Android.
+# Needed for Modem, Wlan, Bluetooth and GPU
+firmware-oneplus-sdm845
+linux-firmware
+wpa_supplicant
+
+# remoteproc services
+pd-mapper-git
+qrtr-git
+rmtfs-git
+tqftpserv-git
+
+# Postinstall
+# oneplus6-post-install
+
+# Temp, these don't fully work on this device
+# And should be split
+pinephone-post-install
+pinephone-manjaro-tweaks
