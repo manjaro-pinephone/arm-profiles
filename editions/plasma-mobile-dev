@@ -114,6 +114,9 @@ kwayland-server-git
 gnome-chess
 gnuchess
 
+# PIM
+alligator-git
+
 # Other
 mesa
 tlp
