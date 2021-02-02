@@ -25,6 +25,12 @@ qt5-es2-declarative
 qt5-es2-multimedia
 qt5-es2-wayland
 
+# Multimedia packages
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-ugly
+
 # PM Packages
 buho-git
 calindori-git
