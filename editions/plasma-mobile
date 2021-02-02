@@ -25,6 +25,8 @@ qt5-es2-declarative
 qt5-es2-multimedia
 qt5-es2-wayland
 
+clip-git
+
 # Multimedia packages
 gst-libav
 gst-plugins-bad

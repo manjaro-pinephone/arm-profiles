@@ -31,6 +31,8 @@ gst-plugins-bad
 gst-plugins-base
 gst-plugins-ugly
 
+clip-git
+
 # PM Packages
 buho-git
 calindori-git
