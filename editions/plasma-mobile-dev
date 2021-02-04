@@ -26,15 +26,15 @@ qt5-es2-multimedia
 qt5-es2-wayland
 
 # Multimedia packages
-#gst-libav
-#gst-plugins-bad
-#gst-plugins-base
-#gst-plugins-ugly
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-ugly
 
-#clip-git
+clip-git
 
 # Personal assistance
-#mycroft-gui-git
+mycroft-gui-git
 
 # PM Packages
 buho-git
