@@ -68,6 +68,7 @@ kvantum-qt5
 kvantum-theme-matchama
 lxappearance
 gtk3-nocsd
+gtk4
 matcha-gtk-theme
 manjaro-arm-wallpapers
 papirus-maia-icon-theme
@@ -97,8 +98,7 @@ ttf-roboto
 wqy-microhei #chinese
 
 # some interesting CLI tools
-aerc
-amfora
+asciinema
 bandwhich
 base-devel
 bat
@@ -131,12 +131,15 @@ yad
 yay
 
 # Other Applications
+atril
 atool
 cups-pdf
+dino
 ffmpeg
 ffmpegthumbnailer
 libva-v4l2-request
 libgepub
+libgsf
 gcolor3
 hexyl
 manjaro-settings-manager
@@ -152,8 +155,6 @@ simple-scan
 silver
 system-config-printer
 ueberzug
-zathura
-zathura-pdf-poppler
 
 # File systems access
 thunar
