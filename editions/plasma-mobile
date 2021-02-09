@@ -33,6 +33,12 @@ gst-plugins-ugly
 
 clip-git
 
+# Image packages
+kio-extras
+kdegraphics-thumbnailer
+libappimage
+ffmpegthumbs
+
 # Personal assistance
 mycroft-gui-git
 
