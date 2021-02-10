@@ -30,6 +30,7 @@ gst-libav
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-ugly
+ffmpeg-pp
 
 clip-git
 
