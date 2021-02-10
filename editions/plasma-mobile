@@ -32,7 +32,7 @@ gst-plugins-base
 gst-plugins-ugly
 ffmpeg-pp
 
-clip-git
+#clip-git #removed until we have some in kde-unstable and mobile
 
 # Image packages
 kio-extras
