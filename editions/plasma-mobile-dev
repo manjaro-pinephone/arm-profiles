@@ -35,7 +35,7 @@ clip-git
 
 # Image packages
 kio-extras-git
-kdegraphics-thumbnailer
+kdegraphics-thumbnailers
 libappimage
 ffmpegthumbs
 
