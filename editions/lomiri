@@ -40,7 +40,7 @@ telephony-service-git
 telepathy-mission-control
 telepathy-ofono
 qt5-wayland
-maliit-framework-git
+maliit-framework
 #maliit-keyboard-git
 lomiri-keyboard-git
 
