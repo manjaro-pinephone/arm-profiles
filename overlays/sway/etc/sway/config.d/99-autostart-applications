@@ -7,6 +7,7 @@ exec --no-startup-id mako
 exec --no-startup-id mntray
 exec --no-startup-id $help --autostart
 
-# optional: tray applications
-# exec --no-startup-id nm-applet --indicator
-# exec --no-startup-id blueman-applet
+# disable appindicator for bluetooth
+exec_always {
+  gsettings set org.blueman.general plugin-list "['\!AppIndicator']"
+}

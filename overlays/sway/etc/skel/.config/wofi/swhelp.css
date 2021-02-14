@@ -8,7 +8,7 @@
 #input {
   border: none;
   border-radius: 0px;
-  margin: 10px;
+  visibility: hidden;
 }
 
 #text {
@@ -18,5 +18,5 @@
 window {
   border: 2px solid @accent_color;
   color: @text_color;
-  border-radius: none;
+  border-radius: 5px;
 }

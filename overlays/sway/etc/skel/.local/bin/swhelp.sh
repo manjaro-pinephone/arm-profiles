@@ -10,7 +10,7 @@ FIRST_RUN=$HOME/.firstrun
 if [ -f $PIDFILE ]; then exit 1; fi
 
 spawn_help_overlay() {
-cat <<EOF | wofi --show dmenu "$@"
+cat <<EOF | wofi --show dmenu --style $HOME/.config/wofi/swhelp.css "$@"
   <b>Manjaro ARM Sway Edition</b>
   Default Modifier: <b>Alt</b>
   New Terminal: <b>\$mod</b> + <b>Enter</b>
