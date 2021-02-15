@@ -73,7 +73,7 @@ plasma-mobile-settings
 plasma-nano
 plasma-phone-components
 plasma-phonebook
-plasma-pix
+#plasma-pix
 plasma-settings
 plymouth-shim
 qmlkonsole
