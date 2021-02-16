@@ -173,3 +173,7 @@ mtpfs
 ntfs-3g
 exfat-utils
 usb_modeswitch
+
+# Optional dependencies file-roller
+p7zip  # 7Z and ARJ archive support
+unrar  # RAR archive support
