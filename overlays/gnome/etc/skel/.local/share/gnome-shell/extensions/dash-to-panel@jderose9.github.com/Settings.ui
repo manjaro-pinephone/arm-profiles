@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.22.1 -->
+<!-- Generated with glade 3.36.0 -->
 <interface>
   <requires lib="gtk+" version="3.12"/>
   <object class="GtkAdjustment" id="appicon_margin_adjustment">
-    <property name="lower">0.33000000000000002</property>
+    <property name="lower">0.33</property>
     <property name="upper">1</property>
     <property name="step_increment">0.01</property>
-    <property name="page_increment">0.10000000000000001</property>
+    <property name="page_increment">0.1</property>
   </object>
   <object class="GtkAdjustment" id="appicon_padding_adjustment">
-    <property name="lower">0.33000000000000002</property>
+    <property name="lower">0.33</property>
     <property name="upper">1</property>
     <property name="step_increment">0.01</property>
-    <property name="page_increment">0.10000000000000001</property>
+    <property name="page_increment">0.1</property>
   </object>
   <object class="GtkBox" id="box_advanced_options">
     <property name="visible">True</property>
@@ -282,208 +282,6 @@
                         <property name="left_attach">1</property>
                         <property name="top_attach">0</property>
                         <property name="height">2</property>
-                      </packing>
-                    </child>
-                  </object>
-                </child>
-              </object>
-            </child>
-          </object>
-        </child>
-      </object>
-      <packing>
-        <property name="expand">False</property>
-        <property name="fill">True</property>
-        <property name="position">0</property>
-      </packing>
-    </child>
-  </object>
-  <object class="GtkBox" id="box_multimon_multi_options">
-    <property name="visible">True</property>
-    <property name="can_focus">False</property>
-    <property name="orientation">vertical</property>
-    <child>
-      <object class="GtkFrame" id="frame_multimon_multi_options">
-        <property name="visible">True</property>
-        <property name="can_focus">False</property>
-        <property name="label_xalign">0</property>
-        <property name="shadow_type">in</property>
-        <child>
-          <object class="GtkListBox" id="listbox_multimon_multi_options">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="selection_mode">none</property>
-            <child>
-              <object class="GtkListBoxRow" id="listboxrow_multimon_multi_isolate_monitor">
-                <property name="width_request">100</property>
-                <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <child>
-                  <object class="GtkGrid" id="grid_multimon_multi_isolate_monitor">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="margin_left">12</property>
-                    <property name="margin_right">12</property>
-                    <property name="margin_top">12</property>
-                    <property name="margin_bottom">12</property>
-                    <property name="row_spacing">12</property>
-                    <property name="column_spacing">32</property>
-                    <child>
-                      <object class="GtkLabel" id="multimon_multi_isolate_monitor_label">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="hexpand">True</property>
-                        <property name="label" translatable="yes">Isolate monitors</property>
-                        <property name="use_markup">True</property>
-                        <property name="xalign">0</property>
-                      </object>
-                      <packing>
-                        <property name="left_attach">0</property>
-                        <property name="top_attach">0</property>
-                      </packing>
-                    </child>
-                    <child>
-                      <object class="GtkSwitch" id="multimon_multi_isolate_monitor_switch">
-                        <property name="visible">True</property>
-                        <property name="can_focus">True</property>
-                        <property name="halign">end</property>
-                        <property name="valign">center</property>
-                      </object>
-                      <packing>
-                        <property name="left_attach">1</property>
-                        <property name="top_attach">0</property>
-                      </packing>
-                    </child>
-                  </object>
-                </child>
-              </object>
-            </child>
-            <child>
-              <object class="GtkListBoxRow" id="listboxrow_multimon_multi_show_favorites">
-                <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <child>
-                  <object class="GtkGrid" id="grid_multimon_multi_show_favorites">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="margin_left">12</property>
-                    <property name="margin_right">12</property>
-                    <property name="margin_top">12</property>
-                    <property name="margin_bottom">12</property>
-                    <property name="row_spacing">12</property>
-                    <property name="column_spacing">32</property>
-                    <child>
-                      <object class="GtkLabel" id="multimon_multi_show_favorites_label">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="hexpand">True</property>
-                        <property name="label" translatable="yes">Display favorite applications on all monitors</property>
-                        <property name="use_markup">True</property>
-                        <property name="xalign">0</property>
-                      </object>
-                      <packing>
-                        <property name="left_attach">0</property>
-                        <property name="top_attach">0</property>
-                      </packing>
-                    </child>
-                    <child>
-                      <object class="GtkSwitch" id="multimon_multi_show_favorites_switch">
-                        <property name="visible">True</property>
-                        <property name="can_focus">True</property>
-                        <property name="halign">end</property>
-                        <property name="valign">center</property>
-                      </object>
-                      <packing>
-                        <property name="left_attach">1</property>
-                        <property name="top_attach">0</property>
-                      </packing>
-                    </child>
-                  </object>
-                </child>
-              </object>
-            </child>
-            <child>
-              <object class="GtkListBoxRow" id="listboxrow_multimon_multi_show_clock">
-                <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <child>
-                  <object class="GtkGrid" id="grid_multimon_multi_show_clock">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="margin_left">12</property>
-                    <property name="margin_right">12</property>
-                    <property name="margin_top">12</property>
-                    <property name="margin_bottom">12</property>
-                    <property name="row_spacing">12</property>
-                    <property name="column_spacing">32</property>
-                    <child>
-                      <object class="GtkLabel" id="multimon_multi_show_clock_label">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="hexpand">True</property>
-                        <property name="label" translatable="yes">Display the clock on all monitors</property>
-                        <property name="use_markup">True</property>
-                        <property name="xalign">0</property>
-                      </object>
-                      <packing>
-                        <property name="left_attach">0</property>
-                        <property name="top_attach">0</property>
-                      </packing>
-                    </child>
-                    <child>
-                      <object class="GtkSwitch" id="multimon_multi_show_clock_switch">
-                        <property name="visible">True</property>
-                        <property name="can_focus">True</property>
-                        <property name="halign">end</property>
-                        <property name="valign">center</property>
-                      </object>
-                      <packing>
-                        <property name="left_attach">1</property>
-                        <property name="top_attach">0</property>
-                      </packing>
-                    </child>
-                  </object>
-                </child>
-              </object>
-            </child>
-            <child>
-              <object class="GtkListBoxRow" id="listboxrow_multimon_multi_show_status_menu">
-                <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <child>
-                  <object class="GtkGrid" id="grid_multimon_multi_show_status_menu">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="margin_left">12</property>
-                    <property name="margin_right">12</property>
-                    <property name="margin_top">12</property>
-                    <property name="margin_bottom">12</property>
-                    <property name="row_spacing">12</property>
-                    <property name="column_spacing">32</property>
-                    <child>
-                      <object class="GtkLabel" id="multimon_multi_show_status_menu_label">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="hexpand">True</property>
-                        <property name="label" translatable="yes">Display the status menu on all monitors</property>
-                        <property name="use_markup">True</property>
-                        <property name="xalign">0</property>
-                      </object>
-                      <packing>
-                        <property name="left_attach">0</property>
-                        <property name="top_attach">0</property>
-                      </packing>
-                    </child>
-                    <child>
-                      <object class="GtkSwitch" id="multimon_multi_show_status_menu_switch">
-                        <property name="visible">True</property>
-                        <property name="can_focus">True</property>
-                        <property name="halign">end</property>
-                        <property name="valign">center</property>
-                      </object>
-                      <packing>
-                        <property name="left_attach">1</property>
-                        <property name="top_attach">0</property>
                       </packing>
                     </child>
                   </object>
@@ -813,7 +611,7 @@
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="hexpand">True</property>
-                        <property name="label" translatable="yes">Indicator height (px)</property>
+                        <property name="label" translatable="yes">Indicator size (px)</property>
                         <property name="xalign">0</property>
                       </object>
                       <packing>
@@ -1430,6 +1228,49 @@
                     </child>
                     <child>
                       <object class="GtkColorButton" id="group_apps_label_font_color_colorbutton">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">end</property>
+                      </object>
+                      <packing>
+                        <property name="left_attach">1</property>
+                        <property name="top_attach">0</property>
+                      </packing>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBoxRow" id="listbox_group_apps_label_font_color_minimized">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <child>
+                  <object class="GtkGrid" id="grid_group_apps_label_font_color_minimized">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="margin_left">12</property>
+                    <property name="margin_right">12</property>
+                    <property name="margin_top">12</property>
+                    <property name="margin_bottom">12</property>
+                    <property name="column_spacing">32</property>
+                    <child>
+                      <object class="GtkLabel" id="group_apps_label_font_color_minimized_label">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="hexpand">True</property>
+                        <property name="label" translatable="yes">Font color of the minimized application titles</property>
+                        <property name="use_markup">True</property>
+                        <property name="xalign">0</property>
+                      </object>
+                      <packing>
+                        <property name="left_attach">0</property>
+                        <property name="top_attach">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkColorButton" id="group_apps_label_font_color_minimized_colorbutton">
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
@@ -2195,22 +2036,22 @@
     <property name="page_increment">100</property>
   </object>
   <object class="GtkAdjustment" id="leftbox_padding_adjustment">
-    <property name="lower">0.33000000000000002</property>
+    <property name="lower">0.33</property>
     <property name="upper">1</property>
     <property name="step_increment">0.01</property>
-    <property name="page_increment">0.10000000000000001</property>
+    <property name="page_increment">0.1</property>
   </object>
   <object class="GtkAdjustment" id="leftbox_size_adjustment">
-    <property name="lower">0.33000000000000002</property>
+    <property name="lower">0.33</property>
     <property name="upper">1</property>
     <property name="step_increment">0.01</property>
-    <property name="page_increment">0.10000000000000001</property>
+    <property name="page_increment">0.1</property>
   </object>
   <object class="GtkAdjustment" id="panel_size_adjustment">
-    <property name="lower">0.33000000000000002</property>
+    <property name="lower">0.33</property>
     <property name="upper">1</property>
     <property name="step_increment">0.01</property>
-    <property name="page_increment">0.10000000000000001</property>
+    <property name="page_increment">0.1</property>
   </object>
   <object class="GtkAdjustment" id="peek_mode_opacity_adjustment">
     <property name="upper">255</property>
@@ -2252,6 +2093,12 @@
   <object class="GtkAdjustment" id="preview_title_font_size_adjustment">
     <property name="lower">6</property>
     <property name="upper">24</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">100</property>
+  </object>
+  <object class="GtkAdjustment" id="preview_custom_icon_size_adjustment">
+    <property name="lower">8</property>
+    <property name="upper">48</property>
     <property name="step_increment">1</property>
     <property name="page_increment">100</property>
   </object>
@@ -2308,7 +2155,7 @@
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="hexpand">True</property>
-                        <property name="label" translatable="yes">Time (ms) before showing (100 is default)</property>
+                        <property name="label" translatable="yes">Time (ms) before showing (400 is default)</property>
                         <property name="use_markup">True</property>
                         <property name="xalign">0</property>
                       </object>
@@ -2907,6 +2754,92 @@
                       </packing>
                     </child>
                     <child>
+                      <object class="GtkGrid" id="grid_preview_custom_icon_size">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="margin_top">12</property>
+                        <property name="column_spacing">32</property>
+                        <child>
+                            <object class="GtkBox">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="spacing">8</property>
+                                <child>
+                                  <object class="GtkSwitch" id="preview_custom_icon_size_switch">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="halign">end</property>
+                                    <property name="valign">center</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkSpinButton" id="preview_custom_icon_size_spinbutton">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="halign">end</property>
+                                    <property name="width_chars">4</property>
+                                    <property name="text">6</property>
+                                    <property name="adjustment">preview_custom_icon_size_adjustment</property>
+                                    <property name="numeric">True</property>
+                                    <property name="value">6</property>
+                                  </object>
+                                  <packing>
+                                    <property name="left_attach">1</property>
+                                    <property name="top_attach">0</property>
+                                    <property name="position">2</property>
+                                  </packing>
+                                </child>
+                            </object>
+                            <packing>
+                                <property name="left_attach">1</property>
+                            </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="preview_custom_icon_size_label">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="hexpand">True</property>
+                            <property name="label" translatable="yes">Icon size (px) of the window preview</property>
+                            <property name="use_markup">True</property>
+                            <property name="xalign">0</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">0</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="preview_custom_icon_size_description">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="hexpand">True</property>
+                            <property name="label" translatable="yes">If disabled, the previews icon size will be based on headerbar size</property>
+                            <property name="wrap">True</property>
+                            <property name="max_width_chars">40</property>
+                            <property name="xalign">0</property>
+                            <style>
+                              <class name="dim-label"/>
+                            </style>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">1</property>
+                            <property name="width">2</property>
+                          </packing>
+                        </child>
+                      </object>
+                      <packing>
+                        <property name="left_attach">0</property>
+                        <property name="top_attach">1</property>
+                        <property name="width">2</property>
+                      </packing>
+                    </child>
+                    <child>
                       <object class="GtkGrid" id="grid_preview_title_size">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
@@ -2945,7 +2878,7 @@
                       </object>
                       <packing>
                         <property name="left_attach">0</property>
-                        <property name="top_attach">1</property>
+                        <property name="top_attach">2</property>
                         <property name="width">2</property>
                       </packing>
                     </child>
@@ -2990,7 +2923,7 @@
                       </object>
                       <packing>
                         <property name="left_attach">0</property>
-                        <property name="top_attach">2</property>
+                        <property name="top_attach">3</property>
                         <property name="width">2</property>
                       </packing>
                     </child>
@@ -3029,7 +2962,7 @@
                       </object>
                       <packing>
                         <property name="left_attach">0</property>
-                        <property name="top_attach">3</property>
+                        <property name="top_attach">4</property>
                         <property name="width">2</property>
                       </packing>
                     </child>
@@ -3388,6 +3321,67 @@
                   <packing>
                     <property name="left_attach">0</property>
                     <property name="top_attach">1</property>
+                  </packing>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkListBoxRow" id="listboxrow_scroll_panel_options_show_ws_popup">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <child>
+              <object class="GtkGrid" id="grid_scroll_panel_options_show_ws_popup">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="margin_left">12</property>
+                <property name="margin_right">12</property>
+                <property name="margin_top">12</property>
+                <property name="margin_bottom">12</property>
+                <property name="column_spacing">32</property>
+                <child>
+                  <object class="GtkLabel" id="scroll_panel_options_show_ws_popup_label">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="hexpand">True</property>
+                    <property name="label" translatable="yes">Show popup when changing workspace</property>
+                    <property name="use_markup">True</property>
+                    <property name="xalign">0</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="scroll_panel_options_show_ws_popup_description">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="hexpand">True</property>
+                    <property name="label" translatable="yes">This affects workspace popup when scrolling on the panel only.</property>
+                    <property name="wrap">True</property>
+                    <property name="xalign">0</property>
+                    <style>
+                      <class name="dim-label"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkSwitch" id="scroll_panel_options_show_ws_popup_switch">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="halign">end</property>
+                    <property name="valign">center</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">0</property>
+                    <property name="height">2</property>
                   </packing>
                 </child>
               </object>
@@ -3936,6 +3930,102 @@
         <property name="position">1</property>
       </packing>
     </child>
+    <child>
+      <object class="GtkListBoxRow" id="listboxrow_show_applications_esc_key">
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <child>
+          <object class="GtkGrid" id="grid_show_applications_esc_key">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_left">12</property>
+            <property name="margin_right">12</property>
+            <property name="margin_top">12</property>
+            <property name="margin_bottom">12</property>
+            <property name="column_spacing">32</property>
+            <child>
+              <object class="GtkSwitch" id="show_applications_esc_key_switch">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="halign">end</property>
+                <property name="valign">center</property>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="show_applications_esc_key_label">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="hexpand">True</property>
+                <property name="label" translatable="yes">Override escape key and return to desktop</property>
+                <property name="use_markup">True</property>
+                <property name="xalign">0</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+      </object>
+      <packing>
+        <property name="expand">False</property>
+        <property name="fill">True</property>
+        <property name="position">2</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkListBoxRow" id="listboxrow17">
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <child>
+          <object class="GtkGrid" id="shrink_dash3">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_left">12</property>
+            <property name="margin_right">12</property>
+            <property name="margin_top">12</property>
+            <property name="margin_bottom">12</property>
+            <property name="column_spacing">32</property>
+            <child>
+              <object class="GtkLabel" id="shrink_dash_label3">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="hexpand">True</property>
+                <property name="label" translatable="yes">Animate &lt;i&gt;Show Applications&lt;/i&gt;.</property>
+                <property name="use_markup">True</property>
+                <property name="xalign">0</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkSwitch" id="application_button_animation_switch">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="halign">end</property>
+                <property name="valign">center</property>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+      </object>
+      <packing>
+        <property name="expand">False</property>
+        <property name="fill">True</property>
+        <property name="position">3</property>
+      </packing>
+    </child>
   </object>
   <object class="GtkAdjustment" id="show_showdesktop_delay_adjustment">
     <property name="upper">5000</property>
@@ -3974,6 +4064,7 @@
                 <property name="margin_right">12</property>
                 <property name="margin_top">12</property>
                 <property name="margin_bottom">12</property>
+                <property name="row_spacing">4</property>
                 <property name="column_spacing">32</property>
                 <child>
                   <object class="GtkLabel" id="show_showdesktop_width_label">
@@ -4001,6 +4092,59 @@
                   <packing>
                     <property name="left_attach">1</property>
                     <property name="top_attach">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="override_show_desktop_line_color_label">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="hexpand">True</property>
+                    <property name="label" translatable="yes">Override Show Desktop line color</property>
+                    <property name="xalign">0</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="override_show_desktop_line_color_box">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="spacing">12</property>
+                    <property name="halign">end</property>
+                    <child>
+                      <object class="GtkColorButton" id="override_show_desktop_line_color_colorbutton">
+                         <property name="visible">True</property>
+                         <property name="can_focus">True</property>
+                         <property name="receives_default">True</property>
+                         <property name="halign">end</property>
+                         <property name="use_alpha">True</property>
+                      </object>
+                      <packing>
+                         <property name="expand">False</property>
+                         <property name="fill">True</property>
+                         <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkSwitch" id="override_show_desktop_line_color_switch">
+                         <property name="visible">True</property>
+                         <property name="can_focus">True</property>
+                         <property name="halign">end</property>
+                         <property name="valign">center</property>
+                      </object>
+                      <packing>
+                         <property name="expand">False</property>
+                         <property name="fill">True</property>
+                         <property name="position">1</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                     <property name="left_attach">1</property>
+                     <property name="top_attach">0</property>
+                     <property name="top_attach">1</property>
                   </packing>
                 </child>
               </object>
@@ -4132,10 +4276,10 @@
     </child>
   </object>
   <object class="GtkAdjustment" id="statusicon_padding_adjustment">
-    <property name="lower">0.33000000000000002</property>
+    <property name="lower">0.33</property>
     <property name="upper">1</property>
     <property name="step_increment">0.01</property>
-    <property name="page_increment">0.10000000000000001</property>
+    <property name="page_increment">0.1</property>
   </object>
   <object class="GtkAdjustment" id="trans_anim_time_adjustment">
     <property name="upper">2000</property>
@@ -4371,22 +4515,20 @@
     </child>
   </object>
   <object class="GtkAdjustment" id="tray_padding_adjustment">
-    <property name="lower">0.33000000000000002</property>
+    <property name="lower">0.33</property>
     <property name="upper">1</property>
     <property name="step_increment">0.01</property>
-    <property name="page_increment">0.10000000000000001</property>
+    <property name="page_increment">0.1</property>
   </object>
   <object class="GtkAdjustment" id="tray_size_adjustment">
-    <property name="lower">0.33000000000000002</property>
+    <property name="lower">0.33</property>
     <property name="upper">1</property>
     <property name="step_increment">0.01</property>
-    <property name="page_increment">0.10000000000000001</property>
+    <property name="page_increment">0.1</property>
   </object>
   <object class="GtkNotebook" id="settings_notebook">
     <property name="visible">True</property>
     <property name="can_focus">True</property>
-    <property name="margin_left">6</property>
-    <property name="margin_right">6</property>
     <child>
       <object class="GtkBox" id="position">
         <property name="visible">True</property>
@@ -4397,260 +4539,6 @@
         <property name="margin_bottom">24</property>
         <property name="orientation">vertical</property>
         <property name="spacing">24</property>
-        <child>
-          <object class="GtkFrame" id="panel_display">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="label_xalign">0</property>
-            <property name="shadow_type">in</property>
-            <child>
-              <object class="GtkListBox" id="panel_display_listbox">
-                <property name="visible">True</property>
-                <property name="can_focus">False</property>
-                <property name="selection_mode">none</property>
-                <child>
-                  <object class="GtkListBoxRow" id="panel_position_listboxrow">
-                    <property name="width_request">100</property>
-                    <property name="visible">True</property>
-                    <property name="can_focus">True</property>
-                    <child>
-                      <object class="GtkBox" id="panel_position_box">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="margin_left">12</property>
-                        <property name="margin_right">12</property>
-                        <property name="margin_top">12</property>
-                        <property name="margin_bottom">12</property>
-                        <property name="spacing">32</property>
-                        <child>
-                          <object class="GtkLabel" id="panel_position_label">
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="hexpand">True</property>
-                            <property name="label" translatable="yes">Panel screen position</property>
-                            <property name="xalign">0</property>
-                          </object>
-                          <packing>
-                            <property name="expand">False</property>
-                            <property name="fill">True</property>
-                            <property name="position">0</property>
-                          </packing>
-                        </child>
-                        <child>
-                          <object class="GtkBox" id="panel_position_butttons_box">
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="spacing">32</property>
-                            <child>
-                              <object class="GtkRadioButton" id="position_bottom_button">
-                                <property name="label" translatable="yes">Bottom</property>
-                                <property name="visible">True</property>
-                                <property name="can_focus">True</property>
-                                <property name="receives_default">False</property>
-                                <property name="halign">center</property>
-                                <property name="valign">center</property>
-                                <property name="xalign">0</property>
-                                <property name="active">True</property>
-                                <property name="draw_indicator">True</property>
-                                <signal name="toggled" handler="position_bottom_button_toggled_cb" swapped="no"/>
-                              </object>
-                              <packing>
-                                <property name="expand">False</property>
-                                <property name="fill">True</property>
-                                <property name="position">0</property>
-                              </packing>
-                            </child>
-                            <child>
-                              <object class="GtkRadioButton" id="position_top_button">
-                                <property name="label" translatable="yes">Top</property>
-                                <property name="visible">True</property>
-                                <property name="can_focus">True</property>
-                                <property name="receives_default">False</property>
-                                <property name="halign">center</property>
-                                <property name="valign">center</property>
-                                <property name="xalign">0</property>
-                                <property name="image_position">bottom</property>
-                                <property name="draw_indicator">True</property>
-                                <property name="group">position_bottom_button</property>
-                                <signal name="toggled" handler="position_top_button_toggled_cb" swapped="no"/>
-                              </object>
-                              <packing>
-                                <property name="expand">False</property>
-                                <property name="fill">True</property>
-                                <property name="position">1</property>
-                              </packing>
-                            </child>
-                            <child>
-                              <object class="GtkRadioButton" id="position_left_button">
-                                <property name="label" translatable="yes">Left</property>
-                                <property name="visible">True</property>
-                                <property name="can_focus">True</property>
-                                <property name="receives_default">False</property>
-                                <property name="halign">center</property>
-                                <property name="valign">center</property>
-                                <property name="xalign">0</property>
-                                <property name="image_position">bottom</property>
-                                <property name="draw_indicator">True</property>
-                                <property name="group">position_bottom_button</property>
-                                <signal name="toggled" handler="position_left_button_toggled_cb" swapped="no"/>
-                              </object>
-                              <packing>
-                                <property name="expand">False</property>
-                                <property name="fill">True</property>
-                                <property name="position">2</property>
-                              </packing>
-                            </child>
-                            <child>
-                              <object class="GtkRadioButton" id="position_right_button">
-                                <property name="label" translatable="yes">Right</property>
-                                <property name="visible">True</property>
-                                <property name="can_focus">True</property>
-                                <property name="receives_default">False</property>
-                                <property name="halign">center</property>
-                                <property name="valign">center</property>
-                                <property name="xalign">0</property>
-                                <property name="image_position">bottom</property>
-                                <property name="draw_indicator">True</property>
-                                <property name="group">position_bottom_button</property>
-                                <signal name="toggled" handler="position_right_button_toggled_cb" swapped="no"/>
-                              </object>
-                              <packing>
-                                <property name="expand">False</property>
-                                <property name="fill">True</property>
-                                <property name="position">3</property>
-                              </packing>
-                            </child>
-                          </object>
-                          <packing>
-                            <property name="expand">False</property>
-                            <property name="fill">True</property>
-                            <property name="position">1</property>
-                          </packing>
-                        </child>
-                      </object>
-                    </child>
-                  </object>
-                </child>
-              </object>
-            </child>
-            <child type="label_item">
-              <placeholder/>
-            </child>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">0</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkFrame" id="taskbar_display">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="label_xalign">0</property>
-            <property name="shadow_type">in</property>
-            <child>
-              <object class="GtkListBox" id="taskbar_display_listbox">
-                <property name="visible">True</property>
-                <property name="can_focus">False</property>
-                <property name="selection_mode">none</property>
-                <child>
-                  <object class="GtkListBoxRow" id="taskbar_position_listboxrow">
-                    <property name="width_request">100</property>
-                    <property name="visible">True</property>
-                    <property name="can_focus">True</property>
-                    <child>
-                      <object class="GtkGrid" id="taskbar_position_grid">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="margin_left">12</property>
-                        <property name="margin_right">12</property>
-                        <property name="margin_top">12</property>
-                        <property name="margin_bottom">12</property>
-                        <property name="row_spacing">32</property>
-                        <property name="column_spacing">32</property>
-                        <child>
-                          <object class="GtkLabel" id="taskbar_position_label">
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="hexpand">True</property>
-                            <property name="label" translatable="yes">Taskbar position</property>
-                            <property name="xalign">0</property>
-                          </object>
-                          <packing>
-                            <property name="left_attach">0</property>
-                            <property name="top_attach">0</property>
-                          </packing>
-                        </child>
-                        <child>
-                          <object class="GtkComboBoxText" id="taskbar_position_combo">
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="valign">center</property>
-                          </object>
-                          <packing>
-                            <property name="left_attach">1</property>
-                            <property name="top_attach">0</property>
-                          </packing>
-                        </child>
-                      </object>
-                    </child>
-                  </object>
-                </child>
-                <child>
-                  <object class="GtkListBoxRow" id="location_clock_listboxrow">
-                    <property name="visible">True</property>
-                    <property name="can_focus">True</property>
-                    <child>
-                      <object class="GtkGrid" id="location_clock_grid">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="margin_left">12</property>
-                        <property name="margin_right">12</property>
-                        <property name="margin_top">12</property>
-                        <property name="margin_bottom">12</property>
-                        <property name="row_spacing">32</property>
-                        <property name="column_spacing">32</property>
-                        <child>
-                          <object class="GtkLabel" id="location_clock_label">
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="hexpand">True</property>
-                            <property name="label" translatable="yes">Clock location</property>
-                            <property name="xalign">0</property>
-                          </object>
-                          <packing>
-                            <property name="left_attach">0</property>
-                            <property name="top_attach">0</property>
-                          </packing>
-                        </child>
-                        <child>
-                          <object class="GtkComboBoxText" id="location_clock_combo">
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="valign">center</property>
-                          </object>
-                          <packing>
-                            <property name="left_attach">1</property>
-                            <property name="top_attach">0</property>
-                          </packing>
-                        </child>
-                      </object>
-                    </child>
-                  </object>
-                </child>
-              </object>
-            </child>
-            <child type="label_item">
-              <placeholder/>
-            </child>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">2</property>
-          </packing>
-        </child>
         <child>
           <object class="GtkFrame" id="multimon_frame">
             <property name="visible">True</property>
@@ -4716,6 +4604,7 @@
                         <property name="margin_right">12</property>
                         <property name="margin_top">12</property>
                         <property name="margin_bottom">12</property>
+                        <property name="row_spacing">6</property>
                         <property name="column_spacing">32</property>
                         <child>
                           <object class="GtkLabel" id="multimon_multi_label">
@@ -4732,48 +4621,11 @@
                           </packing>
                         </child>
                         <child>
-                          <object class="GtkBox" id="multimon_multi_box">
+                          <object class="GtkSwitch" id="multimon_multi_switch">
                             <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="spacing">6</property>
-                            <child>
-                              <object class="GtkButton" id="multimon_multi_options_button">
-                                <property name="visible">True</property>
-                                <property name="can_focus">True</property>
-                                <property name="receives_default">True</property>
-                                <property name="halign">center</property>
-                                <property name="valign">center</property>
-                                <property name="xalign">0.46000000834465027</property>
-                                <child>
-                                  <object class="GtkImage" id="image_multimon_multi_options">
-                                    <property name="visible">True</property>
-                                    <property name="can_focus">False</property>
-                                    <property name="icon_name">emblem-system-symbolic</property>
-                                  </object>
-                                </child>
-                                <style>
-                                  <class name="circular"/>
-                                </style>
-                              </object>
-                              <packing>
-                                <property name="expand">False</property>
-                                <property name="fill">True</property>
-                                <property name="position">0</property>
-                              </packing>
-                            </child>
-                            <child>
-                              <object class="GtkSwitch" id="multimon_multi_switch">
-                                <property name="visible">True</property>
-                                <property name="can_focus">True</property>
-                                <property name="halign">end</property>
-                                <property name="valign">center</property>
-                              </object>
-                              <packing>
-                                <property name="expand">False</property>
-                                <property name="fill">True</property>
-                                <property name="position">1</property>
-                              </packing>
-                            </child>
+                            <property name="can_focus">True</property>
+                            <property name="halign">end</property>
+                            <property name="valign">center</property>
                           </object>
                           <packing>
                             <property name="left_attach">1</property>
@@ -4793,7 +4645,7 @@
           <packing>
             <property name="expand">False</property>
             <property name="fill">True</property>
-            <property name="position">3</property>
+            <property name="position">0</property>
           </packing>
         </child>
         <child>
@@ -4916,7 +4768,218 @@
           <packing>
             <property name="expand">False</property>
             <property name="fill">True</property>
-            <property name="position">4</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFrame" id="taskbar_display">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label_xalign">0</property>
+            <property name="shadow_type">in</property>
+            <child>
+              <object class="GtkBox" id="taskbar_display_box">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkGrid" id="taskbar_position_grid">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="margin_left">12</property>
+                    <property name="margin_right">12</property>
+                    <property name="margin_top">12</property>
+                    <property name="margin_bottom">12</property>
+                    <child>
+                      <object class="GtkLabel" id="taskbar_position_label">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="hexpand">True</property>
+                        <property name="label" translatable="yes">Order and positions on monitor</property>
+                        <property name="xalign">0</property>
+                      </object>
+                      <packing>
+                        <property name="left_attach">0</property>
+                        <property name="top_attach">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkComboBoxText" id="taskbar_position_monitor_combo">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="valign">center</property>
+                      </object>
+                      <packing>
+                        <property name="left_attach">1</property>
+                        <property name="top_attach">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkCheckButton" id="taskbar_position_sync_button">
+                        <property name="label" translatable="yes">Apply changes to all monitors</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">False</property>
+                        <property name="margin_start">12</property>
+                        <property name="draw_indicator">True</property>
+                      </object>
+                      <packing>
+                        <property name="left_attach">0</property>
+                        <property name="top_attach">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkBox" id="panel_position_box">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="margin_top">18</property>
+                        <property name="margin_bottom">6</property>
+                        <property name="spacing">32</property>
+                        <child>
+                          <object class="GtkLabel" id="panel_position_label">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="hexpand">True</property>
+                            <property name="label" translatable="yes">Panel screen position</property>
+                            <property name="xalign">0</property>
+                          </object>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="fill">True</property>
+                            <property name="position">0</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkBox" id="panel_position_butttons_box">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="spacing">32</property>
+                            <child>
+                              <object class="GtkRadioButton" id="position_bottom_button">
+                                <property name="label" translatable="yes">Bottom</property>
+                                <property name="visible">True</property>
+                                <property name="can_focus">True</property>
+                                <property name="receives_default">False</property>
+                                <property name="halign">center</property>
+                                <property name="valign">center</property>
+                                <property name="xalign">0</property>
+                                <property name="active">True</property>
+                                <property name="draw_indicator">True</property>
+                                <signal name="clicked" handler="position_bottom_button_clicked_cb" swapped="no"/>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">0</property>
+                              </packing>
+                            </child>
+                            <child>
+                              <object class="GtkRadioButton" id="position_top_button">
+                                <property name="label" translatable="yes">Top</property>
+                                <property name="visible">True</property>
+                                <property name="can_focus">True</property>
+                                <property name="receives_default">False</property>
+                                <property name="halign">center</property>
+                                <property name="valign">center</property>
+                                <property name="xalign">0</property>
+                                <property name="image_position">bottom</property>
+                                <property name="draw_indicator">True</property>
+                                <property name="group">position_bottom_button</property>
+                                <signal name="clicked" handler="position_top_button_clicked_cb" swapped="no"/>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">1</property>
+                              </packing>
+                            </child>
+                            <child>
+                              <object class="GtkRadioButton" id="position_left_button">
+                                <property name="label" translatable="yes">Left</property>
+                                <property name="visible">True</property>
+                                <property name="can_focus">True</property>
+                                <property name="receives_default">False</property>
+                                <property name="halign">center</property>
+                                <property name="valign">center</property>
+                                <property name="xalign">0</property>
+                                <property name="image_position">bottom</property>
+                                <property name="draw_indicator">True</property>
+                                <property name="group">position_bottom_button</property>
+                                <signal name="clicked" handler="position_left_button_clicked_cb" swapped="no"/>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">2</property>
+                              </packing>
+                            </child>
+                            <child>
+                              <object class="GtkRadioButton" id="position_right_button">
+                                <property name="label" translatable="yes">Right</property>
+                                <property name="visible">True</property>
+                                <property name="can_focus">True</property>
+                                <property name="receives_default">False</property>
+                                <property name="halign">center</property>
+                                <property name="valign">center</property>
+                                <property name="xalign">0</property>
+                                <property name="image_position">bottom</property>
+                                <property name="draw_indicator">True</property>
+                                <property name="group">position_bottom_button</property>
+                                <signal name="clicked" handler="position_right_button_clicked_cb" swapped="no"/>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">3</property>
+                              </packing>
+                            </child>
+                          </object>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="fill">True</property>
+                            <property name="position">1</property>
+                          </packing>
+                        </child>
+                      </object>
+                      <packing>
+                        <property name="left_attach">0</property>
+                        <property name="top_attach">2</property>
+                        <property name="width">2</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkListBox" id="taskbar_display_listbox">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="margin_bottom">6</property>
+                    <property name="selection_mode">none</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+              </object>
+            </child>
+            <child type="label_item">
+              <placeholder/>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">2</property>
           </packing>
         </child>
       </object>
@@ -4963,8 +5026,8 @@
                         <property name="can_focus">False</property>
                         <property name="margin_left">12</property>
                         <property name="margin_right">12</property>
-                        <property name="margin_top">12</property>
-                        <property name="margin_bottom">12</property>
+                        <property name="margin_top">6</property>
+                        <property name="margin_bottom">6</property>
                         <property name="column_spacing">32</property>
                         <child>
                           <object class="GtkLabel" id="panel_size_label">
@@ -5012,8 +5075,8 @@
                         <property name="can_focus">False</property>
                         <property name="margin_left">12</property>
                         <property name="margin_right">12</property>
-                        <property name="margin_top">12</property>
-                        <property name="margin_bottom">12</property>
+                        <property name="margin_top">6</property>
+                        <property name="margin_bottom">6</property>
                         <property name="row_spacing">12</property>
                         <property name="column_spacing">32</property>
                         <child>
@@ -5062,8 +5125,8 @@
                         <property name="can_focus">False</property>
                         <property name="margin_left">12</property>
                         <property name="margin_right">12</property>
-                        <property name="margin_top">12</property>
-                        <property name="margin_bottom">12</property>
+                        <property name="margin_top">6</property>
+                        <property name="margin_bottom">6</property>
                         <property name="column_spacing">32</property>
                         <child>
                           <object class="GtkLabel" id="appicon_padding_label">
@@ -5912,18 +5975,6 @@
                           </packing>
                         </child>
                         <child>
-                          <object class="GtkSwitch" id="show_runnning_apps_switch">
-                            <property name="visible">True</property>
-                            <property name="can_focus">True</property>
-                            <property name="halign">end</property>
-                            <property name="valign">center</property>
-                          </object>
-                          <packing>
-                            <property name="left_attach">1</property>
-                            <property name="top_attach">1</property>
-                          </packing>
-                        </child>
-                        <child>
                           <object class="GtkLabel" id="show_running_apps_label">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
@@ -5933,136 +5984,11 @@
                           </object>
                           <packing>
                             <property name="left_attach">0</property>
-                            <property name="top_attach">1</property>
-                          </packing>
-                        </child>
-                      </object>
-                    </child>
-                  </object>
-                </child>
-                <child>
-                  <object class="GtkListBoxRow" id="listboxrow17">
-                    <property name="visible">True</property>
-                    <property name="can_focus">True</property>
-                    <child>
-                      <object class="GtkGrid" id="shrink_dash3">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="margin_left">12</property>
-                        <property name="margin_right">12</property>
-                        <property name="margin_top">12</property>
-                        <property name="margin_bottom">12</property>
-                        <property name="column_spacing">32</property>
-                        <child>
-                          <object class="GtkLabel" id="shrink_dash_label3">
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="hexpand">True</property>
-                            <property name="label" translatable="yes">Show &lt;i&gt;Applications&lt;/i&gt; icon</property>
-                            <property name="use_markup">True</property>
-                            <property name="xalign">0</property>
-                          </object>
-                          <packing>
-                            <property name="left_attach">0</property>
-                            <property name="top_attach">0</property>
+                            <property name="top_attach">2</property>
                           </packing>
                         </child>
                         <child>
-                          <object class="GtkCheckButton" id="application_button_animation_button">
-                            <property name="visible">True</property>
-                            <property name="can_focus">True</property>
-                            <property name="receives_default">False</property>
-                            <property name="margin_left">12</property>
-                            <property name="margin_top">3</property>
-                            <property name="xalign">0</property>
-                            <property name="yalign">0.5</property>
-                            <property name="draw_indicator">True</property>
-                            <child>
-                              <object class="GtkLabel" id="label3">
-                                <property name="name">4</property>
-                                <property name="visible">True</property>
-                                <property name="can_focus">False</property>
-                                <property name="margin_left">4</property>
-                                <property name="label" translatable="yes">Animate &lt;i&gt;Show Applications&lt;/i&gt;.</property>
-                                <property name="use_markup">True</property>
-                              </object>
-                            </child>
-                          </object>
-                          <packing>
-                            <property name="left_attach">0</property>
-                            <property name="top_attach">1</property>
-                            <property name="width">2</property>
-                          </packing>
-                        </child>
-                        <child>
-                          <object class="GtkBox" id="show_application_button_box">
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="spacing">6</property>
-                            <child>
-                              <object class="GtkButton" id="show_application_options_button">
-                                <property name="visible">True</property>
-                                <property name="can_focus">True</property>
-                                <property name="receives_default">True</property>
-                                <property name="halign">center</property>
-                                <property name="valign">center</property>
-                                <property name="xalign">0.46000000834465027</property>
-                                <child>
-                                  <object class="GtkImage" id="show_application_options_options">
-                                    <property name="visible">True</property>
-                                    <property name="can_focus">False</property>
-                                    <property name="icon_name">emblem-system-symbolic</property>
-                                  </object>
-                                </child>
-                                <style>
-                                  <class name="circular"/>
-                                </style>
-                              </object>
-                              <packing>
-                                <property name="expand">False</property>
-                                <property name="fill">True</property>
-                                <property name="position">0</property>
-                              </packing>
-                            </child>
-                            <child>
-                              <object class="GtkSwitch" id="show_applications_button_switch">
-                                <property name="visible">True</property>
-                                <property name="can_focus">True</property>
-                                <property name="halign">end</property>
-                                <property name="valign">center</property>
-                              </object>
-                              <packing>
-                                <property name="expand">False</property>
-                                <property name="fill">True</property>
-                                <property name="position">1</property>
-                              </packing>
-                            </child>
-                          </object>
-                          <packing>
-                            <property name="left_attach">1</property>
-                            <property name="top_attach">0</property>
-                          </packing>
-                        </child>
-                      </object>
-                    </child>
-                  </object>
-                </child>
-                <child>
-                  <object class="GtkListBoxRow" id="show_activities_button_row">
-                    <property name="width_request">100</property>
-                    <property name="visible">True</property>
-                    <property name="can_focus">True</property>
-                    <child>
-                      <object class="GtkGrid" id="show_activities_button_grid">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="margin_left">12</property>
-                        <property name="margin_right">12</property>
-                        <property name="margin_top">12</property>
-                        <property name="margin_bottom">12</property>
-                        <property name="column_spacing">32</property>
-                        <child>
-                          <object class="GtkSwitch" id="show_activities_button_switch">
+                          <object class="GtkSwitch" id="show_runnning_apps_switch">
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="halign">end</property>
@@ -6070,102 +5996,33 @@
                           </object>
                           <packing>
                             <property name="left_attach">1</property>
-                            <property name="top_attach">0</property>
+                            <property name="top_attach">2</property>
                           </packing>
                         </child>
                         <child>
-                          <object class="GtkLabel" id="show_activities_button_label">
+                          <object class="GtkSwitch" id="multimon_multi_show_favorites_switch">
                             <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="hexpand">True</property>
-                            <property name="label" translatable="yes">Show &lt;i&gt;Activities&lt;/i&gt; button</property>
-                            <property name="use_markup">True</property>
-                            <property name="xalign">0</property>
-                          </object>
-                          <packing>
-                            <property name="left_attach">0</property>
-                            <property name="top_attach">0</property>
-                          </packing>
-                        </child>
-                      </object>
-                    </child>
-                  </object>
-                </child>
-                <child>
-                  <object class="GtkListBoxRow" id="show_showdesktop_row">
-                    <property name="width_request">100</property>
-                    <property name="visible">True</property>
-                    <property name="can_focus">True</property>
-                    <child>
-                      <object class="GtkGrid" id="show_showdesktop_button_grid">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="margin_left">12</property>
-                        <property name="margin_right">12</property>
-                        <property name="margin_top">12</property>
-                        <property name="margin_bottom">12</property>
-                        <property name="column_spacing">32</property>
-                        <child>
-                          <object class="GtkLabel" id="show_showdesktop_button_label">
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="hexpand">True</property>
-                            <property name="label" translatable="yes">Show &lt;i&gt;Desktop&lt;/i&gt; button</property>
-                            <property name="use_markup">True</property>
-                            <property name="xalign">0</property>
-                          </object>
-                          <packing>
-                            <property name="left_attach">0</property>
-                            <property name="top_attach">0</property>
-                          </packing>
-                        </child>
-                        <child>
-                          <object class="GtkBox" id="show_showdesktop_box">
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="spacing">6</property>
-                            <child>
-                              <object class="GtkButton" id="show_showdesktop_options_button">
-                                <property name="visible">True</property>
-                                <property name="can_focus">True</property>
-                                <property name="receives_default">True</property>
-                                <property name="halign">center</property>
-                                <property name="valign">center</property>
-                                <property name="xalign">0.46000000834465027</property>
-                                <child>
-                                  <object class="GtkImage" id="image_window_previews_options2">
-                                    <property name="visible">True</property>
-                                    <property name="can_focus">False</property>
-                                    <property name="icon_name">emblem-system-symbolic</property>
-                                  </object>
-                                </child>
-                                <style>
-                                  <class name="circular"/>
-                                </style>
-                              </object>
-                              <packing>
-                                <property name="expand">False</property>
-                                <property name="fill">True</property>
-                                <property name="position">0</property>
-                              </packing>
-                            </child>
-                            <child>
-                              <object class="GtkSwitch" id="show_showdesktop_button_switch">
-                                <property name="visible">True</property>
-                                <property name="can_focus">True</property>
-                                <property name="halign">end</property>
-                                <property name="valign">center</property>
-                              </object>
-                              <packing>
-                                <property name="expand">False</property>
-                                <property name="fill">True</property>
-                                <property name="position">1</property>
-                              </packing>
-                            </child>
+                            <property name="can_focus">True</property>
+                            <property name="halign">end</property>
+                            <property name="valign">center</property>
                           </object>
                           <packing>
                             <property name="left_attach">1</property>
-                            <property name="top_attach">0</property>
+                            <property name="top_attach">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="multimon_multi_show_favorites_label">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="hexpand">True</property>
+                            <property name="label" translatable="yes">Show favorite applications on secondary panels</property>
+                            <property name="use_markup">True</property>
+                            <property name="xalign">0</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">1</property>
                           </packing>
                         </child>
                       </object>
@@ -6356,6 +6213,7 @@
                         <property name="margin_right">12</property>
                         <property name="margin_top">12</property>
                         <property name="margin_bottom">12</property>
+                        <property name="row_spacing">6</property>
                         <property name="column_spacing">32</property>
                         <child>
                           <object class="GtkSwitch" id="isolate_workspaces_switch">
@@ -6375,6 +6233,77 @@
                             <property name="can_focus">False</property>
                             <property name="hexpand">True</property>
                             <property name="label" translatable="yes">Isolate Workspaces</property>
+                            <property name="use_markup">True</property>
+                            <property name="xalign">0</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">0</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSwitch" id="multimon_multi_isolate_monitor_switch">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="halign">end</property>
+                            <property name="valign">center</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="multimon_multi_isolate_monitor_label">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="hexpand">True</property>
+                            <property name="label" translatable="yes">Isolate monitors</property>
+                            <property name="use_markup">True</property>
+                            <property name="xalign">0</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">1</property>
+                          </packing>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkListBoxRow" id="clicktoexit_row">
+                    <property name="width_request">100</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <child>
+                      <object class="GtkGrid" id="clicktoexit_grid">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="margin_left">12</property>
+                        <property name="margin_right">12</property>
+                        <property name="margin_top">12</property>
+                        <property name="margin_bottom">12</property>
+                        <property name="row_spacing">6</property>
+                        <property name="column_spacing">32</property>
+                        <child>
+                          <object class="GtkSwitch" id="clicktoexit_switch">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="halign">end</property>
+                            <property name="valign">center</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">0</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="clicktoexit_label">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="hexpand">True</property>
+                            <property name="label" translatable="yes">Click empty space to close overview</property>
                             <property name="use_markup">True</property>
                             <property name="xalign">0</property>
                           </object>
@@ -6764,6 +6693,7 @@
                       <item id="NOTHING" translatable="yes">Do nothing</item>
                       <item id="SWITCH_WORKSPACE" translatable="yes">Switch workspace</item>
                       <item id="CYCLE_WINDOWS" translatable="yes">Cycle windows</item>
+                      <item id="CHANGE_VOLUME" translatable="yes">Change volume</item>
                     </items>
                   </object>
                   <packing>
@@ -6992,9 +6922,9 @@
                         <property name="can_focus">False</property>
                         <property name="margin_left">12</property>
                         <property name="margin_right">12</property>
-                        <property name="margin_top">12</property>
-                        <property name="margin_bottom">12</property>
-                        <property name="row_spacing">20</property>
+                        <property name="margin_top">6</property>
+                        <property name="margin_bottom">6</property>
+                        <property name="row_spacing">12</property>
                         <property name="column_spacing">32</property>
                         <child>
                           <object class="GtkLabel" id="tray_size_label">
@@ -7098,7 +7028,7 @@
                         <property name="margin_right">12</property>
                         <property name="margin_top">12</property>
                         <property name="margin_bottom">12</property>
-                        <property name="row_spacing">20</property>
+                        <property name="row_spacing">12</property>
                         <property name="column_spacing">32</property>
                         <child>
                           <object class="GtkLabel" id="tray_padding_label">
@@ -7230,7 +7160,7 @@
                         <property name="margin_right">12</property>
                         <property name="margin_top">12</property>
                         <property name="margin_bottom">12</property>
-                        <property name="row_spacing">20</property>
+                        <property name="row_spacing">6</property>
                         <property name="column_spacing">32</property>
                         <child>
                           <object class="GtkLabel" id="animate_app_switch_label">
@@ -7318,7 +7248,7 @@
                         <property name="margin_right">12</property>
                         <property name="margin_top">12</property>
                         <property name="margin_bottom">12</property>
-                        <property name="row_spacing">19</property>
+                        <property name="row_spacing">6</property>
                         <property name="column_spacing">32</property>
                         <child>
                           <object class="GtkLabel" id="stockgs_dash_label">
@@ -7346,6 +7276,31 @@
                           </packing>
                         </child>
                         <child>
+                          <object class="GtkLabel" id="stockgs_hotcorner_label">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="hexpand">True</property>
+                            <property name="label" translatable="yes">Force Activities hot corner on primary monitor</property>
+                            <property name="xalign">0</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">3</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSwitch" id="stockgs_hotcorner_switch">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="halign">end</property>
+                            <property name="valign">center</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">3</property>
+                          </packing>
+                        </child>
+                        <child>
                           <object class="GtkLabel" id="stockgs_panelbtn_label">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
@@ -7355,11 +7310,36 @@
                           </object>
                           <packing>
                             <property name="left_attach">0</property>
-                            <property name="top_attach">1</property>
+                            <property name="top_attach">2</property>
                           </packing>
                         </child>
                         <child>
                           <object class="GtkSwitch" id="stockgs_panelbtn_switch">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="halign">end</property>
+                            <property name="valign">center</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">1</property>
+                            <property name="top_attach">2</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="stockgs_top_panel_label">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="hexpand">True</property>
+                            <property name="label" translatable="yes">Keep original gnome-shell top panel</property>
+                            <property name="xalign">0</property>
+                          </object>
+                          <packing>
+                            <property name="left_attach">0</property>
+                            <property name="top_attach">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkSwitch" id="stockgs_top_panel_switch">
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="halign">end</property>

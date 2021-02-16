@@ -3,4 +3,10 @@
 #
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
+
+# QT theming
 QT_QPA_PLATFORMTHEME=qt5ct
+
+# enable video accel via v2l
+LIBVA_DRIVER_NAME=v4l2_request
+LIBVA_V4L2_REQUEST_VIDEO_PATH=/dev/video1

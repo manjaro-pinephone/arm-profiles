@@ -1,4 +1,4 @@
-## Maintained by ?? ##
+## Maintained by Appelgriebsch ##
 
 # Minimal packages
 sudo
@@ -8,30 +8,58 @@ haveged
 inxi
 ncdu
 nano
-dhclient
+dhcpcd
+man-pages
+man-db
 zswap-arm
+upower
+cpupower
 
-# Gnome edition packages
-alsa-firmware
-baobab
-dconf-editor
-hexchat
-gthumb
+# Sound, video and bluetooth
+pavucontrol
+pulseaudio-alsa
+alsa-utils
+bluez
+bluez-utils
+pulseaudio-bluetooth
+pulseaudio-zeroconf
+grilo-plugins
+gst-libav
+
+# Display Manager
+gdm
+
+# Network
+avahi
+networkmanager
+networkmanager-openvpn
+dhclient
+manjaro-hotfixes
+manjaro-settings-samba
+
+# Core GNOME
+eog
 evince
-firefox
-firefox-ublock-origin
-sddm
-sddm-breath2-theme
-chrome-gnome-shell
+file-roller
 gnome-power-manager
 gnome-applets
-gedit 
+gedit
+gedit-plugins
 gnome-calculator
+gnome-characters
 gnome-control-center
 gnome-desktop
 gnome-disk-utility
 gnome-font-viewer
+gnome-getting-started-docs
 gnome-keyring
+gnome-logs
+gnome-maps
+gnome-menus
+gnome-music
+gnome-panel
+gnome-photos
+gnome-power-manager
 gnome-screenshot
 gnome-session
 gnome-settings-daemon
@@ -42,91 +70,31 @@ gnome-system-monitor
 gnome-user-docs
 gnome-user-share
 gnome-terminal
+gnome-tweaks
+gnome-weather
+gufw
+mutter
 nautilus
-papirus-maia-icon-theme
+polkit-gnome
+simple-scan
+sushi
+totem
+tracker
+tracker-miners
+
+# Themes
 qt5ct
-kvantum-qt5 
+qt5-wayland
+kvantum-qt5
 kvantum-theme-matchama
 matcha-gtk-theme
 manjaro-arm-wallpapers
-file-roller
-grilo-plugins
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-gufw
-gvfs-gphoto2
-gvfs-afc
-gvfs
-gvfs-mtp
-gvfs-google
-gvfs-nfs
-gvfs-smb
-ifuse
-mtpfs
-ntfs-3g
-manjaro-hotfixes
-mousetweaks
-mutter
-networkmanager
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-nss-mdns
-numlockx
-openresolv
-flatpak
-polkit-gnome
-powertop
-pulseaudio-alsa
-pulseaudio-bluetooth
-pulseaudio-zeroconf
-bluez
-manjaro-hotfixes
-smplayer
-sushi
-alsa-utils
-avahi
-ntp
-noto-fonts
-terminus-font
-tracker
-tracker-miners
-ttf-bitstream-vera
-ttf-dejavu
-ttf-droid
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
-ttf-bitstream-vera
-wqy-microhei #chinese
-usb_modeswitch
-gnome-tweaks
-manjaro-settings-manager
-mntray
-wget
-tlp
-xdg-user-dirs
-cpu-temp-speed
-htop
-audacious
-mpv
-ffmpeg
-mesa-demos
-xorg-server-xwayland
-xorg-xdpyinfo
-xorg-xhost
-xorg-xmodmap
-xorg-xrdb
-man-pages
-man-db
-wpa_supplicant
-gnome-power-manager
-gnome-panel
-gnome-menus
+papirus-maia-icon-theme
+xcursor-breeze
+
+# Web Browser
+firefox
+firefox-ublock-origin
 
 # Office suite
 libreoffice-fresh
@@ -135,3 +103,61 @@ libreoffice-fresh
 pamac-gtk
 pamac-gnome-integration
 pamac-cli
+
+# Fonts
+ttf-bitstream-vera
+ttf-droid
+ttf-inconsolata
+ttf-font-awesome
+ttf-roboto
+noto-fonts
+noto-fonts-emoji
+wqy-microhei #chinese
+
+# Applications
+dconf-editor
+gcolor3
+libva-v4l2-request
+htop
+manjaro-settings-manager
+mlocate
+wget
+tlp
+cpu-temp-speed
+mntray
+
+# File systems access
+gvfs
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+ifuse
+mtpfs
+ntfs-3g
+mpv
+ffmpeg
+usb_modeswitch
+
+# Optional dependencies file-roller
+p7zip  # 7Z and ARJ archive support
+unrar  # RAR archive support
+
+## Xorg Input Drivers
+xf86-input-elographics
+#xf86-input-evdev
+xf86-input-libinput
+xf86-input-void
+
+## Xorg Server and Graphics
+xdg-user-dirs
+xorg-server
+xorg-server-xwayland
+numlockx
+xorg-twm
+xorg-xinit
+xorg-xkill
+
+## Desktop Utils
+xdg-utils
+xdg-desktop-portal-gtk

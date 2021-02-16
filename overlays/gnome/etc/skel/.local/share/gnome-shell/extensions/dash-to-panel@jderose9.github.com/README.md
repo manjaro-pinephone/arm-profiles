@@ -105,7 +105,9 @@ To install a development version from source, please see the [Installation wiki 
 ## 
 ### FAQ
 
-How do I embed my bottom left notification drawer into the panel like a system tray? [Top Icons Plus](https://extensions.gnome.org/extension/1031/topicons) or [(K)StatusNotifierItem/AppIndicator Support](https://extensions.gnome.org/extension/615/appindicator-support)
+How do I customize the panel? [See the Wiki](https://github.com/home-sweet-gnome/dash-to-panel/wiki/Enable-and-Customize#customize-it)
+
+How do I embed my bottom left notification drawer into the panel like a system tray? [Top Icons Plus](https://extensions.gnome.org/extension/2311/topicons-plus) or [(K)StatusNotifierItem/AppIndicator Support](https://extensions.gnome.org/extension/615/appindicator-support)
 
 How do I add a traditional start menu? [Arc Menu](https://extensions.gnome.org/extension/1228/arc-menu/)
 
@@ -113,13 +115,9 @@ How do I disable the hot corner? [No Topleft Hot Corner](https://extensions.gnom
 
 How do I move the notifications to somewhere other than the top center? [Panel OSD](https://extensions.gnome.org/extension/708/panel-osd)
 
-How do I change workspaces by scrolling the mouse wheel in the empty space? [Top Panel Workspace Scroll](https://extensions.gnome.org/extension/701/top-panel-workspace-scroll/)
-
 How do I display Minimize & Maximize buttons? In the Tweak Tool application, turn on `Windows > Titlebar Buttons > Minimize & Maximize`.
 
 How do I reset the extension to its default settings? `dconf reset -f /org/gnome/shell/extensions/dash-to-panel/`.
-
-Why can't I put the panel vertically on the left or right of the display? Gnome-shell and it's numerous extensions add widgets to the panel. These widgets have been designed using padding and absolute positioning assuming a horizontal layout. At this point in time, I don't think it is possible to allow for a vertical layout and still maintain any sort of reasonable compatibility with many of the other features of Gnome.
 
 ## 
 ### Themes
@@ -171,12 +169,19 @@ Ideas for recursing child actors and assigning inline styles are based on code f
 - @abakkk for centering the taskbar icons in the panel
 - @quasoft for changing of font weight of ungrouped application titles
 - @jordanribera for using icon's dominant color as running indicator color
+- @tper0700 for dynamically building context menu based on system capabilities
+- @levacic for configurable minimized application title font color
+- @l3nn4rt for toggling workspace switch popup
+- @hlechner for adjustable show desktop line color and window preview icon size
 
 #### Bug Fixes: 
-@imrvelj, @Teslator, @bil-elmoussaoui, @brandon-schumann, @sw9, @rockon999 , @lexruee, @3v1n0, @freeroot, @moqmar, @ArtyomZorin, @lkc0987, @saibotk, @vanillajonathan, @Zkdc, @leebickmtu
+@imrvelj, @Teslator, @bil-elmoussaoui, @brandon-schumann, @sw9, @rockon999 , @lexruee, @3v1n0, @freeroot, @moqmar, @ArtyomZorin, @lkc0987, @saibotk, @vanillajonathan, @Zkdc, @leebickmtu, @l3nn4rt, @Melix19
+
+#### Documentation Improvements:
+@BoQsc, @zakkak, @dandv
 
 #### Translations: 
-@frnogueira (pt_BR), @zeten30 (cs), @franglais125 (es), @LaurentTreguier / @SolarLiner (fr), @elsieholmes (uk), @hosiet (zh\_CN), @jonnius / @linuxr01 (de), @urbalazs / @pappfer (hu), @crayxt (kk), @pkomur / @MartinPL / @alex4401 (pl), @AlexGluck / @GoodNike / @rjapolov (ru), @sicklylife-jp / @ryonakano (ja), @oltulu / @TeknoMobil / @daenney (tr), @sbadux (it), @OriginCode / @pan93412 (zh\_TW)
+@frnogueira (pt_BR), @zeten30 (cs), @franglais125 / @calotam / @oeramirez (es), @LaurentTreguier / @SolarLiner (fr), @elsieholmes (uk), @hosiet (zh\_CN), @jonnius / @linuxr01 (de), @urbalazs / @pappfer (hu), @crayxt (kk), @pkomur / @MartinPL / @alex4401 (pl), @AlexGluck / @GoodNike / @rjapolov (ru), @sicklylife-jp / @ryonakano (ja), @oltulu / @TeknoMobil / @daenney (tr), @sbadux / @kowalski7cc / @l3nn4rt (it), @OriginCode / @pan93412 (zh\_TW), @ojn (sv), @frandieguez (gl)
 
 
 ## 

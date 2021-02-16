@@ -37,10 +37,10 @@ var DynamicTransparency = Utils.defineClass({
         this._windowOverlap = false;
         this.currentBackgroundColor = 0;
 
-        this._initialPanelStyle = dtpPanel.get_style();
+        this._initialPanelStyle = dtpPanel.panel.actor.get_style();
         
-        if (this._dtpPanel._leftCorner) {
-            this._initialPanelCornerStyle = dtpPanel._leftCorner.actor.get_style();
+        if (this._dtpPanel.geom.position == St.Side.TOP) {
+            this._initialPanelCornerStyle = dtpPanel.panel._leftCorner.actor.get_style();
         }
 
         this._signalsHandler = new Utils.GlobalSignalsHandler();
@@ -55,18 +55,23 @@ var DynamicTransparency = Utils.defineClass({
         this._signalsHandler.destroy();
         this._proximityManager.removeWatch(this._proximityWatchId);
 
-        this._dtpPanel.set_style(this._initialPanelStyle);
+        this._dtpPanel.panel.actor.set_style(this._initialPanelStyle);
         
-        if (this._dtpPanel._leftCorner) {
-            this._dtpPanel._leftCorner.actor.set_style(this._initialPanelCornerStyle);
-            this._dtpPanel._rightCorner.actor.set_style(this._initialPanelCornerStyle);
+        if (this._dtpPanel.geom.position == St.Side.TOP) {
+            this._dtpPanel.panel._leftCorner.actor.set_style(this._initialPanelCornerStyle);
+            this._dtpPanel.panel._rightCorner.actor.set_style(this._initialPanelCornerStyle);
         }
+    },
+
+    updateExternalStyle: function() {
+        this._updateComplementaryStyles();
+        this._setBackground();
     },
 
     _bindSignals: function() {
         this._signalsHandler.add(
             [
-                St.ThemeContext.get_for_stage(global.stage),
+                Utils.getStageTheme(),
                 'changed',
                 () => this._updateAllAndSet()
             ],
@@ -129,11 +134,11 @@ var DynamicTransparency = Utils.defineClass({
         this._proximityManager.removeWatch(this._proximityWatchId);
 
         if (Me.settings.get_boolean('trans-use-dynamic-opacity')) {
-            let isVertical = Panel.checkIfVertical();
+            let isVertical = this._dtpPanel.checkIfVertical();
             let threshold = Me.settings.get_int('trans-dynamic-distance');
 
             this._proximityWatchId = this._proximityManager.createWatch(
-                this._dtpPanel.panelBox, 
+                this._dtpPanel.panelBox.get_parent(), 
                 Proximity.Mode[Me.settings.get_string('trans-dynamic-behavior')], 
                 isVertical ? threshold : 0, 
                 isVertical ? 0 : threshold, 
@@ -176,7 +181,7 @@ var DynamicTransparency = Utils.defineClass({
     },
 
     _updateComplementaryStyles: function() {
-        let panelThemeNode = this._dtpPanel.get_theme_node();
+        let panelThemeNode = this._dtpPanel.panel.actor.get_theme_node();
 
         this._complementaryStyles = 'border-radius: ' + panelThemeNode.get_border_radius(0) + 'px;';
     },
@@ -201,7 +206,7 @@ var DynamicTransparency = Utils.defineClass({
         this._gradientStyle = '';
 
         if (Me.settings.get_boolean('trans-use-custom-gradient')) {
-            this._gradientStyle += 'background-gradient-direction: ' + (Panel.checkIfVertical() ? 'horizontal;' : 'vertical;') +
+            this._gradientStyle += 'background-gradient-direction: ' + (this._dtpPanel.checkIfVertical() ? 'horizontal;' : 'vertical;') +
                                    'background-gradient-start: ' + Utils.getrgbaColor(Me.settings.get_string('trans-gradient-top-color'), 
                                                                                       Me.settings.get_double('trans-gradient-top-opacity')) + 
                                    'background-gradient-end: ' + Utils.getrgbaColor(Me.settings.get_string('trans-gradient-bottom-color'), 
@@ -215,16 +220,16 @@ var DynamicTransparency = Utils.defineClass({
         let transition = 'transition-duration:' + this.animationDuration;
         let cornerStyle = '-panel-corner-background-color: ' + this.currentBackgroundColor + transition;
 
-        this._dtpPanel.bg.set_style('background-color: ' + this.currentBackgroundColor + transition + this._complementaryStyles);
+        this._dtpPanel.set_style('background-color: ' + this.currentBackgroundColor + transition + this._complementaryStyles);
         
-        if (this._dtpPanel._leftCorner) {
-            this._dtpPanel._leftCorner.actor.set_style(cornerStyle);
-            this._dtpPanel._rightCorner.actor.set_style(cornerStyle);
+        if (this._dtpPanel.geom.position == St.Side.TOP) {
+            this._dtpPanel.panel._leftCorner.actor.set_style(cornerStyle);
+            this._dtpPanel.panel._rightCorner.actor.set_style(cornerStyle);
         }
     },
 
     _setGradient: function() {
-        this._dtpPanel.set_style(
+        this._dtpPanel.panel.actor.set_style(
             'background: none; ' + 
             'border-image: none; ' + 
             'background-image: none; ' +

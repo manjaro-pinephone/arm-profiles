@@ -21,12 +21,11 @@ const Meta = imports.gi.Meta;
 const Shell = imports.gi.Shell;
 const St = imports.gi.St;
 
-const GrabHelper = imports.ui.grabHelper;
+var GrabHelper = imports.ui.grabHelper;
 const Layout = imports.ui.layout;
 const Main = imports.ui.main;
 const OverviewControls = imports.ui.overviewControls;
 const PointerWatcher = imports.ui.pointerWatcher;
-const Tweener = imports.ui.tweener;
 
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 const Panel = Me.imports.panel;
@@ -73,24 +72,24 @@ var Intellihide = Utils.defineClass({
         this._changeEnabledStatus();
     },
 
-    enable: function(reset) {
+    enable: function() {
         this.enabled = true;
         this._monitor = this._dtpPanel.monitor;
         this._animationDestination = -1;
         this._pendingUpdate = false;
         this._hoveredOut = false;
         this._windowOverlap = false;
-        this._translationProp = 'translation_' + (Panel.checkIfVertical() ? 'x' : 'y');
+        this._translationProp = 'translation_' + (this._dtpPanel.checkIfVertical() ? 'x' : 'y');
 
         this._panelBox.translation_y = 0;
         this._panelBox.translation_x = 0;
 
-        this._setTrackPanel(reset, true);
+        this._setTrackPanel(true);
         this._bindGeneralSignals();
 
         if (Me.settings.get_boolean('intellihide-hide-from-windows')) {
             this._proximityWatchId = this._proximityManager.createWatch(
-                this._clipContainer, 
+                this._panelBox.get_parent(), 
                 Proximity.Mode[Me.settings.get_string('intellihide-behaviour')], 
                 0, 0,
                 overlap => { 
@@ -109,7 +108,7 @@ var Intellihide = Utils.defineClass({
             this._proximityManager.removeWatch(this._proximityWatchId);
         }
 
-        this._setTrackPanel(reset, false);
+        this._setTrackPanel(false);
 
         this._signalsHandler.destroy();
         this._timeoutsHandler.destroy();
@@ -150,15 +149,15 @@ var Intellihide = Utils.defineClass({
         }
     },
 
-    _reset: function() {
+    reset: function() {
         this.disable(true);
-        this.enable(true);
+        this.enable();
     },
 
     _changeEnabledStatus: function() {
         let intellihide = Me.settings.get_boolean('intellihide');
         let onlySecondary = Me.settings.get_boolean('intellihide-only-secondary');
-        let enabled = intellihide && (this._dtpPanel.isSecondary || !onlySecondary);
+        let enabled = intellihide && !(this._dtpPanel.isPrimary && onlySecondary);
 
         if (this.enabled !== enabled) {
             this[enabled ? 'enable' : 'disable']();
@@ -175,18 +174,13 @@ var Intellihide = Utils.defineClass({
             [
                 Me.settings, 
                 [
-                    'changed::panel-position',
-                    'changed::panel-size',
                     'changed::intellihide-use-pressure',
                     'changed::intellihide-hide-from-windows',
-                    'changed::intellihide-behaviour'
+                    'changed::intellihide-behaviour',
+                    'changed::intellihide-pressure-threshold',
+                    'changed::intellihide-pressure-time'
                 ],
-                () => this._reset()
-            ],
-            [
-                Main.layoutManager,
-                'monitors-changed',
-                () => this._reset()
+                () => this.reset()
             ],
             [
                 this._panelBox,
@@ -214,33 +208,18 @@ var Intellihide = Utils.defineClass({
         this._queueUpdatePanelPosition();
     },
 
-    _setTrackPanel: function(reset, enable) {
-        if (!reset) {
-            Main.layoutManager._untrackActor(this._panelBox);
+    _setTrackPanel: function(enable) {
+        let trackedIndex = Main.layoutManager._findActor(this._panelBox);
+        let actorData = Main.layoutManager._trackedActors[trackedIndex]
             
-            if (enable) {
-                this._clipContainer = new Clutter.Actor();
-                Utils.setClip(this._clipContainer, this._panelBox.x, this._panelBox.y, this._panelBox.width, this._panelBox.height);
+        actorData.affectsStruts = !enable;
+        actorData.trackFullscreen = !enable;
 
-                Main.layoutManager.removeChrome(this._panelBox);
-                Main.layoutManager.addChrome(this._clipContainer, { affectsInputRegion: false });
-                
-                this._clipContainer.add_child(this._panelBox);
-                Main.layoutManager.trackChrome(this._panelBox, { affectsInputRegion: true });
-
-                this._timeoutsHandler.add([T4, 0, () => this._panelBox.set_position(0, 0)]);
-            } else {
-                this._panelBox.set_position(this._clipContainer.x, this._clipContainer.y);
-                Main.layoutManager.removeChrome(this._clipContainer);
-
-                this._clipContainer.remove_child(this._panelBox);
-                Main.layoutManager.addChrome(this._panelBox, { affectsStruts: true, trackFullscreen: true });
-            }
-            
-            this._panelBox.track_hover = enable;
-            this._panelBox.reactive = enable;
-            this._panelBox.visible = enable ? enable : this._panelBox.visible;
-        }
+        this._panelBox.track_hover = enable;
+        this._panelBox.reactive = enable;
+        this._panelBox.visible = enable ? enable : this._panelBox.visible;
+        
+        Main.layoutManager._queueUpdateRegions();
     },
 
     _setRevealMechanism: function() {
@@ -274,7 +253,7 @@ var Intellihide = Utils.defineClass({
         let position = this._dtpPanel.geom.position;
         let opts = { display: global.display };
 
-        if (Panel.checkIfVertical()) {
+        if (this._dtpPanel.checkIfVertical()) {
             opts.y1 = this._monitor.y;
             opts.y2 = this._monitor.y + this._monitor.height;
             opts.x1 = opts.x2 = this._monitor.x;
@@ -356,7 +335,7 @@ var Intellihide = Utils.defineClass({
     },
 
     _checkIfGrab: function() {
-        if (GrabHelper._grabHelperStack.some(gh => gh._owner == this._dtpPanel.grabOwner)) {
+        if (GrabHelper._grabHelperStack.some(gh => gh._owner == this._dtpPanel.panel.actor)) {
             //there currently is a grab on a child of the panel, check again soon to catch its release
             this._timeoutsHandler.add([T1, CHECK_GRAB_MS, () => this._queueUpdatePanelPosition()]);
 
@@ -365,6 +344,11 @@ var Intellihide = Utils.defineClass({
     },
 
     _revealPanel: function(immediate) {
+        if (!this._panelBox.visible) {
+            this._panelBox.visible = true;
+            this._dtpPanel.taskbar._shownInitially = false;
+        }
+
         this._animatePanel(0, immediate);
     },
 
@@ -376,21 +360,21 @@ var Intellihide = Utils.defineClass({
         this._animatePanel(size * coefficient, immediate);
     },
 
-    _animatePanel: function(destination, immediate, onComplete) {
-        let animating = Tweener.isTweening(this._panelBox);
+    _animatePanel: function(destination, immediate) {
+        let animating = Utils.isAnimating(this._panelBox, this._translationProp);
 
         if (!((animating && destination === this._animationDestination) || 
               (!animating && destination === this._panelBox[this._translationProp]))) {
             //the panel isn't already at, or animating to the asked destination
             if (animating) {
-                Tweener.removeTweens(this._panelBox);
+                Utils.stopAnimations(this._panelBox);
             }
 
             this._animationDestination = destination;
-    
+
             if (immediate) {
                 this._panelBox[this._translationProp] = destination;
-                this._invokeIfExists(onComplete);
+                this._panelBox.visible = !destination;
             } else {
                 let tweenOpts = {
                     //when entering/leaving the overview, use its animation time instead of the one from the settings
@@ -401,21 +385,17 @@ var Intellihide = Utils.defineClass({
                     delay: destination != 0 && this._hoveredOut ? Me.settings.get_int('intellihide-close-delay') * 0.001 : 0,
                     transition: 'easeOutQuad',
                     onComplete: () => {
-                        this._invokeIfExists(onComplete);
+                        this._panelBox.visible = !destination;
                         Main.layoutManager._queueUpdateRegions();
                         this._timeoutsHandler.add([T3, POST_ANIMATE_MS, () => this._queueUpdatePanelPosition()]);
                     }
                 };
 
                 tweenOpts[this._translationProp] = destination;
-                Tweener.addTween(this._panelBox, tweenOpts);
+                Utils.animate(this._panelBox, tweenOpts);
             }
         }
 
         this._hoveredOut = false;
     },
-
-    _invokeIfExists: function(func) {
-        func ? func.call(this) : null;
-    }
 });

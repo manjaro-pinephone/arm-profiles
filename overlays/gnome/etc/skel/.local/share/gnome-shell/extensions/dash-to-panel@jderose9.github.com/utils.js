@@ -22,9 +22,11 @@
  */
 
 const Clutter = imports.gi.Clutter;
+const Config = imports.misc.config;
 const GdkPixbuf = imports.gi.GdkPixbuf
 const Gi = imports._gi;
 const Gio = imports.gi.Gio;
+const GLib = imports.gi.GLib;
 const GObject = imports.gi.GObject;
 const Gtk = imports.gi.Gtk;
 const Meta = imports.gi.Meta;
@@ -33,16 +35,21 @@ const St = imports.gi.St;
 const Mainloop = imports.mainloop;
 const Main = imports.ui.main;
 const MessageTray = imports.ui.messageTray;
-const Tweener = imports.ui.tweener;
 const Util = imports.misc.util;
 
 var TRANSLATION_DOMAIN = imports.misc.extensionUtils.getCurrentExtension().metadata['gettext-domain'];
 var SCROLL_TIME = Util.SCROLL_TIME / (Util.SCROLL_TIME > 1 ? 1000 : 1);
 
+//Clutter implicit animations are available since 3.34
+//prefer those over Tweener if available
+if (Config.PACKAGE_VERSION < '3.34') {
+    var Tweener = imports.ui.tweener;
+}
+
 var defineClass = function (classDef) {
     let parentProto = classDef.Extends ? classDef.Extends.prototype : null;
     
-    if (imports.misc.config.PACKAGE_VERSION < '3.31.9') {
+    if (Config.PACKAGE_VERSION < '3.31.9') {
         if (parentProto && (classDef.Extends.name || classDef.Extends.toString()).indexOf('DashToPanel.') < 0) {
             classDef.callParent = function() {
                 let args = Array.prototype.slice.call(arguments);
@@ -116,7 +123,7 @@ var BasicHandler = defineClass({
     add: function(/*unlimited 3-long array arguments*/){
 
         // convert arguments object to array, concatenate with generic
-        let args = Array.concat('generic', Array.slice(arguments));
+        let args = [].concat('generic', [].slice.call(arguments));
         // call addWithLabel with ags as if they were passed arguments
         this.addWithLabel.apply(this, args);
     },
@@ -287,12 +294,17 @@ var getWorkspaceCount = function() {
     return DisplayWrapper.getWorkspaceManager().n_workspaces;
 };
 
-var checkIfWindowHasTransient = function(window) {
-    let hasTransient;
+var getStageTheme = function() {
+    return St.ThemeContext.get_for_stage(global.stage);
+};
 
-    window.foreach_transient(t => !(hasTransient = true));
+var getScaleFactor = function() {
+    return getStageTheme().scale_factor || 1;
+};
 
-    return hasTransient;
+var getAppDisplayViews = function() {
+    //gnome-shell 3.38 only has one view and it is now the appDisplay
+    return Main.overview.viewSelector.appDisplay._views || [{ view: Main.overview.viewSelector.appDisplay }];
 };
 
 var findIndex = function(array, predicate) {
@@ -307,6 +319,14 @@ var findIndex = function(array, predicate) {
     }
 
     return -1;
+};
+
+var find = function(array, predicate) {
+    let index = findIndex(array, predicate);
+
+    if (index > -1) {
+        return array[index];
+    }
 };
 
 var mergeObjects = function(main, bck) {
@@ -338,6 +358,38 @@ var wrapActor = function(actor) {
     }
 };
 
+var getTransformedAllocation = function(actor) {
+    if (Config.PACKAGE_VERSION < '3.37') {
+        return Shell.util_get_transformed_allocation(actor);
+    }
+
+    let extents = actor.get_transformed_extents();
+    let topLeft = extents.get_top_left();
+    let bottomRight = extents.get_bottom_right();
+
+    return { x1: topLeft.x, x2: bottomRight.x, y1: topLeft.y, y2: bottomRight.y };
+};
+
+var allocate = function(actor, box, flags, useParent) {
+    let allocateObj = useParent ? actor.__proto__ : actor;
+
+    allocateObj.allocate.apply(actor, getAllocationParams(box, flags));
+};
+
+var setAllocation = function(actor, box, flags) {
+    actor.set_allocation.apply(actor, getAllocationParams(box, flags));
+};
+
+var getAllocationParams = function(box, flags) {
+    let params = [box];
+
+    if (Config.PACKAGE_VERSION < '3.37') {
+        params.push(flags);
+    }
+
+    return params;
+};
+
 var setClip = function(actor, x, y, width, height) {
     actor.set_clip(0, 0, width, height);
     actor.set_position(x, y);
@@ -362,14 +414,18 @@ var removeKeybinding = function(key) {
     }
 };
 
+var getrgbColor = function(color) {
+    color = typeof color === 'string' ? Clutter.color_from_string(color)[1] : color;
+
+    return { red: color.red, green: color.green, blue: color.blue };
+};
+
 var getrgbaColor = function(color, alpha, offset) {
     if (alpha <= 0) {
         return 'transparent; ';
     }
 
-    color = typeof color === 'string' ? Clutter.color_from_string(color)[1] : color;
-
-    let rgb = { red: color.red, green: color.green, blue: color.blue };
+    let rgb = getrgbColor(color);
 
     if (offset) {
         ['red', 'green', 'blue'].forEach(k => {
@@ -382,6 +438,13 @@ var getrgbaColor = function(color, alpha, offset) {
     }
 
     return 'rgba(' + rgb.red + ',' + rgb.green + ',' + rgb.blue + ',' + (Math.floor(alpha * 100) * 0.01) + '); ' ;
+};
+
+var checkIfColorIsBright = function(color) {
+    let rgb = getrgbColor(color);
+    let brightness = 0.2126 * rgb.red + 0.7152 * rgb.green + 0.0722 * rgb.blue;
+
+    return brightness > 128;
 };
 
 var getMouseScrollDirection = function(event) {
@@ -401,6 +464,14 @@ var getMouseScrollDirection = function(event) {
     return direction;
 };
 
+var checkIfWindowHasTransient = function(window) {
+    let hasTransient;
+
+    window.foreach_transient(t => !(hasTransient = true));
+
+    return hasTransient;
+};
+
 var activateSiblingWindow = function(windows, direction, startWindow) {
     let windowIndex = windows.indexOf(global.display.focus_window);
     let nextWindowIndex = windowIndex < 0 ?
@@ -418,9 +489,113 @@ var activateSiblingWindow = function(windows, direction, startWindow) {
     }
 };
 
+var animateWindowOpacity = function(window, tweenOpts) {
+    //there currently is a mutter bug with the windowactor opacity, starting with 3.34
+    //https://gitlab.gnome.org/GNOME/mutter/issues/836
+
+    if (Config.PACKAGE_VERSION > '3.35') {
+        //on 3.36, a workaround is to use the windowactor's child for the fade animation
+        //this leaves a "shadow" on the desktop, so the windowactor needs to be hidden
+        //when the animation is complete
+        let visible = tweenOpts.opacity > 0;
+        let windowActor = window;
+
+        if (!windowActor.visible && visible) {
+            windowActor.visible = visible;
+        } 
+
+        window = windowActor.get_first_child() || windowActor;
+        tweenOpts.onComplete = () => windowActor.visible = visible;
+    } else if (Config.PACKAGE_VERSION > '3.33') {
+        //the workaround only works on 3.35+, so on 3.34, let's just hide the 
+        //window without animation
+        return window.visible = (tweenOpts.opacity == 255);
+    }
+
+    animate(window, tweenOpts);
+};
+
+var animate = function(actor, options) {
+    if (Tweener) {
+        return Tweener.addTween(actor, options);
+    }
+
+    //to support both Tweener and Clutter animations, we use Tweener "time" 
+    //and "delay" properties defined in seconds, as opposed to Clutter animations 
+    //"duration" and "delay" which are defined in milliseconds
+    if (options.delay) {
+        options.delay = options.delay * 1000;
+    }
+
+    options.duration = options.time * 1000;
+    delete options.time;
+
+    if (options.transition) {
+        //map Tweener easing equations to Clutter animation modes
+        options.mode = {
+            'easeInCubic': Clutter.AnimationMode.EASE_IN_CUBIC,
+            'easeInOutCubic': Clutter.AnimationMode.EASE_IN_OUT_CUBIC,
+            'easeInOutQuad': Clutter.AnimationMode.EASE_IN_OUT_QUAD,
+            'easeOutQuad': Clutter.AnimationMode.EASE_OUT_QUAD
+        }[options.transition] || Clutter.AnimationMode.LINEAR;
+
+        delete options.transition;
+    }
+
+    let params = [options];
+
+    if ('value' in options && actor instanceof St.Adjustment) {
+        params.unshift(options.value);
+        delete options.value;
+    }
+
+    actor.ease.apply(actor, params);
+}
+
+var isAnimating = function(actor, prop) {
+    if (Tweener) {
+        return Tweener.isTweening(actor);
+    }
+
+    return !!actor.get_transition(prop);
+}
+
+var stopAnimations = function(actor) {
+    if (Tweener) {
+        return Tweener.removeTweens(actor);
+    }
+    
+    actor.remove_all_transitions();
+}
+
+var getIndicators = function(delegate) {
+    if (delegate instanceof St.BoxLayout) {
+        return delegate;
+    }
+
+    return delegate.indicators;
+}
+
+var getPoint = function(coords) {
+    if (Config.PACKAGE_VERSION > '3.35.1') {
+        return new imports.gi.Graphene.Point(coords);
+    }
+
+    return new Clutter.Point(coords);
+}
+
+var getPanelGhost = function() {
+    if (!Main.overview._panelGhost) {
+        return Main.overview._overview.get_first_child();
+    }
+
+    return Main.overview._panelGhost;
+}
+
 var notify = function(text, iconName, action, isTransient) {
     let source = new MessageTray.SystemNotificationSource();
     let notification = new MessageTray.Notification(source, 'Dash to Panel', text);
+    let notifyFunc = source.showNotification || source.notify;
     
     if (iconName) {
         source.createIcon = function() {
@@ -439,7 +614,7 @@ var notify = function(text, iconName, action, isTransient) {
     Main.messageTray.add(source);
 
     notification.setTransient(isTransient);
-    source.notify(notification);
+    notifyFunc.call(source, notification);
 };
 
 /*
@@ -492,11 +667,11 @@ var ensureActorVisibleInScrollView = function(scrollView, actor, fadeSize, onCom
     };
 
     if (vvalue !== vvalue0) {
-        Tweener.addTween(vadjustment, mergeObjects(tweenOpts, { value: vvalue }));
+        animate(vadjustment, mergeObjects(tweenOpts, { value: vvalue }));
     }
 
     if (hvalue !== hvalue0) {
-        Tweener.addTween(hadjustment, mergeObjects(tweenOpts, { value: hvalue }));
+        animate(hadjustment, mergeObjects(tweenOpts, { value: hvalue }));
     }
 
     return [hvalue- hvalue0, vvalue - vvalue0];
@@ -791,3 +966,61 @@ var DominantColorExtractor = defineClass({
     }
 
 });
+
+var drawRoundedLine = function(cr, x, y, width, height, isRoundLeft, isRoundRight, stroke, fill) {
+    if (height > width) {
+        y += Math.floor((height - width) / 2.0);
+        height = width;
+    }
+    
+    height = 2.0 * Math.floor(height / 2.0);
+    
+    var leftRadius = isRoundLeft ? height / 2.0 : 0.0;
+    var rightRadius = isRoundRight ? height / 2.0 : 0.0;
+    
+    cr.moveTo(x + width - rightRadius, y);
+    cr.lineTo(x + leftRadius, y);
+    if (isRoundLeft)
+        cr.arcNegative(x + leftRadius, y + leftRadius, leftRadius, -Math.PI/2, Math.PI/2);
+    else
+        cr.lineTo(x, y + height);
+    cr.lineTo(x + width - rightRadius, y + height);
+    if (isRoundRight)
+        cr.arcNegative(x + width - rightRadius, y + rightRadius, rightRadius, Math.PI/2, -Math.PI/2);
+    else
+        cr.lineTo(x + width, y);
+    cr.closePath();
+    
+    if (fill != null) {
+        cr.setSource(fill);
+        cr.fillPreserve();
+    }
+    if (stroke != null)
+        cr.setSource(stroke);
+    cr.stroke();
+}
+
+/**
+ * Check if an app exists in the system.
+ */
+var checkedCommandsMap = new Map();
+
+function checkIfCommandExists(app) {
+    let answer = checkedCommandsMap.get(app);
+    if (answer === undefined) {
+        // Command is a shell built in, use shell to call it.
+        // Quotes around app value are important. They let command operate
+        // on the whole value, instead of having shell interpret it.
+        let cmd = "sh -c 'command -v \"" + app + "\"'";
+        try {
+            let out = GLib.spawn_command_line_sync(cmd);
+            // out contains 1: stdout, 2: stderr, 3: exit code
+            answer = out[3] == 0;
+        } catch (ex) {
+            answer = false;
+        }
+
+        checkedCommandsMap.set(app, answer);
+    }
+    return answer;
+}

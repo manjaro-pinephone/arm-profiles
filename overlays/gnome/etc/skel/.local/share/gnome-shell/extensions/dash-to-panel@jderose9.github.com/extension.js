@@ -45,6 +45,9 @@ let extensionSystem = (Main.extensionManager || imports.ui.extensionSystem);
 
 function init() {
     Convenience.initTranslations(Utils.TRANSLATION_DOMAIN);
+    
+    //create an object that persists until gnome-shell is restarted, even if the extension is disabled
+    Me.persistentStorage = {};
 }
 
 function enable() {
@@ -71,7 +74,7 @@ function _enable() {
         // Disable Ubuntu Dock
         let extensionOrder = (extensionSystem.extensionOrder || extensionSystem._extensionOrder);
 
-        St.ThemeContext.get_for_stage(global.stage).get_theme().unload_stylesheet(ubuntuDock.stylesheet);
+        Utils.getStageTheme().get_theme().unload_stylesheet(ubuntuDock.stylesheet);
         ubuntuDock.stateObj.disable();
         disabledUbuntuDock = true;
         ubuntuDock.state = 2; //ExtensionState.DISABLED
@@ -136,7 +139,7 @@ function disable(reset) {
 
         // Re-enable Ubuntu Dock if it was disabled by dash to panel
         if (disabledUbuntuDock && Main.sessionMode.allowExtensions) {
-            extensionSystem.enableExtension(UBUNTU_DOCK_UUID);
+            (extensionSystem._callExtensionEnable || extensionSystem.enableExtension).call(extensionSystem, UBUNTU_DOCK_UUID);
         }
     }
 }

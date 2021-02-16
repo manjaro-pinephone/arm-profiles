@@ -1,8 +1,8 @@
-sshd.service 
-sddm.service
+sshd.service
 NetworkManager.service
 bluetooth.service
 tlp.service
 zswap-arm.service
 bootsplash-hide-when-booted.service
 bootsplash-show-on-shutdown.service
+

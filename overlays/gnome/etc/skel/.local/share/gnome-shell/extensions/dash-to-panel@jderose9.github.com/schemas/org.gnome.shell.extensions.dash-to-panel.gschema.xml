@@ -23,21 +23,7 @@
     <value value='1' nick='SWITCH_WORKSPACE'/>
     <value value='2' nick='CYCLE_WINDOWS'/>
     <value value='3' nick='PASS_THROUGH'/>
-  </enum>
-  <enum id='org.gnome.shell.extensions.dash-to-panel.statusAreaPosition'>
-    <value value='0' nick='BUTTONSLEFT'/>
-    <value value='1' nick='STATUSLEFT'/>
-    <value value='2' nick='STATUSRIGHT'/>
-    <value value='3' nick='BUTTONSRIGHT'/>
-    <value value='4' nick='TASKBARLEFT'/>
-    <value value='5' nick='TASKBARRIGHT'/>
-  </enum>
-  <enum id='org.gnome.shell.extensions.dash-to-panel.taskbarPosition'>
-    <value value='0' nick='LEFTPANEL'/>
-    <value value='1' nick='CENTEREDMONITOR'/>
-    <value value='2' nick='CENTEREDCONTENT'/>
-    <value value='3' nick='LEFTPANEL_FIXEDCENTER'/>
-    <value value='4' nick='LEFTPANEL_FLOATCENTER'/>
+    <value value='4' nick='CHANGE_VOLUME'/>
   </enum>
   <enum id='org.gnome.shell.extensions.dash-to-panel.hotkeyPrefix'>
     <value value='0' nick='Super'/>
@@ -86,10 +72,35 @@
       <summary>Panel position</summary>
       <description>Panel is shown on the Bottom or Top of the screen.</description>
     </key>
+    <key name="panel-element-positions-monitors-sync" type="b">
+      <default>true</default>
+      <summary>Sync element positions</summary>
+      <description>Sync panel element positions on all monitors.</description>
+    </key>
+    <key name="panel-positions" type="s">
+      <default>'{}'</default>
+      <summary>Panel positions</summary>
+      <description>Panel positions (JSON).</description>
+    </key>
+    <key name="panel-element-positions" type="s">
+      <default>'{}'</default>
+      <summary>Panel element positions</summary>
+      <description>Panel element positions (JSON).</description>
+    </key>
     <key type="i" name="panel-size">
       <default>48</default>
       <summary>Panel size</summary>
       <description>Set the size of the panel.</description>
+    </key>
+    <key type="b" name="desktop-line-use-custom-color">
+      <default>false</default>
+      <summary>Override Show Desktop line color</summary>
+      <description>Replace current Show Desktop button line color</description>
+    </key>
+    <key type="s" name="desktop-line-custom-color">
+      <default>"rgba(200,200,200,0.2)"</default>
+      <summary>Custom Show Desktop line color</summary>
+      <description>Custom Show Desktop button line color</description>
     </key>
     <key name="dot-position" enum="org.gnome.shell.extensions.dash-to-panel.position">
       <default>'BOTTOM'</default>
@@ -191,20 +202,20 @@
       <summary>Keep dash</summary>
       <description>Whether to keep the stock gnome-shell dash while in overview</description>
     </key>
+    <key type="b" name="stockgs-keep-top-panel">
+      <default>false</default>
+      <summary>Keep top panel</summary>
+      <description>Whether to keep the stock gnome-shell top panel</description>
+    </key>
     <key type="b" name="stockgs-panelbtn-click-only">
       <default>false</default>
       <summary>Panel menu buttons require click</summary>
       <description>Whether to activate the panel menu buttons on hover or on click</description>
     </key>
-    <key name="location-clock" enum="org.gnome.shell.extensions.dash-to-panel.statusAreaPosition">
-      <default>'STATUSLEFT'</default>
-      <summary>Location of the clock</summary>
-      <description>Set the location of the clock on the taskbar</description>
-    </key>
-    <key name="taskbar-position" enum="org.gnome.shell.extensions.dash-to-panel.taskbarPosition">
-      <default>'LEFTPANEL'</default>
-      <summary>Position of the taskbar</summary>
-      <description>Set the position of the taskbar on the panel</description>
+    <key type="b" name="stockgs-force-hotcorner">
+      <default>false</default>
+      <summary>Force hot corner</summary>
+      <description>Wheter to force having an Activities hot corner on the primary monitor</description>
     </key>
     <key type="b" name="taskbar-locked">
       <default>false</default>
@@ -346,11 +357,6 @@
       <summary>Intellihide enable start delay</summary>
       <description>The delay before enabling intellihide on start</description>
     </key>
-    <key type="b" name="show-show-apps-button">
-      <default>true</default>
-      <summary>Show applications button</summary>
-      <description>Show appplications button in the dash</description>
-    </key>
     <key type="s" name="show-apps-icon-file">
       <default>""</default>
       <summary>Custom Show Applications icon</summary>
@@ -361,20 +367,40 @@
       <summary>Show Applications icon side padding</summary>
       <description>Customize the Show Applications icon side padding</description>
     </key>
+    <key type="b" name="show-apps-override-escape">
+      <default>true</default>
+      <summary>Override escape key</summary>
+      <description>Override the escape key to return to the desktop when entering the overview using the Show Applications button</description>
+    </key>
     <key type="b" name="animate-show-apps">
       <default>true</default>
       <summary>Animate Show Applications from the desktop</summary>
       <description>Animate Show Applications from the desktop</description>
     </key>
+    <key type="as" name="show-apps-button-context-menu-commands">
+     <default>[]</default>
+     <summary>Show Apps button context menu commands</summary>
+     <description>Commands to add to the Show Apps button right click menu</description>
+    </key>
+    <key type="as" name="show-apps-button-context-menu-titles">
+     <default>[]</default>
+     <summary>Show Apps button context menu titles</summary>
+     <description>Titles for commands added to Show Apps button right click menu</description>
+    </key>
+    <key type="as" name="panel-context-menu-commands">
+     <default>[]</default>
+     <summary>Panel context menu commands</summary>
+     <description>Commands to add to the panel right click menu</description>
+    </key>
+    <key type="as" name="panel-context-menu-titles">
+     <default>[]</default>
+     <summary>Panel context menu titles</summary>
+     <description>Titles for commands added to panel right click menu</description>
+    </key>
     <key type="b" name="show-activities-button">
       <default>false</default>
       <summary>Show activities button</summary>
       <description>Show activities button on the left hand side of the taskbar</description>
-    </key>
-    <key type="b" name="show-showdesktop-button">
-      <default>true</default>
-      <summary>Show desktop button</summary>
-      <description>Show button on right side of bar that minimizes/restores all visible windows on current workspace</description>
     </key>
     <key type="i" name="showdesktop-button-width">
       <default>8</default>
@@ -422,7 +448,7 @@
       <description>Show or hide favorite application icons in the dash</description>
     </key>
     <key type="i" name="show-window-previews-timeout">
-      <default>100</default>
+      <default>400</default>
       <summary>Icon enter display time</summary>
       <description>Amount of time after entering icon to wait before displaying window preview if icon is not clicked or mouse has not left.</description>
     </key>
@@ -455,6 +481,16 @@
       <default>14</default>
       <summary>Window previews title font size</summary>
       <description>This defines the window preview titles font size.</description>
+    </key>
+    <key type="b" name="window-preview-use-custom-icon-size">
+      <default>false</default>
+      <summary>Window previews use custom icon size</summary>
+      <description>Window previews use custom application icon size.</description>
+    </key>
+    <key type="i" name="window-preview-custom-icon-size">
+      <default>16</default>
+      <summary>Window previews custom icon size</summary>
+      <description>Window previews custom application icon size.</description>
     </key>
     <key type="i" name="window-preview-animation-time">
       <default>260</default>
@@ -506,6 +542,11 @@
       <summary>Provide workspace isolation</summary>
       <description>Dash shows only windows from the current workspace</description>
     </key>
+     <key type="b" name="overview-click-to-exit">
+      <default>false</default>
+      <summary>Close overview by clicking in empty space</summary>
+      <description>Close overview or app grid by clicking in empty space</description>
+    </key>
     <key type="b" name="group-apps">
       <default>true</default>
       <summary>Group applications</summary>
@@ -525,6 +566,11 @@
       <default>"#dddddd"</default>
       <summary>Application title font color</summary>
       <description>When the applications are ungrouped, this defines the application titles font color.</description>
+    </key>
+    <key type="s" name="group-apps-label-font-color-minimized">
+      <default>"#dddddd"</default>
+      <summary>Minimized application title font color</summary>
+      <description>When the applications are ungrouped, this defines the titles font color for minimized applications.</description>
     </key>
     <key type="i" name="group-apps-label-max-width">
       <default>160</default>
@@ -547,29 +593,24 @@
       <description>When the applications are ungrouped, this defines if running applications stay separate from the favorite icons.</description>
     </key>
     <key type="i" name="primary-monitor">
-      <default>-1</default>
+      <default>0</default>
       <summary>Primary monitor index</summary>
-      <description>Specifies the index of the primary monitor (-1 = GNOME Primary Monitor).</description>
+      <description>Specifies the index of the primary monitor.</description>
     </key>
     <key type="b" name="multi-monitors">
       <default>true</default>
       <summary>Display panels on all monitors</summary>
       <description>Specifies if a panel is shown on every monitors</description>
     </key>
+    <key type="ai" name="available-monitors">
+     <default>[]</default>
+     <summary>Available monitors</summary>
+     <description>Available gnome-shell (Mutter) monitors, internal use</description>
+    </key>
     <key type="b" name="isolate-monitors">
       <default>false</default>
       <summary>Provide monitor isolation</summary>
       <description>Dash shows only windows from the current monitor</description>
-    </key>
-    <key type="b" name="show-clock-all-monitors">
-      <default>true</default>
-      <summary>Display the clock on all monitors</summary>
-      <description>Specifies if every panel should display the clock. If false, the clock is only displayed on the primary monitor.</description>
-    </key>
-    <key type="b" name="show-status-menu-all-monitors">
-      <default>true</default>
-      <summary>Display the status menu on all monitors</summary>
-      <description>Specifies if every panel should display the status menu. If false, the status menu is only displayed on the primary monitor.</description>
     </key>
     <key type="b" name="show-favorites-all-monitors">
       <default>true</default>
@@ -618,6 +659,10 @@
       <default>0</default>
       <summary>Delay between panel mouse scroll events</summary>
       <description>Set the minimum delay between panel mouse scroll events</description>
+    </key>
+    <key type="b" name="scroll-panel-show-ws-popup">
+      <default>true</default>
+      <summary>Show the workspace switch head-up when workspace is changed by scrolling on the panel</summary>
     </key>
     <key name="scroll-icon-action" enum="org.gnome.shell.extensions.dash-to-panel.scrollAction">
       <default>'CYCLE_WINDOWS'</default>
@@ -1174,6 +1219,16 @@
       <description>
         Keybinding to either show or launch the 10th application in the dash.
       </description>
+    </key>
+     <key type="b" name="progress-show-bar">
+      <default>true</default>
+      <summary>Show progress bar on app icon</summary>
+      <description>Whether to show progress bar overlay on app icon, for supported applications.</description>
+    </key>
+    <key type="b" name="progress-show-count">
+      <default>true</default>
+      <summary>Show badge count on app icon</summary>
+      <description>Whether to show badge count overlay on app icon, for supported applications.</description>
     </key>
   </schema>
 </schemalist>

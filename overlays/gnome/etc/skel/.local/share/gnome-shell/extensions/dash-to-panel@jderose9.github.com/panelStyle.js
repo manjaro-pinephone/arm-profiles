@@ -79,7 +79,7 @@ var dtpPanelStyle = Utils.defineClass({
         this._rightBoxOperations = [];
         
         let trayPadding = Me.settings.get_int('tray-padding');
-        let isVertical = Panel.checkIfVertical();
+        let isVertical = this.panel.checkIfVertical();
         let paddingStyle = 'padding: ' + (isVertical ? '%dpx 0' : '0 %dpx');
 
         if(trayPadding >= 0) {
@@ -193,37 +193,23 @@ var dtpPanelStyle = Utils.defineClass({
             this._overrideStyle(this.panel._leftBox, leftboxContentSizeStyleLine, 0);
         }
 
-
-        /*recurse actors */
-        if(this._rightBoxOperations.length) {
-            let children = this.panel._rightBox.get_children();
-            for(let i in children)
-                this._recursiveApply(children[i], this._rightBoxOperations);
-        }
-
-        if(this._centerBoxOperations.length) {
-            let children = this.panel._centerBox.get_children();
-            for(let i in children)
-                this._recursiveApply(children[i], this._centerBoxOperations);
-        }
-
-        if(this._leftBoxOperations.length) {
-            let children = this.panel._leftBox.get_children();
-            for(let i in children)
-                this._recursiveApply(children[i], this._leftBoxOperations);
-        }
+        this._applyStylesRecursively();
         
         /* connect signal */
         this._rightBoxActorAddedID = this.panel._rightBox.connect('actor-added',
             Lang.bind(this, function (container, actor) {
-                if(this._rightBoxOperations.length)
+                if(this._rightBoxOperations.length && !this._ignoreAddedChild)
                     this._recursiveApply(actor, this._rightBoxOperations);
+
+                this._ignoreAddedChild = 0;
             })
         );
         this._centerBoxActorAddedID = this.panel._centerBox.connect('actor-added',
             Lang.bind(this, function (container, actor) {
-                if(this._centerBoxOperations.length)
+                if(this._centerBoxOperations.length && !this._ignoreAddedChild)
                     this._recursiveApply(actor, this._centerBoxOperations);
+
+                this._ignoreAddedChild = 0;
             })
         );
         this._leftBoxActorAddedID = this.panel._leftBox.connect('actor-added',
@@ -244,24 +230,32 @@ var dtpPanelStyle = Utils.defineClass({
             this.panel._leftBox.disconnect(this._leftBoxActorAddedID);
 
         this._restoreOriginalStyle(this.panel._rightBox);
-        if(this._rightBoxOperations.length) {
-            let children = this.panel._rightBox.get_children();
-            for(let i in children)
-                this._recursiveApply(children[i], this._rightBoxOperations, true);
-        }
-
         this._restoreOriginalStyle(this.panel._centerBox);
-        if(this._centerBoxOperations.length) {
-            let children = this.panel._centerBox.get_children();
+        this._restoreOriginalStyle(this.panel._leftBox);
+
+        this._applyStylesRecursively(true);
+    },
+
+    _applyStylesRecursively: function(restore) {
+        /*recurse actors */
+        if(this._rightBoxOperations.length) {
+            // add the system menu as we move it from the rightbox to the panel to position it independently
+            let children = this.panel._rightBox.get_children().concat([this.panel.statusArea.aggregateMenu.container]);
             for(let i in children)
-                this._recursiveApply(children[i], this._centerBoxOperations, true);
+                this._recursiveApply(children[i], this._rightBoxOperations, restore);
         }
 
-        this._restoreOriginalStyle(this.panel._leftBox);
+        if(this._centerBoxOperations.length) {
+            // add the date menu as we move it from the centerbox to the panel to position it independently
+            let children = this.panel._centerBox.get_children().concat([this.panel.statusArea.dateMenu.container]);
+            for(let i in children)
+                this._recursiveApply(children[i], this._centerBoxOperations, restore);
+        }
+
         if(this._leftBoxOperations.length) {
             let children = this.panel._leftBox.get_children();
             for(let i in children)
-                this._recursiveApply(children[i], this._leftBoxOperations, true);
+                this._recursiveApply(children[i], this._leftBoxOperations, restore);
         }
     },
 
@@ -313,9 +307,19 @@ var dtpPanelStyle = Utils.defineClass({
 
     _refreshPanelButton: function(actor) {
         if (actor.visible && imports.misc.config.PACKAGE_VERSION >= '3.34.0') {
-            //force gnome 3.34 to refresh (having problem with the -natural-hpadding)
-            actor.hide();
-            Mainloop.idle_add(() => actor.show());
+            //force gnome 3.34+ to refresh (having problem with the -natural-hpadding)
+            let parent = actor.get_parent();
+            let children = parent.get_children();
+            let actorIndex = 0;
+
+            if (children.length > 1) {
+                actorIndex = children.indexOf(actor);
+            }
+
+            this._ignoreAddedChild = [this.panel._centerBox, this.panel._rightBox].indexOf(parent) >= 0;
+
+            parent.remove_child(actor);
+            parent.insert_child_at_index(actor, actorIndex);
         }
     }
     
