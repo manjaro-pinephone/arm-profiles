@@ -59,8 +59,7 @@
             "", // Icon: battery-three-quarters
             ""  // Icon: battery-full
         ],
-        "tooltip": true,
-        "on-click": "powersupply"
+        "tooltip": true
     },
 
     "clock": {
@@ -77,7 +76,7 @@
             "warning": 70,
             "critical": 90
         },
-        "on-click": "swaymsg exec \\$term_float_landscape bpytop"
+        "on-click": "swaymsg exec \"\\$term_float_landscape '\\$cpu_mon'\""
     },
 
     "memory": {
@@ -87,7 +86,7 @@
             "warning": 70,
             "critical": 90
         },
-        "on-click": "swaymsg exec \\$term_float_landscape bpytop"
+        "on-click": "swaymsg exec \"\\$term_float_landscape '\\$mem_mon'\""
     },
 
     "network": {

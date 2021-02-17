@@ -1,5 +1,8 @@
 # enable idle mode
-exec $idle
+exec {
+  $idle
+  gsettings set org.blueman.general plugin-list "['\!AppIndicator']"
+}
 
 # autostart background applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
@@ -7,7 +10,3 @@ exec --no-startup-id mako
 exec --no-startup-id mntray
 exec --no-startup-id $help --autostart
 
-# disable appindicator for bluetooth
-exec_always {
-  gsettings set org.blueman.general plugin-list "['\!AppIndicator']"
-}

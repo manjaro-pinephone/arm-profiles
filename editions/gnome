@@ -12,8 +12,6 @@ dhcpcd
 man-pages
 man-db
 zswap-arm
-upower
-cpupower
 
 # Sound, video and bluetooth
 pavucontrol
@@ -23,8 +21,10 @@ bluez
 bluez-utils
 pulseaudio-bluetooth
 pulseaudio-zeroconf
+grilo
 grilo-plugins
 gst-libav
+libva-v4l2-request
 
 # Display Manager
 gdm
@@ -38,13 +38,8 @@ manjaro-hotfixes
 manjaro-settings-samba
 
 # Core GNOME
-eog
-evince
-file-roller
 gnome-power-manager
 gnome-applets
-gedit
-gedit-plugins
 gnome-calculator
 gnome-characters
 gnome-control-center
@@ -75,12 +70,8 @@ gnome-weather
 gufw
 mutter
 nautilus
-polkit-gnome
-simple-scan
 sushi
 totem
-tracker
-tracker-miners
 
 # Themes
 qt5ct
@@ -96,35 +87,75 @@ xcursor-breeze
 firefox
 firefox-ublock-origin
 
+# Email
+evolution
+
 # Office suite
 libreoffice-fresh
 
 # Package Manager
 pamac-gtk
 pamac-gnome-integration
+polkit-gnome
 pamac-cli
 
 # Fonts
+noto-fonts
+noto-fonts-emoji
 ttf-bitstream-vera
 ttf-droid
 ttf-inconsolata
 ttf-font-awesome
 ttf-roboto
-noto-fonts
-noto-fonts-emoji
 wqy-microhei #chinese
+
+# some interesting CLI tools
+asciinema
+bat
+chafa
+cmatrix
+cpu-temp-speed
+curl
+exa
+fd
+ffmpegthumbnailer
+fzf
+hey
+hexyl
+htop
+httpie
+hyperfine
+jq
+light
+mediainfo
+mlocate
+neofetch
+neovim
+odt2txt
+onefetch
+ripgrep
+rsync
+silver
+wget
+tldr
+tlp
+yad
+yay
 
 # Applications
 dconf-editor
+eog
+evince
+file-roller
 gcolor3
-libva-v4l2-request
-htop
+gedit
+gedit-plugins
+gparted
 manjaro-settings-manager
-mlocate
-wget
-tlp
-cpu-temp-speed
 mntray
+remmina
+seahorse
+simple-scan
 
 # File systems access
 gvfs

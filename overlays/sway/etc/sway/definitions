@@ -45,3 +45,7 @@ set $statusbar waybar
 
 # shutdown command
 set $shutdown wlogout --buttons-per-row 3
+
+# cpu / mem monitors
+set $cpu_mon htop --sort-key=PERCENT_CPU
+set $mem_mon htop --sort-key=PERCENT_MEM

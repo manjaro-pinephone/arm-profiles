@@ -12,8 +12,6 @@ dhcpcd
 man-pages
 man-db
 zswap-arm
-upower
-cpupower
 
 # Sound, video and bluetooth
 pavucontrol
@@ -22,8 +20,11 @@ alsa-utils
 bluez
 bluez-utils
 pulseaudio-bluetooth
+pulseaudio-zeroconf
 blueman
 pulsemixer
+gst-libav
+libva-v4l2-request
 
 # Display Manager
 greetd
@@ -32,137 +33,116 @@ wlogout
 
 # Network
 avahi
-firewalld
 networkmanager
 networkmanager-openvpn
 dhclient
 manjaro-hotfixes
 manjaro-settings-samba
 
-# Core Sway Packages
+# Core Sway
 sway
 swaybg
 swayidle
 swaylock
 mako
 termite
-qt5-wayland
 waybar
 wl-clipboard
 wofi
-xorg-xwayland
-xdg-desktop-portal-wlr
 
 # Sway Extras
 grim
 grimshot
-imv
 slurp
 wdisplays
 wf-recorder
 
 # Themes
 qt5ct
+qt5-wayland
 kvantum-qt5
 kvantum-theme-matchama
-lxappearance
 gtk3-nocsd
-gtk4
-glfw-wayland
 matcha-gtk-theme
 manjaro-arm-wallpapers
 papirus-maia-icon-theme
 xcursor-breeze
 
-# Browser
+# Web Browser
 firefox
 firefox-ublock-origin
 
 # Email
 thunderbird
 
-# Office suite
-libreoffice-fresh
-
 # Package Manager
 pamac-gtk
 polkit-gnome
+pamac-cli
 
 # Fonts
 nerd-fonts-terminus
 noto-fonts
 noto-fonts-emoji
 ttf-bitstream-vera
+ttf-droid
+ttf-inconsolata
 ttf-font-awesome
 ttf-roboto
 wqy-microhei #chinese
 
 # some interesting CLI tools
 asciinema
-bandwhich
-base-devel
 bat
-bpytop
 chafa
 cmatrix
 cpu-temp-speed
 curl
 exa
 fd
+ffmpegthumbnailer
 fzf
 hey
+hexyl
 htop
 httpie
 hyperfine
 jq
 light
+mediainfo
 mlocate
 neofetch
 neovim
+odt2txt
 onefetch
+ranger
 ripgrep
 rsync
+silver
 wget
 tldr
 tlp
-w3m
-xdg-user-dirs
 yad
 yay
 
-# Other Applications
-atril
-atool
-cups-pdf
-dino
-ffmpeg
-ffmpegthumbnailer
-libva-v4l2-request
-libgepub
-libgsf
+# Applications
+eog
+evince
+file-roller
 gcolor3
-hexyl
+gedit
+gedit-plugins
+gparted
 manjaro-settings-manager
-mediainfo
 mntray
-mpv
-odt2txt
-powersupply
-ranger
+nautilus
 remmina
 seahorse
 simple-scan
-silver
+sushi
 system-config-printer
-ueberzug
 
 # File systems access
-thunar
-thunar-archive-plugin
-thunar-volman
-tumbler
-file-roller
-gparted
 gvfs
 gvfs-gphoto2
 gvfs-mtp
@@ -171,9 +151,18 @@ gvfs-smb
 ifuse
 mtpfs
 ntfs-3g
-exfat-utils
+mpv
+ffmpeg
 usb_modeswitch
 
 # Optional dependencies file-roller
 p7zip  # 7Z and ARJ archive support
 unrar  # RAR archive support
+
+## Xorg Server and Graphics
+xdg-user-dirs
+xorg-xwayland
+
+## Desktop Utils
+xdg-utils
+xdg-desktop-portal-wlr
