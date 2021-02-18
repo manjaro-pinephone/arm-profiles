@@ -4,7 +4,9 @@
 >pinephone ofono
 >pinephone ofonoctl
 >pinephone libqofono-qt5
->pinephone hfd-service-git
+
+# Need a better way to select this than device-specific
+hfd-service-git
 
 qmenumodel-git
 sensorfw-git
