@@ -35,6 +35,7 @@ wlogout
 avahi
 networkmanager
 networkmanager-openvpn
+nm-connection-editor
 dhclient
 manjaro-hotfixes
 manjaro-settings-samba
