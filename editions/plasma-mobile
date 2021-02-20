@@ -26,6 +26,7 @@ qt5-es2-multimedia
 qt5-es2-wayland
 
 # PM Packages
+angelfish
 buho
 calindori
 desktop-file-utils
@@ -48,7 +49,6 @@ neochat
 >pinephone noto-fonts-cjk # needed to display * and # in dialer
 nota
 okular-mobile
-plasma-angelfish
 >pinephone plasma-dialer
 plasma-mobile-nm
 plasma-mobile-settings
