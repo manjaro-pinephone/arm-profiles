@@ -76,6 +76,9 @@ firefox-ublock-origin
 # Email
 thunderbird
 
+# Office suite
+libreoffice-fresh
+
 # Package Manager
 pamac-gtk
 polkit-gnome
@@ -109,6 +112,7 @@ htop
 httpie
 hyperfine
 jq
+khal
 light
 mediainfo
 mlocate
@@ -120,9 +124,10 @@ ranger
 ripgrep
 rsync
 silver
-wget
 tldr
 tlp
+wget
+vdirsyncer
 yad
 yay
 
@@ -133,6 +138,7 @@ file-roller
 gcolor3
 gedit
 gedit-plugins
+gnome-epub-thumbnailer
 gparted
 manjaro-settings-manager
 mntray

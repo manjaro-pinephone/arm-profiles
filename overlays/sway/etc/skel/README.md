@@ -28,7 +28,6 @@ Sway has up to ten different workspaces that can be freely arranged on the avail
 
 - open a new terminal window: **$mod** + **Enter**
 - open the application launcher: **$mod** + **d**
-- open the run command: **$mod** + **Shift** + **d**
 - kill the application (forcefully): **$mod** + **Shift** + **q**
 
 ## Using Workspaces

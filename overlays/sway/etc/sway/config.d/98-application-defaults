@@ -4,8 +4,5 @@ for_window [app_id="floating_shell_landscape"] floating enable, border pixel 1, 
 for_window [app_id="pavucontrol"] floating enable, border pixel 1, sticky enable, resize set width 60 ppt height 80 ppt
 for_window [app_id="pamac-manager"] floating enable, border pixel 1, sticky enable, resize set width 80 ppt height 60 ppt
 for_window [app_id="blueman-manager"] floating enable, border pixel 1, sticky enable, resize set width 60 ppt height 80 ppt
-for_window [app_id="powersupply"] floating enable, border pixel 1, sticky enable, resize set width 60 ppt height 80 ppt
-for_window [instance="lxappearance"] floating enable, border pixel 1, sticky enable, resize set width 80 ppt height 60 ppt
-for_window [title="File Operation Progress"] floating enable, border pixel 1, sticky enable, resize set width 80 ppt height 60 ppt
 for_window [app_id="firefox" title="Library"] floating enable, border pixel 1, sticky enable, resize set width 60 ppt height 80 ppt
 for_window [app_id="thunderbird" title=".*Reminder"] floating enable, border pixel 1, sticky enable, resize set width 60 ppt height 80 ppt

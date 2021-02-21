@@ -17,4 +17,5 @@ export SILVER_ICONS=nerd
 export SILVER_SHELL=${0#-}          # bash, zsh, or fish
 eval "$(silver init)"
 
+source ~/.local/share/fzf-marks/fzf-marks.plugin.bash
 source ~/.bash_aliases

@@ -9,7 +9,7 @@ bindsym $mod+Return exec $term
 bindsym $mod+Shift+q kill
 
 ## Launch // Application Launcher ##
-bindsym $mod+d exec $appmenu
+bindsym $mod+d exec $menu
 ## Launch // Window Switcher ##
 bindsym $mod+Ctrl+d exec $selwin
 

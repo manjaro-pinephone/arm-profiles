@@ -13,13 +13,13 @@
 
     "layer": "top",
 
-    "position": "top",
-
     // If height property would be not present, it'd be calculated dynamically
     "height": 30,
 
     "modules-left": [
+        "custom/menu",
         "sway/workspaces",
+        "custom/scratchpad",
         "sway/mode"
     ],
     "modules-center": [
@@ -36,9 +36,9 @@
         "pulseaudio",
         "custom/pacman",
         "tray",
+        "custom/help",
         "clock"
     ],
-
 
     // -------------------------------------------------------------------------
     // Modules
@@ -59,14 +59,15 @@
             "", // Icon: battery-three-quarters
             ""  // Icon: battery-full
         ],
-        "tooltip": true
+        "tooltip": false
     },
 
     "clock": {
         "interval": 60,
         "format": " {:%e %b %Y %H:%M}", // Icon: calendar-alt
         "tooltip": true,
-        "tooltip-format": "<big>{:%B %Y}</big>\n<tt>{calendar}</tt>"
+        "tooltip-format": "<big>{:%B %Y}</big>\n<tt>{calendar}</tt>",
+        "on-click": "swaymsg exec \\$calendar"
     },
 
     "cpu": {
@@ -143,7 +144,7 @@
             "car": "",
             "default": ["", ""]
         },
-        "on-click": "pavucontrol"
+        "on-click": "swaymsg exec \\$pulseaudio"
     },
 
     "temperature": {
@@ -173,6 +174,18 @@
         "on-click": "pamac-manager --updates",
     },
 
+    "custom/menu": {
+        "format": "",
+        "on-click": "swaymsg exec \\$menu",
+        "tooltip": false
+    },
+
+    "custom/help": {
+        "format": "ﲉ",
+        "on-click": "swaymsg exec \\$help",
+        "tooltip": false
+    },
+
     "bluetooth": {
         "format": "{icon}",
         "interval": 30,
@@ -182,5 +195,16 @@
         },
         "on-click": "blueman-manager",
         "tooltip-format": "{status}"
+    },
+    "custom/scratchpad": {
+        "interval": 1,
+        "return-type": "json",
+        "format" : "{icon}",
+        "format-icons": {
+            "one": "",
+            "many": ""
+        },
+        "exec": "scratchpad.sh",
+        "on-click": "swaymsg 'scratchpad show'"
     }
 }

@@ -20,9 +20,8 @@ set $term_float_landscape $term --name=floating_shell_landscape --exec
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $appmenu wofi --show "drun,run" --prompt "Application Launcher" --term $term | xargs swaymsg exec --
+set $menu wofi --show "drun,run" -I --exec-search --prompt "Application Launcher" --term $term | xargs swaymsg exec --
 set $selwin sws.sh --dmenu-cmd "wofi --show dmenu" --format "%W | %A - %T"
-set $help swhelp.sh --conf $HOME/.config/wofi/swhelp --location 7 --xoffset 15 --yoffset -30
 
 ### Lockscreen configuration
 #
@@ -45,6 +44,15 @@ set $statusbar waybar
 
 # shutdown command
 set $shutdown wlogout --buttons-per-row 3
+
+# pulseaudio command
+set $pulseaudio pavucontrol
+
+# help command
+set $help $term_float_portrait "bat $HOME/README.md"
+
+# calendar application
+set $calendar $term_float_portrait "khal interactive"
 
 # cpu / mem monitors
 set $cpu_mon htop --sort-key=PERCENT_CPU
