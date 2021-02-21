@@ -5,7 +5,6 @@
 >pinephone ofonoctl
 >pinephone libqofono-qt5
 >pinephone hfd-service-git
->pinephone eg25-manager-ofono
 
 qmenumodel-git
 sensorfw-git

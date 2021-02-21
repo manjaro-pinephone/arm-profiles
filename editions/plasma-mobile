@@ -4,7 +4,6 @@
 >pinephone ofono
 >pinephone ofonoctl
 >pinephone libqofono-qt5
->pinephone eg25-manager-ofono
 
 # Minimal packages
 sudo
