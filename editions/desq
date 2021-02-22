@@ -10,7 +10,6 @@ xorg-server
 xorg-xinit
 ncdu
 nano
-dhcpcd
 man-pages
 man-db
 ntfs-3g
