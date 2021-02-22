@@ -3,8 +3,8 @@
 # Kernel and bootloader stuff
 linux
 uboot-rockpi4c
-bootsplash-theme-manjaro
-bootsplash-systemd
+plymouth
+plymouth-theme-manjaro
 
 # Video drivers
 

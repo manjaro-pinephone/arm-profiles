@@ -4,8 +4,8 @@
 linux
 linux-headers
 uboot-pinebook
-bootsplash-theme-manjaro
-bootsplash-systemd
+plymouth
+plymouth-theme-manjaro
 
 # Other device specific packages
 dkms-rtl8723cs

@@ -3,8 +3,8 @@
 # Kernel and bootloader stuff
 linux
 uboot-pine64-lts
-bootsplash-theme-manjaro
-bootsplash-systemd
+plymouth
+plymouth-theme-manjaro
 
 # Video drivers
 xf86-video-fbturbo-git

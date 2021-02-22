@@ -3,8 +3,8 @@
 # Kernel and bootloader stuff
 linux
 uboot-rockpro64
-bootsplash-theme-manjaro
-bootsplash-systemd
+plymouth
+plymouth-theme-manjaro
 
 # Video drivers
 

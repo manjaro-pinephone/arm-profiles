@@ -7,8 +7,8 @@ raspberrypi-bootloader
 raspberrypi-bootloader-x
 rpi-eeprom
 raspberrypi-userland-aarch64-git
-bootsplash-theme-manjaro
-bootsplash-systemd
+plymouth
+plymouth-theme-manjaro
 
 # Video driver
 
