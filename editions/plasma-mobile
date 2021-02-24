@@ -32,7 +32,7 @@ gst-plugins-bad
 gst-plugins-base
 gst-plugins-ugly
 ffmpeg-pp
-clip
+maui-clip
 
 # Image packages
 kio-extras
@@ -48,7 +48,7 @@ angelfish
 buho
 calindori
 desktop-file-utils
-index
+index-fm
 kaccounts-providers
 kalk
 kclock
