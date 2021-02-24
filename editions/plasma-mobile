@@ -30,7 +30,7 @@ angelfish
 buho
 calindori
 desktop-file-utils
-index
+index-fm
 kaccounts-providers
 kalk
 kclock
@@ -47,15 +47,15 @@ maliit-keyboard
 mauikit
 neochat
 >pinephone noto-fonts-cjk # needed to display * and # in dialer
-nota
-okular-mobile
+maui-nota
+okular
 >pinephone plasma-dialer
 plasma-mobile-nm
 plasma-mobile-settings
 plasma-nano
 plasma-phone-components
 plasma-phonebook
-#plasma-pix
+#maui-pix
 plasma-settings
 plymouth-shim
 qmlkonsole
