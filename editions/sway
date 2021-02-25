@@ -8,7 +8,6 @@ haveged
 inxi
 ncdu
 nano
-dhcpcd
 man-pages
 man-db
 zswap-arm
@@ -112,6 +111,7 @@ htop
 httpie
 hyperfine
 jq
+khard
 khal
 light
 mediainfo
