@@ -13,7 +13,6 @@ export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
 
 # configure silver command prompt
 export SILVER_ICONS=nerd
-export SILVER_SHELL=${0#-}          # bash, zsh, or fish
-eval "$(silver init)"
+source <(silver init)
 
 source ~/.bash_aliases
