@@ -23,6 +23,7 @@ pulseaudio-zeroconf
 grilo
 grilo-plugins
 gst-libav
+gst-plugin-pipewire
 libva-v4l2-request
 
 # Display Manager
