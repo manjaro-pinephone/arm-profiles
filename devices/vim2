@@ -3,8 +3,8 @@
 # Kernel and bootloader stuff
 linux-vim
 boot-vim2
-bootsplash-theme-manjaro
-bootsplash-systemd
+plymouth
+plymouth-theme-manjaro
 
 # Video driver
 #xf86-video-fbturbo-git
