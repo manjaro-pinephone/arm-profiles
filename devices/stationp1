@@ -4,8 +4,8 @@
 linux
 linux-headers
 uboot-stationp1
-bootsplash-theme-manjaro
-bootsplash-systemd
+plymouth
+plymouth-theme-manjaro
 
 # Video drivers
 
