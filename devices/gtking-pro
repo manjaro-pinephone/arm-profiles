@@ -3,8 +3,8 @@
 # Kernel and bootloader stuff
 linux-vim
 uboot-gtking-pro
-bootsplash-theme-manjaro
-bootsplash-systemd
+plymouth
+plymouth-theme-manjaro
 
 # Video driver
 
