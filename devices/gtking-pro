@@ -1,8 +1,8 @@
 ## Maintained by Spikerguy ##
 
 # Kernel and bootloader stuff
-linux-vim
-uboot-gtking-pro
+linux
+boot-gtking-pro
 plymouth
 plymouth-theme-manjaro
 
