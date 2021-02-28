@@ -2,9 +2,9 @@
 
 # Kernel and bootloader stuff
 linux-vim
-uboot-gsking-x
-bootsplash-theme-manjaro
-bootsplash-systemd
+boot-gsking-x
+plymouth
+plymouth-theme-manjaro
 
 # Video driver
 
