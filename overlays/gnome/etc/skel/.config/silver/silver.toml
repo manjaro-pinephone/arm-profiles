@@ -1,0 +1,24 @@
+[[left]]
+name = "status"
+color.background = "black"
+color.foreground = "white"
+
+[[left]]
+name = "user"
+color.background = "yellow"
+color.foreground = "black"
+
+[[left]]
+name = "dir"
+color.background = "blue"
+color.foreground = "black"
+
+[[left]]
+name = "git"
+color.background = "green"
+color.foreground = "black"
+
+[[left]]
+name = "cmdtime"
+color.background = "magenta"
+color.foreground = "black"
