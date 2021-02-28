@@ -1,10 +1,10 @@
 ## Maintained by Spikerguy ##
 
 # Kernel and bootloader stuff
-linux-vim
+linux
 boot-vim3
-bootsplash-theme-manjaro
-bootsplash-systemd
+plymouth
+plymouth-theme-manjaro
 
 # Video driver
 
