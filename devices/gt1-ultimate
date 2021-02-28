@@ -3,11 +3,11 @@
 # Kernel and bootloader stuff
 linux-vim
 boot-gt1-ultimate
-bootsplash-theme-manjaro
-bootsplash-systemd
+plymouth
+plymouth-theme-manjaro
 
 # Video driver
-xf86-video-fbturbo-git
+#xf86-video-fbturbo-git
 
 # Other device specific packages
 #bluetooth-vim3
