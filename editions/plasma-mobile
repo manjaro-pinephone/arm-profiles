@@ -41,7 +41,7 @@ libappimage
 ffmpegthumbs
 
 # Personal assistance
-mycroft-gui-git
+#mycroft-gui-git
 
 # PM Packages
 angelfish
