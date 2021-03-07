@@ -2,7 +2,6 @@
 
 # Kernel and bootloader stuff
 linux
-linux-headers
 uboot-pinetab
 bootsplash-theme-manjaro
 bootsplash-systemd
@@ -10,7 +9,6 @@ bootsplash-systemd
 # Video drivers
 
 # Other device specific packages
-dkms-rtl8723cs
 rtl8723bt-firmware
 wpa_supplicant
 pinephone-manjaro-tweaks
