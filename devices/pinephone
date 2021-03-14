@@ -2,7 +2,7 @@
 
 # Kernel and bootloader stuff
 linux-pinephone
-linux-pinephone-headers
+#linux-pinephone-headers
 uboot-pinephone
 bootsplash-theme-manjaro
 bootsplash-systemd
