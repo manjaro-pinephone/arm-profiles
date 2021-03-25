@@ -7,6 +7,7 @@ plymouth
 plymouth-theme-manjaro
 
 # Other device specific packages
+btrfs-progs
 rtl8723bt-firmware
 wpa_supplicant
 pinebook-post-install

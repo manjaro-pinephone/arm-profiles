@@ -10,6 +10,7 @@ plymouth-theme-manjaro
 xf86-video-fbturbo-git
 
 # Other device specific packages
+btrfs-progs
 fbset
 amlogic
 oc2-post-install

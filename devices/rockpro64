@@ -9,4 +9,5 @@ plymouth-theme-manjaro
 # Video drivers
 
 # Other device specific packages
+btrfs-progs
 rockpro64-post-install

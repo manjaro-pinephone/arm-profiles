@@ -11,6 +11,7 @@ bootsplash-systemd
 xf86-video-fbturbo-git
 
 # Other device specific packages
+btrfs-progs
 firmware-raspberrypi
 pi-bluetooth
 wpa_supplicant

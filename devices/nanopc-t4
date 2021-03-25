@@ -9,4 +9,5 @@ bootsplash-systemd
 # Video drivers
 
 # Other device specific packages
+btrfs-progs
 nanopc-t4-post-install

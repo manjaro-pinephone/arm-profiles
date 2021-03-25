@@ -7,7 +7,7 @@ plymouth
 plymouth-theme-manjaro
 
 # Video drivers
-xf86-video-fbturbo-git
 
 # Other device specific packages
+btrfs-progs
 rock64-post-install

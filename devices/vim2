@@ -7,9 +7,9 @@ plymouth
 plymouth-theme-manjaro
 
 # Video driver
-#xf86-video-fbturbo-git
 
 # Other device specific packages
+btrfs-progs
 #bluetooth-vim3
 #khadas-utils
 fbset

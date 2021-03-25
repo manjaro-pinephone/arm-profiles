@@ -9,5 +9,6 @@ plymouth-theme-manjaro
 # Video drivers
 
 # Other device specific packages
+btrfs-progs
 nanopc-t4-post-install
 ap6398s-firmware

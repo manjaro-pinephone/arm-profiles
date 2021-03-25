@@ -9,6 +9,7 @@ bootsplash-systemd
 # Video drivers
 
 # Other device specific packages
+btrfs-progs
 rtl8723bt-firmware
 wpa_supplicant
 pinephone-manjaro-tweaks

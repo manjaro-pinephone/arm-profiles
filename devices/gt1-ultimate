@@ -10,6 +10,7 @@ plymouth-theme-manjaro
 #xf86-video-fbturbo-git
 
 # Other device specific packages
+btrfs-progs
 #bluetooth-vim3
 #khadas-utils
 kvim2-firmware

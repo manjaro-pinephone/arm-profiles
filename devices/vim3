@@ -9,6 +9,7 @@ plymouth-theme-manjaro
 # Video driver
 
 # Other device specific packages
+btrfs-progs
 ap6398s-firmware
 kvim2-firmware
 bluetooth-vim3

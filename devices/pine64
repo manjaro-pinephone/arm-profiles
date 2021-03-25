@@ -6,9 +6,8 @@ uboot-pine64
 plymouth
 plymouth-theme-manjaro
 
-
 # Video drivers
-xf86-video-fbturbo-git
 
 # Other device specific packages
+btrfs-progs
 pinebook-post-install

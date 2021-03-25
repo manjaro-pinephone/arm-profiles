@@ -9,5 +9,6 @@ plymouth-theme-manjaro
 # Video driver
 
 # Other device specific packages
+btrfs-progs
 fbset
 oc4-post-install
