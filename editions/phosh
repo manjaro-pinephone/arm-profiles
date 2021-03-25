@@ -11,6 +11,7 @@
 >pinephone mobile-config-firefox
 
 # Minimal packages
+glibc-locales
 sudo
 parted
 openssh
