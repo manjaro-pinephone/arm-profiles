@@ -30,7 +30,9 @@
         "bluetooth",
         "cpu",
         "memory",
-        "battery",
+//        "battery",                  // use for compliant batteries
+        "custom/battery-pbpro",     // use for battery on Pinebook Pro with kernel<5.13
+//        "custom/battery-pb",        // use for battery on Pinebook with kernel<5.13
         "backlight",
         "idle_inhibitor",
         "pulseaudio",
@@ -59,7 +61,7 @@
             "", // Icon: battery-three-quarters
             ""  // Icon: battery-full
         ],
-        "tooltip": false
+        "tooltip": true
     },
 
     "clock": {
@@ -206,5 +208,28 @@
         },
         "exec": "scratchpad.sh",
         "on-click": "swaymsg 'scratchpad show'"
+    },
+
+    "custom/battery-pbpro": {
+        "interval": 30,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{}",
+        "tooltip": true,
+        "exec": "pbpro-battery-status.sh",
+        "return-type": "json"
+    },
+    "custom/battery-pb": {
+        "interval": 30,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{}",
+        "tooltip": true,
+        "exec": "pb-battery-status.sh",
+        "return-type": "json"
     }
 }
