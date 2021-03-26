@@ -1,7 +1,7 @@
 ## Maintained by Spikerguy ##
 
 # Kernel and bootloader stuff
-linux
+linux-vim
 boot-vim3
 plymouth
 plymouth-theme-manjaro
