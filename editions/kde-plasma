@@ -46,6 +46,7 @@ plasma-workspace
 powerdevil
 systemsettings
 plasma-vault
+plasma-firewall
 
 # KDE applications
 dolphin
@@ -97,3 +98,4 @@ tlp
 flameshot
 xdg-user-dirs
 networkmanager-openvpn
+firealld
