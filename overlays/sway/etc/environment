@@ -4,9 +4,6 @@
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
 
-# enable as long as Mesa driver isn't supporting modifiers properly
-WLR_DRM_NO_MODIFIERS=1
-
 # remove client side decoration in GTK3
 LD_PRELOAD=/usr/lib/libgtk3-nocsd.so.0
 GTK_CSD=0
