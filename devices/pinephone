@@ -18,5 +18,6 @@ rtl8723bt-firmware-megi
 anx7688-firmware
 ov5640-firmware
 wpa_supplicant
+wireless-regdb
 pinephone-post-install
 pinephone-manjaro-tweaks
