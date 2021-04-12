@@ -49,6 +49,7 @@ gnome-usage-mobile
 gnome-sound-recorder
 gnome-initial-setup-mobile
 gnome-todo-mobile
+geoclue-mobile
 dnsmasq
 
 # Gnome packages
@@ -93,3 +94,4 @@ firefox
 telegram-desktop
 qt5-wayland # for telegram-desktop
 noto-fonts-emoji
+siglo
