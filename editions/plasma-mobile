@@ -6,6 +6,7 @@
 >pinephone libqofono-qt5
 
 # Minimal packages
+glibc-locales
 sudo
 parted
 openssh
