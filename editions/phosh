@@ -60,8 +60,8 @@ gnome-keyring
 gnome-maps
 gnome-2048
 gnome-calendar
-gnome-chess
-gnuchess 
+#gnome-chess
+#gnuchess 
 file-roller
 fractal
 #gnote
@@ -95,3 +95,4 @@ telegram-desktop
 qt5-wayland # for telegram-desktop
 noto-fonts-emoji
 siglo
+postmarketos-tweaks-app-phosh
