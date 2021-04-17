@@ -44,7 +44,7 @@ megapixels
 xdg-user-dirs
 gnome-contacts-mobile
 gnome-control-center-mobile
-#gnome-software-mobile
+gnome-software-mobile
 gnome-usage-mobile
 gnome-sound-recorder
 gnome-initial-setup-mobile
