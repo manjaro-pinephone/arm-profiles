@@ -23,7 +23,10 @@ sddm
 #matcha-dynamic-sddm
 
 #CoreApps
-paperdesktop-git
+paperde
+xdg-desktop-portal-kde
+xdg-desktop-portal-gtk
+xdg-desktop-portal-wlr
 coreaction
 corearchiver
 corefm
