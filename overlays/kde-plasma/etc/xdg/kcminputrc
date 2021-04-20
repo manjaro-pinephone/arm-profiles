@@ -1,2 +1,6 @@
 [Mouse]
 cursorTheme=breeze_cursors
+
+[Libinput][9610][30][HAILUCK CO.,LTD USB KEYBOARD Touchpad]
+PointerAcceleration=0.600
+TapToClick=true
