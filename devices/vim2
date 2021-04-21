@@ -9,6 +9,7 @@ plymouth-theme-manjaro
 # Video driver
 
 # Other device specific packages
+crda
 btrfs-progs
 #bluetooth-vim3
 #khadas-utils

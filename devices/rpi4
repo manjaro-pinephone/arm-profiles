@@ -13,6 +13,7 @@ plymouth-theme-manjaro
 # Video driver
 
 # Other device specific packages
+crda
 btrfs-progs
 firmware-raspberrypi
 brcm-patchram-plus

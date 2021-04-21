@@ -10,6 +10,7 @@ plymouth-theme-manjaro
 # Video drivers
 
 # Other device specific packages
+crda
 btrfs-progs
 rtl8723du-dkms-git
 wpa_supplicant

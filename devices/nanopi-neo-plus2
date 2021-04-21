@@ -10,6 +10,7 @@ bootsplash-systemd
 xf86-video-fbturbo-git
 
 # Other device specific packages
+crda
 btrfs-progs
 kvim1-firmware
 pinebook-post-install

@@ -9,6 +9,7 @@ plymouth-theme-manjaro
 # Video drivers
 
 # Other device specific packages
+crda
 btrfs-progs
 ap6256-firmware
 wpa_supplicant
