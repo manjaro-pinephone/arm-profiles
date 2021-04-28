@@ -1,0 +1,18 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
+linux
+uboot-pinebookpro-bsp
+plymouth
+plymouth-theme-manjaro
+
+# Video drivers
+
+# Other device specific packages
+crda
+btrfs-progs
+ap6256-firmware
+wpa_supplicant
+pinebookpro-audio
+xf86-input-synaptics
+pinebookpro-post-install
