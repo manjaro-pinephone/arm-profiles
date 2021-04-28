@@ -1,0 +1,14 @@
+## Maintained by Spikerguy ##
+
+# Kernel and bootloader stuff
+linux
+uboot-odroid-hc4
+plymouth
+plymouth-theme-manjaro
+
+# Video driver
+
+# Other device specific packages
+btrfs-progs
+fbset
+hc4-post-install
