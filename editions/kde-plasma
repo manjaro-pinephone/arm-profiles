@@ -18,8 +18,10 @@ zswap-arm
 # Sound, Video and bluetooth
 alsa-utils
 smplayer
-pulseaudio-alsa
-pulseaudio-bluetooth
+#pulseaudio-alsa
+#pulseaudio-bluetooth
+pipewire-alsa
+pipewire-pulse
 
 # Display Manager
 sddm
