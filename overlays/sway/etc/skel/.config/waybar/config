@@ -196,7 +196,7 @@
             "disabled": ""
         },
         "on-click": "blueman-manager",
-        "tooltip-format": "{status}"
+        "tooltip-format": "{}"
     },
     "custom/scratchpad": {
         "interval": 1,

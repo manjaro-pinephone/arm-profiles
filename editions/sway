@@ -18,9 +18,9 @@ pulseaudio-alsa
 alsa-utils
 bluez
 bluez-utils
-pulseaudio-bluetooth
-pulseaudio-zeroconf
 blueman
+pipewire-alsa
+pipewire-pulse
 pulsemixer
 gst-libav
 gst-plugin-pipewire

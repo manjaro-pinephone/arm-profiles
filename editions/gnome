@@ -18,8 +18,8 @@ pulseaudio-alsa
 alsa-utils
 bluez
 bluez-utils
-pulseaudio-bluetooth
-pulseaudio-zeroconf
+pipewire-alsa
+pipewire-pulse
 grilo
 grilo-plugins
 gst-libav
