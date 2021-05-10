@@ -84,7 +84,6 @@ papirus-maia-icon-theme
 bluez
 pamac-cli
 portfolio-file-manager
-pulseaudio-bluetooth
 iio-sensor-proxy
 networkmanager
 gnome-keyring
@@ -98,3 +97,8 @@ noto-fonts-emoji
 siglo
 postmarketos-tweaks-app-phosh
 pamac-gtk
+
+# Try to use Pipewire instead of PulseAudio
+#pulseaudio-bluetooth
+pipewire-alsa
+pipewire-pulse
