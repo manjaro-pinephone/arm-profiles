@@ -24,6 +24,7 @@ man-pages
 man-db
 ntfs-3g
 zswap-arm
+bash-completion
 
 # Phosh packages
 gtk3-mobile
@@ -60,8 +61,8 @@ gnome-keyring
 gnome-maps
 gnome-2048
 gnome-calendar
-#gnome-chess
-#gnuchess 
+gnome-chess
+gnuchess 
 file-roller
 fractal
 #gnote

@@ -19,6 +19,7 @@ dhcpcd
 #man-db
 ntfs-3g
 zswap-arm
+bash-completion
 
 # OpenGLES qt packages
 qt5-es2-base
