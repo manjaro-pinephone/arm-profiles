@@ -127,7 +127,6 @@ pipewire-media-session
 mesa
 tlp
 alsa-utils
-pulseaudio-bluetooth
 wget
 xdg-user-dirs
 debianutils

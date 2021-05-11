@@ -12,6 +12,8 @@ bootsplash-systemd
 # Audio configs
 pinephone-modem-scripts
 alsa-ucm-pinephone
+pipewire-alsa
+pipewire-pulse
 
 # Other device specific packages
 rtl8723bt-firmware-megi
