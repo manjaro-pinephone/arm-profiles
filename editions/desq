@@ -23,12 +23,10 @@ pulseaudio-bluetooth
 # Display Manager
 sddm
 
-
 # DesQ packages
 desq-session-git
-#desq-shell-git
-oyster-git
-desq-settings-git
+desq-shell-git
+#oyster-git
 networkmanager-qt
 
 #CoreApps
@@ -52,8 +50,6 @@ coreterminal
 coretime
 coretoppings
 coreuniverse
-
-
 
 # Fonts
 cantarell-fonts
