@@ -84,11 +84,12 @@ papirus-maia-icon-theme
 xcursor-breeze
 
 # Web Browser
+epiphany
 firefox
 firefox-ublock-origin
 
 # Email
-evolution
+geary
 
 # Office suite
 libreoffice-fresh
@@ -110,23 +111,15 @@ ttf-roboto
 wqy-microhei #chinese
 
 # some interesting CLI tools
-asciinema
 bat
-chafa
-cmatrix
 cpu-temp-speed
 curl
 exa
 fd
 ffmpegthumbnailer
 fzf
-hey
-hexyl
 htop
-httpie
-hyperfine
 jq
-light
 mediainfo
 mlocate
 neofetch
@@ -137,7 +130,6 @@ ripgrep
 rsync
 silver
 wget
-tldr
 tlp
 yad
 yay
