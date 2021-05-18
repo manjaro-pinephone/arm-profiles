@@ -13,9 +13,9 @@ set $right l
 set $theme /etc/sway/themes/matcha-green
 
 # Your preferred terminal emulator
-set $term termite --config=$theme/termite
-set $term_float_portrait $term --name=floating_shell_portrait --exec
-set $term_float_landscape $term --name=floating_shell_landscape --exec
+set $term foot --config=$theme/foot.ini
+set $term_float_portrait $term --app-id=floating_shell_portrait 
+set $term_float_landscape $term --app-id=floating_shell_landscape 
 
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
@@ -49,10 +49,10 @@ set $shutdown wlogout --buttons-per-row 3
 set $pulseaudio pavucontrol
 
 # help command
-set $help $term_float_portrait "bat $HOME/README.md"
+set $help $term_float_portrait bat $HOME/README.md
 
 # calendar application
-set $calendar $term_float_portrait "khal interactive"
+set $calendar $term_float_portrait khal interactive
 
 # cpu / mem monitors
 set $cpu_mon htop --sort-key=PERCENT_CPU

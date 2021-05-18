@@ -6,5 +6,5 @@ insensitive=true
 hide_scroll=true
 lines=10
 no_actions=true
-term=termite
+term=foot
 width=600
