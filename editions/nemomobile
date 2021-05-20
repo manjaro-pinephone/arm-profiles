@@ -1,0 +1,54 @@
+## Maintained by NeoChapay ##
+
+# Phone specific packages
+>pinephone ofono
+>pinephone ofonoctl
+>pinephone libqofono-qt5
+>pinephone nemo-device-pinephone
+
+# Minimal packages
+sudo
+parted
+openssh
+
+# OpenGLES qt packages
+qt5-es2-base
+qt5-es2-declarative
+qt5-es2-multimedia
+qt5-es2-wayland
+
+# Multimedia packages
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-ugly
+ffmpeg-pp
+
+# Additional packages
+accountsservice
+lightdm
+mapplauncherd-git
+mce
+mce-plugin-libhybris-nonandroid-git
+dsme
+swi-prolog
+ohm
+ohm-plugin-ruleengine
+
+# Main glacier packages
+lipstick-glacier-home-git
+glacier-calc-git
+glacier-camera-git
+glacier-filemuncher-git
+glacier-gallery-git
+glacier-music-git
+glacier-pinquery-git
+glacier-wayland-session
+
+# Other
+mesa
+alsa-utils
+pulseaudio-bluetooth
+wget
+vim
+nano
