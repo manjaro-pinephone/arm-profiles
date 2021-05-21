@@ -5,8 +5,8 @@ icon_theme=ICON_THEME
 style=kvantum
 
 [Fonts]
-fixed=@Variant(\0\0\0@\0\0\0\x12\0\x43\0\x61\0n\0t\0\x61\0r\0\x65\0l\0l@$\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
-general=@Variant(\0\0\0@\0\0\0\x12\0\x43\0\x61\0n\0t\0\x61\0r\0\x65\0l\0l@$\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+fixed=@Variant(\0\0\0@\0\0\0\x12\0N\0o\0t\0o\0 \0S\0\x61\0n\0s@&\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+general=@Variant(\0\0\0@\0\0\0\x12\0N\0o\0t\0o\0 \0S\0\x61\0n\0s@&\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
 
 [Interface]
 activate_item_on_single_click=1
