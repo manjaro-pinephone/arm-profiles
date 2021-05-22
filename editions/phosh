@@ -94,6 +94,7 @@ firefox
 telegram-desktop
 qt5-wayland # for telegram-desktop
 noto-fonts-emoji
+noto-fonts-cjk
 siglo
 postmarketos-tweaks-app-phosh
 pamac-gtk
