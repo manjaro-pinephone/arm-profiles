@@ -19,8 +19,8 @@ include /etc/sway/modes/*
 # only enable this if every app you use is compatible with wayland
 # xwayland disable
 
-# include additional configs e.g. to autostart applications
-include /etc/sway/config.d/*
+# include scripts to set up theme files
+include $HOME/.config/sway/themes/scripts/*
 
-# user config
+# include additional configs e.g. to autostart applications
 include $HOME/.config/sway/config.d/*
