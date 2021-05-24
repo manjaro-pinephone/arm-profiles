@@ -4,7 +4,14 @@ exec {
   gsettings set org.blueman.general plugin-list "['\!AppIndicator']"
 }
 
+exec {
+    # https://github.com/swaywm/sway/wiki#gtk-applications-take-20-seconds-to-start
+    systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
+    hash dbus-update-activation-environment 2>/dev/null && dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+}
+
 # autostart background applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id mako
-exec --no-startup-id mntray
+exec --no-startup-id foot --config=$theme/foot.ini --server
+# exec --no-startup-id mntray

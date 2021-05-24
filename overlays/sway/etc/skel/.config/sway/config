@@ -12,15 +12,16 @@ include /etc/sway/definitions
 include $theme/definitions
 
 # Your preferred terminal emulator
-set $term foot --config=$theme/foot.ini
-set $term_float_portrait $term --app-id=floating_shell_portrait 
-set $term_float_landscape $term --app-id=floating_shell_landscape 
+set $term footclient
+set $term_float_portrait $term --app-id=floating_shell_portrait
+set $term_float_landscape $term --app-id=floating_shell_landscape
 
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu wofi --show "drun,run" -I --exec-search --prompt "Application Launcher" --term $term | xargs swaymsg exec --
-set $selwin sws.sh --dmenu-cmd "wofi --show dmenu" --format "%W | %A - %T"
+set $launcher_options --background-color=$launcher-background-color --text-color=$launcher-text-color --selection-color=$launcher-selection-color --match-color=$launcher-matching-color --font=$launcher-font --lines 20 --width 50 --border-radius=5
+set $menu fuzzel --icon-theme=$icon-theme --terminal "$term" $launcher_options
+set $selwin sws.sh --dmenu-cmd "fuzzel $launcher_options --dmenu " --format "%W | %A - %T"
 
 ### Lockscreen configuration
 #
@@ -68,6 +69,6 @@ include /etc/sway/config.d/*
 include $HOME/.config/sway/themes/scripts/*
 
 # include additional configs e.g. to autostart applications
-# for changes to it please change the responding files 
+# for changes to it please change the responding files
 # or add new ones to the folder below
 include $HOME/.config/sway/config.d/*
