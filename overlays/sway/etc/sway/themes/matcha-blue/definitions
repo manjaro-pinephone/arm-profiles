@@ -30,6 +30,19 @@ set $base0F #8a553f
 
 set $transparent-background-color rgba(20, 22, 27, 0.9)
 
+set $launcher-background-color 14161bee
+set $launcher-text-color eeeeeeff
+set $launcher-selection-color 282a2bff
+set $launcher-matching-color 55b5dbff
+set $launcher-font Noto Sans:pixelsize=11
+
+set $lock-background-color 14161bee
+set $lock-inside-color 282a2bff
+set $lock-verify-color 55b5dbff
+set $lock-error-color Cd3f45ff
+set $lock-ring-color 16a085ff
+set $lock-text-color eeeeeeff
+
 # Basic color configuration using the Base16 variables for windows and borders.
 # Property Name         Border  BG      Text    Indicator Child Border
 client.focused          $base05 $base0D $base00 $base0D $base0D

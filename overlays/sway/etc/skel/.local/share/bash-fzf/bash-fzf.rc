@@ -1,0 +1,422 @@
+##
+##  bash-fzf.rc -- Improve GNU Bash with FZF Matching
+##  Copyright (c) 1997-2020 Dr. Ralf S. Engelschall <http://engelschall.com>
+##
+##  Permission is hereby granted, free of charge, to any person obtaining
+##  a copy of this software and associated documentation files (the
+##  "Software"), to deal in the Software without restriction, including
+##  without limitation the rights to use, copy, modify, merge, publish,
+##  distribute, sublicense, and/or sell copies of the Software, and to
+##  permit persons to whom the Software is furnished to do so, subject to
+##  the following conditions:
+##
+##  The above copyright notice and this permission notice shall be included
+##  in all copies or substantial portions of the Software.
+##
+##  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+##  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+##  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+##  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+##  CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+##  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+##  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+##
+
+#   we enhance bash(1) with fzf(1) only for interactive sessions...
+if [[ $- =~ .*i.* ]]; then
+    #
+    #   ==== COMMON ====
+    #
+
+    #   identification
+    __fzf_version="2.1.3"
+
+    #   common fzf(1) processing prolog
+    __fzf_prolog () {
+        echo -n -e "\e[1A"
+    }
+
+    #   determine color support
+    __fzf_fzf_options="--color=bw"
+    __fzf_term_colors=$(tput colors 2>/dev/null)
+    if [[ -n $__fzf_term_colors && $__fzf_term_colors -ge 8 ]]; then
+        __fzf_fzf_options="--color=light,bg:-1,fg:-1,hl:1,bg+:0,fg+:15,hl+:1,gutter:-1,pointer:1,info:4,prompt:-1"
+    fi
+
+    #   common fzf(1) execution
+    __fzf_fzf () {
+        fzf --exact \
+            --no-sort \
+            --no-mouse \
+            --reverse \
+            --height=6 \
+            --no-bold \
+            --inline-info \
+            --bind="ctrl-k:kill-line" \
+            --bind="backward-eof:abort" \
+            --expect=ctrl-e \
+            $__fzf_fzf_options \
+            "$@"
+    }
+
+    #   common fzf(1) processing epilog
+    __fzf_epilog () {
+        key=$(echo "$1" | LC_ALL=C sed -e 1q)
+        cmd=$(echo "$1" | LC_ALL=C sed -e 1d)
+        if [[ $key == "" && $cmd == "" ]]; then
+            echo -n -e "\e[1A"
+            history -s
+            history -a
+        elif [[ $key == ctrl-e ]]; then
+            read -e -p "\$ " -i "$cmd" cmd
+            history -s -- $cmd
+            history -a
+            eval "$cmd"
+        else
+            history -s -- $cmd
+            history -a
+            echo "\$ $cmd"
+            eval "$cmd"
+        fi
+    }
+
+    #   common finding of config files in current, parent and home directories
+    __fzf_config_files () {
+        local filename="$1"
+        local files=""
+        local dir=$(pwd)
+        local homedir=$(cd $HOME && pwd)
+        local homeseen="no"
+        while [[ $dir != "/" ]]; do
+            if [[ -f "$dir/$filename" ]]; then
+                if [[ $files == "" ]]; then
+                    files="$dir/$filename"
+                else
+                    files="$files $dir/$filename"
+                fi
+                if [[ $dir == $homedir ]]; then
+                    homeseen="yes"
+                fi
+            fi
+            dir=$(cd $dir/.. && pwd)
+        done
+        if [[ $homeseen == "no" && -f "$HOME/$filename" ]]; then
+            if [[ $files == "" ]]; then
+                files="$HOME/$filename"
+            else
+                files="$files $HOME/$filename"
+            fi
+        fi
+        echo "$files"
+    }
+
+    #
+    #   ==== COMMAND HISTORY ====
+    #
+
+    #   configure Bash history processing
+    shopt -s cmdhist
+    shopt -s histappend
+    shopt -s lithist
+    HISTSIZE=${HISTSIZE-1000}
+    HISTFILESIZE=${HISTFILESIZE-1000}
+    HISTIGNORE=${HISTIGNORE-"&:[ ]*:exit:ls:bg:fg:history:clear"}
+    HISTTIMEFORMAT=${HISTTIMEFORMAT-"%Y-%m-%d %H:%M:%S  "}
+    HISTCONTROL=${HISTCONTROL-"erasedups:ignoredups:ignorespace"}
+
+    #   the improved history functionality
+    __fzf_history () {
+        __fzf_prolog
+        history -a
+        local cmd=$(history | LC_ALL=C sort -rn | LC_ALL=C sed -e 1d | LC_ALL=C cut -c29- | __fzf_fzf --prompt="\$ ")
+        __fzf_epilog "$cmd"
+    }
+
+    #   override Bash history search (CTRL+r) with improved history functionality
+    bind '"\C-r": "\C-a\C-k __fzf_history\C-j"'
+
+    #
+    #   ==== COMMAND BOOKMARKING ====
+    #
+
+    #   the dedicated filename
+    __fzf_bookmark_file=".bash_bookmark"
+
+    #   the additional bookmarking functionality
+    __fzf_bookmark () {
+        __fzf_prolog
+        local files=$(__fzf_config_files $__fzf_bookmark_file)
+        if [[ $files != "" ]]; then
+            cmd=$(cat $files | LC_ALL=C sed -e '/^ *#.*/d' -e '/^ *$/d' | __fzf_fzf --prompt='$ ')
+            __fzf_epilog "$cmd"
+        else
+            echo "-bash: bookmark: ERROR: no file \"$__fzf_bookmark_file\" in current, parent(s) or home directory found"
+        fi
+    }
+
+    #   provide additional Bash bookmarking functionality (CTRL+b)
+    bind '"\C-b": "\C-a\C-k __fzf_bookmark\C-j"'
+
+    #   provide convenient command for editing bookmarked commands
+    bookmark () {
+        #   the files to operate on
+        local files=$(__fzf_config_files $__fzf_bookmark_file)
+        local file=""
+
+        #   command-line argument parsing
+        local usage="bookmark [-h|--help] [-g|--global] [-l|--local] [-d|--dir <dir>] [-s|--show] [-e|--edit] [-x|--exec] [-a|--add] [-r|--remove] [<cmd>]"
+        local mode="parent"
+        local cmd="none"
+        while [[ $# -gt 0 ]]; do
+            case "$1" in
+                -g|--global ) mode="global"; shift ;;
+                -l|--local  ) mode="local";  shift ;;
+                -d|--dir    ) mode="direct"; file="$2/$__fzf_bookmark_file"; shift; shift ;;
+                -s|--show   ) cmd="show";    shift ;;
+                -e|--edit   ) cmd="edit";    shift ;;
+                -x|--exec   ) cmd="exec";    shift ;;
+                -a|--add    ) cmd="add";     shift ;;
+                -r|--remove ) cmd="remove";  shift ;;
+                -h|--help   ) cmd="help";    shift ;;
+                * ) break ;;
+            esac
+        done
+        if [[ $cmd == "none" ]]; then
+            echo "-bash: bookmark: ERROR: invalid number of arguments" 2>&1
+            echo "-bash: bookmark: USAGE: $usage" 2>&1
+            return 1
+        fi
+        if [[ $cmd == "help" ]]; then
+            echo "bash: bookmark: USAGE: $usage"
+            return 0
+        fi
+
+        #   determine particular bookmark file
+        if [[ $mode == "global" ]]; then
+            file="$HOME/$__fzf_bookmark_file"
+        elif [[ $mode == "local" ]]; then
+            file="$PWD/$__fzf_bookmark_file"
+        elif [[ $mode == "parent" ]]; then
+            file=$(echo "$files" | LC_ALL=C sed -e 's; .*;;')
+            if [[ $file == "" ]]; then
+                file="$HOME/$__fzf_bookmark_file"
+            fi
+        fi
+
+        #   perform the commands
+        if [[ $cmd == "show" ]]; then
+            #   show bookmarked commands (in all files)
+            if [[ $files != "" ]]; then
+                for file in $files; do
+                    LC_ALL=C sed -e '/^ *#.*/d' -e '/^ *$/d' -e "s;^;$file: ;" <$file
+                done
+            fi
+            return 0
+        elif [[ $cmd == "edit" ]]; then
+            #   edit bookmarked commands (in particular file)
+            echo "bash: bookmark: editing commands in \"$file\""
+            ${EDITOR-vi} $file
+            return $?
+        elif [[ $cmd == "add" ]]; then
+            #   add bookmarked command (to particular file)
+            if [[ $# -gt 0 ]]; then
+                entry="$*"
+            else
+                entry=$(fc -l -n -1 | LC_ALL=C sed -e 's;^[	 ]*;;')
+            fi
+            echo "bash: bookmark: adding command to \"$file\": $entry"
+            echo "$entry" >>$file
+            return 0
+        elif [[ $cmd == "remove" ]]; then
+            #   remove bookmarked command (from particular file)
+            if [[ $# -gt 0 ]]; then
+                entry="$*"
+            else
+                entry=$(fc -l -n -1 | LC_ALL=C sed -e 's;^[	 ]*;;')
+            fi
+            echo "bash: bookmark: removing command from \"$file\": $entry"
+            LC_ALL=C sed -e "/^$*/d" <$file >$file.new
+            if cmp $file $file.new >/dev/null 2>&1; then
+                rm -f $file.new
+                echo "-bash: bookmark: ERROR: failed to remove command" 2>&1
+                return 1
+            fi
+            cp $file.new $file
+            rm -f $file.new
+            return 0
+        fi
+    }
+
+    #
+    #   ==== DIRECTORY CHANGING ====
+    #
+
+    #   the dedicated filename
+    __fzf_chdir_file=".bash_cdpaths"
+
+    #   configure Bash directory processing
+    shopt -s cdspell
+    shopt -s dirspell
+    shopt -s globstar
+    shopt -u direxpand
+    PROMPT_DIRTRIM=10
+
+    #   provide command for scanning directory trees
+    cdpaths () {
+        #   the files to operate on
+        local files=$(__fzf_config_files $__fzf_chdir_file)
+        local file=""
+
+        #   command-line argument parsing
+        local usage="cdpaths [-h|--help] [-g|--global] [-l|--local] [-d|--dir <dir>]"
+        local mode="parent"
+        local cmd="none"
+        while [[ $# -gt 0 ]]; do
+            case "$1" in
+                -g|--global ) mode="global"; shift ;;
+                -l|--local  ) mode="local";  shift ;;
+                -d|--dir    ) mode="direct"; file="$2/$__fzf_chdir_file"; shift; shift ;;
+                -h|--help   ) cmd="help";    shift ;;
+                * ) break ;;
+            esac
+        done
+        if [[ $cmd == "help" ]]; then
+            echo "bash: cdpaths: USAGE: $usage"
+            return 0
+        fi
+
+        #   determine particular cdpaths file
+        if [[ $mode == "global" ]]; then
+            file="$HOME/$__fzf_chdir_file"
+        elif [[ $mode == "local" ]]; then
+            file="$PWD/$__fzf_chdir_file"
+        elif [[ $mode == "parent" ]]; then
+            file=$(echo "$files" | LC_ALL=C sed -e 's; .*;;')
+            if [[ $file == "" ]]; then
+                file="$HOME/$__fzf_chdir_file"
+            fi
+        fi
+
+        #   determine paths to ignore
+        local ignore=${BASH_CDPATHS_IGNORE:-'/\.'}
+
+        #   find and store directories
+        rm -f "$file"
+        local dir=$(dirname "$file")
+        if [[ $mode == "global" ]]; then
+            #   crawl all global directories
+            local cdpaths="${BASH_CDPATHS:-$HOME}"
+            local OIFS="$IFS"; IFS=":"
+            for cdpath in $cdpaths; do
+                IFS="$OIFS"
+                find "$cdpath" -type d -print 2>/dev/null | \
+                    LC_ALL=C egrep -v "$ignore" | \
+                    LC_ALL=C sed -e "s;^$dir/*;;" -e '/^$/d' >>"$file"
+            done
+            IFS="$OIFS"
+        else
+            #   crawl relative directory
+            find "$dir" -type d -print 2>/dev/null | \
+                LC_ALL=C egrep -v "$ignore" | \
+                LC_ALL=C sed -e "s;^$dir/*;;" -e '/^$/d' >"$file"
+        fi
+        local n=$(wc -l "$file" | awk '{ print $1; }')
+        echo "bash: cdpaths: cached $n directory entries in $file"
+    }
+
+    #   expand .bash_cdpaths files content
+    __fzf_chdir_expand () {
+        local homedir=$(cd $HOME && pwd)
+        for cdpathfile in "$@"; do
+            local cdpathdir=$(dirname $cdpathfile)
+            if [[ $cdpathdir == $homedir ]]; then
+                cdpathdir="~"
+            fi
+            echo "cd $cdpathdir"
+            cat $cdpathfile | LC_ALL=C sed -e "s;^\\([^/]\\);$cdpathdir/\\1;" -e "s;^;cd ;"
+        done
+    }
+
+    #   the additional change directory functionality
+    __fzf_chdir () {
+        __fzf_prolog
+        local files=$(__fzf_config_files $__fzf_chdir_file)
+        if [[ $files != "" ]]; then
+            cmd=$(__fzf_chdir_expand $files | __fzf_fzf --prompt='$ cd ')
+            __fzf_epilog "$cmd"
+        else
+            echo "-bash: chdir: ERROR: no file \"$__fzf_chdir_file\" in current, parent(s) or home directory found"
+        fi
+    }
+
+    #   provide additional Bash change directory functionality (CTRL+g)
+    bind '"\C-g": "\C-a\C-k __fzf_chdir\C-j"'
+
+    #   declare reverse DIRSTACK array
+    declare -a DIRSTACKREV=()
+
+    #   declare cd(1) hooks
+    declare -a __fzf_cd_hooks=()
+
+    #   enhance change directory command
+    cd () {
+        local result=0
+
+        #   change current working directory
+        if [[ $1 == "-" ]]; then
+            #   go to previous working directory on forward directory stack
+            #   and move this directory onto the reverse directory stack
+            if [[ ${#DIRSTACK[*]} -gt 1 ]]; then
+                DIRSTACKREV[${#DIRSTACKREV[*]}]="${DIRSTACK[0]}"
+                builtin popd >/dev/null
+                result="$?"
+            else
+                echo "-bash: cd: ERROR: no more previous working directories on forward directory stack" 1>&2
+                result=1
+            fi
+        elif [[ $1 == "+" ]]; then
+            #   go to previous working directory on reverse directory stack
+            #   and move this directory onto the forward directory stack
+            if [[ ${#DIRSTACKREV[*]} -gt 0 ]]; then
+                local i=$((${#DIRSTACKREV[*]} - 1))
+                eval "builtin pushd ${DIRSTACKREV[$i]} >/dev/null"
+                result="$?"
+                unset DIRSTACKREV[$i]
+            else
+                echo "-bash: cd: ERROR: no more previous working directories on reverse directory stack" 1>&2
+                result=1
+            fi
+        else
+            #   support a quick "go to home directory" use case
+            if [[ $# -eq 0 ]]; then
+                set -- $HOME
+            fi
+
+            #   go to next working directory
+            #   (which implicitly pushed it onto the forward directory stack)
+            pushd ${1+"$@"} >/dev/null 2>/dev/null
+            result="$?"
+            if [[ $result -eq 0 ]]; then
+                #   avoid duplicates on forward directory stack
+                if [[ "${#DIRSTACK[*]}" -ge 2 && "${DIRSTACK[0]}" == "${DIRSTACK[1]}" ]]; then
+                    builtin popd -n >/dev/null
+                fi
+
+                #   erase reverse directory stack
+                DIRSTACKREV=()
+            else
+                echo "-bash: cd: ERROR: $*: No such directory" 1>&2
+            fi
+        fi
+
+        #   allow external hooks to execute after we successfully switched the directory
+        if [[ $result -eq 0 ]]; then
+            for hook in "${__fzf_cd_hooks[@]}"; do
+                eval "${hook}"
+            done
+        fi
+
+        return $result
+    }
+fi
+

@@ -1,5 +1,4 @@
 # default config for the mako notification daemon
-
 layer=overlay
 width=400
 height=200

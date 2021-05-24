@@ -9,8 +9,13 @@ set $down j
 set $up k
 set $right l
 
-# styles - matcha-green or matcha-blue
+# styles - defaults to either matcha-green or matcha-blue
+# custom themes can be added in user config
 set $theme /etc/sway/themes/matcha-green
+#set $theme /etc/sway/themes/matcha-blue
+
+# import theme color definitions
+include $theme/definitions
 
 # Your preferred terminal emulator
 set $term foot --config=$theme/foot.ini
@@ -25,7 +30,7 @@ set $selwin sws.sh --dmenu-cmd "wofi --show dmenu" --format "%W | %A - %T"
 
 ### Lockscreen configuration
 #
-set $locking swaylock --daemonize --config $theme/swaylock
+set $locking swaylock --ignore-empty-password --show-failed-attempts --color=$lock-background-color --inside-color=$lock-inside-color --inside-ver-color=$lock-verify-color --inside-wrong-color=$lock-error-color --ring-color=$lock-ring-color --ring-ver-color=$lock-verify-color --text-color=$lock-text-color
 
 ### Idle configuration
 # This will lock your screen after 300 seconds of inactivity, then turn off
