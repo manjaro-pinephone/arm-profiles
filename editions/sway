@@ -96,7 +96,7 @@ ttf-roboto
 wqy-microhei #chinese
 
 # some interesting CLI tools
-asciinema
+bash-completion
 bat
 chafa
 cmatrix
@@ -133,9 +133,11 @@ yad
 yay
 
 # Applications
+celluloid
 eog
 evince
 file-roller
+fractal
 gcolor3
 gedit
 gedit-plugins

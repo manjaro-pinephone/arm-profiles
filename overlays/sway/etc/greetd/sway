@@ -1,10 +1,20 @@
 # global variables
 include /etc/sway/definitions
+
+# include theme specific definitions
+include $theme/definitions
+
+# enable default input/output devices
 include /etc/sway/inputs/*
 include /etc/sway/outputs/*
 
 # enable wlogout theme
 exec_always 'mkdir -p /tmp/gtkgreet && ln -sf $theme/theme.css /tmp/gtkgreet/'
+
+# enable idle mode
+exec {
+	$idle
+}
 
 # start gtkgreeter
 exec "GTK_THEME=$gtk-theme gtkgreet -l -s /etc/greetd/style.css -c sway; swaymsg exit"

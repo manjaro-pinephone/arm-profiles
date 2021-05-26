@@ -48,13 +48,13 @@
     margin: 0;
     padding: 0;
     font-family: "FontAwesome 5 Free Solid", "TerminessTTF Nerd Font", sans-serif;
+    font-size: 16px;
 }
 
 /* The whole bar */
 #waybar {
     background: @background_color;
     color: @text_color;
-    font-size: 14px;
 }
 
 /* Each module */
