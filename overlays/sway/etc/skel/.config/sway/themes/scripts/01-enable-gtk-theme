@@ -5,8 +5,9 @@ exec_always {
   'mkdir -p $HOME/.config/gtk-4.0 && \
     cat $HOME/.config/sway/themes/templates/gtk4 | sed -e $theme_template_script > $HOME/.config/gtk-4.0/settings.ini'
 
-  gsettings set org.gnome.desktop.interface gtk-theme $gtk-theme
-  gsettings set org.gnome.desktop.interface icon-theme $icon-theme
-  gsettings set org.gnome.desktop.interface cursor-theme $cursor-theme
-  gsettings set org.gnome.desktop.interface font-name $gui-font
+  gsettings set org.gnome.desktop.interface gtk-theme '$gtk-theme'
+  gsettings set org.gnome.desktop.interface icon-theme '$icon-theme'
+  gsettings set org.gnome.desktop.interface cursor-theme '$cursor-theme'
+  gsettings set org.gnome.desktop.interface font-name '$gui-font'
+  gsettings set org.gnome.desktop.interface monospace-font-name '$term-font'
 }

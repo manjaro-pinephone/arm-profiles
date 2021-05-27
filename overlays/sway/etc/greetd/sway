@@ -8,6 +8,9 @@ include $theme/definitions
 include /etc/sway/inputs/*
 include /etc/sway/outputs/*
 
+# run global sway scripts
+include /etc/sway/config.d/*
+
 # enable wlogout theme
 exec_always 'mkdir -p /tmp/gtkgreet && ln -sf $theme/theme.css /tmp/gtkgreet/'
 

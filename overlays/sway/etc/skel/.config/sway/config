@@ -61,14 +61,8 @@ include /etc/sway/outputs/*
 # enable default modes
 include /etc/sway/modes/*
 
-# only enable this if every app you use is compatible with wayland
-# xwayland disable
-
-exec {
-    # https://github.com/swaywm/sway/wiki#gtk-applications-take-20-seconds-to-start
-    systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
-    hash dbus-update-activation-environment 2>/dev/null && dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
-}
+# run global sway scripts
+include /etc/sway/config.d/*
 
 # include scripts to set up theme files
 include $HOME/.config/sway/themes/scripts/*
