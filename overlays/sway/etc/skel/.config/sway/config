@@ -24,7 +24,7 @@ set $selwin sws.sh --dmenu-cmd "wofi --show dmenu" --format "%W | %A - %T"
 
 ### Lockscreen configuration
 #
-set $locking swaylock --ignore-empty-password --show-failed-attempts --color=$lock-background-color --inside-color=$lock-inside-color --inside-ver-color=$lock-verify-color --inside-wrong-color=$lock-error-color --ring-color=$lock-ring-color --ring-ver-color=$lock-verify-color --text-color=$lock-text-color
+set $locking swaylock --daemonize --ignore-empty-password --show-failed-attempts --color=$lock-background-color --inside-color=$lock-inside-color --inside-ver-color=$lock-verify-color --inside-wrong-color=$lock-error-color --ring-color=$lock-ring-color --ring-ver-color=$lock-verify-color --text-color=$lock-text-color
 
 ### Idle configuration
 # This will lock your screen after 300 seconds of inactivity, then turn off

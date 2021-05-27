@@ -30,7 +30,7 @@ set $base0F #8a553f
 
 set $transparent-background-color rgba(20, 26, 27, 0.9)
 
-set $launcher-background-color 141a1bee
+set $launcher-background-color 141a1bfa
 set $launcher-text-color eeeeeeff
 set $launcher-selection-color 282a2bff
 set $launcher-matching-color 16a085ff
