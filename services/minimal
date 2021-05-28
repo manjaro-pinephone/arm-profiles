@@ -3,5 +3,6 @@ dhcpcd.service
 sshd.service
 iwd.service
 zswap-arm.service
+systemd-oomd.service
 bootsplash-hide-when-booted.service
 bootsplash-show-on-shutdown.service
