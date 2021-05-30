@@ -91,8 +91,10 @@ pico-wizard-plamo-scripts
 pico-wizard-git
 
 # Packages to be built
-#qrca
-#keysmith
+#qrca #no tagged release
+#audiotube #is packaged in unstable
+#plasmatube #no tagged release
+#kasts #no tagged release
 
 # Regular Plasma packages
 bluez
