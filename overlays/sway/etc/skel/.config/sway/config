@@ -19,9 +19,9 @@ set $term_float_landscape $term --app-id=floating_shell_landscape
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $launcher_options --background-color=$launcher-background-color --text-color=$launcher-text-color --selection-color=$launcher-selection-color --match-color=$launcher-matching-color --font=$launcher-font --lines 20 --width 50 --border-radius=5
-set $menu fuzzel --icon-theme=$icon-theme --terminal "$term" $launcher_options
-set $selwin sws.sh --dmenu-cmd "fuzzel $launcher_options --dmenu " --format "%W | %A - %T"
+set $launcher_options --background-color=$launcher-background-color --text-color=$launcher-text-color --selection-color=$launcher-selection-color --match-color=$launcher-matching-color --border-color=$launcher-border-color --lines=20 --width=50 --border-radius=10
+set $menu fuzzel --icon-theme=$icon-theme --terminal "$term" --font="$launcher-font" $launcher_options
+set $selwin sws.sh --dmenu-cmd "fuzzel --no-icons --dmenu $launcher_options" --format "%W | %A - %T" --font "$launcher-font"
 
 ### Lockscreen configuration
 #

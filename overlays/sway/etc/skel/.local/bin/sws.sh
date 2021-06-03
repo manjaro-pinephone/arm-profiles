@@ -8,6 +8,7 @@ set -u # error if undefined variable
 # Default parameters
 FORMAT="W:%W | %A - %T"
 DMENU="dmenu"
+FONT="monospace"
 
 # Doc
 NAME="$(basename "$0")"
@@ -51,8 +52,8 @@ Examples:
 
 # Options parsing
 INVALID_ARGS=0 
-OPTS=$(getopt -n $NAME -o f:d:hv \
-       --long format:,dmenu-cmd:,help,version -- "$@") || INVALID_ARGS=1
+OPTS=$(getopt -n $NAME -o f:F:d:hv \
+       --long format:,font:,dmenu-cmd:,help,version -- "$@") || INVALID_ARGS=1
 
 # Exit with error and print $HELP if an invalid argument is passed
 # the previous command is allowed to fail for this purpose
@@ -76,6 +77,10 @@ do
         -d | --dmenu-cmd)
             DMENU=$2
             shift 2 
+            ;;
+        -F | --font)
+            FONT=$2
+            shift 2
             ;;
         -h | --help)
             echo "$HELP"
@@ -121,7 +126,7 @@ CON_ID=$(swaymsg -t get_tree | \
            id: .apps.id, app_id: .apps.app_id, name: .apps.name }
         | $FORMAT
         | tostring" | \
-    $DMENU -i -p "Window Switcher")
+    $DMENU --font=$FONT)
 
 # Requires the actual `id` to be at the end and between paretheses
 CON_ID=${CON_ID##*(}

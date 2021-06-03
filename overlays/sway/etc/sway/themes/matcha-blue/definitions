@@ -34,7 +34,8 @@ set $launcher-background-color 14161bee
 set $launcher-text-color eeeeeeff
 set $launcher-selection-color 282a2bff
 set $launcher-matching-color 55b5dbff
-set $launcher-font Noto\ Sans:pixelsize=18
+set $launcher-border-color 55b5dbff
+set $launcher-font Noto Sans:pixelsize=18
 
 set $lock-background-color 14161bfa
 set $lock-inside-color 282a2bff
