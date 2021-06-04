@@ -69,8 +69,8 @@ mauikit
 neochat
 >pinephone noto-fonts-cjk # needed to display * and # in dialer
 anthy #fix japanese
-libpinyin #fix japanese
-libchewing #fix japanese
+libpinyin #fix chinese
+libchewing #fix chinese
 maui-nota
 okular
 >pinephone plasma-dialer
