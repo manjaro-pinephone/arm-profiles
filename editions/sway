@@ -52,6 +52,7 @@ waybar
 wl-clipboard
 
 # Sway Extras
+dex
 grim
 grimshot
 slurp

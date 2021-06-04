@@ -14,4 +14,4 @@ exec {
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id mako
 exec --no-startup-id foot --config=$theme/foot.ini --server
-# exec --no-startup-id mntray
+exec --no-startup-id dex --autostart --environment gnome --term $term
