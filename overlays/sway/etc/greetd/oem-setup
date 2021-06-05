@@ -19,9 +19,11 @@ exec {
   $idle
 }
 
-# start the greeter
+# start calamares if available, otherwise start the greeter
+for_window [app_id="calamares"] floating enable, border pixel 1, sticky enable, resize set width 80 ppt height 60 ppt
+
 exec {
-  'GTK_THEME=$gtk-theme gtkgreet -l -s /etc/greetd/style.css -c sway; swaymsg exit'
+  '[ -x "$(command -v calamares)" ] && sudo -E GTK_THEME=Matcha-dark-sea calamares || swaymsg exit'
 }
 
 # offer shutdown options
@@ -29,4 +31,3 @@ bindsym $mod+Shift+e exec $shutdown --layout /etc/greetd/wlogout --css /etc/gree
 
 # capture PowerOff key
 bindsym XF86PowerOff exec $shutdown --layout /etc/greetd/wlogout --css /etc/greetd/wlogout.css
-
