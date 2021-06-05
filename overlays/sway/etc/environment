@@ -11,6 +11,7 @@ GTK_CSD=0
 # QT should use wayland
 QT_QPA_PLATFORM=wayland
 QT_QPA_PLATFORMTHEME=qt5ct
+QT_STYLE_OVERRIDE=kvantum
 QT_WAYLAND_DISABLE_WINDOWDECORATION=1
 
 # enable video accel via v2l

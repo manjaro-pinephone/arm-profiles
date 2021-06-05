@@ -23,7 +23,7 @@ exec {
 for_window [app_id="calamares"] floating enable, border pixel 1, sticky enable, resize set width 80 ppt height 60 ppt
 
 exec {
-  '[ -x "$(command -v calamares)" ] && sudo -E GTK_THEME=Matcha-dark-sea calamares || swaymsg exit'
+  '[ -x "$(command -v calamares)" ] && sudo -E calamares || swaymsg exit'
 }
 
 # offer shutdown options
