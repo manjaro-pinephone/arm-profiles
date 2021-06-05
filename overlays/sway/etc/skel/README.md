@@ -1,21 +1,22 @@
 # Manjaro ARM Sway Edition
 
 Welcome to the Manjaro ARM Sway Edition. The following sections will give you an introduction to the default configuration. 
-This configuration can be found in ```/etc/sway/```.
+This configuration can be found in ```/etc/sway/``` and ```$HOME/.config/sway```.
 
 The directory hosts various configuration files of which the important ones are:
 
-- ```/etc/sway/definitions```: host the global definitions such as the application launcher, terminal, the idle program, default and alternative modifier key, ...
-- ```$HOME/.config/sway/config```: the default Sway configuration file.
-- ```/etc/sway/config.d/98-application-defaults```: contains sway override settings for certain application windows
-- ```/etc/sway/config.d/99-autostart-applications```: contains all the programs that has to be started as soon as the Sway session initializes
+- ```/etc/sway/definitions```: host the global definitions such as navigation keys, default and alternative modifier key, ...
 - ```/etc/sway/themes/matcha-green```: the color configurations to match the default matcha sea theme of Manjaro
 - ```/etc/sway/themes/matcha-blue```: an alternative color configurations based on the matcha azul theme of Manjaro
-- ```/etc/sway/themes/templates```: contains templates used to generate theme-specific configuration files in your home folder
+- ```$HOME/.config/sway/config```: the default Sway configuration file with user specific definitions such as the application launcher, terminal, the idle program, 
+- ```$HOME/.config/sway/config.d/98-application-defaults```: contains sway override settings for certain application windows
+- ```$HOME/.config/sway/config.d/99-autostart-applications```: contains all the programs that has to be started as soon as the Sway session initializes
+- ```$HOME/.config/sway/themes/scripts```: contains scripts used to generate theme-specific configuration files in your home folder
+- ```$HOME/.config/sway/themes/templates```: contains templates used for generation of theme-specific configuration files in your home folder
 
 ## Basics
 
-The default modifier key (**$mod**) is the Alt key.
+The default modifier key (**$mod**) is the Super (aka Windows / Pi / Pine) key.
 
 Additionally, there are two kind of **movement key** sets:
 
