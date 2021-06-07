@@ -55,6 +55,9 @@ set $calendar $term_float_portrait khal interactive
 set $cpu_mon htop --sort-key=PERCENT_CPU
 set $mem_mon htop --sort-key=PERCENT_MEM
 
+# defines the custom menu in waybar
+set $app_menu yad --icons --read-dir=/usr/share/applications --sort-by-name --icon-size=48 --title='Applications' --term='$term -- %s' --no-buttons --close-on-unfocus
+
 # enable default input/output devices
 include /etc/sway/inputs/*
 include /etc/sway/outputs/*

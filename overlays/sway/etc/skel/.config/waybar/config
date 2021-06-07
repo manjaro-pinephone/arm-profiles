@@ -47,7 +47,7 @@
     // -------------------------------------------------------------------------
 
     "battery": {
-        "interval": 30,
+        "interval": 60,
         "states": {
             "warning": 30,
             "critical": 15
@@ -73,7 +73,7 @@
     },
 
     "cpu": {
-        "interval": 5,
+        "interval": 10,
         "format": " {usage}%", // Icon: microchip
         "states": {
             "warning": 70,
@@ -83,7 +83,7 @@
     },
 
     "memory": {
-        "interval": 5,
+        "interval": 10,
         "format": " {}%", // Icon: memory
         "states": {
             "warning": 70,
@@ -93,7 +93,7 @@
     },
 
     "network": {
-        "interval": 5,
+        "interval": 30,
         "format-wifi": " {essid} ({signalStrength}%)", // Icon: wifi
         "format-ethernet": " {ifname}", // Icon: ethernet
         "format-disconnected": "⚠ Disconnected",
@@ -151,7 +151,7 @@
 
     "temperature": {
       "critical-threshold": 90,
-      "interval": 5,
+      "interval": 30,
       "format": "{icon} {temperatureC}°C",
       "format-icons": [
           "", // Icon: temperature-empty
@@ -178,7 +178,7 @@
 
     "custom/menu": {
         "format": "",
-        "on-click": "swaymsg exec \\$menu",
+        "on-click": "swaymsg exec \\$app_menu",
         "tooltip": false
     },
 
@@ -199,7 +199,7 @@
         "tooltip-format": "{}"
     },
     "custom/scratchpad": {
-        "interval": 1,
+        "interval": 10,
         "return-type": "json",
         "format" : "{icon}",
         "format-icons": {

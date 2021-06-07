@@ -8,3 +8,4 @@ input type:touchpad {
       natural_scroll enabled
 }
 
+focus_follows_mouse no

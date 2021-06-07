@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 tooltip=$(swaymsg -r -t get_tree | jq -r 'recurse(.nodes[]) | first(select(.name=="__i3_scratch")) | .floating_nodes | .[] | "\(.app_id) | \(.name)"')
 count=$(echo -n "$tooltip" | grep -c '^')
 
