@@ -9,3 +9,4 @@ input type:touchpad {
 }
 
 focus_follows_mouse no
+seat seat0 xcursor_theme $cursor-theme 24
