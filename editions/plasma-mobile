@@ -10,7 +10,7 @@ glibc-locales
 sudo
 parted
 openssh
-#haveged
+haveged
 inxi
 ncdu
 nano
