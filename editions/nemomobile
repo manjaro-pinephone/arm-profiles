@@ -44,6 +44,8 @@ glacier-gallery-git
 glacier-music-git
 glacier-pinquery-git
 glacier-wayland-session
+glacier-browser-git
+fingerterm-git
 
 # Other
 mesa
