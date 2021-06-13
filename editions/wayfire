@@ -29,11 +29,10 @@ kvantum-qt5
 breeze-icons
 
 # Wayfire packages
-wayfire-git
-wf-config-git
-wcm-git
-wf-sound-control-git
-wf-shell-git
+wayfire
+wf-config
+wcm
+wf-shell
 waybar
 
 # CoreApps
