@@ -39,8 +39,11 @@ ohm-plugin-ruleengine
 lipstick-glacier-home-git
 glacier-calc-git
 glacier-camera-git
+glacier-contacts-git
+glacier-dialer-git
 glacier-filemuncher-git
 glacier-gallery-git
+glacier-messages-git
 glacier-music-git
 glacier-pinquery-git
 glacier-wayland-session
