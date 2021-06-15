@@ -17,6 +17,7 @@ exec_always 'mkdir -p /tmp/gtkgreet && ln -sf $theme/theme.css /tmp/gtkgreet/'
 # enable idle mode
 exec {
   $idle
+  systemctl --user import-environment
 }
 
 # start the greeter

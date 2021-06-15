@@ -13,4 +13,3 @@ command = "sway --config /etc/greetd/sway"
 # on the greeter. A graphical greeter may for example require the user to be
 # in the `video` group.
 user = "greeter"
-
