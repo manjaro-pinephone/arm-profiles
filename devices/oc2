@@ -1,7 +1,7 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
-linux
+linux-vim
 uboot-odroid-c2-mainline
 plymouth
 plymouth-theme-manjaro
