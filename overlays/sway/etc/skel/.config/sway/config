@@ -46,14 +46,14 @@ set $statusbar waybar
 set $pulseaudio pavucontrol
 
 # help command
-set $help $term_float_portrait bat $HOME/README.md
+set $help $term_float_portrait mdcat -p $HOME/README.md
 
 # calendar application
 set $calendar $term_float_portrait khal interactive
 
 # cpu / mem monitors
-set $cpu_mon htop --sort-key=PERCENT_CPU
-set $mem_mon htop --sort-key=PERCENT_MEM
+set $cpu_mon bpytop
+set $mem_mon bpytop
 
 # defines the custom menu in waybar
 set $app_menu yad --icons --read-dir=/usr/share/applications --sort-by-name --icon-size=48 --title='Applications' --term='$term -- %s' --no-buttons --close-on-unfocus

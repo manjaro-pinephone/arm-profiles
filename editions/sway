@@ -99,6 +99,7 @@ wqy-microhei #chinese
 # some interesting CLI tools
 bash-completion
 bat
+bpytop
 chafa
 cmatrix
 cpu-temp-speed
@@ -109,13 +110,13 @@ ffmpegthumbnailer
 fzf
 hey
 hexyl
-htop
 httpie
 hyperfine
 jq
 khard
 khal
 light
+mdcat
 mediainfo
 mlocate
 neofetch
@@ -128,6 +129,7 @@ rsync
 silver
 tldr
 tlp
+websocat
 wget
 vdirsyncer
 yad
