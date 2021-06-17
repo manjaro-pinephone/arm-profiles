@@ -20,6 +20,7 @@ bluez
 bluez-utils
 pipewire-alsa
 pipewire-pulse
+pipewire-zeroconf
 grilo
 grilo-plugins
 gst-libav
