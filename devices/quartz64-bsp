@@ -13,6 +13,4 @@ crda
 btrfs-progs
 ap6256-firmware
 wpa_supplicant
-#pinebookpro-audio
-#xf86-input-synaptics
-#pinebookpro-post-install
+quartz64-post-install
