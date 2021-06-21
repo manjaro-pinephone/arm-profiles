@@ -22,11 +22,11 @@ zswap-arm
 bash-completion
 
 # OpenGLES qt packages
-qt5-es2-base
-qt5-es2-declarative
-qt5-es2-multimedia
-qt5-es2-wayland
-pyside2-es2
+#qt5-es2-base
+#qt5-es2-declarative
+#qt5-es2-multimedia
+#qt5-es2-wayland
+#pyside2-es2
 
 # Multimedia packages
 gst-libav
