@@ -119,7 +119,7 @@ viewnior
 wget
 tlp
 cpu-temp-speed
-mntray
+matray
 
 # File systems access
 gvfs
