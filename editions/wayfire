@@ -47,10 +47,9 @@ waybar
 # Other
 qt5-wayland
 networkmanager-qt
-#nm-tray-git
 #openresolv
 #wget
 #manjaro-settings-manager
 #tlp
 #manjaro-hotfixes
-mntray
+matray
