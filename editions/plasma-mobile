@@ -1,9 +1,12 @@
 ## Maintained by Bernhard ##
 
 # Phone specific packages
+
 >pinephone ofono
 >pinephone ofonoctl
 >pinephone libqofono-qt5
+>pinephone anbox-image-aarch64
+>pinephone anbox
 
 # Minimal packages
 glibc-locales
