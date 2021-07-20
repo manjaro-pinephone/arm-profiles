@@ -100,7 +100,8 @@ wqy-microhei #chinese
 # some interesting CLI tools
 bash-completion
 bat
-bpytop
+bottom
+box64
 chafa
 cmatrix
 cpu-temp-speed
@@ -128,6 +129,7 @@ onefetch
 ranger
 ripgrep
 rsync
+silicon
 silver
 tldr
 tlp
@@ -169,6 +171,7 @@ mtpfs
 ntfs-3g
 mpv
 ffmpeg
+sshfs
 usb_modeswitch
 
 # Optional dependencies file-roller
