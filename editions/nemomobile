@@ -51,6 +51,7 @@ glacier-browser-git
 fingerterm-git
 
 # Other
+xdg-user-dirs
 mesa
 alsa-utils
 pulseaudio-bluetooth
