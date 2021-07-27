@@ -50,6 +50,7 @@ glacier-wayland-session
 glacier-browser-git
 glacier-mail-git
 fingerterm-git
+qt5-quickcontrols-nemo-examples-git
 
 # Other
 xdg-user-dirs
