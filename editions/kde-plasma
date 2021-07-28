@@ -17,7 +17,7 @@ zswap-arm
 
 # Sound, Video and bluetooth
 alsa-utils
-smplayer
+mpv
 pipewire-alsa
 pipewire-pulse
 pipewire-zeroconf
