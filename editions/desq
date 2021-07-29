@@ -81,6 +81,7 @@ qt5ct
 #pamac-qt #when it's ready
 
 # Other applications
+copyq
 networkmanager-qt
 openresolv
 manjaro-settings-manager
