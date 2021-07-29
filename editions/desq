@@ -18,27 +18,37 @@ zswap-arm
 # Sound, Video and bluetooth
 alsa-utils
 bluez
-pulseaudio-bluetooth
+pipewire-pulse
+pipewire-alsa
+pipewire-zeroconf
 
 # Display Manager
 sddm
 
 # DesQ packages
-desq-session-git
-desq-shell-git
-#oyster-git
-networkmanager-qt
+desq-session
+desq-shell
+desq-utils-lock
+desq-utils-polkitexec
+desq-utils-powerdaemon
+desq-utils-powermanager
+desq-utils-runner
+desq-utils-sni
+desq-utils-splash
+desq-utils-volume
+desq-apps-archiver
+desq-apps-docs
+desq-apps-dropdown
+desq-apps-term
 
 #CoreApps
 #coreaction
-corearchiver
 corefm
 coregarage
 corehunt
 coreimage
 coreinfo
 corekeyboard
-corepad
 corepaint
 corepdf
 corepins
@@ -46,7 +56,6 @@ corerenamer
 coreshot
 corestats
 #corestuff
-coreterminal
 coretime
 coretoppings
 coreuniverse
@@ -72,7 +81,7 @@ qt5ct
 #pamac-qt #when it's ready
 
 # Other applications
-openbox
+networkmanager-qt
 openresolv
 manjaro-settings-manager
 manjaro-arm-flasher
