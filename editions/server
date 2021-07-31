@@ -11,6 +11,7 @@ nano
 dhcpcd
 man-pages
 man-db
+usbutils
 ntfs-3g
 zswap-arm
 

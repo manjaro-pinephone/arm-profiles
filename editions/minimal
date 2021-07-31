@@ -12,6 +12,7 @@ dhcpcd
 man-pages
 man-db
 ntfs-3g
+usbutils
 zswap-arm
 bash-completion
 
