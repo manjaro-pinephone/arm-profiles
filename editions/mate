@@ -103,4 +103,4 @@ gvfs-smb
 ifuse
 mtpfs
 ntfs-3g
-matray
+# matray # disabled due to shutdown issue
