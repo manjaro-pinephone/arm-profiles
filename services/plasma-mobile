@@ -13,3 +13,4 @@ hfd-service.service
 >pinephone ofono.service
 >pinephone ofonoctl.service
 >pinephone pinephone-modem-scripts.pinephone-modem-setup.service
+>pinephone anbox-container-manager.service
