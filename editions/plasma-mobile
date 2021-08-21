@@ -68,6 +68,7 @@ maliit-keyboard
 mauikit
 neochat
 >pinephone noto-fonts-cjk # needed to display * and # in dialer
+noto-fonts-emoji
 anthy #fix japanese
 libpinyin #fix chinese
 libchewing #fix chinese
