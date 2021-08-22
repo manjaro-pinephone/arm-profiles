@@ -12,8 +12,5 @@ plymouth-theme-manjaro
 crda
 btrfs-progs
 ap6256-firmware
-kvim2-firmware
-bluetooth-vim3
-khadas-utils
 fbset
 vim3-post-install
