@@ -9,7 +9,7 @@
 >pinephone anbox-image-aarch64
 >pinephone anbox
 >pinephone mobile-config-firefox
->pinephone eg25-autorestart
+#>pinephone eg25-autorestart
 
 # Minimal packages
 glibc-locales
