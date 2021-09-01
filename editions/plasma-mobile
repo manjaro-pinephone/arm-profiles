@@ -48,12 +48,14 @@ ffmpegthumbs
 
 # PM Packages
 angelfish
+audiotube
 buho
 calindori
 desktop-file-utils
 index-fm
 kaccounts-providers
 kalk
+kasts
 kclock
 keysmith
 kio-extras
@@ -96,9 +98,7 @@ pico-wizard-git
 
 # Packages to be built
 #qrca #no tagged release
-#audiotube #is packaged in unstable
 #plasmatube #no tagged release
-#kasts #no tagged release
 
 # Regular Plasma packages
 bluez
