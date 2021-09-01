@@ -84,8 +84,9 @@ papirus-maia-icon-theme
 
 # Other packages
 bluez
-pipewire-alsa
-pipewire-pulse
+#pipewire-alsa
+#pipewire-pulse
+pulseaudio-bluetooth
 pamac-cli
 portfolio-file-manager
 iio-sensor-proxy

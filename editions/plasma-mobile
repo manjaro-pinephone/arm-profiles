@@ -48,12 +48,14 @@ ffmpegthumbs
 
 # PM Packages
 angelfish
+audiotube
 buho
 calindori
 desktop-file-utils
 index-fm
 kaccounts-providers
 kalk
+kasts
 kclock
 keysmith
 kio-extras
@@ -68,6 +70,7 @@ maliit-keyboard
 mauikit
 neochat
 >pinephone noto-fonts-cjk # needed to display * and # in dialer
+noto-fonts-emoji
 anthy #fix japanese
 libpinyin #fix chinese
 libchewing #fix chinese
@@ -95,9 +98,7 @@ pico-wizard-git
 
 # Packages to be built
 #qrca #no tagged release
-#audiotube #is packaged in unstable
 #plasmatube #no tagged release
-#kasts #no tagged release
 
 # Regular Plasma packages
 bluez
@@ -105,6 +106,7 @@ bluedevil
 breeze
 kdeconnect
 kirigami-gallery
+kinit
 kwallet-pam
 polkit-kde-agent
 powerdevil
