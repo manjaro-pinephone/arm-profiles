@@ -89,6 +89,8 @@ bluez
 #pipewire-pulse
 pulseaudio-bluetooth
 pamac-cli
+pamac-gtk
+>pinephone pamac-mobile-integration
 portfolio-file-manager
 iio-sensor-proxy
 networkmanager
@@ -103,5 +105,4 @@ noto-fonts-emoji
 noto-fonts-cjk
 siglo
 postmarketos-tweaks-app-phosh
-pamac-gtk
 confy
