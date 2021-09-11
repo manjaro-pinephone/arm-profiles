@@ -9,6 +9,7 @@
 >pinephone anbox-image-aarch64
 >pinephone anbox
 >pinephone mobile-config-firefox
+>pinephone vvmplayer
 #>pinephone eg25-autorestart
 
 # Minimal packages
@@ -57,7 +58,7 @@ wake-mobile
 
 # Gnome packages
 gnome-authenticator
-gnome-calculator
+gnome-calculator-mobile
 gnome-clocks
 gnome-keyring
 gnome-maps
