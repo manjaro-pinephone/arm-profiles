@@ -6,8 +6,10 @@
 >pinephone alsa-ucm-pinephone
 #>pinephone flashlight
 >pinephone modemmanager-pp
->pinephone anbox-image-aarch64
->pinephone anbox
+#>pinephone anbox-image-aarch64
+#>pinephone anbox
+>pinephone waydroid-image
+>pinephone waydroid
 >pinephone mobile-config-firefox
 >pinephone vvmplayer
 #>pinephone eg25-autorestart
