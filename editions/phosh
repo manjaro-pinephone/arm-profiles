@@ -49,7 +49,7 @@ megapixels
 xdg-user-dirs
 gnome-contacts-mobile
 gnome-control-center-mobile
-gnome-software-mobile
+#gnome-software-mobile
 gnome-usage-mobile
 gnome-sound-recorder
 gnome-initial-setup-mobile
@@ -90,9 +90,9 @@ bluez
 #pipewire-alsa
 #pipewire-pulse
 pulseaudio-bluetooth
-pamac-cli
 pamac-gtk
 >pinephone pamac-mobile-integration
+pamac-gnome-integration
 portfolio-file-manager
 iio-sensor-proxy
 networkmanager
