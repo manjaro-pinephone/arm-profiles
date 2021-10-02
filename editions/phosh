@@ -11,7 +11,7 @@
 #>pinephone waydroid-image
 #>pinephone waydroid
 >pinephone mobile-config-firefox
-#>pinephone vvmplayer
+>pinephone vvmplayer
 #>pinephone eg25-autorestart
 
 # Minimal packages
