@@ -11,7 +11,7 @@
 #>pinephone waydroid-image
 #>pinephone waydroid
 >pinephone mobile-config-firefox
->pinephone vvmplayer
+#>pinephone vvmplayer
 #>pinephone eg25-autorestart
 
 # Minimal packages
@@ -90,6 +90,8 @@ bluez
 #pipewire-alsa
 #pipewire-pulse
 pulseaudio-bluetooth
+#pulseaudio-alsa
+#pulseaudio-jack
 pamac-gtk
 >pinephone pamac-mobile-integration
 pamac-gnome-integration
