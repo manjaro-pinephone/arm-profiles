@@ -83,7 +83,7 @@ plymouth-shim
 qmlkonsole
 spacebar-mm
 telepathy-mission-control
-telepathy-ofono
+#telepathy-ofono
 vvave
 xdg-utils
 
