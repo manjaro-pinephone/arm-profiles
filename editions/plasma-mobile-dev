@@ -1,0 +1,153 @@
+## Maintained by Bernhard ##
+
+# Phone specific packages
+#>pinephone ofono
+#>pinephone ofonoctl
+#>pinephone libqofono-qt5
+>pinephone kde-telephony-support
+>pinephone kde-telephony-plugin-declarative
+>pinephone modemmanager-pp
+
+# Minimal packages
+glibc-locales
+sudo
+parted
+openssh
+haveged
+inxi
+ncdu
+nano
+dhcpcd
+#man-pages
+#man-db
+ntfs-3g
+zswap-arm
+bash-completion
+
+# Multimedia packages
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-ugly
+maui-clip
+youtube-dl
+
+# Image packages
+kio-extras
+kdegraphics-thumbnailers
+libappimage
+ffmpegthumbs
+
+# Personal assistance
+#mycroft-gui-git
+
+# PM Packages
+angelfish
+audiotube
+buho
+calindori
+desktop-file-utils
+index-fm
+kaccounts-providers
+kalk
+kasts
+kclock
+keysmith
+kio-extras
+kongress
+kpeoplesink
+krecorder
+ktrip
+kweather
+kwin
+maliit-framework
+maliit-keyboard
+mauikit
+neochat
+>pinephone noto-fonts-cjk # needed to display * and # in dialer
+noto-fonts-emoji
+anthy #fix japanese
+libpinyin #fix chinese
+libchewing #fix chinese
+maui-nota
+okular
+>pinephone plasma-dialer-mm
+plasma-mobile-nm
+plasma-mobile-settings
+plasma-nano
+plasma-phone-components
+plasma-phonebook
+#plasma-pix
+plasma-settings
+plymouth-shim
+qmlkonsole
+spacebar-mm
+telepathy-mission-control
+telepathy-ofono
+vvave
+xdg-utils
+
+# First run wizard
+pico-wizard-plamo-scripts
+pico-wizard-git
+
+# Packages to be built
+#qrca #no tagged release
+#plasmatube #no tagged release
+
+# Regular Plasma packages
+bluez
+bluedevil
+breeze
+drkonqi
+kdeconnect
+kirigami-gallery
+kinit
+kwallet-pam
+polkit-kde-agent
+powerdevil
+sddm
+kscreen
+xdg-desktop-portal-kde
+plasma-pa
+discover
+packagekit-qt5
+koko
+qqc2-breeze-style
+# peruse
+
+# Theming
+manjaro-arm-wallpapers
+manjaro-icons
+
+# Wayland stuff
+kwayland
+kwayland-integration
+xorg-server-xwayland
+kwayland-server
+pipewire-media-session
+
+# Other
+mesa
+tlp
+alsa-utils
+pulseaudio-bluetooth
+wget
+xdg-user-dirs
+debianutils
+flatpak
+iio-sensor-proxy
+#manjaro-arm-flasher
+#pamac-cli
+psensor
+#firefox
+telegram-desktop
+qt5-wayland # for telegram-desktop
+megapixels
+vim
+bootsplash-theme-kde
+breeze-gtk
+lcms2 # needed for kwin nightmode
+hfd-service
+dnsmasq
+appimagelauncher
