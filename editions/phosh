@@ -34,6 +34,7 @@ bash-completion
 gtk3-mobile
 mutter
 phosh
+>pinephone phosh-antispam
 >pinephone calls
 chatty
 #>pinephone epiphany
@@ -46,6 +47,7 @@ kgx
 sound-theme-phosh
 squeekboard
 megapixels
+numberstation
 xdg-user-dirs
 gnome-contacts-mobile
 gnome-control-center-mobile
