@@ -4,7 +4,7 @@
 #>pinephone ofono
 #>pinephone ofonoctl
 #>pinephone libqofono-qt5
->pinephone kde-telephony-support
+>pinephone kde-telephony-meta
 >pinephone kde-telephony-plugin-declarative
 >pinephone modemmanager-pp
 
