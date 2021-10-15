@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 # make default editor Neovim
-export EDITOR=nvim
+export EDITOR=helix
 
 # use custom fd command for fzf incl. showing hidden files by default
 export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'

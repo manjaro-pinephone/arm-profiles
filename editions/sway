@@ -100,7 +100,7 @@ wqy-microhei #chinese
 # some interesting CLI tools
 bash-completion
 bat
-bottom
+btop
 box64
 chafa
 cmatrix
@@ -110,7 +110,9 @@ exa
 fd
 ffmpegthumbnailer
 fzf
+gitui
 gpg-tui
+helix
 hey
 hexyl
 httpie
@@ -123,7 +125,6 @@ mdcat
 mediainfo
 mlocate
 neofetch
-neovim
 odt2txt
 onefetch
 ranger

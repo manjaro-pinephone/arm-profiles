@@ -52,8 +52,8 @@ set $help $term_float_portrait mdcat -p $HOME/README.md
 set $calendar $term_float_portrait khal interactive
 
 # cpu / mem monitors
-set $cpu_mon btm
-set $mem_mon btm
+set $cpu_mon btop
+set $mem_mon btop
 
 # defines the custom menu in waybar
 set $app_menu yad --icons --read-dir=/usr/share/applications --sort-by-name --icon-size=48 --title='Applications' --term='$term -- %s' --no-buttons --close-on-unfocus

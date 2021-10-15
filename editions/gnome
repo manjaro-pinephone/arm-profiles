@@ -112,19 +112,21 @@ ttf-roboto
 wqy-microhei #chinese
 
 # some interesting CLI tools
+bash-completion
 bat
+box64
 cpu-temp-speed
 curl
 exa
 fd
 ffmpegthumbnailer
 fzf
+helix
 htop
 jq
 mediainfo
 mlocate
 neofetch
-neovim
 odt2txt
 onefetch
 ripgrep
@@ -136,6 +138,7 @@ yad
 yay
 
 # Applications
+celluloid
 dconf-editor
 eog
 evince
