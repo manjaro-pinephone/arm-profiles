@@ -13,4 +13,5 @@ drkonqi-coredump-processor@.service
 >pinephone pinephone-post-install.service
 >pinephone ofono.service
 >pinephone ofonoctl.service
+>pinephone ModemManager.service
 >pinephone pinephone-modem-scripts.pinephone-modem-setup.service
