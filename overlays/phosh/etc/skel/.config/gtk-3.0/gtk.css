@@ -1,0 +1,14 @@
+/* TWEAKS-START phosh-applist-background */
+phosh-app-grid {
+	background-image: url("file:///usr/share/wallpapers/manjaro_blurr_darker.jpg");
+	background-size: cover;
+	background-position: center;
+}
+/* TWEAKS-END phosh-applist-background */
+/* TWEAKS-START phosh-lockscreen-background */
+phosh-lockscreen, .phosh-lockshield {
+	background-image: url("file:///usr/share/wallpapers/manjaro_blurr_darker.jpg");
+	background-size: cover;
+	background-position: center;
+}
+/* TWEAKS-END phosh-lockscreen-background */
