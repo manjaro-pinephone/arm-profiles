@@ -5,8 +5,6 @@ NetworkManager.service
 bluetooth.service
 tlp.service
 zswap-arm.service
-bootsplash-hide-when-booted.service
-bootsplash-show-on-shutdown.service
 hfd-service.service
 drkonqi-coredump-processor@.service
 >pinephone eg25-manager.service
@@ -15,3 +13,4 @@ drkonqi-coredump-processor@.service
 >pinephone ofonoctl.service
 >pinephone ModemManager.service
 >pinephone pinephone-modem-scripts.pinephone-modem-setup.service
+>pinephonepro pinephonepro-post-install.service
