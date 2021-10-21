@@ -14,3 +14,4 @@ bootsplash-show-on-shutdown.service
 #>pinephone waydroid-container.service
 >pinephone siglo.service
 #>pinephone eg25-autorestart.service
+>pinephonepro pinephonepro-post-install.service
