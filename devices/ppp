@@ -1,0 +1,11 @@
+linux
+linux-headers
+uboot-pinephonepro
+plymouth
+plymouth-theme-manjaro
+anx7688-firmware
+
+# Other device specific packages
+wpa_supplicant
+pinephonepro-post-install
+
