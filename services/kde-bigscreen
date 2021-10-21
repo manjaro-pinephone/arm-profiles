@@ -1,0 +1,10 @@
+sshd.service
+sddm.service
+NetworkManager.service
+bluetooth.service
+tlp.service
+firewalld.service
+zswap-arm.service
+systemd-oomd.service
+#auto-resolution.service #Started by the package itself
+#cec-daemon.service	 #Started by the package itself

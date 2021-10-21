@@ -1,0 +1,44 @@
+#Base PKG'S
+bash-completion
+openssh
+nano
+sddm
+networkmanager
+
+#KDE PKG'S
+kscreen
+kactivities
+kcmutils
+kdeclarative
+ki18n
+kio
+knotifications
+kwindowsystem
+kwin
+kirigami2
+plasma-framework
+plasma-workspace
+plasma-nm
+plasma-pa
+plasma-nano
+plasma-settings
+konsole
+kdeconnect
+firefox
+falkon
+kate
+dolphin
+
+#Bigscreen PKG'S
+plasma-bigscreen-git
+aura-browser-git
+plank-player-git
+bigscreen-image-settings
+
+#Other PKG'S
+libcec
+python
+python-cec-git
+python-uinput
+python-pyqt5
+dbus-python
