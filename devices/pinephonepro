@@ -1,9 +1,10 @@
-linux
-linux-headers
+linux-pinephonepro
+linux-pinephonepro-headers
 uboot-pinephonepro
 plymouth
 plymouth-theme-manjaro
 anx7688-firmware
+firmware-raspberrypi
 
 # Other device specific packages
 wpa_supplicant
