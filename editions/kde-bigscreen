@@ -4,6 +4,19 @@ openssh
 nano
 sddm
 networkmanager
+inxi
+man-pages
+man-db
+ntfs-3g
+zswap-arm
+sudo
+parted
+
+# Sound, Video and Bluetooth
+alsa-utils
+smplayer
+pulseaudio-alsa
+pulseaudio-bluetooth
 
 #KDE PKG'S
 kscreen
@@ -28,17 +41,26 @@ firefox
 falkon
 kate
 dolphin
+bluedevil
+powerdevil
+ark
+okular
+gwenview
+pamac-gtk
+pamac-tray-icon-plasma
 
 #Bigscreen PKG'S
-plasma-bigscreen-git
-aura-browser-git
-plank-player-git
+plasma-bigscreen
+aura-browser
+plank-player
 bigscreen-image-settings
+bigscreen-post-install
 
 #Other PKG'S
 libcec
 python
-python-cec-git
+python-cec
 python-uinput
 python-pyqt5
 dbus-python
+openresolv
