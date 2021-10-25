@@ -6,5 +6,6 @@ tlp.service
 firewalld.service
 zswap-arm.service
 systemd-oomd.service
+bigscreen-post-install.service
 #auto-resolution.service #Started by the package itself
 #cec-daemon.service	 #Started by the package itself
