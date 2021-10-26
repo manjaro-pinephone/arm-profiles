@@ -21,6 +21,7 @@ dhcpcd
 ntfs-3g
 zswap-arm
 bash-completion
+ircbalance
 
 # OpenGLES qt packages
 #qt5-es2-base
