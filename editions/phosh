@@ -35,7 +35,7 @@ gtk3-mobile
 mutter
 phosh
 >pinephone phosh-antispam
->pinephone calls
+>pinephone gnome-calls
 chatty
 #>pinephone epiphany
 evince-mobile
