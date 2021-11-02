@@ -108,6 +108,7 @@ ForegroundPositive=52,152,219
 ForegroundVisited=145,61,136
 
 [General]
+AccentColor=0,211,184
 ColorScheme=Breath2Dark
 Name=Breath2
 XftAntialias=true
