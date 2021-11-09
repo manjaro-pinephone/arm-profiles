@@ -13,6 +13,7 @@ drkonqi-coredump-processor@.service
 irqbalance.service
 >pinephone eg25-manager.service
 >pinephone pinephone-post-install.service
+>pinephone pinephonepro-post-install.service
 >pinephone ofono.service
 >pinephone ofonoctl.service
 #>pinephone ModemManager.service
