@@ -14,7 +14,7 @@ pinephone-modem-scripts
 alsa-ucm-pinephone
 
 # Other device specific packages
-rtl8723bt-firmware-megi
+rtl8723bt-firmware
 anx7688-firmware
 ov5640-firmware
 wpa_supplicant
