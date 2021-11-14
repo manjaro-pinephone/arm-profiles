@@ -8,7 +8,7 @@ bootsplash-theme-manjaro
 bootsplash-systemd
 
 # Video driver
-xf86-video-fbturbo-git
+xf86-video-fbdev
 
 # Other device specific packages
 crda
