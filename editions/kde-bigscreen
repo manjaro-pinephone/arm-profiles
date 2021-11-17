@@ -1,0 +1,72 @@
+#Base PKG'S
+bash-completion
+openssh
+nano
+sddm
+networkmanager
+inxi
+man-pages
+man-db
+ntfs-3g
+zswap-arm
+sudo
+parted
+
+# Sound, Video and Bluetooth
+alsa-utils
+smplayer
+pulseaudio-alsa
+pulseaudio-bluetooth
+
+#Pico Pkgs
+pico-wizard-plamo-scripts
+pico-wizard-git
+
+#KDE PKG'S
+kscreen
+kactivities
+kcmutils
+kdeclarative
+ki18n
+kio
+knotifications
+kwindowsystem
+kwin
+kirigami2
+plasma-framework
+plasma-workspace
+plasma-nm
+plasma-pa
+plasma-nano
+plasma-settings
+konsole
+kdeconnect
+firefox
+falkon
+kate
+dolphin
+bluedevil
+powerdevil
+ark
+okular
+gwenview
+pamac-gtk
+pamac-tray-icon-plasma
+
+
+#Bigscreen PKG'S
+plasma-bigscreen
+aura-browser
+plank-player
+bigscreen-image-settings
+bigscreen-post-install
+
+#Other PKG'S
+libcec
+python
+python-cec
+python-uinput
+python-pyqt5
+dbus-python
+openresolv
+
