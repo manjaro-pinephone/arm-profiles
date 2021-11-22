@@ -1,12 +1,9 @@
 ## Maintained by Bernhard ##
 
 # Phone specific packages
-#>pinephone ofono
-#>pinephone ofonoctl
-#>pinephone libqofono-qt5
->pinephone kde-telephony-meta
->pinephone kde-telephony-plugin-declarative
 >pinephone modemmanager-pp
+>pinephone noto-fonts-cjk # needed to display * and # in dialer
+>pinephone plasma-dialer-mm
 
 # Minimal packages
 glibc-locales
@@ -71,14 +68,12 @@ maliit-framework
 maliit-keyboard
 mauikit
 neochat
->pinephone noto-fonts-cjk # needed to display * and # in dialer
 noto-fonts-emoji
 anthy #fix japanese
 libpinyin #fix chinese
 libchewing #fix chinese
 maui-nota
 okular
->pinephone plasma-dialer-mm
 plasma-mobile-nm
 plasma-mobile-settings
 plasma-nano
