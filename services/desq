@@ -4,5 +4,6 @@ NetworkManager.service
 bluetooth.service
 tlp.service
 zswap-arm.service
+irqbalance.service
 bootsplash-hide-when-booted.service
 bootsplash-show-on-shutdown.service

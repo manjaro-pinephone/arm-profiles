@@ -15,6 +15,7 @@ ntfs-3g
 usbutils
 zswap-arm
 bash-completion
+irqbalance
 
 # Minimal edition packages
 iwd

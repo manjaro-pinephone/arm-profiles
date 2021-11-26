@@ -12,6 +12,7 @@ ncdu
 nano
 ntfs-3g
 zswap-arm
+irqbalance
 
 # Sound, Video and bluetooth
 pavucontrol-qt

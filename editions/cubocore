@@ -12,6 +12,7 @@ man-pages
 man-db
 ntfs-3g
 zswap-arm
+irqbalance
 
 # Sound, Video and bluetooth
 alsa-utils
