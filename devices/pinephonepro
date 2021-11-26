@@ -8,7 +8,9 @@ plymouth-theme-manjaro
 anx7688-firmware
 firmware-raspberrypi
 
+# Audio configs
+pinephone-modem-scripts
+
 # Other device specific packages
 wpa_supplicant
 pinephonepro-post-install
-
