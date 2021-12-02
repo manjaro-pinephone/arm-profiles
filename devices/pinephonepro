@@ -14,3 +14,4 @@ pinephone-modem-scripts
 # Other device specific packages
 wpa_supplicant
 pinephonepro-post-install
+pinephonepro-manjaro-tweaks
