@@ -3,7 +3,7 @@
 # Phone specific packages
 >pinephone modemmanager-pp
 >pinephone noto-fonts-cjk # needed to display * and # in dialer
->pinephone plasma-dialer-mm
+>pinephone plasma-dialer
 
 # Minimal packages
 glibc-locales
