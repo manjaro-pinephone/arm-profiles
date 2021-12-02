@@ -11,6 +11,7 @@ nano
 man-pages
 man-db
 zswap-arm
+irqbalance
 
 # Sound, video and bluetooth
 pavucontrol
