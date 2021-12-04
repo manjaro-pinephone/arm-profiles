@@ -21,7 +21,7 @@ pulseaudio-bluetooth
 #Pico Pkgs
 pico-wizard-git
 pico-wizard-bigscreen-scripts
-pico-wizard-bigscreen-configs
+pico-wizard-bigscreen-configs-git
 
 #KDE PKG'S
 kscreen
