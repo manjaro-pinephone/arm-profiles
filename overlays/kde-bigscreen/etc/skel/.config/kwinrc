@@ -17,3 +17,4 @@ kwin4_effect_eyeonscreenEnabled=false
 kwin4_effect_windowapertureEnabled=false
 blurEnabled=false
 contrastEnabled=false
+screenedgeEnabled=false
