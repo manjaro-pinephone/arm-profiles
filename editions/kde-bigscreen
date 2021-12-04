@@ -19,8 +19,9 @@ pulseaudio-alsa
 pulseaudio-bluetooth
 
 #Pico Pkgs
-pico-wizard-plamo-scripts
 pico-wizard-git
+pico-wizard-bigscreen-scripts
+pico-wizard-bigscreen-configs
 
 #KDE PKG'S
 kscreen
