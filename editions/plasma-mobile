@@ -1,9 +1,9 @@
 ## Maintained by Bernhard ##
 
 # Phone specific packages
->pinephone ofono
->pinephone ofonoctl
->pinephone libqofono-qt5
+#>pinephone ofono
+#>pinephone ofonoctl
+#>pinephone libqofono-qt5
 >pinephone modemmanager-pp
 
 # Minimal packages
