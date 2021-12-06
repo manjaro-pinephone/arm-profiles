@@ -1,10 +1,9 @@
 ## Maintained by Bernhard ##
 
 # Phone specific packages
-#>pinephone ofono
-#>pinephone ofonoctl
-#>pinephone libqofono-qt5
 >pinephone modemmanager-pp
+>pinephone plasma-dialer
+>pinephone noto-fonts-cjk # needed to display * and # in dialer
 
 # Minimal packages
 glibc-locales
@@ -37,7 +36,6 @@ gst-plugins-base
 gst-plugins-ugly
 #ffmpeg-pp
 maui-clip
-youtube-dl
 
 # Image packages
 kio-extras
@@ -71,14 +69,13 @@ maliit-framework
 maliit-keyboard
 mauikit
 neochat
->pinephone noto-fonts-cjk # needed to display * and # in dialer
 noto-fonts-emoji
 anthy #fix japanese
 libpinyin #fix chinese
 libchewing #fix chinese
 maui-nota
 okular
->pinephone plasma-dialer
+oxygen-sounds
 plasma-mobile-nm
 plasma-mobile-settings
 plasma-nano
@@ -90,7 +87,6 @@ plymouth-shim
 qmlkonsole
 spacebar
 telepathy-mission-control
-telepathy-ofono
 vvave
 xdg-utils
 
