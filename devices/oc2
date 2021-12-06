@@ -11,6 +11,7 @@ xf86-video-fbdev
 
 # Other device specific packages
 btrfs-progs
+f2fs-tools
 fbset
 amlogic
 oc2-post-install

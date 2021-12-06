@@ -11,6 +11,7 @@ plymouth-theme-manjaro
 # Other device specific packages
 crda
 btrfs-progs
+f2fs-tools
 ap6398s-firmware
 kvim2-firmware
 bluetooth-vim3

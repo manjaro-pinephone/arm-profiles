@@ -11,6 +11,7 @@ plymouth-theme-manjaro
 # Other device specific packages
 crda
 btrfs-progs
+f2fs-tools
 ap6256-firmware
 wpa_supplicant
 quartz64-post-install

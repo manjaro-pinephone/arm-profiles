@@ -11,5 +11,6 @@ plymouth-theme-manjaro
 
 # Other device specific packages
 btrfs-progs
+f2fs-tools
 fbset
 hc4-post-install

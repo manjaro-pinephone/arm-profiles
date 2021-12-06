@@ -10,4 +10,5 @@ bootsplash-systemd
 
 # Other device specific packages
 btrfs-progs
+f2fs-tools
 nanopc-t4-post-install

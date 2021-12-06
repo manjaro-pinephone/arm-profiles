@@ -13,6 +13,7 @@ xf86-video-fbdev
 # Other device specific packages
 crda
 btrfs-progs
+f2fs-tools
 firmware-raspberrypi
 pi-bluetooth
 wpa_supplicant

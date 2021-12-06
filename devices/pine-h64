@@ -13,6 +13,7 @@ xf86-video-fbdev
 # Other device specific packages
 crda
 btrfs-progs
+f2fs-tools
 rtl8723bt-firmware
 wpa_supplicant
 pinebook-post-install
