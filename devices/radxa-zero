@@ -1,7 +1,7 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
-linux-rc
+linux
 boot-radxa-zero
 plymouth
 plymouth-theme-manjaro
