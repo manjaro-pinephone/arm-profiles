@@ -4,7 +4,6 @@
 sudo
 parted
 openssh
-haveged
 xorg-server
 xorg-xinit
 inxi

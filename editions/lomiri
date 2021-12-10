@@ -19,7 +19,6 @@ qt5-es2-wayland
 sudo
 parted
 openssh
-haveged
 inxi
 ncdu
 nano

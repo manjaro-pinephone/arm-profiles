@@ -4,7 +4,6 @@
 sudo
 parted
 openssh
-haveged
 ncdu
 nano
 dhcpcd
