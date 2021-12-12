@@ -131,7 +131,6 @@ pipewire-media-session
 
 # Other
 mesa
-tlp
 alsa-utils
 pulseaudio-bluetooth
 wget
