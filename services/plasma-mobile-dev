@@ -3,7 +3,6 @@ haveged.service
 sddm.service
 NetworkManager.service
 bluetooth.service
-tlp.service
 zswap-arm.service
 irqbalance.service
 bootsplash-hide-when-booted.service
