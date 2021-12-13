@@ -61,9 +61,11 @@ aura-browser
 plank-player
 bigscreen-image-settings
 bigscreen-post-install
+mycroft-bigscreen
+
 
 #Other PKG'S
-libcec
+>rpi4 libcec-rpi-fkms
 python
 python-cec
 python-uinput
