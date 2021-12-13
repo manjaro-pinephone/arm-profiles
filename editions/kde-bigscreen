@@ -63,6 +63,7 @@ bigscreen-image-settings
 bigscreen-post-install
 mycroft-bigscreen
 mycroft-skill-installer
+mycroft-gui-git 
 
 #Other PKG'S
 >rpi4 libcec-rpi-fkms
