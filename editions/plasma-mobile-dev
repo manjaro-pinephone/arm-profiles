@@ -153,3 +153,4 @@ lcms2 # needed for kwin nightmode
 hfd-service
 dnsmasq
 appimagelauncher
+qt5-tools # needed for plasma-workspace to start
