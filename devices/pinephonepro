@@ -1,10 +1,12 @@
 ## Maintained by Spikerguy and Philm ##
 
 linux-pinephonepro
-linux-pinephonepro-headers
+#linux-pinephonepro-headers
 uboot-pinephonepro
-plymouth
-plymouth-theme-manjaro
+#plymouth
+#plymouth-theme-manjaro
+bootsplash-theme-manjaro
+bootsplash-systemd
 anx7688-firmware
 firmware-raspberrypi
 
