@@ -21,7 +21,7 @@ pulseaudio-bluetooth
 #Pico Pkgs
 pico-wizard-git
 pico-wizard-bigscreen-scripts
-pico-wizard-bigscreen-configs-git
+pico-wizard-bigscreen-configs
 
 #KDE PKG'S
 kscreen
@@ -63,7 +63,7 @@ bigscreen-image-settings
 bigscreen-post-install
 mycroft-bigscreen
 mycroft-skill-installer
-mycroft-gui-git 
+mycroft-gui
 
 #Other PKG'S
 >rpi4 libcec-rpi-fkms
