@@ -69,6 +69,7 @@ mycroft-gui
 >rpi4 libcec-rpi-fkms
 python
 python-cec
+python-psutil
 python-uinput
 python-pyqt5
 dbus-python
