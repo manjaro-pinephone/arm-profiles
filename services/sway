@@ -3,6 +3,7 @@ greetd.service
 NetworkManager.service
 bluetooth.service
 tlp.service
+firewalld.service
 zswap-arm.service
 systemd-oomd.service
 irqbalance.service
