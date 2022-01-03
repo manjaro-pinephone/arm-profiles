@@ -104,8 +104,8 @@ polkit
 xorg-server-xwayland
 #hwtest
 firefox
-telegram-desktop
-qt5-wayland # for telegram-desktop
+#telegram-desktop
+#qt5-wayland # for telegram-desktop
 noto-fonts-emoji
 noto-fonts-cjk
 siglo
