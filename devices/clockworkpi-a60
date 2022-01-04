@@ -1,7 +1,7 @@
 ## Maintained by Max Fierke ##
 
 # Kernel and bootloader stuff
-linux-rc #patches not applied yet
+linux-clockworkpi-a06
 uboot-clockworkpi-a06
 plymouth
 plymouth-theme-manjaro
