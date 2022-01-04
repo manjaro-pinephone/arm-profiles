@@ -9,9 +9,9 @@ bindsym $mod+Return exec $term
 bindsym $mod+Shift+q kill
 
 ## Launch // Application Launcher ##
-bindsym $mod+d exec $menu
+bindsym $mod+space exec $menu
 ## Launch // Window Switcher ##
-bindsym $mod+Shift+d exec $selwin
+bindsym $mod+Shift+space exec $selwin
 
 # Drag floating windows by holding down $mod and left mouse button.
 # Resize them with right mouse button + $mod.
@@ -119,10 +119,10 @@ bindsym $mod+e layout toggle split
 bindsym $mod+f fullscreen
 
 ## Action // Toggle floating ##
-bindsym $mod+Shift+space floating toggle
+bindsym $alt+Shift+space floating toggle
 
 ## Navigation // Swap focus between the tiling area and the floating area ##
-bindsym $mod+space focus mode_toggle
+bindsym $alt+space focus mode_toggle
 
 ## Navigation // Swap focus to the parent window ##
 bindsym $mod+a focus parent

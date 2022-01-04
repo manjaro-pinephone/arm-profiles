@@ -28,7 +28,7 @@ Sway has up to ten different workspaces that can be freely arranged on the avail
 ## Opening / Closing Applications
 
 - open a new terminal window: **$mod** + **Enter**
-- open the application launcher: **$mod** + **d**
+- open the application launcher: **$mod** + **Space**
 - kill the application (forcefully): **$mod** + **Shift** + **q**
 
 ## Using Workspaces
@@ -38,7 +38,7 @@ Sway has up to ten different workspaces that can be freely arranged on the avail
 
 ## Focussing Windows
 
-- open the window selector: **$mod** + **Shift** + **d**
+- open the window selector: **$mod** + **Shift** + **Space**
 - focus another application window: **$mod** + **\<movement-key\>** (see [Basics](#Basics))
 
 ## Moving Windows
@@ -59,9 +59,9 @@ Sway has up to ten different workspaces that can be freely arranged on the avail
 
 ## Floating Windows
 
-- toggle floating mode for current application window: **$mod** + **Shift** + **Space**
+- toggle floating mode for current application window: **$alt** + **Shift** + **Space**
+- switch between floating application window and tiled application window: **$alt** + **Space**
 - move floating application window around: **$mod** + **Shift** + **\<movement-key\>** (see [Basics](#Basics))
-- switch between floating application window and tiled application window: **$mod** + **Space**
 
 ## Resize Mode
 
