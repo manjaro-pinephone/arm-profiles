@@ -88,11 +88,9 @@ papirus-maia-icon-theme
 
 # Other packages
 bluez
-pipewire-alsa
-pipewire-pulse
-#pulseaudio-bluetooth
-#pulseaudio-alsa
-#pulseaudio-jack
+#pipewire-alsa
+#pipewire-pulse
+pulseaudio-bluetooth
 pamac-gtk
 >pinephone pamac-mobile-integration
 pamac-gnome-integration
