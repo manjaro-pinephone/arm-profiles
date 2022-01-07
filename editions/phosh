@@ -90,7 +90,7 @@ papirus-maia-icon-theme
 bluez
 pipewire-alsa
 pipewire-pulse
-#pulseaudio-bluetooth
+wireplumber
 pamac-gtk
 >pinephone pamac-mobile-integration
 pamac-gnome-integration
