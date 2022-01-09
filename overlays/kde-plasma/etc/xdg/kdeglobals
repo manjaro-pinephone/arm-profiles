@@ -109,8 +109,8 @@ ForegroundVisited=145,61,136
 
 [General]
 AccentColor=0,211,184
-ColorScheme=Breath2Dark
-Name=Breath2
+ColorScheme=BreathDark
+Name=Breath
 XftAntialias=true
 XftHintStyle=
 XftSubPixel=none
@@ -118,7 +118,7 @@ shadeSortColumn=true
 widgetStyle=Breeze
 
 [Icons]
-Theme=breath2-dark
+Theme=breeze-dark
 
 [KDE]
 AnimationDurationFactor=0.5

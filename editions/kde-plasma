@@ -59,10 +59,8 @@ okular
 gwenview
 
 # Themes
-breath2-icon-themes
-gtk-theme-breath
-plasma5-themes-breath2
-sddm-breath2-theme
+plasma5-themes-breath
+sddm-breath-theme
 manjaro-arm-wallpapers
 breeze-gtk
 manjaro-icons

@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=Breath2
+ColorScheme=Breath
 
 [General]
 Name=Profil 1
