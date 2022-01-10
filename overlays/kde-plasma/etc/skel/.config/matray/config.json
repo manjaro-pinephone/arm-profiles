@@ -30,7 +30,7 @@
   ],
   "RefreshInterval" : 600,
   "Autostart" : true,
-  "ErrorNotifications" : true,
+  "ErrorNotifications" : false,
   "DelayAfterStart" : 10,
   "SetCategoriesFromBranch" : true,
   "IconTheme" : "Bright"
