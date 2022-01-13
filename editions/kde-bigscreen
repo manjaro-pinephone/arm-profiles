@@ -74,4 +74,4 @@ python-uinput
 python-pyqt5
 dbus-python
 openresolv
-
+>rpi4 raspberrypi-bigscreen-resolution-fix
