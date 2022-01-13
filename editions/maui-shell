@@ -1,0 +1,86 @@
+## Maintained by Bernhard ##
+
+# Phone specific packages
+>pinephone modemmanager-pp
+>pinephone noto-fonts-cjk # needed to display * and # in dialer
+>pinephone plasma-dialer
+
+# Minimal packages
+glibc-locales
+sudo
+parted
+openssh
+inxi
+ncdu
+nano
+dhcpcd
+#man-pages
+#man-db
+ntfs-3g
+zswap-arm
+bash-completion
+irqbalance
+
+# OpenGLES qt packages
+qt5-es2-base
+qt5-es2-declarative
+qt5-es2-multimedia
+qt5-es2-wayland
+pyside2-es2
+
+# Multimedia packages
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-ugly
+maui-clip
+youtube-dl
+
+# maui packages
+buho
+maui-clip
+mauikit-imagetools
+maui-nota
+maui-shell
+index-fm
+maui-pix
+vvave
+
+# apps
+alsa-utils
+anthy #fix japanese
+appimagelauncher
+audiotube
+bootsplash-theme-kde
+breeze-gtk
+debianutils
+desktop-file-utils
+dnsmasq
+ffmpegthumbs
+flatpak
+hfd-service
+iio-sensor-proxy
+libappimage
+libchewing #fix chinese
+libpinyin #fix chinese
+maliit-framework
+maliit-keyboard
+manjaro-arm-wallpapers
+manjaro-icons
+megapixels
+mesa
+noto-fonts-emoji
+packagekit-qt5
+pipewire-media-session
+plymouth-shim
+psensor
+pulseaudio-bluetooth
+qqc2-breeze-style
+qt5-wayland # for telegram-desktop
+sddm
+telegram-desktop
+tlp
+wget
+xdg-user-dirs
+xdg-utils
+xorg-server-xwayland
