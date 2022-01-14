@@ -1,0 +1,20 @@
+## Maintained by Spikerguy ##
+#Ugoos AM6 Plus
+
+# Kernel and bootloader stuff
+linux-khadas
+boot-am6-plus
+plymouth
+plymouth-theme-manjaro
+
+# Video driver
+
+# Other device specific packages
+crda
+btrfs-progs
+f2fs-tools
+ap6398s-firmware
+bluetooth-vim3
+khadas-utils
+fbset
+am6-plus-post-install
