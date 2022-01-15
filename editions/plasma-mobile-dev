@@ -34,7 +34,6 @@ gst-plugins-bad
 gst-plugins-base
 gst-plugins-ugly
 maui-clip
-youtube-dl
 
 # Image packages
 kio-extras
