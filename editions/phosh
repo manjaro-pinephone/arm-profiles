@@ -96,6 +96,8 @@ pamac-gnome-integration
 portfolio-file-manager
 iio-sensor-proxy
 networkmanager
+networkmanager-pptp
+networkmanager-openvpn
 gnome-keyring
 polkit
 xorg-server-xwayland
