@@ -1,5 +1,4 @@
-#sshd.service
-haveged.service
+sshd.service
 NetworkManager.service
 >pinephone ModemManager.service
 phosh.service

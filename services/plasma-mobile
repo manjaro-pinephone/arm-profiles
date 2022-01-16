@@ -1,5 +1,4 @@
 #sshd.service
-haveged.service
 sddm.service
 NetworkManager.service
 bluetooth.service

@@ -1,8 +1,9 @@
 ## Maintained by Spikerguy ##
+#Ugoos AM6 Plus
 
 # Kernel and bootloader stuff
 linux-khadas
-boot-vim3
+boot-am6-plus
 plymouth
 plymouth-theme-manjaro
 
@@ -13,8 +14,6 @@ crda
 btrfs-progs
 f2fs-tools
 ap6398s-firmware
-kvim2-firmware
 bluetooth-vim3
-khadas-utils
 fbset
-vim3-post-install
+am6-plus-post-install
