@@ -1,0 +1,16 @@
+## Maintained by Spikerguy ##
+
+# Kernel and bootloader stuff
+linux-khadas
+boot-m5
+plymouth
+plymouth-theme-manjaro
+
+# Video driver
+
+# Other device specific packages
+crda
+btrfs-progs
+f2fs-tools
+fbset
+m5-post-install
