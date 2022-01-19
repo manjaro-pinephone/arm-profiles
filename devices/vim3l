@@ -1,0 +1,17 @@
+## Maintained by Spikerguy ##
+
+# Kernel and bootloader stuff
+linux-khadas
+boot-vim3l
+plymouth
+plymouth-theme-manjaro
+
+# Video driver
+
+# Other device specific packages
+crda
+btrfs-progs
+f2fs-tools
+ap6398s-firmware
+fbset
+vim3l-post-install
