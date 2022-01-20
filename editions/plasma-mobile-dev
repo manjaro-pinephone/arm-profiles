@@ -50,6 +50,7 @@ audiotube
 buho
 calindori
 desktop-file-utils
+elisa-qtmm
 index-fm
 kaccounts-providers
 kalk
@@ -85,7 +86,7 @@ qmlkonsole
 spacebar
 telepathy-mission-control
 #telepathy-ofono
-vvave
+#vvave
 xdg-utils
 oxygen-sounds
 
