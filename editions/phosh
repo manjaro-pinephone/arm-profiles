@@ -62,7 +62,7 @@ wake-mobile
 # Gnome packages
 gnome-authenticator
 gnome-calculator-mobile
-gnome-clocks
+gnome-clocks-mobile
 gnome-keyring
 gnome-maps
 gnome-2048
@@ -110,3 +110,4 @@ noto-fonts-cjk
 siglo
 postmarketos-tweaks-app-phosh
 confy
+gpsd
