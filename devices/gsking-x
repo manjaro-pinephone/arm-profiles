@@ -1,7 +1,7 @@
 ## Maintained by Spikerguy ##
 
 # Kernel and bootloader stuff
-linux
+linux-khadas
 boot-gsking-x
 plymouth
 plymouth-theme-manjaro
@@ -14,6 +14,6 @@ btrfs-progs
 f2fs-tools
 kvim2-firmware
 #bluetooth-vim3
-khadas-utils
+#khadas-utils
 #fbset
-vim3-post-install
+gsking-x-post-install
