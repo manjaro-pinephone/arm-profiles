@@ -60,7 +60,7 @@ dnsmasq
 wake-mobile
 
 # Gnome packages
-gnome-authenticator
+#gnome-authenticator
 gnome-calculator-mobile
 gnome-clocks-mobile
 gnome-keyring
