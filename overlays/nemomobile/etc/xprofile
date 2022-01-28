@@ -1,0 +1,1 @@
+test -f $HOME/.config/locale.conf && source $HOME/.config/locale.conf
