@@ -47,27 +47,20 @@ ffmpegthumbs
 
 # PM Packages
 angelfish
-audiotube
-buho
 calindori
 desktop-file-utils
 index-fm
 kaccounts-providers
 kalk
-kasts
 kclock
-keysmith
 kio-extras
-kongress
 kpeoplesink
 krecorder
-ktrip
 kweather
 kwin
 maliit-framework
 maliit-keyboard
 mauikit
-neochat
 noto-fonts-emoji
 anthy #fix japanese
 libpinyin #fix chinese
@@ -86,7 +79,6 @@ plymouth-shim
 qmlkonsole
 spacebar
 telepathy-mission-control
-vvave
 xdg-utils
 
 # First run wizard
@@ -102,8 +94,8 @@ bluez
 bluedevil
 breeze
 drkonqi
+elisa-qtmm
 kdeconnect
-kirigami-gallery
 kinit
 kwallet-pam
 polkit-kde-agent
@@ -138,14 +130,7 @@ xdg-user-dirs
 debianutils
 flatpak
 iio-sensor-proxy
-#manjaro-arm-flasher
-#pamac-cli
-psensor
-#firefox
-telegram-desktop
-qt5-wayland # for telegram-desktop
 megapixels
-vim
 bootsplash-theme-kde
 breeze-gtk
 lcms2 # needed for kwin nightmode
