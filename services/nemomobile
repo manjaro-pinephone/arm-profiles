@@ -1,0 +1,26 @@
+sshd.service
+#NetworkManager.service
+bluetooth.service
+tlp.service
+zswap-arm.service
+bootsplash-hide-when-booted.service
+bootsplash-show-on-shutdown.service
+hfd-service.service
+connman.service
+mce.service
+dsme.service
+lightdm.service
+
+>pinephone eg25-manager.service
+>pinephone pinephone-post-install.service
+>pinephone nemomobile-post-install.service
+>pinephone ofono.service
+>pinephone ofonoctl.service
+>pinephone pinephone-modem-scripts.pinephone-modem-setup.service
+
+>pinephonepro eg25-manager.service
+>pinephonepro pinephonepro-post-install.service
+#>pinephonepro nemomobile-post-install.service
+>pinephonepro ofono.service
+>pinephonepro ofonoctl.service
+>pinephonepro pinephone-modem-scripts.pinephone-modem-setup.service
