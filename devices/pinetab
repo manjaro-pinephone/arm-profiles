@@ -8,11 +8,17 @@ bootsplash-systemd
 
 # Video drivers
 
+# Audio configs
+alsa-ucm-pinephone
+
 # Other device specific packages
 crda
 btrfs-progs
 f2fs-tools
+anx7688-firmware
+ov5640-firmware
 rtl8723bt-firmware
 wpa_supplicant
-pinephone-manjaro-tweaks
+wireless-regdb
 pinetab-post-install
+pinephone-manjaro-tweaks
