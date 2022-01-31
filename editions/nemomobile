@@ -1,0 +1,66 @@
+## Maintained by NeoChapay ##
+
+# Device specific packages
+>pinephone nemo-device-pinephone
+>pinephonepro nemo-device-pinephone
+>pinetab nemo-device-pinetab
+
+bootsplash-theme-nemo
+
+# Minimal packages
+sudo
+#parted
+openssh
+
+# OpenGLES qt packages
+qt5-es2-base
+qt5-es2-declarative
+qt5-es2-multimedia
+qt5-es2-wayland
+
+# Multimedia packages
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-ugly
+ffmpeg-pp
+
+# Additional packages
+accountsservice
+lightdm
+mce
+mce-plugin-libhybris-nonandroid
+dsme
+swi-prolog7
+ohm
+ohm-plugin-ruleengine
+
+# Main glacier packages
+lipstick-glacier-home
+glacier-calc
+glacier-camera
+glacier-contacts
+glacier-filemuncher
+glacier-gallery
+glacier-messages
+glacier-music
+glacier-wayland-session
+glacier-browser
+glacier-mail
+glacier-testtool
+glacier-packagemanager
+fingerterm
+qt5-quickcontrols-nemo-examples
+
+# Other
+xdg-user-dirs
+mesa
+alsa-utils
+pulseaudio-bluetooth
+wget
+vim
+nano
+maliit-nemo-keyboard
+
+nemo-theme-glacier
+nemo-theme-openmoko
