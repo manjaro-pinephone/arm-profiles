@@ -87,6 +87,6 @@ openresolv
 manjaro-settings-manager
 manjaro-arm-flasher
 wget
-tlp
+power-profile-daemon
 manjaro-hotfixes
 xdg-user-dirs

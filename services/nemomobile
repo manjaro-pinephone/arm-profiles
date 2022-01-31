@@ -1,7 +1,7 @@
 sshd.service
 #NetworkManager.service
 bluetooth.service
-tlp.service
+power-profile-daemon.service
 zswap-arm.service
 bootsplash-hide-when-booted.service
 bootsplash-show-on-shutdown.service

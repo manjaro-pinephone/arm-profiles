@@ -115,7 +115,7 @@ wqy-microhei #chinese
 # Other packages
 manjaro-settings-manager
 wget
-tlp
+power-profile-daemon
 xdg-user-dirs
 cpu-temp-speed
 htop

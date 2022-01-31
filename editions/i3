@@ -85,7 +85,7 @@ speedtest-cli
 sudo
 syslog-ng
 terminus-font
-tlp
+power-profile-daemon
 tree
 ttf-bitstream-vera
 ttf-dejavu

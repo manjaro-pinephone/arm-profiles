@@ -2,7 +2,7 @@ sshd.service
 sddm.service
 NetworkManager.service
 bluetooth.service
-tlp.service
+power-profile-daemon.service
 zswap-arm.service
 irqbalance.service
 systemd-oomd.service
