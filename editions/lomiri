@@ -84,7 +84,7 @@ location-service-git
 gpsd
 
 # Other
-power-profile-daemon
+power-profiles-daemon
 alsa-utils
 wget
 xdg-user-dirs

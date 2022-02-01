@@ -79,7 +79,7 @@ qqc2-breeze-style
 qt5-wayland # for telegram-desktop
 sddm
 telegram-desktop
-power-profile-daemon
+power-profiles-daemon
 wget
 xdg-user-dirs
 xdg-utils

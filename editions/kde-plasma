@@ -92,7 +92,7 @@ matray
 # Other packages
 openresolv
 wget
-power-profile-daemon
+power-profiles-daemon
 flameshot
 xdg-user-dirs
 networkmanager-openvpn

@@ -2,5 +2,5 @@ sshd.service
 lightdm.service
 NetworkManager.service
 bluetooth.service
-power-profile-daemon.service
+power-profiles-daemon.service
 zswap-arm.service

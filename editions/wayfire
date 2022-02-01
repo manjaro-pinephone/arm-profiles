@@ -50,6 +50,6 @@ networkmanager-qt
 #openresolv
 #wget
 #manjaro-settings-manager
-#power-profile-daemon
+#power-profiles-daemon
 #manjaro-hotfixes
 matray

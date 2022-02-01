@@ -83,6 +83,6 @@ manjaro-arm-installer
 upower #for battery detection
 openresolv
 wget
-power-profile-daemon
+power-profiles-daemon
 xdg-user-dirs
 networkmanager-qt

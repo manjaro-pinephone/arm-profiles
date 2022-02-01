@@ -101,7 +101,7 @@ manjaro-arm-installer
 #openresolv
 wget
 featherpad
-power-profile-daemon
+power-profiles-daemon
 htop
 mesa-demos
 audacious
