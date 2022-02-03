@@ -2,7 +2,7 @@
 
 # Kernel and bootloader stuff
 linux
-boot-radxa-zero
+uboot-radxa-zero
 plymouth
 plymouth-theme-manjaro
 
