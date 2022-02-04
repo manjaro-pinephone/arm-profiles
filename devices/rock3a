@@ -1,0 +1,16 @@
+## Maintained by Spikerguy ##
+
+# Kernel and bootloader stuff
+linux-rc
+uboot-rock3-a
+plymouth
+plymouth-theme-manjaro
+
+# Video drivers
+
+# Other device specific packages
+crda
+btrfs-progs
+f2fs-tools
+wpa_supplicant
+quartz64-post-install
