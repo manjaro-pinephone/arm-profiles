@@ -1,0 +1,14 @@
+## Maintained by Strit ##
+## This "device" profile, requires u-boot/tow-boot to be flashed to the SPI of the board
+
+# Kernel and bootloader stuff
+linux
+plymouth
+plymouth-theme-manjaro
+
+# Video drivers
+
+# Other device specific packages
+crda
+btrfs-progs
+f2fs-tools
