@@ -121,6 +121,7 @@ widgetStyle=Breeze
 Theme=breeze-dark
 
 [KDE]
+LookAndFeelPackage=org.manjaro.breath-dark.desktop
 AnimationDurationFactor=0.5
 ColorScheme=Breeze
 DoubleClickInterval=400
