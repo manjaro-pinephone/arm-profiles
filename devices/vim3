@@ -2,7 +2,7 @@
 
 # Kernel and bootloader stuff
 linux-khadas
-boot-vim3
+uboot-vim3
 plymouth
 plymouth-theme-manjaro
 
