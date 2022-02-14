@@ -13,7 +13,6 @@ crda
 btrfs-progs
 f2fs-tools
 #bluetooth-vim3
-khadas-utils
 fbset
 kvim1-firmware
 vim1-post-install
