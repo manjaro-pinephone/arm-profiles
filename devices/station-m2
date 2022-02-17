@@ -1,0 +1,17 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
+linux-rc
+uboot-station-m2
+plymouth
+plymouth-theme-manjaro
+
+# Video drivers
+
+# Other device specific packages
+crda
+btrfs-progs
+f2fs-tools
+kvim2-firmware
+wpa_supplicant
+stationm2-post-install
