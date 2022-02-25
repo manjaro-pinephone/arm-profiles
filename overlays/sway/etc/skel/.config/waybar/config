@@ -82,7 +82,7 @@
 
     "memory": {
         "interval": 10,
-        "format": " {}%", // Icon: memory
+        "format": " {}%", // Icon: memory
         "states": {
             "warning": 70,
             "critical": 90
