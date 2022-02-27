@@ -1,7 +1,7 @@
 ## Maintained by Spikerguy ##
 
 # Kernel and bootloader stuff
-linux-rc
+linux-rk356x
 uboot-station-p2
 plymouth
 plymouth-theme-manjaro
