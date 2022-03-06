@@ -3,6 +3,7 @@
 
 # Kernel and bootloader stuff
 linux
+boot-generic
 plymouth
 plymouth-theme-manjaro
 
