@@ -9,7 +9,7 @@ bootsplash-theme-manjaro
 bootsplash-systemd
 anx7688-firmware
 rockchip-firmware
-firmware-raspberrypi
+#firmware-raspberrypi
 
 # Audio configs
 pinephone-modem-scripts
