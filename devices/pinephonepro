@@ -8,6 +8,7 @@ uboot-pinephonepro
 bootsplash-theme-manjaro
 bootsplash-systemd
 anx7688-firmware
+rockchip-firmware
 firmware-raspberrypi
 
 # Audio configs
