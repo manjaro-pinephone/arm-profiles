@@ -80,7 +80,7 @@ mtpfs
 ntfs-3g
 
 # Office suite
-libreoffice-fresh
+#libreoffice-fresh
 
 # Package Manager
 pamac-gtk
