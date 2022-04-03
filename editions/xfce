@@ -95,7 +95,7 @@ firefox
 firefox-ublock-origin
 
 # Office suite
-libreoffice-fresh
+#libreoffice-fresh
 
 # Package Manager
 pamac-gtk
