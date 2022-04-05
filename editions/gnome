@@ -86,14 +86,9 @@ xcursor-breeze
 
 # Web Browser
 epiphany
-firefox
-firefox-ublock-origin
 
 # Email
 geary
-
-# Office suite
-libreoffice-fresh
 
 # Package Manager
 pamac-gtk

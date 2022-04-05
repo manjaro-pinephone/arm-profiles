@@ -75,12 +75,6 @@ xcursor-breeze
 firefox
 firefox-ublock-origin
 
-# Email
-thunderbird
-
-# Office suite
-libreoffice-fresh
-
 # Package Manager
 pamac-gtk
 polkit-gnome
