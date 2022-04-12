@@ -10,6 +10,7 @@ plymouth-theme-manjaro
 # Video drivers
 
 # Other device specific packages
+linux-firmware
 crda
 btrfs-progs
 f2fs-tools
