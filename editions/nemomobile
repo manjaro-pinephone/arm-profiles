@@ -4,6 +4,7 @@
 >pinephone nemo-device-pinephone
 >pinephonepro nemo-device-pinephone
 >pinetab nemo-device-pinetab
+>rpi4-cutiepi nemo-device-cutiepi
 
 bootsplash-theme-nemo
 
@@ -68,3 +69,6 @@ maliit-nemo-keyboard
 
 nemo-theme-glacier
 nemo-theme-openmoko
+
+gst-plugins-good
+mc

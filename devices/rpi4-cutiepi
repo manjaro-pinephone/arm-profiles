@@ -1,0 +1,24 @@
+## Maintained by Darksky ##
+
+# Kernel and Bootloader stuff
+linux-rpi4
+linux-rpi4-headers
+raspberrypi-bootloader
+raspberrypi-bootloader-x
+rpi-eeprom
+raspberrypi-userland-aarch64-git
+plymouth
+plymouth-theme-manjaro
+
+# Video driver
+
+# Other device specific packages
+crda
+btrfs-progs
+f2fs-tools
+firmware-raspberrypi
+brcm-patchram-plus
+wpa_supplicant
+rpi4-post-install
+cutiepi-cutoff
+cutiepi-kernel-config
