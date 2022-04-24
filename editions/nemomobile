@@ -4,6 +4,7 @@
 >pinephone nemo-device-pinephone
 >pinephonepro nemo-device-pinephone
 >pinetab nemo-device-pinetab
+>rpi4-cutiepi nemo-device-cutiepi
 
 bootsplash-theme-nemo
 
@@ -37,7 +38,10 @@ ohm-plugin-ruleengine
 
 # Main glacier packages
 lipstick-glacier-home
+glacier-alarmclock
+glacier-alarm-listener
 glacier-calc
+glacier-calendar
 glacier-camera
 glacier-contacts
 glacier-filemuncher
@@ -49,6 +53,7 @@ glacier-browser
 glacier-mail
 glacier-testtool
 glacier-packagemanager
+glacier-weather
 fingerterm
 qt5-quickcontrols-nemo-examples
 
@@ -64,3 +69,6 @@ maliit-nemo-keyboard
 
 nemo-theme-glacier
 nemo-theme-openmoko
+
+gst-plugins-good
+mc
