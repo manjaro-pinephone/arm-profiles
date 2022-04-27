@@ -62,7 +62,7 @@ wake-mobile
 # Gnome packages
 #gnome-authenticator
 gnome-calculator-mobile
-gnome-clocks-mobile
+gnome-clocks
 gnome-keyring
 gnome-maps
 gnome-2048
@@ -76,7 +76,6 @@ eog
 gnome-podcasts
 lollypop
 gedit
-#geary-mobile
 geary
 
 #hdr-plus-git
