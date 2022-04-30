@@ -8,7 +8,7 @@ plymouth
 plymouth-theme-manjaro
 
 # Video drivers
-xf86-video-fbdev
+# xf86-video-fbdev
 
 # Other device specific packages
 crda
