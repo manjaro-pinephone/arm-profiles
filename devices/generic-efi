@@ -1,0 +1,18 @@
+## Maintained by Strit ##
+## This "device" profile is for testing EFI compliance in our tools
+## Should not be used as a real profile
+
+# Kernel and bootloader stuff
+linux
+boot-generic
+efibootmgr
+plymouth
+plymouth-theme-manjaro
+
+# Video drivers
+
+# Other device specific packages
+crda
+btrfs-progs
+f2fs-tools
+generic-post-install
