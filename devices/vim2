@@ -18,4 +18,5 @@ fbset
 kvim1-firmware
 kvim2-firmware
 ap6398s-firmware
+generic-post-install
 vim2-post-install

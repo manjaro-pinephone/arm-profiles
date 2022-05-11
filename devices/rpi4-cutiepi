@@ -19,6 +19,7 @@ f2fs-tools
 firmware-raspberrypi
 brcm-patchram-plus
 wpa_supplicant
+generic-post-install
 rpi4-post-install
 cutiepi-cutoff
 cutiepi-kernel-config

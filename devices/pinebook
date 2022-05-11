@@ -12,4 +12,5 @@ btrfs-progs
 f2fs-tools
 rtl8723bt-firmware
 wpa_supplicant
+generic-post-install
 pinebook-post-install

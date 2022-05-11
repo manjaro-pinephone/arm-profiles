@@ -16,4 +16,5 @@ ap6398s-firmware
 kvim2-firmware
 bluetooth-vim3
 fbset
+generic-post-install
 vim3-post-install

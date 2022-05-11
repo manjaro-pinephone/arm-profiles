@@ -13,4 +13,5 @@ crda
 btrfs-progs
 f2fs-tools
 fbset
+generic-post-install
 m5-post-install

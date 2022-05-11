@@ -15,4 +15,5 @@ f2fs-tools
 #bluetooth-vim3
 fbset
 kvim1-firmware
+generic-post-install
 vim1-post-install

@@ -12,4 +12,5 @@ plymouth-theme-manjaro
 btrfs-progs
 f2fs-tools
 fbset
+generic-post-install
 oc4-post-install

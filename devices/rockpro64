@@ -12,4 +12,5 @@ plymouth-theme-manjaro
 linux-firmware
 btrfs-progs
 f2fs-tools
+generic-post-install
 rockpro64-post-install

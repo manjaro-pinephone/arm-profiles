@@ -13,4 +13,5 @@ crda
 btrfs-progs
 ap6256-firmware
 wpa_supplicant
+generic-post-install
 clockworkpi-a06-post-install 

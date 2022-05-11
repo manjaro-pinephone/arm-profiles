@@ -14,4 +14,5 @@ btrfs-progs
 f2fs-tools
 ap6256-firmware
 wpa_supplicant
+generic-post-install
 quartz64-post-install

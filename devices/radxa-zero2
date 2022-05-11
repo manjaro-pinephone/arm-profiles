@@ -14,4 +14,5 @@ btrfs-progs
 f2fs-tools
 ap6256-firmware
 fbset
+generic-post-install
 radxa-zero2-post-install

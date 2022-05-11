@@ -14,4 +14,5 @@ crda
 btrfs-progs
 f2fs-tools
 kvim1-firmware
+generic-post-install
 pinebook-post-install

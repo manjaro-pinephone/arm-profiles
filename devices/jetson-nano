@@ -12,4 +12,4 @@ plymouth-theme-manjaro
 # Other device specific packages
 btrfs-progs
 f2fs-tools
-rockpro64-post-install
+generic-post-install

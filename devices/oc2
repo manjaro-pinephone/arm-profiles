@@ -14,4 +14,5 @@ btrfs-progs
 f2fs-tools
 fbset
 amlogic
+generic-post-install
 oc2-post-install

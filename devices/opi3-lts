@@ -15,4 +15,5 @@ crda
 btrfs-progs
 f2fs-tools
 wpa_supplicant
+generic-post-install
 pinebook-post-install

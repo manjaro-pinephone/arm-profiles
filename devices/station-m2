@@ -14,4 +14,5 @@ btrfs-progs
 f2fs-tools
 kvim2-firmware
 wpa_supplicant
+generic-post-install
 stationm2-post-install
