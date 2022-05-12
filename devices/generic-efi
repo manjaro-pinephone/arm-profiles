@@ -4,7 +4,7 @@
 
 # Kernel and bootloader stuff
 linux
-boot-generic
+boot-generic-efi
 efibootmgr
 plymouth
 plymouth-theme-manjaro
