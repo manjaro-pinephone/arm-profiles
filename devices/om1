@@ -2,7 +2,7 @@
 
 # Kernel and bootloader stuff
 linux-rc
-uboot-quartz64-a
+uboot-odroid-m1
 plymouth
 plymouth-theme-manjaro
 
