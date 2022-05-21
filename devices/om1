@@ -14,3 +14,4 @@ btrfs-progs
 f2fs-tools
 wpa_supplicant
 generic-post-install
+quartz64-post-install
