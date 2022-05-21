@@ -18,8 +18,15 @@ pulseaudio-alsa
 alsa-utils
 smplayer
 bluez
-pulseaudio-bluetooth
+bluez-utils
 blueman
+pipewire-alsa
+pipewire-pulse
+pipewire-zeroconf
+gst-plugin-pipewire
+gst-libav
+libva-v4l2-request
+
 
 # Display Manager
 lightdm
@@ -121,6 +128,8 @@ wget
 power-profiles-daemon
 cpu-temp-speed
 matray
+mesa-utils
+xorg-xdpyinfo
 
 # File systems access
 gvfs
