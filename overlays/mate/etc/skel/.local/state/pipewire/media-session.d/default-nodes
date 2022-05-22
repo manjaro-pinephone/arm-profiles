@@ -1,0 +1,3 @@
+{
+ "default.configured.audio.sink": { "name": "alsa_output.platform-fef00700.hdmi.iec958-stereo" }
+}

@@ -7,6 +7,8 @@ openssh
 xorg-server
 xorg-xinit
 inxi
+mesa-utils
+xorg-xdpyinfo
 ncdu
 nano
 dhcpcd
@@ -20,8 +22,14 @@ pulseaudio-alsa
 alsa-utils
 smplayer
 bluez
-pulseaudio-bluetooth
+bluez-utils
 blueman
+pipewire-alsa
+pipewire-pulse
+pipewire-zeroconf
+gst-plugin-pipewire
+gst-libav
+libva-v4l2-request
 manjaro-hotfixes
 
 # Display Manager

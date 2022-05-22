@@ -1,0 +1,7 @@
+{
+ "default.route.alsa_card.platform-bcm2835_audio:profile:off": [ ],
+ "default.route.alsa_card.platform-fef00700.hdmi:profile:off": [ ],
+ "default.route.alsa_card.platform-bcm2835_audio:profile:output:stereo-fallback": [ ],
+ "default.route.alsa_card.platform-fef00700.hdmi:profile:output:iec958-stereo": [ "iec958-stereo-output" ],
+ "default.route.alsa_card.platform-fef00700.hdmi:output:iec958-stereo-output": { "mute": false, "volumes": [ 0.511977, 0.511977 ], "channels": [ "FL", "FR" ], "latencyOffsetNsec": 0 }
+}

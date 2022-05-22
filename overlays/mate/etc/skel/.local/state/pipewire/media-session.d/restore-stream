@@ -1,0 +1,4 @@
+{
+ "restore.stream.Output/Audio.application.name:Firefox": { "volume": 1.000000, "mute": false, "volumes": [ 0.978368, 0.978368 ], "channels": [ "FL", "FR" ] },
+ "restore.stream.Input/Audio.application.name:Volume Control": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000 ], "channels": [ "MONO" ] }
+}
