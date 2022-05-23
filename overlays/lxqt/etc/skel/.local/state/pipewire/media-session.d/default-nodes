@@ -1,0 +1,4 @@
+{
+ "default.configured.audio.source": { "name": "alsa_output.platform-bcm2835_audio.stereo-fallback" },
+ "default.configured.audio.sink": { "name": "alsa_output.platform-fef00700.hdmi.iec958-stereo" }
+}

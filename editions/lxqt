@@ -17,10 +17,16 @@ irqbalance
 pavucontrol-qt
 pulseaudio-alsa
 alsa-utils
-bluez
-pulseaudio-bluetooth
-blueman
 smplayer
+bluez
+bluez-utils
+blueman
+pipewire-alsa
+pipewire-pulse
+pipewire-zeroconf
+gst-plugin-pipewire
+gst-libav
+libva-v4l2-request
 
 # Display Manager
 lightdm
@@ -112,3 +118,5 @@ cpu-temp-speed
 man-pages
 man-db
 matray
+mesa-utils
+xorg-xdpyinfo
