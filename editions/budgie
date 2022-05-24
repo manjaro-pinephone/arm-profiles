@@ -17,7 +17,14 @@ pulseaudio-alsa
 alsa-utils
 smplayer
 bluez
-pulseaudio-bluetooth
+bluez-utils
+blueman
+pipewire-alsa
+pipewire-pulse
+pipewire-zeroconf
+gst-plugin-pipewire
+gst-libav
+libva-v4l2-request
 manjaro-hotfixes
 
 # Display Manager
@@ -101,7 +108,7 @@ firefox
 firefox-ublock-origin
 
 # Office suite
-libreoffice-fresh
+#libreoffice-fresh
 
 # Package Manager
 pamac-gtk
@@ -121,10 +128,11 @@ cpu-temp-speed
 htop
 mesa-demos
 inxi
+mesa-utils
+xorg-xdpyinfo
 lm_sensors
 usbutils
 wmctrl
-xorg-xdpyinfo
 xorg-xprop
 xorg-xrandr
 screenfetch
