@@ -2,7 +2,6 @@
 
 # Kernel and bootloader stuff
 linux
-uboot-pinebookpro-bsp
 plymouth
 plymouth-theme-manjaro
 
