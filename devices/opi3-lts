@@ -3,7 +3,7 @@
 # Kernel and bootloader stuff
 linux
 linux-headers
-uboot-opi3-lts
+uboot-orangepi3-lts
 plymouth
 plymouth-theme-manjaro
 
