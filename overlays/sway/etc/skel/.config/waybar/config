@@ -187,12 +187,9 @@
     },
 
     "bluetooth": {
-        "format": "{icon}",
+        "format": "",
+        "format-disabled": "",
         "interval": 30,
-        "format-icons": {
-            "enabled": "",
-            "disabled": ""
-        },
         "on-click": "blueman-manager",
         "tooltip-format": "{}"
     },
