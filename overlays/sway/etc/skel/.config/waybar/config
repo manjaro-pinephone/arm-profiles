@@ -169,9 +169,10 @@
     "custom/pacman": {
         "format": " {}",
         "interval": 3600,
-        "exec-if": "[ $(checkupdates | wc -l) -gt 0 ]",
-        "exec": "pamac checkupdates | wc -l",
-        "on-click": "pamac-manager --updates",
+        "exec-if": "[ $(pamac checkupdates -q | wc -l) -gt 0 ]",
+        "exec": "pamac checkupdates -q | wc -l",
+        "on-click": "pamac-manager --updates; pkill -RTMIN+4 waybar",
+        "signal": 4
     },
 
     "custom/menu": {
@@ -191,8 +192,10 @@
         "format-disabled": "",
         "interval": 30,
         "on-click": "blueman-manager",
+        "on-click-right": "rfkill toggle bluetooth",
         "tooltip-format": "{}"
     },
+
     "custom/scratchpad": {
         "interval": 10,
         "return-type": "json",
