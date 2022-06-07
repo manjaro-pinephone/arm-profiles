@@ -12,6 +12,7 @@ plymouth-theme-manjaro
 crda
 btrfs-progs
 f2fs-tools
+linux-firmware
 ap6256-firmware
 wpa_supplicant
 generic-post-install
