@@ -1,0 +1,17 @@
+sshd.service
+NetworkManager.service
+>pinephone ModemManager.service
+gdm.service
+bluetooth.service
+zswap-arm.service
+bootsplash-hide-when-booted.service
+bootsplash-show-on-shutdown.service
+systemd-oomd.service
+>pinephone eg25-manager.service
+>pinephone pinephone-post-install.service
+>pinephone pinephonepro-post-install.service
+>pinephone pinephone-modem-scripts.pinephone-modem-setup.service
+#>pinephone anbox-container-manager.service
+#>pinephone waydroid-container.service
+>pinephone siglo.service
+#>pinephone eg25-autorestart.service

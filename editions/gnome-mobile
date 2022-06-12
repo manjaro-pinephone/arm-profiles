@@ -1,0 +1,112 @@
+## Maintained by Philm ##
+## Only builds on arm-unstable currently ##
+
+# Phone specific packages
+>pinephone pinephone-modem-scripts
+>pinephone alsa-ucm-pinephone
+>pinephone flashlight
+>pinephone modemmanager-pp
+#>pinephone anbox-image-aarch64
+#>pinephone anbox
+#>pinephone waydroid-image
+#>pinephone waydroid
+>pinephone mobile-config-firefox
+>pinephone vvmplayer
+#>pinephone eg25-autorestart
+
+# Minimal packages
+glibc-locales
+sudo
+parted
+openssh
+inxi
+ncdu
+nano
+dhcpcd
+man-pages
+man-db
+ntfs-3g
+zswap-arm
+bash-completion
+
+# Gnome Mobile packages
+gnome-shell-mobile
+gtk3-mobile
+>pinephone phosh-antispam
+>pinephone gnome-calls
+chatty
+#>pinephone epiphany
+evince-mobile
+powersupply
+>pinephone purple-mm-sms
+purple-matrix
+purple-telegram
+kgx
+sound-theme-phosh
+squeekboard
+megapixels
+numberstation
+xdg-user-dirs
+gnome-contacts-mobile
+gnome-control-center-mobile
+#gnome-software-mobile
+gnome-usage-mobile
+gnome-sound-recorder
+gnome-initial-setup-mobile
+gnome-todo-mobile
+geoclue
+dnsmasq
+wake-mobile
+
+# Gnome packages
+gdm
+#gnome-authenticator
+gnome-calculator-mobile
+gnome-clocks
+gnome-keyring
+gnome-maps
+gnome-2048
+gnome-calendar-mobile
+gnome-chess
+gnuchess 
+file-roller
+fractal
+#gnote
+eog
+gnome-podcasts
+lollypop
+gedit
+geary
+
+#hdr-plus-git
+
+# Theming
+manjaro-arm-wallpapers
+manjaro-icons
+papirus-maia-icon-theme
+
+# Other packages
+bluez
+pipewire-alsa
+pipewire-pulse
+pamac-gtk
+>pinephone pamac-mobile-integration
+pamac-gnome-integration
+portfolio-file-manager
+iio-sensor-proxy
+networkmanager
+networkmanager-pptp
+networkmanager-openvpn
+gnome-keyring
+polkit
+xorg-server-xwayland
+#hwtest
+firefox
+#telegram-desktop
+#qt5-wayland # for telegram-desktop
+noto-fonts-emoji
+noto-fonts-cjk
+siglo
+postmarketos-tweaks-app-phosh
+confy
+gpsd
