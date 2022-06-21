@@ -117,7 +117,6 @@ manjaro-icons
 kwayland
 kwayland-integration
 xorg-server-xwayland
-kwayland-server
 pipewire-media-session
 
 # Other
