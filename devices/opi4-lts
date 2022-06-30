@@ -1,0 +1,18 @@
+## Maintained by Spikerguy ##
+
+# Kernel and bootloader stuff
+linux
+linux-headers
+uboot-orangepi4-lts
+plymouth
+plymouth-theme-manjaro
+
+# Video drivers
+
+# Other device specific packages
+crda
+btrfs-progs
+f2fs-tools
+wpa_supplicant
+generic-post-install
+opi4lts-post-install
