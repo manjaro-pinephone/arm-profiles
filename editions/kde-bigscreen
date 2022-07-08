@@ -66,7 +66,7 @@ mycroft-skill-installer
 mycroft-gui
 
 #Other PKG'S
->rpi4 libcec-rpi-fkms
+>rpi4 libcec-rpi
 python
 python-cec
 python-psutil
