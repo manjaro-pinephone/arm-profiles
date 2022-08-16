@@ -2,7 +2,7 @@
 #Ugoos AM6 Plus
 
 # Kernel and bootloader stuff
-linux-khadas
+linux-odroid
 boot-am6-plus
 plymouth
 plymouth-theme-manjaro
