@@ -1,7 +1,7 @@
 ## Maintained by Spikerguy ##
 
 # Kernel and bootloader stuff
-linux-khadas
+linux-odroid
 boot-gsking-x
 plymouth
 plymouth-theme-manjaro
