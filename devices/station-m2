@@ -1,7 +1,7 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
-linux-rc
+linux
 uboot-station-m2
 plymouth
 plymouth-theme-manjaro

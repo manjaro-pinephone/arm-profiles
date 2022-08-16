@@ -1,7 +1,7 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
-linux-rc
+linux
 uboot-quartz64-a
 plymouth
 plymouth-theme-manjaro

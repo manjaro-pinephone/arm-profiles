@@ -1,7 +1,7 @@
 ## Maintained by Spikerguy ##
 
 # Kernel and bootloader stuff
-linux-rc
+linux
 uboot-rock3-a
 plymouth
 plymouth-theme-manjaro
