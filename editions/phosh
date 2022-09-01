@@ -33,6 +33,7 @@ bash-completion
 gtk3-mobile
 mutter
 phosh
+phosh-mobile-settings
 >pinephone phosh-antispam
 >pinephone gnome-calls
 chatty
@@ -45,8 +46,8 @@ purple-telegram
 gnome-console
 sound-theme-phosh
 squeekboard
-megapixels
-postprocessd
+#megapixels
+postprocessed
 numberstation
 xdg-user-dirs
 gnome-contacts-mobile

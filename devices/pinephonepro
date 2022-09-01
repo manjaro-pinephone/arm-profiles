@@ -19,3 +19,6 @@ alsa-ucm-pinephone
 wpa_supplicant
 pinephonepro-post-install
 pinephonepro-manjaro-tweaks
+
+# Camera
+megapixels-ppp

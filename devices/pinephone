@@ -21,3 +21,6 @@ wpa_supplicant
 wireless-regdb
 pinephone-post-install
 pinephone-manjaro-tweaks
+
+# Camera
+megapixels
