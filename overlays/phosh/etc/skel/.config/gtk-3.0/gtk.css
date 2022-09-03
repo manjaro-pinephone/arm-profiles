@@ -5,6 +5,12 @@ phosh-app-grid {
 	background-position: center;
 }
 /* TWEAKS-END phosh-applist-background */
+/* Phosh-Next package the ui file got renamed to carousel */
+phosh-app-carousel {
+	background-image: url("file:///usr/share/wallpapers/manjaro_blurr_darker.jpg");
+	background-size: cover;
+	background-position: center;
+}
 /* TWEAKS-START phosh-lockscreen-background */
 phosh-lockscreen, .phosh-lockshield {
 	background-image: url("file:///usr/share/wallpapers/manjaro_blurr_darker.jpg");
