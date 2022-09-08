@@ -6,6 +6,7 @@
 linux
 boot-generic-efi
 efibootmgr
+grub
 plymouth
 plymouth-theme-manjaro
 
