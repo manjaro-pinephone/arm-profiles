@@ -16,4 +16,6 @@ plymouth-theme-manjaro
 crda
 btrfs-progs
 f2fs-tools
+ap6256-firmware
+generic-efi-post-install
 generic-post-install
