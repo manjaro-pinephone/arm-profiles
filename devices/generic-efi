@@ -1,6 +1,4 @@
 ## Maintained by Strit ##
-## This "device" profile is for testing EFI compliance in our tools
-## Should not be used as a real profile
 
 # Kernel and bootloader stuff
 linux
@@ -16,6 +14,7 @@ plymouth-theme-manjaro
 crda
 btrfs-progs
 f2fs-tools
+linux-firmware
 ap6256-firmware
 generic-efi-post-install
 generic-post-install
