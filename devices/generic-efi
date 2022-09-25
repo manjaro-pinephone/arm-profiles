@@ -1,7 +1,7 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
-linux
+linux515
 boot-generic-efi
 efibootmgr
 grub
