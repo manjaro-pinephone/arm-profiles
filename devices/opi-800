@@ -3,7 +3,7 @@
 # Kernel and bootloader stuff
 linux-opi
 linux-opi-headers
-uboot-orangepi4-lts
+uboot-orangepi800-lts
 plymouth
 plymouth-theme-manjaro
 
@@ -15,4 +15,5 @@ btrfs-progs
 f2fs-tools
 wpa_supplicant
 generic-post-install
-opi4lts-post-install
+orangepi800-post-install
+uwe5622-firmware
