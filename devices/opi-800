@@ -3,7 +3,7 @@
 # Kernel and bootloader stuff
 linux-opi
 linux-opi-headers
-uboot-orangepi800-lts
+uboot-orangepi800
 plymouth
 plymouth-theme-manjaro
 
