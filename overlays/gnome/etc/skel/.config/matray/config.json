@@ -1,6 +1,6 @@
 {
   "Version" : "1.0.0",
-  "ServerURL" : "http://mnserver.strits.dk:10111/news",
+  "ServerURL" : "https://manjaro.news/news",
   "MaxArticles" : 15,
   "AvailableCategories" : [
     "Testing Updates",
