@@ -28,13 +28,14 @@ sddm
 # DesQ packages
 desq-session
 desq-shell
+desq-theme
+desq-utils-disks
+desq-utils-keyring
 desq-utils-lock
-desq-utils-polkitexec
-desq-utils-powerdaemon
+desq-utils-notifier
 desq-utils-powermanager
 desq-utils-runner
 desq-utils-sni
-desq-utils-splash
 desq-utils-volume
 desq-apps-archiver
 desq-apps-docs
@@ -42,20 +43,18 @@ desq-apps-dropdown
 desq-apps-term
 
 #CoreApps
-#coreaction
 corefm
 coregarage
 corehunt
 coreimage
 coreinfo
-corekeyboard
+#corekeyboard
 corepaint
 corepdf
 corepins
 corerenamer
 coreshot
 corestats
-#corestuff
 coretime
 coretoppings
 coreuniverse
