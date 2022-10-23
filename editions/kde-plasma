@@ -35,7 +35,6 @@ kinfocenter
 kcalc
 kscreen
 kscreenlocker
-ksysguard
 kwallet-pam
 kwayland-integration
 plasma-wayland-session
@@ -43,6 +42,7 @@ kwin
 plasma-desktop
 plasma-nm
 plasma-pa
+plasma-systemmonitor
 plasma-workspace
 powerdevil
 systemsettings
