@@ -57,6 +57,7 @@ konsole
 ark
 okular
 gwenview
+spectacle
 
 # Themes
 plasma5-themes-breath
@@ -93,7 +94,6 @@ matray
 openresolv
 wget
 power-profiles-daemon
-flameshot
 xdg-user-dirs
 networkmanager-openvpn
 firewalld
