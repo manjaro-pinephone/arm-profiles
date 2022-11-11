@@ -14,7 +14,6 @@ irqbalance
 
 # Sound, video and bluetooth
 pavucontrol
-pulseaudio-alsa
 alsa-utils
 bluez
 bluez-utils
@@ -75,6 +74,7 @@ sushi
 totem
 
 # Themes
+adw-gtk3
 qt5ct
 qt5-wayland
 kvantum-qt5
@@ -141,6 +141,7 @@ gcolor3
 gedit
 gedit-plugins
 gnome-epub-thumbnailer
+gradience
 manjaro-settings-manager
 matray
 remmina
@@ -159,6 +160,10 @@ ntfs-3g
 mpv
 ffmpeg
 usb_modeswitch
+
+# for qemu support
+# phodav
+# spice-vdagent
 
 # Optional dependencies file-roller
 p7zip  # 7Z and ARJ archive support

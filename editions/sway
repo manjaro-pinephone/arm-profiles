@@ -14,7 +14,6 @@ irqbalance
 
 # Sound, video and bluetooth
 pavucontrol
-pulseaudio-alsa
 alsa-utils
 bluez
 bluez-utils
@@ -170,6 +169,10 @@ mpv
 ffmpeg
 sshfs
 usb_modeswitch
+
+# for qemu support
+# phodav
+# spice-vdagent
 
 # Optional dependencies file-roller
 p7zip  # 7Z and ARJ archive support

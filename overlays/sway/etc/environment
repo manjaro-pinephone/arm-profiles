@@ -28,3 +28,10 @@ XDG_CURRENT_DESKTOP=sway
 
 # set backend for libseat
 LIBSEAT_BACKEND=logind
+
+## if running in qemu uncomment those ##
+# disable hw cursors
+# WLR_NO_HARDWARE_CURSORS=1
+
+# force pixman renderer
+# WLR_RENDERER=pixman

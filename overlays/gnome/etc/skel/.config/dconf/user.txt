@@ -1,0 +1,36 @@
+[org/gnome/desktop/screensaver]
+picture-uri='file:///usr/share/wallpapers/manjaro-arm/generic/manjaro-arm.png'
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+enable-animations=false
+enable-hot-corners=false
+font-antialiasing='grayscale'
+font-hinting='slight'
+gtk-theme='adw-gtk3-dark'
+icon-theme='Papirus-Dark-Maia'
+
+[org/gnome/desktop/background]
+picture-options='zoom'
+picture-uri='file:///usr/share/wallpapers/manjaro-arm/generic/manjaro-arm.png'
+picture-uri-dark='file:///usr/share/wallpapers/manjaro-arm/generic/manjaro-arm.png'
+
+[org/gnome/desktop/notifications]
+application-children=['org-manjaro-pamac-manager', 'org-gnome-fileroller', 'gnome-network-panel', 'riot', 'gnome-power-panel', 'gnome-shell-extension-prefs', 'firefox', 'org-moson-matray']
+
+[org/gnome/shell]
+disable-user-extensions=false
+disabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['drive-menu@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'dash-to-panel@jderose9.github.com', 'pamac-updates@manjaro.org', 'user-theme@gnome-shell-extensions.gcampax.github.com']
+
+[org/gnome/shell/extensions/user-theme]
+name='Matcha-dark-sea'
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(20,26,27)'
+font='Source Code Pro 11'
+foreground-color='rgb(238,238,238)'
+palette=['rgb(20,26,27)', 'rgb(205,63,69)', 'rgb(159,202,86)', 'rgb(230,205,105)', 'rgb(22,160,133)', 'rgb(160,116,196)', 'rgb(85,181,219)', 'rgb(214,214,214)', 'rgb(65,83,91)', 'rgb(205,63,69)', 'rgb(159,202,86)', 'rgb(230,205,105)', 'rgb(22,160,133)', 'rgb(160,116,196)', 'rgb(85,181,219)', 'rgb(255,255,255)']
+use-system-font=false
+use-theme-colors=false
+visible-name='Manjaro ARM'
