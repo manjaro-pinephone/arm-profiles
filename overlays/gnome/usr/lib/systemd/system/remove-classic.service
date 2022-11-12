@@ -1,8 +1,0 @@
-[Unit]
-Description=Disable Gnome Classic
-
-[Service]
-ExecStart=/usr/local/bin/remove-classic.sh
-
-[Install]
-WantedBy=multi-user.target
