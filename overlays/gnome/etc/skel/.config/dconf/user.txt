@@ -1,6 +1,9 @@
 [org/gnome/desktop/screensaver]
 picture-uri='file:///usr/share/wallpapers/manjaro-arm/generic/manjaro-arm.png'
 
+[com/github/GradienceTeam/Gradience]
+favourite=['Matcha Dark Sea']
+
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
 enable-animations=false
