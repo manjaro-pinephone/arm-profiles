@@ -80,6 +80,7 @@ plasma-nano
 plasma-phonebook
 #plasma-pix
 plasma-settings
+plasmatube
 plymouth-shim
 qmlkonsole
 spacebar
@@ -96,7 +97,6 @@ pico-wizard-git
 
 # Packages to be built
 #qrca #no tagged release
-#plasmatube #no tagged release
 
 # Regular Plasma packages
 bluez
