@@ -26,6 +26,7 @@ qt5-es2-base
 qt5-es2-declarative
 qt5-es2-multimedia
 pyside2-es2
+openssl-1.1
 
 # Multimedia packages
 gst-libav
