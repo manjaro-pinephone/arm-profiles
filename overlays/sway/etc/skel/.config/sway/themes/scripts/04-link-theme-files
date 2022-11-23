@@ -1,6 +1,6 @@
 exec_always {
   'mkdir -p $HOME/.config/waybar && ln -sf $theme/theme.css $HOME/.config/waybar/'
   'mkdir -p $HOME/.config/wlogout && ln -sf $theme/theme.css $HOME/.config/wlogout/'
-  'mkdir -p $HOME/.config/gtk-3.0' && 'ln -sf $theme/gtk.css $HOME/.config/gtk-3.0/'
-  'mkdir -p $HOME/.config/gtk-4.0' && 'ln -sf $theme/gtk.css $HOME/.config/gtk-4.0/'
+  'mkdir -p $HOME/.config/gtk-3.0 && ln -sf $theme/gtk.css $HOME/.config/gtk-3.0/'
+  'mkdir -p $HOME/.config/gtk-4.0 && ln -sf $theme/gtk.css $HOME/.config/gtk-4.0/'
 }

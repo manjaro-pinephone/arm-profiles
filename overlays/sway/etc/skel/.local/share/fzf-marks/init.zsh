@@ -1,1 +1,0 @@
-fzf-marks.plugin.zsh

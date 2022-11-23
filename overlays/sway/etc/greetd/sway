@@ -4,6 +4,8 @@ include /etc/sway/definitions
 # include theme specific definitions
 include $theme/definitions
 
+set $gtk-theme Matcha-dark-sea
+
 # enable default input/output devices
 include /etc/sway/inputs/*
 include /etc/sway/outputs/*

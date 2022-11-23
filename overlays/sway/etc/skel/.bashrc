@@ -16,7 +16,6 @@ export SILVER_ICONS=nerd
 source <(silver init)
 
 # source some shell plugins for fzf
-source ~/.local/share/fzf-marks/fzf-marks.plugin.bash
 source ~/.local/share/fif/fif.plugin.sh
 source ~/.local/share/bash-fzf/bash-fzf.rc
 
