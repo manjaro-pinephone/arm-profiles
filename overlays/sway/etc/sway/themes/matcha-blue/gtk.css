@@ -22,7 +22,7 @@
 @define-color headerbar_border_color #ffffff;
 @define-color headerbar_backdrop_color @window_bg_color;
 @define-color headerbar_shade_color rgba(0, 0, 0, 0.36);
-@define-color card_bg_color #2f3a3e;
+@define-color card_bg_color #2e3e4a;
 @define-color card_fg_color #eeeeee;
 @define-color card_shade_color rgba(0, 0, 0, 0.36);
 @define-color dialog_bg_color #1c1d25;
