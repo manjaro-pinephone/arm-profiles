@@ -60,6 +60,7 @@ wdisplays
 wf-recorder
 
 # Themes
+adw-gtk3
 qt5ct
 qt5-wayland
 kvantum-qt5
@@ -147,6 +148,7 @@ gedit
 gedit-plugins
 gnome-disk-utility
 gnome-epub-thumbnailer
+gradience
 manjaro-settings-manager
 matray
 nautilus
