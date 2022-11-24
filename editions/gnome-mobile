@@ -36,6 +36,7 @@ gtk3-mobile
 >pinephone phosh-antispam
 >pinephone gnome-calls
 chatty
+mmsd-tng
 #>pinephone epiphany
 evince-mobile
 powersupply
