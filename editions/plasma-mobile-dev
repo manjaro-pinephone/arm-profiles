@@ -34,6 +34,7 @@ gst-plugins-bad
 gst-plugins-base
 gst-plugins-ugly
 maui-clip
+wireplumber
 
 # Image packages
 kio-extras
@@ -135,7 +136,6 @@ alsa-utils
 pipewire-pulse
 pipewire-alsa
 pipewire-zeroconf
-wireplumber
 wget
 xdg-user-dirs
 debianutils
