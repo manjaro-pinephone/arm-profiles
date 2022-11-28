@@ -18,6 +18,7 @@ irqbalance
 # Sound, Video and bluetooth
 alsa-utils
 mpv
+wireplumber
 pipewire-alsa
 pipewire-pulse
 pipewire-zeroconf

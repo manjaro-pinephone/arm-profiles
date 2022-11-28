@@ -19,6 +19,7 @@ smplayer
 bluez
 bluez-utils
 blueman
+wireplumber
 pipewire-alsa
 pipewire-pulse
 pipewire-zeroconf

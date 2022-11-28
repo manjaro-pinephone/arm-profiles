@@ -17,6 +17,7 @@ pavucontrol
 alsa-utils
 bluez
 bluez-utils
+wireplumber
 pipewire-alsa
 pipewire-pulse
 pipewire-zeroconf

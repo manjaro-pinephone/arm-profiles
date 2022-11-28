@@ -18,6 +18,7 @@ alsa-utils
 bluez
 bluez-utils
 blueman
+wireplumber
 pipewire-alsa
 pipewire-pulse
 pipewire-zeroconf

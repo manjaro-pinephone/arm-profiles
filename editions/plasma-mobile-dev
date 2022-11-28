@@ -35,6 +35,7 @@ gst-plugins-base
 gst-plugins-ugly
 maui-clip
 wireplumber
+gst-plugin-pipewire
 
 # Image packages
 kio-extras
