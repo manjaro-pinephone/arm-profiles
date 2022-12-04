@@ -22,6 +22,7 @@ wireplumber
 pipewire-alsa
 pipewire-pulse
 pipewire-zeroconf
+gst-plugin-pipewire
 
 # Display Manager
 sddm
