@@ -74,4 +74,5 @@ python-uinput
 python-pyqt5
 dbus-python
 openresolv
+plasma-remotecontrollers
 >rpi4 raspberrypi-bigscreen-resolution-fix
