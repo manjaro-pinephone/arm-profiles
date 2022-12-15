@@ -1,7 +1,7 @@
 ## Maintained by Spikerguy ##
 
 # Kernel and bootloader stuff
-linux-khadas
+linux-aml
 uboot-vim1
 plymouth
 plymouth-theme-manjaro

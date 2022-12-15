@@ -1,7 +1,7 @@
 ## Maintained by Spikerguy ##
 
 # Kernel and bootloader stuff
-linux-khadas
+linux-aml
 boot-gtking-pro
 plymouth
 plymouth-theme-manjaro
