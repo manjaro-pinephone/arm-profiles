@@ -14,6 +14,7 @@ plymouth-theme-manjaro
 
 # Other device specific packages
 crda
+linux-firmware
 btrfs-progs
 f2fs-tools
 firmware-raspberrypi
