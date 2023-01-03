@@ -19,7 +19,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=26
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Bamboo at Night/contents/images/5120x2880.png
+Image=file:///usr/share/wallpapers/North/
 
 [Containments][2]
 activityId=
