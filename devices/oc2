@@ -1,6 +1,7 @@
 ## Maintained by Strit ##
 
 # Kernel and bootloader stuff
+linux-api-headers #needed for GUI for some reason
 linux-odroid
 uboot-odroid-c2-mainline
 plymouth
