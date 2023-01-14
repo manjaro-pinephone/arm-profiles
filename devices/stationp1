@@ -11,8 +11,6 @@ plymouth-theme-manjaro
 
 # Other device specific packages
 crda
-btrfs-progs
-f2fs-tools
 rtl8723du-dkms-git
 wpa_supplicant
 generic-post-install

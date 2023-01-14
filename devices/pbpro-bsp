@@ -10,8 +10,6 @@ plymouth-theme-manjaro
 # Other device specific packages
 linux-firmware
 crda
-btrfs-progs
-f2fs-tools
 ap6256-firmware
 wpa_supplicant
 pinebookpro-audio

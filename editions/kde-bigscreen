@@ -1,16 +1,6 @@
 #Base PKG'S
-bash-completion
-openssh
-nano
 sddm
 networkmanager
-inxi
-man-pages
-man-db
-ntfs-3g
-zswap-arm
-sudo
-parted
 
 # Sound, Video and Bluetooth
 alsa-utils

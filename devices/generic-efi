@@ -12,8 +12,6 @@ plymouth-theme-manjaro
 
 # Other device specific packages
 crda
-btrfs-progs
-f2fs-tools
 linux-firmware
 ap6256-firmware
 generic-efi-post-install

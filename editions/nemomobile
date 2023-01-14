@@ -8,11 +8,6 @@
 
 bootsplash-theme-nemo
 
-# Minimal packages
-sudo
-#parted
-openssh
-
 # OpenGLES qt packages
 qt5-es2-base
 qt5-es2-declarative
@@ -64,7 +59,6 @@ alsa-utils
 pulseaudio-bluetooth
 wget
 vim
-nano
 maliit-nemo-keyboard
 
 nemo-theme-glacier

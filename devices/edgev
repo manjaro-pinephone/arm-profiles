@@ -10,8 +10,6 @@ plymouth-theme-manjaro
 
 # Other device specific packages
 crda
-btrfs-progs
-f2fs-tools
 generic-post-install
 nanopc-t4-post-install
 ap6398s-firmware

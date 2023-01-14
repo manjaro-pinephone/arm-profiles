@@ -1,17 +1,5 @@
 ## Maintained by Strit ##
 
-# Minimal packages
-sudo
-parted
-openssh
-inxi
-ncdu
-nano
-man-pages
-man-db
-ntfs-3g
-zswap-arm
-
 # Audio and video
 alsa-firmware
 alsa-utils

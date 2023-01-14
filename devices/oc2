@@ -11,8 +11,6 @@ plymouth-theme-manjaro
 xf86-video-fbdev
 
 # Other device specific packages
-btrfs-progs
-f2fs-tools
 fbset
 amlogic
 generic-post-install

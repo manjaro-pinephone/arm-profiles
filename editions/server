@@ -1,20 +1,5 @@
 ## Maintained by Strit ##
 
-# Minimal packages
-base
-sudo
-parted
-openssh
-inxi
-nano
-dhcpcd
-man-pages
-man-db
-usbutils
-ntfs-3g
-zswap-arm
-irqbalance
-
 # Server packages
 apache
 mariadb

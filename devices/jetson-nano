@@ -10,6 +10,4 @@ plymouth-theme-manjaro
 # Video drivers
 
 # Other device specific packages
-btrfs-progs
-f2fs-tools
 generic-post-install

@@ -14,8 +14,6 @@ plymouth-theme-manjaro
 
 # Other device specific packages
 crda
-btrfs-progs
-f2fs-tools
 firmware-raspberrypi
 brcm-patchram-plus
 wpa_supplicant

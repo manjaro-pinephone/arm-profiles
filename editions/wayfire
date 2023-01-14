@@ -1,18 +1,5 @@
 ## Maintained by ?? ##
 
-# Minimal packages
-sudo
-parted
-openssh
-inxi
-ncdu
-nano
-man-pages
-man-db
-ntfs-3g
-zswap-arm
-irqbalance
-
 # Sound and Video utilities
 alsa-utils
 

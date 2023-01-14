@@ -14,21 +14,6 @@
 >pinephone vvmplayer
 #>pinephone eg25-autorestart
 
-# Minimal packages
-glibc-locales
-sudo
-parted
-openssh
-inxi
-ncdu
-nano
-dhcpcd
-man-pages
-man-db
-ntfs-3g
-zswap-arm
-bash-completion
-
 # Gnome Mobile packages
 gnome-shell-mobile-devel
 #gnome-shell-extensions 
@@ -113,3 +98,4 @@ siglo
 #postmarketos-tweaks-phosh
 confy
 gpsd
+glibc-locales

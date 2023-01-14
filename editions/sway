@@ -1,17 +1,5 @@
 ## Maintained by Appelgriebsch ##
 
-# Minimal packages
-sudo
-parted
-openssh
-inxi
-ncdu
-nano
-man-pages
-man-db
-zswap-arm
-irqbalance
-
 # Sound, video and bluetooth
 pavucontrol
 alsa-utils
@@ -167,7 +155,6 @@ gvfs-nfs
 gvfs-smb
 ifuse
 mtpfs
-ntfs-3g
 mpv
 ffmpeg
 sshfs

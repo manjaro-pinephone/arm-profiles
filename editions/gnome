@@ -1,17 +1,5 @@
 ## Maintained by Appelgriebsch ##
 
-# Minimal packages
-sudo
-parted
-openssh
-inxi
-ncdu
-nano
-man-pages
-man-db
-zswap-arm
-irqbalance
-
 # Sound, video and bluetooth
 pavucontrol
 alsa-utils
@@ -108,7 +96,6 @@ ttf-roboto
 wqy-microhei #chinese
 
 # some interesting CLI tools
-bash-completion
 bat
 box64
 cpu-temp-speed
@@ -157,7 +144,6 @@ gvfs-nfs
 gvfs-smb
 ifuse
 mtpfs
-ntfs-3g
 mpv
 ffmpeg
 usb_modeswitch

@@ -10,8 +10,6 @@ plymouth-theme-manjaro
 
 # Other device specific packages
 crda
-btrfs-progs
-f2fs-tools
 kvim2-firmware
 #bluetooth-vim3
 #khadas-utils

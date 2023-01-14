@@ -1,17 +1,5 @@
 ## Maintained by Darksky ##
 
-# Minimal packages
-sudo
-parted
-openssh
-inxi
-ncdu
-nano
-dhcpcd
-man-pages
-man-db
-zswap-arm
-
 # Sound, video and bluetooth
 pavucontrol
 pulseaudio-alsa
@@ -140,7 +128,6 @@ gvfs-nfs
 gvfs-smb
 ifuse
 mtpfs
-ntfs-3g
 mpv
 ffmpeg
 usb_modeswitch

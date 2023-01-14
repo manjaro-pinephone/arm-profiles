@@ -1,20 +1,5 @@
 ## Maintained by Strit ##
 
-# Minimal packages
-sudo
-parted
-openssh
-xorg-server
-xorg-xinit
-inxi
-ncdu
-nano
-man-pages
-man-db
-ntfs-3g
-zswap-arm
-irqbalance
-
 # Sound, Video and bluetooth
 alsa-utils
 mpv
@@ -99,3 +84,5 @@ power-profiles-daemon
 xdg-user-dirs
 networkmanager-openvpn
 firewalld
+xorg-server
+xorg-xinit

@@ -15,19 +15,6 @@ qt5-es2-declarative
 qt5-es2-multimedia
 qt5-es2-wayland
 
-# Minimal packages
-sudo
-parted
-openssh
-inxi
-ncdu
-nano
-dhcpcd
-man-pages
-man-db
-ntfs-3g
-zswap-arm
-
 # PM Packages
 hfd-service-git
 lomiri-mobile-session

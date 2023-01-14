@@ -1,21 +1,5 @@
 ## Maintained by Darksky ##
 
-# Minimal packages
-sudo
-parted
-openssh
-xorg-server
-xorg-xinit
-inxi
-mesa-utils
-xorg-xdpyinfo
-ncdu
-nano
-dhcpcd
-man-pages
-man-db
-zswap-arm
-
 # Sound, video and bluetooth
 pavucontrol
 pulseaudio-alsa
@@ -110,5 +94,8 @@ gvfs-nfs
 gvfs-smb
 ifuse
 mtpfs
-ntfs-3g
 # matray # disabled due to shutdown issue
+mesa-utils
+xorg-xdpyinfo
+xorg-server
+xorg-xinit

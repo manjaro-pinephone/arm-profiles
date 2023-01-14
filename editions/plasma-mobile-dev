@@ -5,22 +5,6 @@
 >pinephone noto-fonts-cjk # needed to display * and # in dialer
 >pinephone plasma-dialer
 
-# Minimal packages
-glibc-locales
-sudo
-parted
-openssh
-inxi
-ncdu
-nano
-dhcpcd
-#man-pages
-#man-db
-ntfs-3g
-zswap-arm
-bash-completion
-irqbalance
-
 # OpenGLES qt packages
 qt5-es2-base
 qt5-es2-declarative
@@ -157,3 +141,4 @@ hfd-service
 dnsmasq
 appimagelauncher
 qt5-tools # needed for plasma-workspace to start
+glibc-locales

@@ -1,18 +1,5 @@
 ## Maintained by Strit ##
 
-# Minimal packages
-sudo
-parted
-openssh
-xorg-server
-xorg-xinit
-inxi
-ncdu
-nano
-ntfs-3g
-zswap-arm
-irqbalance
-
 # Sound, Video and bluetooth
 pavucontrol-qt
 pulseaudio-alsa
