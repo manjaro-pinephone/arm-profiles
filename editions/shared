@@ -15,3 +15,5 @@ usbutils
 zswap-arm
 bash-completion
 irqbalance
+btrfs-progs
+f2fs-tools
