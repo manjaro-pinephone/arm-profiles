@@ -1,0 +1,17 @@
+## Maintained by Strit ##
+
+## Shared packages for all editions
+sudo
+parted
+openssh
+inxi
+ncdu
+nano
+dhcpcd
+man-pages
+man-db
+ntfs-3g
+usbutils
+zswap-arm
+bash-completion
+irqbalance
