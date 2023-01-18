@@ -1,0 +1,20 @@
+## Maintained by Spikerguy ##
+#G1 Tiny PC S905X3
+
+# Kernel and bootloader stuff
+linux-aml
+linux-aml-headers
+boot-g1
+plymouth
+plymouth-theme-manjaro
+
+# Other device specific packages
+rtl8723ds-dkms-git
+generic-post-install
+am6-plus-post-install
+
+# Additional Softwares for testing image.
+libreoffice-fresh
+chromium
+bleachbit
+remmina
