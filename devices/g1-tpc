@@ -4,7 +4,7 @@
 # Kernel and bootloader stuff
 linux-aml
 linux-aml-headers
-boot-g1
+uboot-g1
 plymouth
 plymouth-theme-manjaro
 
