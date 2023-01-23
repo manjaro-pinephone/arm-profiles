@@ -1,0 +1,16 @@
+## Maintained by Strit ##
+
+# Kernel and bootloader stuff
+linux-rc
+uboot-pinetab2
+plymouth
+plymouth-theme-manjaro
+
+# Video drivers
+
+# Other device specific packages
+crda
+ap6256-firmware
+wpa_supplicant
+generic-post-install
+quartz64-post-install
