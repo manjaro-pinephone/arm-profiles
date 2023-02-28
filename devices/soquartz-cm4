@@ -10,6 +10,7 @@ plymouth-theme-manjaro
 
 # Other device specific packages
 crda
+linux-firmware
 ap6256-firmware
 wpa_supplicant
 generic-post-install
