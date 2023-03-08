@@ -8,6 +8,7 @@ bluez-utils
 blueman
 wireplumber
 pipewire-alsa
+pipewire-jack
 pipewire-pulse
 pipewire-zeroconf
 pulsemixer
