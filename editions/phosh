@@ -99,3 +99,5 @@ postmarketos-tweaks-phosh
 confy
 gpsd
 glibc-locales
+wireplumber
+gst-plugin-pipewire
