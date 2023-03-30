@@ -40,7 +40,6 @@ gnome-control-center-mobile
 gnome-usage-mobile
 gnome-sound-recorder
 gnome-initial-setup-mobile
-evince-mobile
 geoclue
 dnsmasq
 wake-mobile
@@ -48,7 +47,7 @@ wake-mobile
 # Gnome packages
 gdm
 #gnome-authenticator
-gnome-calculator-mobile
+gnome-calculator
 gnome-clocks
 gnome-keyring
 gnome-maps
