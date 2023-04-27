@@ -10,7 +10,7 @@
 #>pinephone anbox
 #>pinephone waydroid-image
 #>pinephone waydroid
-#>pinephone mobile-config-firefox
+>pinephone mobile-config-firefox
 >pinephone vvmplayer
 #>pinephone eg25-autorestart
 
@@ -52,7 +52,7 @@ gnome-clocks
 gnome-keyring
 gnome-maps
 gnome-2048
-gnome-calendar-mobile
+gnome-calendar
 gnome-chess
 gnuchess 
 file-roller

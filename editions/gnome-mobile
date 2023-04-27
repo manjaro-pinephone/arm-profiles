@@ -10,7 +10,7 @@
 #>pinephone anbox
 #>pinephone waydroid-image
 #>pinephone waydroid
-#>pinephone mobile-config-firefox
+>pinephone mobile-config-firefox
 >pinephone vvmplayer
 #>pinephone eg25-autorestart
 
@@ -47,7 +47,7 @@ wake-mobile
 # Gnome packages
 gdm
 #gnome-authenticator
-gnome-calculator-mobile
+gnome-calculator
 gnome-clocks
 gnome-keyring
 gnome-maps
