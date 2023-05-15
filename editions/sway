@@ -70,7 +70,8 @@ polkit-gnome
 pamac-cli
 
 # Fonts
-nerd-fonts-terminus
+# nerd-fonts-terminus # Replaced with ttf-terminus-nerd
+ttf-terminus-nerd
 noto-fonts
 noto-fonts-emoji
 ttf-bitstream-vera
@@ -95,7 +96,7 @@ fd
 firewalld
 ffmpegthumbnailer
 fzf
-gitui
+#gitui
 gpg-tui
 helix
 hey
