@@ -28,7 +28,6 @@ powersupply
 >pinephone purple-mm-sms
 purple-matrix
 purple-telegram
-kgx
 sound-theme-phosh
 #squeekboard
 megapixels
@@ -37,6 +36,7 @@ xdg-user-dirs
 gnome-contacts-mobile
 gnome-control-center-mobile
 #gnome-software-mobile
+gnome-console
 gnome-usage-mobile
 gnome-sound-recorder
 gnome-initial-setup-mobile
