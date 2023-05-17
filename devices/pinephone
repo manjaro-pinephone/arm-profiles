@@ -10,6 +10,7 @@ bootsplash-systemd
 # Video drivers
 
 # Audio configs
+alsa-ucm-pinephone
 pinephone-modem-scripts
 
 # Other device specific packages

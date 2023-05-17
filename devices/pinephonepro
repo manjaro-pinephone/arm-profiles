@@ -13,7 +13,7 @@ firmware-raspberrypi
 
 # Audio configs
 pinephone-modem-scripts
-alsa-ucm-pinephone-pro
+alsa-ucm-pinephone
 
 # Other device specific packages
 wpa_supplicant
