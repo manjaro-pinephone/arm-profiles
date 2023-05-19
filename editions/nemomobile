@@ -8,6 +8,11 @@
 
 bootsplash-theme-nemo
 
+# Minimal packages
+sudo
+#parted
+openssh
+
 # OpenGLES qt packages
 qt5-es2-base
 qt5-es2-declarative
