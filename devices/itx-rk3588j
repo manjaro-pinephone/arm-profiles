@@ -1,0 +1,15 @@
+## Maintained by Spikerguy ##
+
+# Kernel and bootloader stuff
+linux-rk3588
+linux-rk3588-headers
+uboot-itx-3588j
+#plymouth
+#plymouth-theme-manjaro
+
+# Video drivers
+
+# Other device specific packages
+#crda
+#wpa_supplicant
+generic-post-install
