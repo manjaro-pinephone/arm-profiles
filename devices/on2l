@@ -1,0 +1,14 @@
+## Maintained by Spikerguy ##
+
+# Kernel and bootloader stuff
+linux
+uboot-odroid-n2l
+plymouth
+plymouth-theme-manjaro
+
+# Video driver
+
+# Other device specific packages
+fbset
+generic-post-install
+on2-post-install
