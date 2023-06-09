@@ -1,7 +1,7 @@
 ## Maintained by Spikerguy ##
 
 # Kernel and bootloader stuff
-linux-odroid
+linux-aml
 boot-gsking-x
 plymouth
 plymouth-theme-manjaro
