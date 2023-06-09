@@ -14,6 +14,9 @@ firmware-raspberrypi
 # Audio configs
 pinephone-modem-scripts
 alsa-ucm-pinephone
+pipewire-media-session
+pipewire-alsa
+pipewire-pulse
 
 # Other device specific packages
 wpa_supplicant
