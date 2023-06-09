@@ -2,7 +2,7 @@
 
 # Kernel and bootloader stuff
 linux-aml
-boot-gsking-x
+uboot-gsking-x
 plymouth
 plymouth-theme-manjaro
 
