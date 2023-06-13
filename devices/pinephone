@@ -15,6 +15,7 @@ pinephone-modem-scripts
 pipewire-media-session
 pipewire-alsa
 pipewire-pulse
+pipewire-jack
 
 # Other device specific packages
 rtl8723bt-firmware-megi
