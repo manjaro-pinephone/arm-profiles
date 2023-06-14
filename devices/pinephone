@@ -12,7 +12,7 @@ bootsplash-systemd
 # Audio configs
 alsa-ucm-pinephone
 pinephone-modem-scripts
-fakeplumber
+pipewire-media-session
 pipewire-alsa
 pipewire-pulse
 pipewire-jack
