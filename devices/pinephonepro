@@ -3,10 +3,10 @@
 linux-pinephonepro
 #linux-pinephonepro-headers
 uboot-pinephonepro
-#plymouth
-#plymouth-theme-manjaro
-bootsplash-theme-manjaro
-bootsplash-systemd
+plymouth
+plymouth-theme-manjaro
+#bootsplash-theme-manjaro
+#bootsplash-systemd
 anx7688-firmware
 #rockchip-firmware
 firmware-raspberrypi
@@ -14,11 +14,12 @@ firmware-raspberrypi
 # Audio configs
 pinephone-modem-scripts
 alsa-ucm-pinephone
-gst-plugin-pipewire
-pipewire-media-session
-pipewire-alsa
-pipewire-pulse
-pipewire-jack
+pulseaudio-bluetooth
+#gst-plugin-pipewire
+#pipewire-media-session
+#pipewire-alsa
+#pipewire-pulse
+#pipewire-jack
 
 # Other device specific packages
 wpa_supplicant
