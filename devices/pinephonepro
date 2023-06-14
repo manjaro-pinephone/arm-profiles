@@ -14,7 +14,7 @@ firmware-raspberrypi
 # Audio configs
 pinephone-modem-scripts
 alsa-ucm-pinephone
-#pipewire-media-session
+fakeplumber
 pipewire-alsa
 pipewire-pulse
 pipewire-jack
