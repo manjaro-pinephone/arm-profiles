@@ -7,7 +7,7 @@ set $gtk-theme adw-gtk3-dark
 set $icon-theme Papirus-Dark
 set $cursor-theme xcursor-breeze
 set $gui-font Noto Sans 11
-set $term-font TerminessTTF Nerd Font Mono 14
+set $term-font Terminess Nerd Font Mono 14
 set $kvantum-theme Matchama-Dark-Azul
 
 # a theme specific color map
