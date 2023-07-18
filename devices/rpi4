@@ -1,3 +1,4 @@
+
 ## Maintained by Darksky ##
 
 # Kernel and Bootloader stuff
@@ -13,7 +14,7 @@ plymouth-theme-manjaro
 # Video driver
 
 # Other device specific packages
-crda
+wireless-regdb
 linux-firmware
 firmware-raspberrypi
 wpa_supplicant
