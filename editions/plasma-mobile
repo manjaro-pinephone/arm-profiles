@@ -39,7 +39,7 @@ kaccounts-providers
 kalk
 kclock
 kio-extras
-kpeoplesink
+#kpeoplesink
 krecorder
 kweather
 kwin
