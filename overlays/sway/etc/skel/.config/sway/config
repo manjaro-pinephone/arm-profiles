@@ -12,7 +12,7 @@ include /etc/sway/definitions
 include $theme/definitions
 
 # Your preferred terminal emulator
-set $term foot
+set $term footclient
 set $term_float_portrait $term --app-id=floating_shell_portrait
 set $term_float_landscape $term --app-id=floating_shell_landscape
 
