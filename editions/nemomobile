@@ -8,12 +8,6 @@
 
 bootsplash-theme-nemo
 
-# OpenGLES qt packages
-qt5-es2-base
-qt5-es2-declarative
-qt5-es2-multimedia
-qt5-es2-wayland
-
 # Multimedia packages
 gst-libav
 gst-plugins-bad
