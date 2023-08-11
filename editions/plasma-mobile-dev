@@ -74,8 +74,8 @@ oxygen-sounds
 plasma-mobile-sounds
 
 # First run wizard
-pico-wizard-plamo-scripts
-pico-wizard-git
+#pico-wizard-plamo-scripts
+#pico-wizard-git
 
 # Packages to be built
 #qrca #no tagged release
