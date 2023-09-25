@@ -1,0 +1,17 @@
+## Maintained by Spikerguy ##
+
+# Kernel and bootloader stuff
+linux-rc
+linux-rc-headers
+uboot-orangepi3-b
+plymouth
+plymouth-theme-manjaro
+
+# Video drivers
+# xf86-video-fbdev
+
+# Other device specific packages
+crda
+wpa_supplicant
+generic-post-install
+opi4lts-post-install
