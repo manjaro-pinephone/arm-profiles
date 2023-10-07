@@ -46,10 +46,10 @@ wqy-microhei #chinese
 
 # Themes
 qt5ct
-kvantum-qt5
+#kvantum-qt5
 breath2-icon-themes
 matcha-gtk-theme
-kvantum-theme-matchama
+#kvantum-theme-matchama
 manjaro-arm-wallpapers
 xcursor-breeze
 manjaro-icons

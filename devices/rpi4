@@ -4,9 +4,11 @@
 # Kernel and Bootloader stuff
 linux-rpi4
 linux-rpi4-headers
+linux-rpi5
+linux-rpi5-headers
 raspberrypi-bootloader
 raspberrypi-bootloader-x
-rpi-eeprom
+rpi-overlays
 raspberrypi-userland-aarch64-git
 plymouth
 plymouth-theme-manjaro
