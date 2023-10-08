@@ -95,7 +95,7 @@ firefox-ublock-origin
 #libreoffice-fresh
 
 # Package Manager
-pamac-gtk
+pamac-gtk3
 
 # Fonts
 ttf-bitstream-vera
