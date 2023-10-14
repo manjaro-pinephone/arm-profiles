@@ -82,6 +82,7 @@ nss-mdns
 avahi
 
 audacious
+audacious-plugins
 mpv
 ffmpeg
 usb_modeswitch

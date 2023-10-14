@@ -98,6 +98,7 @@ power-profiles-daemon
 htop
 mesa-demos
 audacious
+audacious-plugins
 xdg-utils
 xdg-user-dirs
 mpg123
