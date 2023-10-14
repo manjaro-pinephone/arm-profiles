@@ -49,7 +49,7 @@ xarchiver #to get archive extracting working
 unzip #to support zip file extraction
 
 # Themes
-kvantum-qt5
+kvantum
 qt5ct
 papirus-maia-icon-theme
 xcursor-breeze
