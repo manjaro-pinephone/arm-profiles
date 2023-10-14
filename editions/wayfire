@@ -12,7 +12,7 @@ noto-fonts
 wqy-microhei #chinese
 
 # Themes
-#kvantum-qt5
+kvantum
 breeze-icons
 
 # Wayfire packages
