@@ -9,7 +9,7 @@ linux-rpi5-headers
 raspberrypi-bootloader
 raspberrypi-bootloader-x
 rpi-overlays
-raspberrypi-userland-aarch64-git
+raspberrypi-utils
 plymouth
 plymouth-theme-manjaro
 
