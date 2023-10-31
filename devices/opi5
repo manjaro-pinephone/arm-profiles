@@ -4,8 +4,8 @@
 linux-rk3588
 linux-rk3588-headers
 uboot-orangepi5
-#plymouth
-#plymouth-theme-manjaro
+plymouth
+plymouth-theme-manjaro
 
 # Video drivers
 
