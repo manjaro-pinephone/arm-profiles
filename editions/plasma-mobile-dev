@@ -106,7 +106,7 @@ manjaro-arm-wallpapers
 manjaro-icons
 
 # Wayland stuff
-kwayland
+kwayland5
 kwayland-integration
 xorg-server-xwayland
 
