@@ -24,7 +24,6 @@ phosh-mobile-settings
 chatty
 mmsd-tng
 #>pinephone epiphany
-evince-mobile
 powersupply
 >pinephone purple-mm-sms
 purple-matrix
@@ -76,7 +75,6 @@ papirus-maia-icon-theme
 # Other packages
 bluez
 pamac-gtk
->pinephone pamac-mobile-integration
 pamac-gnome-integration
 portfolio-file-manager
 iio-sensor-proxy
