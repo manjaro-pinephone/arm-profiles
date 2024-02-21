@@ -25,9 +25,9 @@ chatty
 mmsd-tng
 #>pinephone epiphany
 powersupply
->pinephone purple-mm-sms
-purple-matrix
-purple-telegram
+#>pinephone purple-mm-sms
+#purple-matrix
+#purple-telegram
 gnome-console
 sound-theme-phosh
 squeekboard
