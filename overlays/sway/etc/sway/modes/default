@@ -36,10 +36,10 @@ bindsym XF86AudioLowerVolume exec amixer -q sset 'Master' 5%-
 bindsym XF86AudioMute exec amixer -q sset 'Master' toggle
 
 ## Action // Increase brightness ##
-bindsym XF86MonBrightnessUp exec light -A 5
+bindsym XF86MonBrightnessUp exec brightnessctl set +5%
 
 ## Action // Decrease brightness ##
-bindsym XF86MonBrightnessDown exec light -U 5
++bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
 
 ## Action // Show shutdown dialog on PowerOff key ##
 bindsym XF86PowerOff exec $shutdown

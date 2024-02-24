@@ -106,7 +106,7 @@ hyperfine
 jq
 khard
 khal
-#light
+brightnessctl
 mdcat
 mediainfo
 mlocate
