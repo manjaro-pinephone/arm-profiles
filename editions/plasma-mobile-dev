@@ -2,19 +2,18 @@
 
 # Phone specific packages
 >pinephone modemmanager-pp
->pinephone noto-fonts-cjk # needed to display * and # in dialer
 >pinephone plasma-dialer
-
-openssl-1.1
+>pinephone noto-fonts-cjk # needed to display * and # in dialer
 
 # Multimedia packages
 gst-libav
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-ugly
-#maui-clip
 wireplumber
 gst-plugin-pipewire
+#ffmpeg-pp
+maui-clip
 
 # Image packages
 kio-extras
@@ -27,51 +26,39 @@ ffmpegthumbs
 
 # PM Packages
 angelfish
-#audiotube
-#buho
 calindori
 desktop-file-utils
-elisa-qtmm
-#index-fm
-#kaccounts-providers
+index-fm
+kaccounts-providers
 kalk
-kasts
 kclock
-keysmith
 kio-extras
-kongress
 #kpeoplesink
-#krecorder
-ktrip
+krecorder
 kweather
 kwin
 maliit-framework
 maliit-keyboard
-#mauikit
-neochat
+mauikit
 noto-fonts-emoji
 anthy #fix japanese
 libpinyin #fix chinese
 libchewing #fix chinese
-#maui-nota
-#okular
+maui-nota
+okular
+oxygen-sounds
 plasma-mobile
-plasma-mobile-nm
 plasma-mobile-settings
 plasma-nano
+plasma-phone-components
 plasma-phonebook
 #plasma-pix
 plasma-settings
-plasmatube
 plymouth-shim
 qmlkonsole
 spacebar
-#telepathy-mission-control
-#telepathy-ofono
-#vvave
+telepathy-mission-control
 xdg-utils
-oxygen-sounds
-plasma-mobile-sounds
 
 # First run wizard
 #pico-wizard-plamo-scripts
@@ -79,14 +66,15 @@ plasma-mobile-sounds
 
 # Packages to be built
 #qrca #no tagged release
+#plasmatube #no tagged release
 
 # Regular Plasma packages
 bluez
 bluedevil
 breeze
 drkonqi
-#kdeconnect
-#kirigami-gallery
+elisa-qtmm
+kdeconnect
 kinit
 kwallet-pam
 polkit-kde-agent
@@ -106,34 +94,23 @@ manjaro-arm-wallpapers
 manjaro-icons
 
 # Wayland stuff
-kwayland5
 kwayland-integration
 xorg-server-xwayland
 
 # Other
 mesa
 alsa-utils
-pipewire-pulse
-pipewire-alsa
-pipewire-zeroconf
+pulseaudio-bluetooth
 wget
 xdg-user-dirs
 debianutils
 flatpak
 iio-sensor-proxy
-#manjaro-arm-flasher
-#pamac-cli
-psensor
-#firefox
-telegram-desktop
-qt5-wayland # for telegram-desktop
 megapixels
-#vim
 bootsplash-theme-kde
 breeze-gtk
 lcms2 # needed for kwin nightmode
 hfd-service
 dnsmasq
 appimagelauncher
-qt5-tools # needed for plasma-workspace to start
 glibc-locales
