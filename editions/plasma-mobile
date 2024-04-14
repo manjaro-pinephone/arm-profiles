@@ -47,7 +47,6 @@ libchewing #fix chinese
 maui-nota
 okular
 oxygen-sounds
-plasma-mobile-nm
 plasma-mobile-settings
 plasma-nano
 plasma-phone-components
@@ -94,7 +93,6 @@ manjaro-arm-wallpapers
 manjaro-icons
 
 # Wayland stuff
-kwayland5
 kwayland-integration
 xorg-server-xwayland
 
