@@ -45,7 +45,7 @@ anthy #fix japanese
 libpinyin #fix chinese
 libchewing #fix chinese
 maui-nota
-okular
+#okular
 oxygen-sounds
 plasma-mobile
 plasma-mobile-settings
@@ -72,7 +72,7 @@ bluez
 bluedevil
 breeze
 drkonqi
-elisa-qtmm
+#elisa-qtmm
 kdeconnect
 kinit
 kwallet-pam
