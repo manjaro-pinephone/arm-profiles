@@ -16,7 +16,6 @@
 
 # Phosh packages
 gtk3-mobile
-mutter
 phosh
 phosh-mobile-settings
 >pinephone phosh-antispam
@@ -24,11 +23,11 @@ phosh-mobile-settings
 chatty
 mmsd-tng
 #>pinephone epiphany
+evince-mobile
 powersupply
 #>pinephone purple-mm-sms
 #purple-matrix
 #purple-telegram
-gnome-console
 sound-theme-phosh
 squeekboard
 #megapixels
@@ -39,30 +38,32 @@ gnome-contacts-mobile
 gnome-control-center-mobile
 #gnome-software-mobile
 gnome-usage-mobile
-gnome-sound-recorder
 gnome-initial-setup-mobile
 geoclue
 dnsmasq
 wake-mobile
 
-# Gnome packages
-#gnome-authenticator
+# GNOME packages
 gnome-calculator
 gnome-clocks
 gnome-keyring
 gnome-maps
 gnome-2048
-gnome-calendar-mobile
+gnome-calendar
 gnome-chess
-gnuchess 
+gnuchess
 file-roller
 fractal
 #gnote
-eog
+loupe
 gnome-podcasts
 lollypop
-gedit
+gnome-text-editor
 geary
+gnome-console
+gnome-keyring
+gnome-sound-recorder
+mutter
 
 #hdr-plus-git
 
@@ -74,6 +75,7 @@ papirus-maia-icon-theme
 
 # Other packages
 bluez
+#gnome-authenticator
 pamac-gtk
 pamac-gnome-integration
 portfolio-file-manager
@@ -81,7 +83,6 @@ iio-sensor-proxy
 networkmanager
 networkmanager-pptp
 networkmanager-openvpn
-gnome-keyring
 polkit
 xorg-server-xwayland
 #hwtest
