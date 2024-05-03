@@ -13,5 +13,6 @@ plymouth-theme-manjaro
 # Other device specific packages
 crda
 wpa_supplicant
+uwe5622-firmware
 generic-post-install
 opi4lts-post-install
