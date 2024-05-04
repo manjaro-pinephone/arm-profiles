@@ -130,7 +130,7 @@ gcolor3
 gedit
 gedit-plugins
 gnome-epub-thumbnailer
-gradience
+#gradience Moved to AUR
 manjaro-settings-manager
 matray
 remmina
