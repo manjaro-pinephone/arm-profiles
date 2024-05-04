@@ -2,7 +2,7 @@
 
 # Kernel and bootloader stuff
 linux-aml
-boot-gtking-pro
+uboot-gtking-pro
 plymouth
 plymouth-theme-manjaro
 
