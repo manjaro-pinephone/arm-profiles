@@ -25,7 +25,7 @@ kscreen
 kscreenlocker
 kwallet-pam
 kwayland-integration
-plasma-wayland-session
+plasma-workspace
 kwin
 plasma-desktop
 plasma-nm
