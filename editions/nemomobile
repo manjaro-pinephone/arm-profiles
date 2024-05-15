@@ -44,7 +44,7 @@ glacier-testtool
 glacier-packagemanager
 glacier-weather
 fingerterm
-qt5-quickcontrols-nemo-examples
+qt6-quickcontrols-nemo-examples
 
 # Other
 xdg-user-dirs
