@@ -7,8 +7,6 @@ linux-rpi4-headers
 linux-rpi5
 linux-rpi5-headers
 raspberrypi-bootloader
-raspberrypi-bootloader-x
-rpi-overlays
 raspberrypi-utils
 plymouth
 plymouth-theme-manjaro
