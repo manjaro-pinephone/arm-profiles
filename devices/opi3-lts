@@ -14,5 +14,5 @@ plymouth-theme-manjaro
 crda
 wpa_supplicant
 generic-post-install
-pinebook-post-install
+opi4lts-post-install
 uwe5622-firmware
