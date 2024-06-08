@@ -1,8 +1,8 @@
 ## Maintained by Spikerguy ##
 
 # Kernel and bootloader stuff
-linux-rk3588
-linux-rk3588-headers
+linux
+linux-headers
 uboot-orangepi5
 plymouth
 plymouth-theme-manjaro
