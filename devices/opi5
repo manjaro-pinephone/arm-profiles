@@ -3,6 +3,7 @@
 # Kernel and bootloader stuff
 linux
 linux-headers
+linux-firmware
 uboot-orangepi5
 plymouth
 plymouth-theme-manjaro
