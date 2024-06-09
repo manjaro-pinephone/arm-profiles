@@ -1,8 +1,9 @@
 ## Maintained by Spikerguy ##
 
 # Kernel and bootloader stuff
-linux-rk3588
-linux-rk3588-headers
+linux
+linux-headers
+linux-firmware
 uboot-station-m3
 #plymouth
 #plymouth-theme-manjaro
