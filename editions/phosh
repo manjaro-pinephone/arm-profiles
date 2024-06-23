@@ -15,6 +15,7 @@
 #>pinephone eg25-autorestart
 
 # Phosh packages
+feedbackd-device-themes
 gtk3-mobile
 phosh
 phosh-mobile-settings
