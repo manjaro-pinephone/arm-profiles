@@ -14,10 +14,10 @@ sudo
 openssh
 
 # OpenGLES qt packages
-qt5-es2-base
-qt5-es2-declarative
-qt5-es2-multimedia
-qt5-es2-wayland
+qt6-base
+qt6-declarative
+qt6-multimedia
+qt6-wayland
 
 # Multimedia packages
 gst-libav
@@ -58,7 +58,7 @@ glacier-settings-git
 glacier-settings-accounts-git
 glacier-settings-developermode-git
 fingerterm
-qt5-quickcontrols-nemo-examples-git
+qt6-quickcontrols-nemo-examples-git
 
 geoclue1-providers-mlsdb
 geoclue1
