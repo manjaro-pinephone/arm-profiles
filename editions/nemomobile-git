@@ -50,19 +50,19 @@ glacier-messages-git
 glacier-music-git
 glacier-wayland-session-git
 glacier-browser-git
-glacier-mail-git
+#glacier-mail-git
 glacier-testtool-git
 glacier-packagemanager-git
 glacier-weather-git
 glacier-settings-git
-glacier-settings-accounts-git
+#glacier-settings-accounts-git
 glacier-settings-developermode-git
 fingerterm
 qt6-quickcontrols-nemo-examples-git
 
-geoclue1-providers-mlsdb
+#geoclue1-providers-mlsdb
 geoclue1
-pure-maps
+#pure-maps
 
 # Other
 xdg-user-dirs
