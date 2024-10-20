@@ -36,7 +36,6 @@ postprocessd
 numberstation
 xdg-user-dirs
 gnome-usage-mobile
-gnome-initial-setup-mobile
 geoclue
 dnsmasq
 wake-mobile
@@ -51,6 +50,7 @@ gnome-maps
 gnome-2048
 gnome-calendar
 gnome-chess
+gnome-initial-setup
 gnuchess
 file-roller
 fractal
