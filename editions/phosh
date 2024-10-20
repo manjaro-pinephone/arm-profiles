@@ -75,7 +75,7 @@ papirus-maia-icon-theme
 
 # Other packages
 bluez
-#gnome-authenticator
+#authenticator
 pamac-gtk
 pamac-gnome-integration
 portfolio-file-manager
