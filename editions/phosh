@@ -35,9 +35,6 @@ squeekboard
 postprocessd
 numberstation
 xdg-user-dirs
-gnome-contacts-mobile
-gnome-control-center-mobile
-#gnome-software-mobile
 gnome-usage-mobile
 gnome-initial-setup-mobile
 geoclue
@@ -46,6 +43,8 @@ wake-mobile
 
 # GNOME packages
 gnome-calculator
+gnome-contacts
+gnome-control-center
 gnome-clocks
 gnome-keyring
 gnome-maps
