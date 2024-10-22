@@ -10,7 +10,7 @@ gst-libav
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-ugly
-wireplumber
+#wireplumber
 gst-plugin-pipewire
 #ffmpeg-pp
 maui-clip
