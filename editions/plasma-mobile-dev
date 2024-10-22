@@ -2,7 +2,7 @@
 
 # Phone specific packages
 >pinephone modemmanager-pp
->pinephone plasma-dialer
+#>pinephone plasma-dialer
 >pinephone noto-fonts-cjk # needed to display * and # in dialer
 
 # Multimedia packages
