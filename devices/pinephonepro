@@ -16,7 +16,7 @@ pinephone-modem-scripts
 alsa-ucm-pinephone
 #pulseaudio-bluetooth
 gst-plugin-pipewire
-pipewire-media-session
+#pipewire-media-session
 pipewire-alsa
 pipewire-pulse
 pipewire-jack
