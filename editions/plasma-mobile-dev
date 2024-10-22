@@ -99,7 +99,7 @@ xorg-server-xwayland
 # Other
 mesa
 alsa-utils
-pulseaudio-bluetooth
+#pulseaudio-bluetooth
 wget
 xdg-user-dirs
 debianutils
