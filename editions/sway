@@ -50,7 +50,7 @@ wdisplays
 wf-recorder
 
 # Themes
-adw-gtk3
+adw-gtk-theme
 qt5ct
 qt5-wayland
 kvantum
@@ -99,7 +99,7 @@ fzf
 #gitui
 gpg-tui
 helix
-hey
+#hey
 hexyl
 httpie
 hyperfine
