@@ -4,18 +4,15 @@
 linux-rpi4
 linux-rpi4-headers
 raspberrypi-bootloader
-raspberrypi-bootloader-x
-rpi-eeprom
-raspberrypi-userland-aarch64-git
+raspberrypi-utils
 plymouth
 plymouth-theme-manjaro
 
 # Video driver
 
 # Other device specific packages
-crda
+wireless-regdb
 firmware-raspberrypi
-brcm-patchram-plus
 wpa_supplicant
 generic-post-install
 rpi4-post-install
