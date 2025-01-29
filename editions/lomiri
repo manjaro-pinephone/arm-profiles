@@ -4,13 +4,13 @@
 >pinephone ofono
 >pinephone ofonoctl
 >pinephone libqofono-qt5
->pinephone hfd-service-git
+>pinephone hfd-service
 
 qmenumodel-git
 sensorfw-git
 
 # PM Packages
-hfd-service-git
+hfd-service
 lomiri-mobile-session
 lightdm-lomiri
 egl-wayland
