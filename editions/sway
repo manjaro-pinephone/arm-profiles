@@ -166,7 +166,7 @@ usb_modeswitch
 # spice-vdagent
 
 # Optional dependencies file-roller
-p7zip  # 7Z and ARJ archive support
+#p7zip  # 7Z and ARJ archive support
 unrar  # RAR archive support
 
 ## Xorg Server and Graphics
